@@ -84,17 +84,96 @@ __Author submits__ manuscripts to the press directly through the press' website.
 
 The Author is able to track the submission through the review and editorial process and participate in copyediting and proofreading of submissions accepted for publication.
 
-## Creating new roles
+## Edit or Add a Role
 
 OMP allows for the creation of new roles if the default ones do not fit your needs. 
 
-To create a new role, go to Users & Roles > Roles. On the top-right corner of the Current Roles box, click ‘Create New Role.'
+From the Roles tab, you can grant or remove access to specific workflow stages by checking or unchecking the relevant stage.
 
-![The Create New Role button highlighted in the Roles screen.](./assets/learning_omp-user_accounts_2.png)
+You can create new roles by clicking the “Create New Role” button, or edit an existing role by clicking the blue arrow next to a role and selecting “Edit”.
 
-Select the Permission level, enter the Role Name and Abbreviation, and select from the Role Options (as it applies).
+![Window in OMP to create new role.](./assets/omp-add-role.png)
 
-![The Permission level dropdown in the Role creation screen.](./assets/learning_omp-user-accounts_3.png)
+**Permission Level:** As described in the previous section, this indicates the level of permissions granted to this role.
+**Role Name:** You can use this field to easily rename any role.
+
+**Abbreviation:** Each role must have a unique abbreviation. This is used as a short identifier for participants assigned in the Editorial workflow.
+
+**Stage Assignment:** Select the Editorial workflow stages this role will have access to, if applicable.
+
+**Role Options:** Configure specific options related to the role.
+- Show role title in contributor lists: Users with this role will have their title included in the contributor list when making submissions.
+- Allow user self-registration: Allow users to register freely for this role. Useful for allowing users register as Authors or Reviewers. Be very careful not to enable this option for roles that have access to sensitive information, such as Editors or Journal Managers.
+- This role is only allowed to recommend a review decision and will require an authorised editor to record a final decision: Enable this to limit a role’s ability to make editorial decisions.
+- Consider role in masthead list: Select this to automatically include anyone with this role on the list of Editorial Board members.
+- Permit changes to Settings: Select this to allow the role access to all journal settings and configurations.
+
+## Invite a New User
+
+Email configuration must be completed by a system administrator in order for the system to send invitation and registration confirmation emails to users. See the Administrator’s Guide for more information.
+
+While users can self-register accounts for roles like Reader and Author (or other roles specified by you in the previous section), you can also invite users to take on new roles. This is especially useful for inviting members of your Editorial Board to have the correct permissions they need to work in your press.
+
+From Settings > Users & Roles, click Invite to a Role.
+
+![Users and Role page in OMP with the pointer over the Invite to a role button.](./assets/omp-invite-user.png)
+
+First, you’ll be asked to search for the user. You can enter their email, username, or ORCID to ensure that they’re not already registered. If they aren’t, you’ll be prompted to invite them.
+
+Enter their email, first and/or last name, and select the role(s) you wish to assign them. You can use the “Add Another Role” button to assign multiple roles. The user can also self-register for additional roles later from their user settings. Enter a start date for the role and choose whether it should appear on the masthead (the automatically generated page listing editorial board members).
+
+![Pre-filled user form that includes an email address, given name, family name and the role Seris Editor added.](./assets/omp-user-invitation-3.5.png)
+
+Click Save and Continue. On the final screen, you can preview and edit the email message that will be sent to the invitee.
+
+When you are ready, click “Invite user to the role”.
+
+You can see the status of the invitation from the Invitations list. You can edit your invitation (to add or adjust roles), or cancel your invite.
+
+![User Invitation table, showing the additional menu option beside the invited user. Options to Edit or Cancel Invite shown.](./assets/omp-user-edit-3.5.png)
+
+## Add and Remove Roles from a User
+
+Once a user has self-registered or accepted an invite, you can edit their profile to adjust their roles. Just like sending an invite, you can select a start date and choose whether the user will appear in the Press Editorial Masthead.
+
+To edit a user:
+1. Navigate to Settings > Users & Roles
+2. Search for the user you wish to assign a role to under Current Users, click the three dots, and select *Edit*
+3. Click Add Another Role
+4. Select a new role
+5. Choose a Start Date
+6. Indicate whether this user should appear on the Press Masthead
+7. Click Save and Continue
+
+![Step 1 of the User Invitation window. User details is shown with the Role table. The listed roles show the Remove Role button](./assets/omp-user-add-role-3.5.png)
+
+When you remove a role from a user, the End Date will automatically be set to the current date. If you select the user to appear in the Press Masthead, their name and affiliation will be displayed in the Editorial Masthead section of the press.
+
+![Editorial Masthead of the Press showing the Editorail list with start and end dates for each user.](./assets/omp-press-masthead-3.5.png)
+
+The role end date will be automatically registered when the role is removed from the user.
+
+## Allow Users to Connect with ORCID {#orcid}
+ORCID is now a core function of OMP. To enable ORCID integration, click the checkbox, then enter your credentials. If you are unsure of your credentials or need assistance obtaining them, you can read more from the [Installation and Setup chapter of the ORCiD plugin](https://docs.pkp.sfu.ca/orcid/en/installation-setup), as instructions remain the same. 
+
+
+![ORCID Configuration Window](./assets/orcid-3.5.png)
+
+
+Once you have enabled and configured your ORCID integration, your users can connect their ORCID in a few different ways: 
+
+
+A) Registered users can go to the Identity tab of their user profile and connect their ID.
+![Identity tab within the User Profile showing the option to Create or Connect your ORCID iD](./assets/profile-orcid-3.5.png)
+
+
+B) When making or managing a submission, the submitting author or the Editor assigned to the submission can use the ‘Request verification’ button found in the Contributor window to ask an author to verify their account.
+![Example contributor window showing the option to Request Verification for this contributor's ORCID iD](./assets/profile-orcid-contributor-3.5.png)
+
+
+C) New users can choose to verify their ORCID when creating their OJS user account. 
+![Step 1 of the user invitation process with the option to verify ORCID iD or skip ORCID verification](./assets/invitation-orcid-3.5.png)
+
 
 ## Emailing all users in a role
 

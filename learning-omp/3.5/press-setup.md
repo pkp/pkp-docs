@@ -143,6 +143,27 @@ Please refer to the [Learning OJS guide](/learning-ojs/en/) for information on W
 
 Please note that some plugins for OJS are not available for OMP.
 
+### Highlights 
+
+Use Highlights to Draw Attention to Big News on your Press #highlights
+
+Highlights allow you to feature images and information on your press home page. Use this to draw attention to a Call for Book Manuscripts or to highlight a particular publication. If you add multiple highlights, they will be displayed in a manual carousel. 
+
+
+![Press Homepage showcasing a Call for Book Manuscripts as a highlight.](./assets/omp-highlight-3.5.png)
+
+#### Create a Press Highlight #create-highlights
+
+To add a highlight, navigate to Website> Settings> Set Up> Highlights. 
+
+Click on the button ‘Add Highlight’. Enter a title, a short description, the URL of the page you want readers to visit, a button label, an optional image and click ‘Save’.
+
+> [!NOTE]  
+> The Highlights feature may not currently work with all themes. 
+
+![Menu screen with the fillable fields to create a highlight.](./assets/omp-website-add-highlights-3.5.png)
+
+
 ## Workflow Settings
 
 The Settings > Workflow screen includes all submission, and review configuration options, as well as the Press Library (a space to store frequently access files) and email template settings. You will want to review each tab to ensure that the settings match your press policies for submission and review.
