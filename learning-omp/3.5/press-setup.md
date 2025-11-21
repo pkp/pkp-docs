@@ -22,7 +22,18 @@ In OMP 3.2, the Publisher information is now stored under the Press setting. You
 
 ### Masthead
 
-Enter and edit information about your press, including press name, editorial team, and about the press. All Masthead information will appear under pages in the About menu on your press website.
+Under Press Settings > Masthead, you can enter and edit key publishing and press details, including. All Masthead information will appear under the pages in the About menu on your press website.
+
+While a section is provided for adding editorial board, OMP 3.5 can now automatically compile a list of editorial board members, replacing the need to manually document the members of your team. Simply select which roles should be captured in the masthead and configure start and end dates for board members. 
+
+To select which roles should be captured in the masthead:
+- Navigate to Users & Roles and select the "Roles" tab
+- Find the role you want to be captured in the masthead
+- Under "Role Options", enable the option "Consider role in masthead list"
+- Select the option to automatically include anyone with this role on the list of Editorial Board members.
+
+You can learn more about assigning users roles and toggling the display of individual users in the list of Editorial Board members in the [User Accounts chapter](./user-accounts). You can view the Editorial Masthead at any time by visiting your press website and selecting "Editorial Masthead" from the "About Menu". You can view a history of previous editorial members by clicking "View Editorial History".
+
 
 ### Contact
 
