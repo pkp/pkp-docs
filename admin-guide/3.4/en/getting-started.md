@@ -2,7 +2,7 @@
 title: Getting Started with OJS, OMP or OPS - Admin Guide - PKP Developer Docs
 description: A quick-start guide to install OJS, OMP or OPS in a test environment.
 book: admin-guide
-version: 3.5
+version: 3.4
 ---
 
 # Getting Started
@@ -11,9 +11,9 @@ This is a quick-start guide to install and run OJS, OMP or OPS in a local test e
 
 ## System Requirements
 
-Your server — or your local development environment — must meet the following requirements in order to run the 3.5 release of OJS, OMP or OPS.
+Your server — or your local development environment — must meet the following requirements in order to run the 3.4 release of OJS, OMP or OPS.
 
-- [PHP 8.2+](http://www.php.net/) with php-mbstring, php-xml, and php-intl enabled
+- [PHP 8.0+](http://www.php.net/) with php-mbstring, php-xml, and php-intl enabled
 - [MySQL 5.7.22+](http://www.mysql.com/), [MariaDB 4.1+](https://mariadb.org/) or [PostgreSQL 9.5+](http://www.postgresql.org/)
 - Linux, or one of the following: BSD, Solaris, Mac OS X, Windows
 
@@ -27,13 +27,13 @@ Download the latest stable release package (`.tar.gz`) from the PKP website.
 - [Open Monograph Press](https://pkp.sfu.ca/software/omp/download) (OMP)
 - [Open Preprint Systems](https://pkp.sfu.ca/software/ops/download) (OPS)
 
-Use the `tar` command, or any archive software on your system, to unpack the `.tar.gz` file to a local directory. For example, if you downloaded the OJS 3.5.0 release package, you can use the following command to unpack the file.
+Use the `tar` command, or any archive software on your system, to unpack the `.tar.gz` file to a local directory. For example, if you downloaded the OJS 3.4.0 release package, you can use the following command to unpack the file.
 
 ```
-tar -xvf ojs-3.5.0.tar.gz
+tar -xvf ojs-3.4.0.tar.gz
 ```
 
-This will create a directory for the software at `ojs-3.5.0`. Create another directory for file uploads.
+This will create a directory for the software at `ojs-3.4.0`. Create another directory for file uploads.
 
 ```
 mkdir ojs-files
@@ -45,7 +45,7 @@ mkdir ojs-files
 Start PHP's built-in server from the release package's root directory.
 
 ```
-cd ojs-3.5.0
+cd ojs-3.4.0
 php -S localhost:8000
 ```
 
@@ -59,13 +59,14 @@ http://localhost:8000
 
 You should see an installation screen like the one below.
 
+
 ![Screenshot of the installation screen of OJS](./assets/install-start.png)
 
 Complete the form to finish the installation, using the file uploads directory that you created. It may take a minute to install. You should see the following success screen when it is finished.
 
 ![Screenshot of the install complete screen of OJS](./assets/install-complete.png)
 
-Once you have finished the installation, login with the administrator account you set up to access the admin area. Depending on whether you installed OJS, OMP or OPS, you will be taken to a screen where you can create your first journal, press or preprint server.
+Once you have finished the install, login with the administrator account you set up to access the admin area. Depending on whether you installed OJS, OMP or OPS, you will be taken to a screen where you can create your first journal, press or preprint server.
 
 - In OJS, click the **Add Journal** button.
 - In OMP, click the **Add Press** button.
