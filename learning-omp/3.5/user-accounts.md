@@ -152,6 +152,29 @@ When you remove a role from a user, the End Date will automatically be set to th
 ![Editorial Masthead of the Press showing the Editorail list with start and end dates for each user.](./assets/omp-press-masthead-3.5.png)
 
 The role end date will be automatically registered when the role is removed from the user.
+
+## Allow Users to Connect with ORCID {#orcid}
+ORCID is now a core function of OMP. To enable ORCID integration, click the checkbox, then enter your credentials. If you are unsure of your credentials or need assistance obtaining them, you can read more from the [Installation and Setup chapter of the ORCiD plugin](https://docs.pkp.sfu.ca/orcid/en/installation-setup), as instructions remain the same. 
+
+
+![ORCID Configuration Window](./assets/orcid-3.5.png)
+
+
+Once you have enabled and configured your ORCID integration, your users can connect their ORCID in a few different ways: 
+
+
+A) Registered users can go to the Identity tab of their user profile and connect their ID.
+![Identity tab within the User Profile showing the option to Create or Connect your ORCID iD](./assets/profile-orcid-3.5.png)
+
+
+B) When making or managing a submission, the submitting author or the Editor assigned to the submission can use the ‘Request verification’ button found in the Contributor window to ask an author to verify their account.
+![Example contributor window showing the option to Request Verfication for this contributors ORCID iD](./assets/profile-orcid-3.5.png)
+
+
+C) New users can choose to verify their ORCID when creating their OJS user account. 
+![Step 1 of the user invitation process with the option to verify ORCID iD or skip ORCID verification](./assets/invitation-orcid-3.5.png)
+
+
 ## Emailing all users in a role
 
 It is now possible to notify all users with a role by using the **Notify** feature in **Users & Roles**.
