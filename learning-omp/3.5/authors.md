@@ -1,12 +1,12 @@
 ---
-book: learning-ojs
+book: learning-omp
 version: 3.5
 title: For Authors: Submitting and Tracking a Manuscript in OMP
 description: A guide on how to submit a manuscript and respond to requests for revisions as an author submitting to an OMP press.
 generateHeadingToc: true
 ---
 
-# Learning OMP for Authors
+# For Authors: Submitting and Tracking a Manuscript in OMP
 This chapter walks authors through the process of registering with a journal, making a submission, responding to peer review, uploading revisions, and proofreading the publication-ready version of a manuscript in OJS.
 
 ## Register with the Journal {#register}
