@@ -145,9 +145,14 @@ Please note that some plugins for OJS are not available for OMP.
 
 ## Workflow Settings
 
-Workflow Settings include all submission and publication configuration options, including those that relate to the initial submission process as well as the review, editing, and production workflow processes.
+The Settings > Workflow screen includes all submission, and review configuration options, as well as the Press Library (a space to store frequently access files) and email template settings. You will want to review each tab to ensure that the settings match your press policies for submission and review.
 
-This section will focus on the Production tab of Workflow Settings, as these are specific to your OMP installation. Please refer to [Learning OJS](/learning-ojs/en/) for information on configuring Components, Submissions, Review, Press Library, and Emails. The Publisher Library is the journal equivalent to your Press Library.
+Each tab of the workflow settings is documented in detail in Learning OJS 3.5 for Journal Managers.
+
+- To learn about the configurations on the Submissions tab, consult [the Configure Submission Settings section](https://docs.pkp.sfu.ca/learning-ojs/journal-managers/en/policies#submission-settings-config) of Learning OJS. This will teach you how to disable submissions, set author guidelines, choose what metadata (information about a submission) to collect, and configure components (the labels of the files included with submissions).
+- To learn about the configurations on the Review tab, consult [the Configure Basic Review Settings section](https://docs.pkp.sfu.ca/learning-ojs/journal-managers/en/policies#basic-review-settings)) of Learning OJS. This will teach you how to set the review type, enable reviewer suggestions from authors, configure review deadlines and review reminders, and create and edit review forms.
+- To learn about the Press Library tab, consult [the Use the Publisher Library for Documents section](https://docs.pkp.sfu.ca/learning-ojs/journal-managers/en/other-tools#publisher-library) of Learning OJS. Although it is referred to as the Press Library in OMP, the Press/Publisher library is a place to store frequently used or otherwise useful documents for your Editorial team to access easily.
+- Lastly, to learn about configuring Email templates, consult [the Configure and Customize Automated Emails section](https://docs.pkp.sfu.ca/learning-ojs/journal-managers/en/communications#email-templates) section of Learning OJS. This will teach you how to configure what kinds of automated emails are sent when a submission as received, as well as customize and edit all automated email templates.
 
 ## Distribution
 
