@@ -145,7 +145,7 @@ To remove a category:
 {:.tip}
 
 
-### Configure Submission Settings {#submission-settings}
+### Configure Submission Settings {#submission-settings-config}
 
 Once the sections of the journal are configured, Journal Managers can configure settings related to receiving submissions by clicking “Workflow” under the Settings menu in the sidebar, where they’ll be brought to the Submissions tab.
 
