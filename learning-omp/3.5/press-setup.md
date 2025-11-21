@@ -150,7 +150,7 @@ Click on the button ‘Add Highlight’. Enter a title, a short description, the
 > [!NOTE]  
 > The Highlights feature may not currently work with all themes. 
 
-![Menu screen with the fillable fields to create a highlight.](.assets/omp-website-add-highlights-3.5.png)
+![Menu screen with the fillable fields to create a highlight.](./assets/omp-website-add-highlights-3.5.png)
 
 
 ## Workflow Settings
