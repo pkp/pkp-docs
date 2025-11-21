@@ -9,13 +9,13 @@ generateHeadingToc: true
 # For Authors: Submitting and Tracking a Manuscript in OMP
 This chapter walks authors through the process of registering with a journal, making a submission, responding to peer review, uploading revisions, and proofreading the publication-ready version of a manuscript in OJS.
 
-## Register with the Journal {#register}
-To make a submission to an OJS journal, you will first need to register a user account with a journal and log in (see [Create and Manage Your Account](../../about-ojs/en/#create-manage-account)). Your ability to make a submission will require that you have an author role associated with your account. You can generally choose this role when registering, but in rare cases an editor or journal manager will have to assign you author privileges.
+## Register with the Press {#register}
+To make a submission to an OMP press, you will first need to register a user account with the Press and log in (see [Create and Manage Your Account](https://docs.pkp.sfu.ca/learning-ojs/about-ojs/en/#create-manage-account) - while these instructions are for OJS, account creation works the same way in OMP). Your ability to make a submission will require that you have an author role associated with your account. You can generally choose this role when registering, but in rare cases an editor or press manager will have to assign you author privileges.
 
 After registering, you will be taken to the New Submission form.
 
 ## Start a Submission {#submit}
-You can always make a new submission by clicking the **Start a New Submission** button on the left side menu. You will be taken to the submission wizard where you can upload and describe your submission.
+You can always make a new submission by clicking the **Start a New Submission** button on the left side menu of your dashboard. You will be taken to the submission wizard where you can upload and describe your submission.
 
 ![A cursor hovering over the Start a New Submission button in the left side menu.](./assets/author-submit-button-3.5.png)
 
@@ -26,10 +26,10 @@ First, you will provide preliminary information about your submission.
 
 * **Language**: If the journal allows submissions in multiple languages, you will first need to select the appropriate language for your submission. 
 * **Title**: Provide a title for your submission. You can access limited formatting options for the title by clicking on the formatting icon that appears when you enter text in the title field.
-* **Section**: Select the appropriate section for your submission, if applicable (e.g., article, book review, etc.).
-* **Submission Checklist**: Review the submission checklist and ensure that your submission meets the journal’s requirements. 
+* **Submission Type**: Select if your submission is a monograph or an edited volume.
+* **Submission Requirements**: Review the submission requirement and ensure that your submission meets the press requirements. 
 
-Lastly, review the privacy statement and agree to the journal’s data collection policy in order to begin your submission. 
+Lastly, review the privacy statement and agree to the press' data collection policy in order to begin your submission. 
 
 Once you click the Start Submission button, you will be able to save your incomplete submission for later and return to it from your dashboard at any time.
 
@@ -46,6 +46,8 @@ Formatting options for bold, italics, underline, superscript and subscript are a
 To enter keywords, type the keyword or keyphrase and hit the Enter key. The word or phrase will be formatted as a keyword. There is no need to separate by commas or other punctuation.
 
 If you have translated titles, abstracts or keywords to include, you can open additional fields for other languages by clicking the language in the upper right corner.
+
+In addition to the information about the overall monograph, 
 
 ### Step 2: Upload Files {#upload}
 In **Step 2**, a window will open allowing you to upload your submission file(s).
