@@ -168,7 +168,7 @@ A) Registered users can go to the Identity tab of their user profile and connect
 
 
 B) When making or managing a submission, the submitting author or the Editor assigned to the submission can use the ‘Request verification’ button found in the Contributor window to ask an author to verify their account.
-![Example contributor window showing the option to Request Verfication for this contributors ORCID iD](./assets/profile-orcid-3.5.png)
+![Example contributor window showing the option to Request Verification for this contributor's ORCID iD](./assets/orcid-contributor-3.5.png)
 
 
 C) New users can choose to verify their ORCID when creating their OJS user account. 
