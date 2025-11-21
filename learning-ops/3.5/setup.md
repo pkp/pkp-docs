@@ -11,6 +11,8 @@ This area is composed of four sections: Masthead, Contact, Sections, and Categor
 
 ### Masthead
 
+Under Settings > Server > Masthead, you can enter and edit key publishing and server details, including. All Masthead information will appear under the pages in the About menu on your press website.
+
 #### Preprint Server Identity
 
 This section allows configuring basic information about your preprint server, such as the title, initials, abbreviation and sponsoring information, if any.
@@ -30,6 +32,18 @@ The **Description** provides an overview of the preprint server and appears on t
 ![Sample server team information entered into OPS.](./assets/learning-ops-server-settings-server-team.png)
 
 Note that the terminology may be different for OPS, with some slight modifications. For example, a Moderator would be the equivalent of a Journal Manager and a Preprint server library is equivalent to the Publisher Library.
+
+#### Editorial Masthead
+
+While a section is provided for adding editorial board information, OPS 3.5 can now automatically compile a list of editorial board members, replacing the need to manually document the members of your team. Simply select which roles should be captured in the masthead and configure start and end dates for board members. 
+
+To select which roles should be captured in the masthead:
+- Navigate to Users & Roles and select the "Roles" tab
+- Find the role you want to be captured in the masthead
+- Under "Role Options", enable the option "Consider role in masthead list"
+- Select the option to automatically include anyone with this role on the list of Editorial Board members.
+
+You can learn more about assigning users roles and toggling the display of individual users in the list of Editorial Board members in the [Users and Roles chapter](./user-roles). You can view the Editorial Masthead at any time by visiting your press website and selecting "Editorial Masthead" from the "About Menu". You can view a history of previous editorial members by clicking "View Editorial History".
 
 ### Contact
 
