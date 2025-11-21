@@ -2,7 +2,7 @@
 title: Plugin Settings - Plugin Guide for OJS, OMP and OPS
 description: How to add a settings form for a plugin for OJS, OMP or OPS.
 book: dev-plugin-guide
-version: 3.5
+version: 3.4
 ---
 
 # Plugin Settings

@@ -1,4 +1,4 @@
-## Table of Contents
+# Summary
 
 * [Introduction](.)
 * [Getting Started](./getting-started)
@@ -15,7 +15,6 @@
 * [Release a Plugin](./release)
 * [Examples](./examples)
   * [Plugin Template](https://github.com/pkp/pluginTemplate){:target="_blank"}
-  * [Extending Backend UI with Vue.js](./examples-backend-ui)
   * [Add Styles and Scripts](./examples-styles-scripts)
   * [Context and Site](./examples-context-site)
   * [Get Data](./examples-get-data)
