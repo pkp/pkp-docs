@@ -154,10 +154,10 @@ If you are importing users into OJS, first create the XML import file. [See the 
 Here are some things to consider:
 
 * Be sure to define the document type appropriately using `<!DOCTYPE ...>`.
-* Your XML file should UTF8-encoded.
+* Your XML file should be UTF8-encoded.
 * `<firstname>`, `<lastname>` and `<email>` are mandatory.
 * If you allow the system to generate passwords for the users you are uploading, you can optionally allow the system to email the users with their account credentials. This option can be found on the Users XML Plugin Page \("Send a notification email to each imported user containing the user's username and password."\).
-* You can require the user change their password when they next log in by setting the password attribute "change" to "true": `<password must\_change="true">`myoldpassword`</password>`
+* You can require the user changes their password when they next log in by setting the password attribute "change" to "true": `<password must\_change="true">`myoldpassword`</password>`
 * The default password encryption is "plaintext" \(ie., none\). Encrypted assumes it was encrypted by `Validation::encryptCredentials()` and is using the same encryption algorithm used by the system.
 * If the imported file contains any usernames or email addresses that already exist in the system, the user data for those users will not be imported and any new roles to be created will be assigned to the existing users.
 

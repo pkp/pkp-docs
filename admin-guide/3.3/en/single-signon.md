@@ -4,7 +4,7 @@ version: 3.3
 ---
 # User Authentication and Single Sign-on
 
-For synchronizing user accounts across multiple applications, OJS and OCS support LDAP and Shibboleth, both of which have varying degrees of support in other applications including PhpBB, Drupal, WordPress, and other content management systems.
+For synchronizing user accounts across multiple applications, OJS supports LDAP and Shibboleth, both of which have varying degrees of support in other applications including PhpBB, Drupal, WordPress, and other content management systems.
 
 *LDAP* (the Lightweight Directory Access Protocol), while not as powerful as Shibboleth (e.g. LDAP does not support single sign-on, where logging into one service automatically logs into all others), is a common choice for centralizing authentication on a server. A popular LDAP implementation is [OpenLDAP](https://www.openldap.org/) an open source implementation of the protocol.
 
@@ -12,8 +12,6 @@ For synchronizing user accounts across multiple applications, OJS and OCS suppor
 
 
 ## Setting up Shibboleth
-
-*Note*: Please note that Shibboleth support has not yet been ported to OCS.
 
 Shibboleth is maintained by the [Internet2 Middleware Initiative](http://shibboleth.internet2.edu/), and as such their website provides a central location for downloads and documentation. Currently, they provide Shibboleth Service Provider 2.1 in binary form for all major operating systems, as well as providing source code. For further information on installing and setting up the Shibboleth Service Provider, please consult Internet2's support documentation.
 

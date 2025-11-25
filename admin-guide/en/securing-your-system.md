@@ -44,7 +44,7 @@ The following section describes how to get an SSL certificate, enable it, and co
 
 ### Getting a Certificate
 
-A certificate enables a secure connection from the user's Web browser to the server hosting your site.  Installing a certificate for your site can not be done within the OJS, OMP, or OCS software and will require technical expertise or assistance at the server level.  When considering a software host, determining their level of certificate support is an important consideration.
+A certificate enables a secure connection from the user's Web browser to the server hosting your site.  Installing a certificate for your site can not be done within the OJS, OMP, or OPS software and will require technical expertise or assistance at the server level.  When considering a software host, determining their level of certificate support is an important consideration.
 
 A good start is asking your hosting service provider if they have an existing solution for supporting TLS or SSL certificates -- Your hosting provider may be able to create/issue an TLS or SSL certificate for you. If you do not have shell access to your installation this may be the only way to go about adding SSL/TLS protection for your site.
 

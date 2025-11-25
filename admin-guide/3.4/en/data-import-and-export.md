@@ -11,7 +11,7 @@ There are many ways to import and export data with OJS, OMP and OPS. To access t
 
 ## REST API
 
-You can use the REST API to read and write some data in the application. See the [api documentation](https://docs.pkp.sfu.ca/dev/api).
+You can use the REST API to read and write some data in the application. See the [API documentation](https://docs.pkp.sfu.ca/dev/api).
 
 ## Native XML
 
@@ -76,7 +76,7 @@ There are a few ways to import or export user accounts. User accounts control ac
 
 ### REST API
 
-See the [api documentation](https://docs.pkp.sfu.ca/dev/api) to see what user data can be read or written with the REST API.
+See the [API documentation](https://docs.pkp.sfu.ca/dev/api) to see what user data can be read or written with the REST API.
 
 ### CSV
 
@@ -129,7 +129,7 @@ Consider the following when creating your xml import file.
 
 ## Export to Services
 
-Each application provides plugins to export published metadata to indexing services, such as Crossref, PubMed, DataCite, DOAJ, MEDRA and more. Some of these plugins deposit directly to the services. Others generate an export file according to the service's specifications.
+Each application provides plugins to export published metadata to indexing services, such as Crossref, PubMed, DataCite, DOAJ, mEDRA and more. Some of these plugins deposit directly to the services. Others generate an export file according to the service's specifications.
 
 Go to **Settings** > **Website** > **Plugins** to install and configure these plugins. Our [user documentation hub](/) provides guidance for working with many of them.
 

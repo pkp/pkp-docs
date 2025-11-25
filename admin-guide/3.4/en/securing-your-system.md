@@ -10,7 +10,7 @@ version: 3.4
 > This section describes how to run a secure server. Before reading this section, make sure you have followed the [recommended configuration](./deploy) instructions to secure the application.
 {:.warning}
 
-It's important to run OJS, OMP and OPS on a secure server environment. In addition to the security settings in the [recommended configuration](./deploy) of the application, you must ensure the server is secure where the applicaiton is run.
+It's important to run OJS, OMP and OPS on a secure server environment. In addition to the security settings in the [recommended configuration](./deploy) of the application, you must ensure the server is secure where the application is run.
 
 This section makes a few recommendations for running secure servers. However, if you are unfamiliar with server administration, we strongly encourage you to use a professional hosting service or hire a professional system administrator.
 
@@ -44,7 +44,7 @@ The following section describes how to get a SSL certificate, enable it, and con
 
 ### Getting a Certificate
 
-A certificate enables a secure connection from the user's Web browser to the server hosting your site.  Installing a certificate for your site can not be done within the OJS, OMP, or OCS software and will require technical expertise or assistance at the server level.  When considering a software host, determining their level of certificate support is an important consideration.
+A certificate enables a secure connection from the user's Web browser to the server hosting your site.  Installing a certificate for your site can not be done within the OJS, OMP, or OPS software and will require technical expertise or assistance at the server level.  When considering a software host, determining their level of certificate support is an important consideration.
 
 A good start is asking your hosting service provider if they have an existing solution for supporting TLS or SSL certificates -- Your hosting provider may be able to create/issue an TLS or SSL certificate for you. If you do not have shell access to your installation this may be the only way to go about adding SSL/TLS protection for your site.
 
@@ -72,4 +72,3 @@ Required step to generate a certificate if you are going to be purchasing a cert
 When you purchase a certificate from a CA, you will typically purchase a certificate that lasts between 1 to 3 years. Certificates are set to expire and will need to be renewed resulting in a new expense at the time of renewal. Let’s Encrypt certificates expire every 90 days. The Let’s Encrypt software (certbot) can be configured to automatically renew certificates before they expire. Meaning once installed you should have minimal maintenance moving forward. Automation is done with `cron` or `systemd`.
 
 > Contributors: PKP staff, Kenton Good
-

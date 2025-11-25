@@ -20,7 +20,7 @@ Your hosting service should provide instructions on how to add the `TXT` record.
 
 ## DMARC
 
-To comply with the the [DMARC](https://en.wikipedia.org/wiki/Sender_Policy_Framework) framework, the application must be configured with an envelope sender. The envelope sender is an email address that the server has permission to send as. For example, if the application is hosted at https://my-journals.com, the envelope sender should be an email address `@my-journals.com`.
+To comply with the [DMARC](https://en.wikipedia.org/wiki/Sender_Policy_Framework) framework, the application must be configured with an envelope sender. The envelope sender is an email address that the server has permission to send as. For example, if the application is hosted at https://my-journals.com, the envelope sender should be an email address `@my-journals.com`.
 
 When a user signs up to the application with the email address `example@gmail.com`, your email server does not have permission to send  as `example@gmail.com`. The envelope sender acts as the "true" sender, and the email is sent "on behalf of" `example@gmail.com`.
 

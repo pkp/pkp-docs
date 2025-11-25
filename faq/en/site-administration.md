@@ -5,7 +5,7 @@ showPageTOC: true
 
 # Site Administration
 
-For additional questions and answers, see the [source-code FAQ](https://raw.githubusercontent.com/pkp/ojs/main/docs/FAQ).
+For more information about how to administer OJS, OMP, or OPS, see the [Administrator's Guide](/admin).
 
 ## How can I create a backup of my site?
 
@@ -13,7 +13,7 @@ To properly backup an OJS, OMP, or OPS system, the following should be backed up
 
 * The OJS database, using the tools provided by your DBMS (e.g., `mysqldump` for MySQL, `pg_dump` for PostgreSQL)
 * The base OJS directory
-* The non-public files directory (the directory specified by the `files_dir` configuration option), which is typically outside of the base OJS or OCS directory (this step does not apply to the PKP Harvester).
+* The non-public files directory (the directory specified by the `files_dir` configuration option), which is typically outside of the base OJS/OMP/OPS directory (this step does not apply to the PKP Harvester).
 This backup procedure can be easily integrated into any automated backup mechanism.
 
 There is also a [Backup plugin](https://github.com/asmecher/backup) available in the Plugin Gallery for Site Administrators to generate and download of backups of an OJS/OMP/OPS 3.x installation.
