@@ -2,13 +2,14 @@
 noindex: true
 ---
 # Troubleshooting
+
 If test harvests are unsuccessful or full text harvesting fails following successful harvests, please follow the instructions below as directed by the Coalition Publica team. They will require both Site Administrator and System Administrator permissions. 
 
-# Uninstall and reinstall plugins and rebuild search index
+## Uninstall and reinstall plugins and rebuild search index
 
-## Site Administrator Steps
+### Site Administrator Steps
 
-### Step 1. Delete the JATS Template and JATS Metadata Format plugins
+#### Step 1. Delete the JATS Template and JATS Metadata Format plugins
 
 Log into your OJS installation using your Site Administrator account.
 
@@ -30,13 +31,13 @@ Look in the *OAI Metadata Format Plugins* section for the “JATS Metadata Forma
 
 Click the Delete button, and confirm your choice to delete the plugin from the system.
 
-### Step 2. Reinstall and enable the two plugins.
+#### Step 2. Reinstall and enable the two plugins.
 
 Follow Steps 1 through 3 in the Initial setup{initial-setup#site-admin} instructions to reinstall and enable the JATS OAI and JATS Metadata plugins.
 
-## System Administrator Instructions
+### System Administrator Instructions
 
-### Troubleshooting PDF full text parsing tool
+#### Troubleshooting PDF full text parsing tool
 
 Check that PDF parsing tools are installed and configured correctly
 
@@ -53,7 +54,7 @@ One of the lines under ; PDF should be uncommented (not prefixed with a ;).
 
 In the example above, /usr/bin/pdftotext is the tool that will be used. You should confirm that the specified tool is correctly installed on the server, and the path is correct for your OS/version.
 
-### Rebuilding your search index
+#### Rebuilding your search index
 
 * Ensure that OJS knows about your server’s text extraction tools: check your `config.inc.php` file in the `[search]` section to make sure your server’s locations for these tools are specified.
 * If you had to modify your `config.inc.php` file to enable PDF indexing, you will also have to rebuild your search index. You can do this by running the following command on your server, in the OJS web root:
@@ -63,5 +64,3 @@ php tools/rebuildSearchIndex.php
 ```
 
 * You can check that the index has been successfully rebuilt by searching for text that only appears in a PDF (ie. not in other submission metadata stored by OJS, such as title or abstract fields).
-
-
