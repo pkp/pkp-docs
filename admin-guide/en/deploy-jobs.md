@@ -20,6 +20,12 @@ Most sites will get by without too many problems by using a cron job or the buil
 
 Every server should be configured with _one_ of the following methods for running jobs: workers, cron, or the built-in job runner. Enabling two methods will not improve the site's performance.
 
+To see all available command-line options, run:
+
+```
+php lib/pkp/tools/jobs.php usage
+```
+
 ### Workers
 
 For large sites, we recommend using a worker to process jobs. The worker, when run as a daemon, will wait for jobs to be dispatched and then run them one-by-one in a separate process on the server.

@@ -7,7 +7,7 @@ version: 3.5
 
 # Scheduled Tasks
 
-Scheduled tasks are used to perform periodic tasks or [jobs](./deploy-jobs) on a schedule, such as [processing statistics](./statistics), removing expired data, sending emails, or exporting data to third-party services (e.g. registering DOIs or exporting articles to DOAJ).
+Scheduled tasks are used to perform periodic tasks or [dispatch jobs](./deploy-jobs) on a schedule, such as [processing statistics](./statistics), removing expired data, sending emails, or exporting data to third-party services (e.g. registering DOIs or exporting articles to DOAJ).
 
 To see available options, run:
 
