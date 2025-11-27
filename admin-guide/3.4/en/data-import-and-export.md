@@ -60,7 +60,7 @@ Consider the following when creating your XML import file.
 
 The QuickSubmit plugin is a useful tool for importing a small amount of back content. It provides a UI that managers can use to manually add a submission, assign it to an issue, and publish it.
 
-Learn more about how to use this plugin in [Learning OJS 3](/learning-ojs/en/tools).
+Learn more about how to use this plugin in [the QuickSubmit plugin guide](/quicksubmit/en/).
 
 ## OAI
 

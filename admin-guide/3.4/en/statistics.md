@@ -89,7 +89,7 @@ Homepage statistics can also be accessed in JSON format through the [REST API](/
 
 ### Geography
 
-> You must [enable geographic statistics](#configure) first.
+> You must [enable geographic statistics](#settings) first.
 {:.notice}
 
 Follow these steps to download a CSV file with the number of views and downloads for each city, region and country.
@@ -168,7 +168,7 @@ Follow these steps to download a CSV report about subscriptions that includes th
 
 ## Recover Lost Data
 
-> If the system is not recording any statistics, the application may not be configured correctly. Read the [configuration advice](#configure).
+> If the system is not recording any statistics, the application may not be configured correctly. Read the [configuration advice](#settings).
 {:.notice}
 
 You may notice historical gaps in your statistics data. These can arise for several reasons. Often it is because the application was misconfigured, the server resources were limited, or an application error prevented the logs from being processed. This can leave historical gaps in statistics data if the problem goes unnoticed for a while. When this happens, it can be difficult to restore the data. But it may be possible.
