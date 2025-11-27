@@ -132,6 +132,18 @@ job_runner = Off
 
 We recommend using [workers](#workers) for large sites. Learn more about how to [monitor jobs](#how-to-monitor-jobs) to make sure they are not backing up.
 
+### Run Jobs with Scheduled Tasks
+
+To process all jobs in the queue as part of [your operating system's task scheduler](./deploy-scheduled-tasks#cron), turn on the following setting in `config.inc.php`:
+
+```
+process_jobs_at_task_scheduler = On
+```
+
+This requires that both the `job_runner`and `task_runner` (under `[schedule]`) are set to `Off`.
+
+In this case, we also recommend using [workers](#workers) to process jobs.
+
 ### Built-in Job Runner
 
 In some server environments, you may not have permission to configure workers or cron jobs. On these servers, the built-in job runner can be used to process jobs.
@@ -176,7 +188,7 @@ job_runner_max_execution_time = 30
 job_runner_max_memory = 80
 ```
 
-We recommend staying within the default limits above, unless you know your server is capable of running with higher limits.
+We recommend staying within the default limits above unless you know your server is capable of running with higher limits.
 
 ## How to Monitor Jobs
 

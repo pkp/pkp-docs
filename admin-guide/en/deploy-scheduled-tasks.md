@@ -55,10 +55,18 @@ To adjust the interval at which the built-in task runner runs, adjust the follow
 task_runner_interval = 60
 ```
 
+### Cron
+
 The built-in task runner may not be suitable for high-volume sites; in this case, we recommend using your operating system's task scheduler instead. The following is a sample crontab entry for *nix operating systems:
 
 ```
 * * * * * php lib/pkp/tools/scheduler.php run >> /dev/null 2>&1
+```
+
+Once the cron job has been set up, disable the built-in task runner.
+
+```
+task_runner = Off
 ```
 
 ### Notifications
