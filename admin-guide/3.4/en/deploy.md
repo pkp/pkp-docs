@@ -2,7 +2,7 @@
 title: Deployment Guide for OJS, OMP and OPS - Admin Guide - PKP Developer Docs
 description: How to configure OJS, OMP and OPS and safely deploy these applications in a production environment.
 book: admin-guide
-version: 3.5
+version: 3.4
 ---
 
 # Deployment
@@ -14,7 +14,7 @@ In a production environment, the software needs to be configured to send email, 
 
 ## What you need to know
 
-To run this software securely, you will need to understand how to do the following:
+In order to run this software securely, you will need to understand how to do the following:
 
 - Upload and edit files on your web server
 - Modify file permissions on your web server
@@ -31,9 +31,9 @@ If you are unfamiliar with some of these topics, you may be able to learn by fol
 
 The configuration file is found in the root directory of the application. For example, if you installed the software to the directory `/var/www`, the configuration file would be located at `/var/www/config.inc.php`.
 
-Some settings in this file, like the database connection, are set during the installation process (see [Getting Started](./getting-started)). However, you will need to edit the file directly to configure other settings.
+Some of the settings in this file, like the database connection, are set during the installation process (see [Getting Started](./getting-started)). However, you will need to edit the file directly to configure other settings.
 
-Open the config file, find the `base_url` setting, and change it to the web address of your installation.
+Open the config file, find the `base_url` setting and change it to the web address of your install.
 
 ```
 base_url = "<url>"
@@ -45,7 +45,7 @@ Add this domain to your `allowed_hosts` list.
 allowed_hosts = '["<url>"]'
 ```
 
-Two secret keys need to be set to safely encrypt secure tokens on your server. You can use the following command to generate a random key in most Linux and Mac environments.
+Two secret keys need to be set in order to safely encrypt secure tokens on your server. You can use the following command to generate a random key in most Linux and Mac environments.
 
 ```bash
 openssl rand -base64 32
@@ -53,18 +53,12 @@ openssl rand -base64 32
 
 Use the string created by this command to set the `salt` and `api_key_secret` values in `config.inc.php`. Each config setting should have a different value.
 
-(We have not provided an example because copying the example could compromise your site's security.)
+(We have not provided an example, because copying the example could compromise your site's security.)
 
 Set the `require_validation` in order to require new users to validate their email addresses before using a new account.
 
 ```
 require_validation = On
-```
-
-During the installation process, the `app_key` should be set automatically. If the key is missing, there is a command-line tool that can be used to generate it:
-
-```bash
-php lib/pkp/tools/appKey.php
 ```
 
 ## Secure Files Directory
@@ -81,7 +75,7 @@ files_dir = <path>
 
 ## Email Server
 
-Most email will be blocked by spam filters unless you use an SMTP server with correctly configured [SPF](https://en.wikipedia.org/wiki/Sender_Policy_Framework) and [DMARC](https://en.wikipedia.org/wiki/DMARC) records.
+Most email will be blocked by spam filters unless you use a SMTP server with correctly configured [SPF](https://en.wikipedia.org/wiki/Sender_Policy_Framework) and [DMARC](https://en.wikipedia.org/wiki/DMARC) records.
 
 > Not sure what to do here? Learn more about how to [configure an email server](./deploy-email).
 {:.notice}
@@ -125,7 +119,7 @@ validation_timeout = 14
 
 ## SSL / HTTPS
 
-Every site should encrypt its web traffic using an SSL certificate. This will make your site run from `https://` instead of `http://`. If you don't have an SSL certificate, you should [get one](./securing-your-system#sslencryption).
+Every site should encrypt it's web traffic using a SSL certificate. This will make your site run from `https://` instead of `http://`. If you don't have a SSL certificate, you should [get one](./securing-your-system#sslencryption).
 
 Edit the `config.inc.php` file to force URLs to use SSL:
 
@@ -138,10 +132,10 @@ force_ssl = On
 The software must run some tasks every day, such as compiling usage statistics. You should set up a cron job to run the following command once a day.
 
 ```
-php lib/pkp/tools/scheduler.php run
+php tools/runScheduledTasks.php
 ```
 
-Learn more about [scheduled tasks](./deploy-scheduled-tasks).
+If you are unable to configure this cron job, you must enable the Acron plugin after you have installed the software.
 
 ## Job Runner
 
@@ -151,7 +145,7 @@ Learn more about how to configure the [job runner](./deploy-jobs).
 
 ## Pretty URLs
 
-Enable URL rewriting on your server to drop the `index.php` from URLs. For example, instead of `https://example.org/index.php/publicknowledge`, the URL will be `https://example.org/publicknowledge`.
+Enable URL rewriting on your server in order to drop the `index.php` from URLs. For example, instead of `https://example.org/index.php/publicknowledge`, the URL will be `https://example.org/publicknowledge`.
 
 The following is an example `.htaccess` file that can be used to enable `mod_rewrite` for Apache servers. This file should be placed in the web root.
 
@@ -177,4 +171,4 @@ The configuration file includes settings to control the default date formats, ma
 
 ---
 
-You've now configured all the critical application functions. Next, you can learn how to configure your [email server](./deploy-email) to reliably deliver email.
+You've now configured all of the critical application functions. Next, you can learn how to conifigure your [email server](./deploy-email) to reliably deliver email.

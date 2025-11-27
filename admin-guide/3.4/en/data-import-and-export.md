@@ -2,7 +2,7 @@
 title: Import and Export - Admin Guide - PKP Developer Docs
 description: How to import and export articles, issues, books, preprints and users with OJS, OMP or OPS.
 book: admin-guide
-version: 3.5
+version: 3.4
 ---
 
 # Import and Export
@@ -15,10 +15,10 @@ You can use the REST API to read and write some data in the application. See the
 
 ## Native XML
 
-> The Native XML format changes with each major version. You can not import an XML file generated with 3.4 into a 3.5 install.
+> The Native XML format changes with each major version. You can not import an XML file generated with 3.2 into a 3.3 install.
 {:.notice}
 
-The Native XML format is our XML schema to import and export submissions in OJS, OMP, and OPS. This format is preferred for importing back issues, books, or preprints, or moving submissions from one journal, press, or preprint server to another. This format includes the submissions, their metadata, and all submission files. In OJS, it also includes issue metadata. When submissions are imported using this format, all imported issues, authors, users, and files will be created.
+The Native XML format is our XML schema to import and export submissions in OJS, OMP and OPS. This format is preferred for importing back issues, books or preprints, or moving submissions from one journal, press or preprint server to another. This format includes the submissions, their metadata, and all submission files. In OJS, it also includes issue metadata. When submissions are imported using this format, all imported issues, authors, users and files will be created.
 
 Follow these steps to import or export submissions using Native XML.
 
@@ -36,10 +36,10 @@ Before you can import data using this format, you will need to create a XML file
 
 | Schema | Sample | Description |
 | --- | --- |
-| [native.xsd](https://github.com/pkp/pkp-lib/blob/stable-3_5_0/plugins/importexport/native/pkp-native.xsd) | | Base schema extended by all applications. |
-| [native.xsd](https://github.com/pkp/ojs/blob/stable-3_5_0/plugins/importexport/native/native.xsd) | [sample.xml](https://github.com/pkp/datasets/blob/main/ojs/stable-3_5_0/mysql/native-export-sample.xml) | Issues and articles in OJS. |
-| [native.xsd](https://github.com/pkp/omp/blob/stable-3_5_0/plugins/importexport/native/native.xsd) | [sample.xml](https://github.com/pkp/datasets/blob/main/omp/stable-3_5_0/mysql/native-export-sample.xml) | Book in OMP. |
-| [native.xsd](https://github.com/pkp/ops/blob/stable-3_5_0/plugins/importexport/native/native.xsd) | [sample.xml](https://github.com/pkp/datasets/blob/main/ops/stable-3_5_0/mysql/native-export-sample.xml) | Preprint in OPS. |
+| [native.xsd](https://github.com/pkp/pkp-lib/blob/stable-3_4_0/plugins/importexport/native/pkp-native.xsd) | | Base schema extended by all applications. |
+| [native.xsd](https://github.com/pkp/ojs/blob/stable-3_4_0/plugins/importexport/native/native.xsd) | [sample.xml](https://github.com/pkp/datasets/blob/main/ojs/stable-3_4_0/mysql/native-export-sample.xml) | Issues and articles in OJS. |
+| [native.xsd](https://github.com/pkp/omp/blob/stable-3_4_0/plugins/importexport/native/native.xsd) | [sample.xml](https://github.com/pkp/datasets/blob/main/omp/stable-3_4_0/mysql/native-export-sample.xml) | Book in OMP. |
+| [native.xsd](https://github.com/pkp/ops/blob/stable-3_4_0/plugins/importexport/native/native.xsd) | [sample.xml](https://github.com/pkp/datasets/blob/main/ops/stable-3_4_0/mysql/native-export-sample.xml) | Preprint in OPS. |
 
 Consider the following when creating your XML import file.
 
@@ -54,7 +54,7 @@ Consider the following when creating your XML import file.
 * Some elements can support HTML tags, such as the `abstract`. If you embed HTML within your document, remember to wrap the HTML within `<![CDATA[]]>` tags.
 * If your journal supports more than one locale, you can include translated terms in a separate entry.
 * If you make any typographical errors in the data you are trying to import, you may end up with duplicate or split entries: for example, if your journal already has a section "Articles" with the initials ART, but you mistype in your XML file `<abbrev locale="en">AR</abbrev>` instead of `<abbrev locale="en">ART</abbrev>`, a new journal section with the initials AR will be created, and that one article will be added to it. This is easier to fix before you run the import than it is to clean up after.
-* Consider validating your XML file with an editor like Liquid XML Editor or Oxygen XML. It is easier to find validation errors in these editors than through the import UI in OJS, OMP, or OPS.
+* Consider validating your XML file with an editor like Liquid XML Editor or Oxygen XML. It is easier to find validation errors in these editors than through the import UI in OJS, OMP or OPS.
 
 ## QuickSubmit
 
@@ -92,7 +92,7 @@ It may take several minutes to generate the CSV file if you have a large user da
 
 ### XML
 
-> The Users XML format changes with each major version. You can not import an XML file generated with 3.4 into a 3.5 install.
+> The Users XML format changes with each major version. You can not import an XML file generated with 3.2 into a 3.3 install.
 {:.notice}
 
 The Users XML format is our XML schema to import and export users and their roles. This can be used to move user accounts between systems, and import from other systems or export to other systems. This format includes the user information and the roles they have in the system.
@@ -113,10 +113,10 @@ Before you can import data using this format, you will need to create a XML file
 
 | Schema | Sample | Description |
 | --- | --- |
-| [pkp-users.xsd](https://github.com/pkp/pkp-lib/blob/stable-3_5_0/plugins/importexport/users/pkp-users.xsd) | [sample.xml](https://github.com/pkp/ojs/blob/stable-3_5_0/plugins/importexport/users/sample.xml) | Example users for OJS |
-| [pkp-users.xsd](https://github.com/pkp/pkp-lib/blob/stable-3_5_0/plugins/importexport/users/pkp-users.xsd) | [sample.xml](https://github.com/pkp/omp/blob/stable-3_5_0/plugins/importexport/users/sample.xml) | Example users for OMP |
+| [pkp-users.xsd](https://github.com/pkp/pkp-lib/blob/stable-3_4_0/plugins/importexport/users/pkp-users.xsd) | [sample.xml](https://github.com/pkp/ojs/blob/stable-3_4_0/plugins/importexport/users/sample.xml) | Example users for OJS |
+| [pkp-users.xsd](https://github.com/pkp/pkp-lib/blob/stable-3_4_0/plugins/importexport/users/pkp-users.xsd) | [sample.xml](https://github.com/pkp/omp/blob/stable-3_4_0/plugins/importexport/users/sample.xml) | Example users for OMP |
 
-Consider the following when creating your XML import file.
+Consider the following when creating your xml import file.
 
 * Define the document type appropriately using `<!DOCTYPE ...>`.
 * The XML file should be UTF8-encoded.
@@ -125,11 +125,11 @@ Consider the following when creating your XML import file.
 * You can require the user change their password when they next log in by setting the password attribute "change" to "true": `<password must_change="true">myoldpassword</password>`
 * The default password encryption is "plaintext" (ie., none). Encrypted assumes it was encrypted by `Validation::encryptCredentials()` and is using the same encryption algorithm used by the system.
 * If the imported file contains any usernames or email addresses that already exist in the system, the user data for those users will not be imported and any new roles to be created will be assigned to the existing users.
-* Consider validating your XML file with an editor like Liquid XML Editor or Oxygen XML. It is easier to find validation errors in these editors than through the import UI in OJS, OMP, or OPS.
+* Consider validating your XML file with an editor like Liquid XML Editor or Oxygen XML. It is easier to find validation errors in these editors than through the import UI in OJS, OMP or OPS.
 
 ## Export to Services
 
-Each application provides plugins to export published metadata to indexing services, such as Crossref, PubMed, DataCite, DOAJ, mEDRA, and more. Some of these plugins deposit directly to the services. Others generate an export file according to the service's specifications.
+Each application provides plugins to export published metadata to indexing services, such as Crossref, PubMed, DataCite, DOAJ, mEDRA and more. Some of these plugins deposit directly to the services. Others generate an export file according to the service's specifications.
 
 Go to **Settings** > **Website** > **Plugins** to install and configure these plugins. Our [user documentation hub](/) provides guidance for working with many of them.
 
@@ -148,7 +148,6 @@ Run the following command to see how to use this tool.
 ```
 php tools/importExport.php <PluginName> usage
 ```
-
 
 ## Troubleshooting
 

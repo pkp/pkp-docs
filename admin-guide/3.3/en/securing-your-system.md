@@ -10,13 +10,13 @@ Please see [https://pkp.sfu.ca/ojs/README](https://pkp.sfu.ca/ojs/README), [http
 
 In general, the `files_dir` should not be web accessible and should be placed outside of the main software install directory. The software application will manage access to private submission files based on user roles and permissions \(i.e. Editors will have access to all submission files, whereas authors will only be able to access their own submission files\).
 
-In addition, to ensure security the `files_dir` folder should not be readable by other users on the server. Only the webserver should have the necessary read/write permissions so that OJS, OMP, or OCS can read existing files and add new files to the folder, e.g.
+In addition, to ensure security the `files_dir` folder should not be readable by other users on the server. Only the webserver should have the necessary read/write permissions so that OJS, OMP, or OPS can read existing files and add new files to the folder, e.g.
 
 `drwxrwx---    6 ojs www 204B 11 Sep  2017 files/`
 
 The exact details of file permissions will depend on how your web server runs PHP scripts (this is called the "server API" or "SAPI"). For example, if it uses `mod_php`, all PHP scripts will run as the `www-data` user or similar (this is inherently not 100% secure on a multi-user server). If it uses CGI, FastCGI, FPM, or a similar mechanism, it will likely run under your user account.
 
-It is recommended that you install an SSL certificate for your OJS, OMP, or OCS install and ensure that your site always uses the HTTPS protocol to manage user registration, login, and to present content to readers. Once your SSL certificate has been installed and is confirmed to be working \(i.e. you can access your site via [https://myjournal.org](https://myjournal.org/)\) you can configure your site to always use HTTPS by using the following setting in `config.inc.php`:
+It is recommended that you install an SSL certificate for your OJS, OMP, or OPS install and ensure that your site always uses the HTTPS protocol to manage user registration, login, and to present content to readers. Once your SSL certificate has been installed and is confirmed to be working \(i.e. you can access your site via [https://myjournal.org](https://myjournal.org/)\) you can configure your site to always use HTTPS by using the following setting in `config.inc.php`:
 
 `; Force SSL connections site-wide
 force_ssl = On`
@@ -37,16 +37,16 @@ salt = "sdlkjfhleiqwrfgbksdlkjgbelruywoeiyt7384gdqlywqvlwjf"`
 
 A secure deployment of PKP software can be best achieved by using the following recommendations, which are described in docs/README in every download of the software:
 
-* Dedicate a database to OJS, OMP, and OCS; use unique credentials to access it. Configure this database to perform automated backups on a regular basis. Perform a manual backup when upgrading or performing maintenance. If you do not have access to your database contact your system administrator and ensure that database backups are taking place for your OJS.
+* Dedicate a database to OJS, OMP, and OPS; use unique credentials to access it. Configure this database to perform automated backups on a regular basis. Perform a manual backup when upgrading or performing maintenance. If you do not have access to your database contact your system administrator and ensure that database backups are taking place for your OJS.
 * Configure the software (`config.inc.php`) to use SHA1 hashing rather than MD5.
 * Enable captcha or recaptcha in your `config.inc.php` file, and test that they are working. This will prevent most spam user registrations.
 * Configure the software (`config.inc.php`) to use `force_login_ssl` so that authenticated users communicate with the server via HTTPS. (You will also have to properly create and configure an SSL certificate to do this properly.)
-* Install the software so that the files directory is NOT a subdirectory of the OJS, OMP, or OCS installation and cannot be accessed directly via the web server.
+* Install the software so that the files directory is NOT a subdirectory of the OJS, OMP, or OPS installation and cannot be accessed directly via the web server.
 * Restrict file permissions as much as possible.
 * Deploy and test a proper backup mechanism. The backup mechanism should back up the database, the system files, and the file storage area (the `files_dir` parameter in `config.inc.php`). Ideally, you should make both on-site and off-site backups.
 * Ensure that your web server environment is regularly updated, in particular with any and all security patches.
 
-If these steps are followed, you will substantially reduce the risk of falling prey to common hacking techniques. If already running OJS, OMP, or OCS, we strongly urge you to review your existing configurations and ensure these steps have been followed.
+If these steps are followed, you will substantially reduce the risk of falling prey to common hacking techniques. If already running OJS, OMP, or OPS, we strongly urge you to review your existing configurations and ensure these steps have been followed.
 
 ### Secure File Management
 
@@ -55,7 +55,7 @@ Authors, reviewers, and editors deal with submission files from people they don�
 * Make sure you have antivirus software installed, and that it is up to date
 * Make sure your operating system and all software (especially Word and Excel) are kept up to date, ideally by turning on any auto-update features available to you
 * Make sure you have a backup solution available for your work computers
-* Practice good password management: don’t use the same username/password in OJS, OMP, or OCS as you would for any other online account, and don’t use an easy to guess password
+* Practice good password management: don’t use the same username/password in OJS, OMP, or OPS as you would for any other online account, and don’t use an easy to guess password
 * Treat everything that you get online with the knowledge that you received it from someone you don’t know, and act likewise. If a submission appears to be suspicious for any reason (strange email address, suspiciously generic title or abstract, etc.), treat the included files with an additional level of diligence.
 
 ## Encryption
@@ -76,7 +76,7 @@ Google announced in 2014 that https [would be treated as a ranking signal](https
 
 ### Getting a Certificate
 
-A certificate enables a secure connection from the user's Web browser to the server hosting your site.  Installing a certificate for your site can not be done within the OJS, OMP, or OCS software and will require technical expertise or assistance at the server level.  When considering a software host, determining their level of certificate support is an important consideration.
+A certificate enables a secure connection from the user's Web browser to the server hosting your site.  Installing a certificate for your site can not be done within the OJS, OMP, or OPS software and will require technical expertise or assistance at the server level.  When considering a software host, determining their level of certificate support is an important consideration.
 
 A good start is asking your hosting service provider if they have an existing solution for supporting TLS or SSL certificates -- Your hosting provider may be able to create/issue an TLS or SSL certificate for you. If you do not have shell access to your installation this may be the only way to go about adding SSL/TLS protection for your site.
 
@@ -126,7 +126,7 @@ Don’t forget to test this setup by registering a test account and confirming t
 
 ### Enable Account Validation
 
-OJS, OMP, and OCS can be configured so that an email account validation step must be completed for all new user accounts before they can log in and interact with the system. To do this, uncomment and configure the following lines in `config.inc.php`:
+OJS, OMP, and OPS can be configured so that an email account validation step must be completed for all new user accounts before they can log in and interact with the system. To do this, uncomment and configure the following lines in `config.inc.php`:
 
 ```
 ; If enabled, email addresses must be validated before login is possible.

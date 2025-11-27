@@ -2,7 +2,7 @@
 title: Statistics - Admin Guide - PKP Developer Docs
 description: How to collect, process, restore and export usage statistics in OJS, OMP or OPS.
 book: admin-guide
-version: 3.5
+version: 3.4
 ---
 
 # Statistics
@@ -20,7 +20,7 @@ Read the sections below to learn how to configure the statistics for your site, 
 
 As an administrator, you can restrict the type of statistics that will be collected. You may choose to do this to protect the privacy of visitors, comply with legal requirements in your jurisdiction, or reduce the disk space required for your database.
 
-Follow the steps below to set the statistics settings for all journals, presses, or preprint servers on your site.
+Follow the steps below to set the statistics settings for all journals, presses or preprint servers on your site.
 
 1. Login as an administrator.
 2. Go to **Administration**.
@@ -29,19 +29,19 @@ Follow the steps below to set the statistics settings for all journals, presses,
 
 A manager may configure some of these settings differently for each journal, press or preprint server they manage. In such cases, the site settings act as a "ceiling". For example, if the site has disabled geographic statistics, the manager will not be able to enable them for their journal, press or preprint server. If the site has enabled country-level statistics only, the manager will not be able to enable region and city statistics.
 
-However, the manager can turn off statistics even if the site has disabled them. For example, if the site has enabled geographic statistics for country, region, and city, the manager will be able to turn geographic statistics off, or choose to collect only country and region data.
+However, the manager can turn off statistics even if the site has disabled them. For example, if the site has enabled geographic statistics for country, region and city, the manager will be able to turn geographic statistics off, or choose to collect only country and region data.
 
 ## Download
 
 Statistics are collected for different kinds of data and can be accessed in several different formats. Some statistics can be viewed as tables and graphs in the application. Others can only be viewed by downloading a report in CSV or JSON. The CSV format can be opened in spreadsheet software, like Excel or LibreOffice Calc.
 
 | Type                                      | Description                                                                            | Web | CSV | JSON |
-|-------------------------------------------|----------------------------------------------------------------------------------------|-----|-----|------|
+| ----------------------------------------- | -------------------------------------------------------------------------------------- | --- | --- | ---- |
 | [Publications](#publications)             | Views and downloads of articles, books and preprints, and their files.                 | ✔   | ✔   | ✔    |
 | [Issues](#issues)                         | Views and downloads (OJS)                                                              | ✔   | ✔   | ✔    |
 | [Homepage](#homepage)                     | Views of the homepage of the journal, press or preprint server.                        | ✔   | ✔   | ✔    |
 | [Geography](#geography)                   | Views by country, region and city                                                      | ✔   | ✔   | ✔    |
-| [COUNTER](#counter)                       | An industry-recognized format for distributing usage statistics.                       | ✘   | ✘   | ✔    |
+| [COUNTER](#counter)       | An industry-recognized format for distributing usage statistics.                       | ✘   | ✘   | ✔    |
 | [Editorial Activity](#editorial-activity) | Number of submissions accepted and rejected, the average time to a decision, and more. | ✔   | ✘   | ✘    |
 | [Users](#user)                            | User profiles and roles.                                                               | ✘   | ✔   | ✘    |
 | [Reviews](#reviews)                       | Reviewer names, due dates, and comments for all review assignments                     | ✘   | ✔   | ✘    |
@@ -92,7 +92,7 @@ Homepage statistics can also be accessed in JSON format through the [REST API](/
 > You must [enable geographic statistics](#settings) first.
 {:.notice}
 
-Follow these steps to download a CSV file with the number of views and downloads for each city, region, and country.
+Follow these steps to download a CSV file with the number of views and downloads for each city, region and country.
 
 1. Login as an administrator or manager.
 2. Click **Statistics** > **Articles** (or Books in OMP and Preprints in OPS).
@@ -115,7 +115,7 @@ Geographic statistics can also be accessed in JSON format through the [REST API]
 > Editorial statistics can change significantly depending on the selected date range. Read the recommendations below to avoid these pitfalls.
 {:.warning}
 
-Follow these steps to view stats about the editorial activity of a journal, press, or preprint server, such as the number of submissions accepted and rejected, the average time it takes to record a decision, and more.
+Follow these steps to view stats about the editorial activity of a journal, press or preprint server, such as the number of submissions accepted and rejected, the average time it takes to record a decision, and more.
 
 1. Login as an administrator or manager.
 2. Click **Statistics** > **Editorial Activity**.
@@ -123,7 +123,7 @@ Follow these steps to view stats about the editorial activity of a journal, pres
 
 These stats are based on editorial activity recorded by the system. If your editors routinely work outside of the system, stats may not be correct. For example, if an editor asks for a review by email and does not record it in the system, that review will not be counted in the editorial statistics.
 
-When selecting a date range, think carefully about the editorial activity you are interested in. For example, if you are looking at the last three months, the Acceptance Rate will be calculated only from submissions submitted in the last three months that have already received an accepted or declined decision. We recommend using a date range that accounts for the duration of your editorial review and ends at least 12 months ago.
+When selecting a date range, think carefully about the editoral activity you are interested in. For example, if you are looking at the last three months, the Acceptance Rate will be calculated only from submissions submitted in the last three months that have already received an accepted or declined decision. We recommend using a date range that accounts for the duration of your editorial review and ends at least 12 months ago.
 
 ### Users
 
@@ -147,7 +147,7 @@ Follow these steps to download a CSV report about review assignments that includ
 
 ### Submissions
 
-Follow these steps to download a CSV report about submissions that includes the titles, contributors, and metadata.
+Follow these steps to download a CSV report about submissions that includes the titles, contributors and metadata.
 
 1. Login as an administrator or manager.
 2. Click **Statistics** > **Reports**.
@@ -160,7 +160,7 @@ There are many other ways to [export submission data](./data-import-and-export).
 > The subscriptions report is only available in OJS when subscriptions are enabled.
 {:.notice}
 
-Follow these steps to download a CSV report about subscriptions that includes the titles, contributors, and metadata.
+Follow these steps to download a CSV report about subscriptions that includes the titles, contributors and metadata.
 
 1. Login as an administrator or manager.
 2. Click **Statistics** > **Reports**.
@@ -173,7 +173,7 @@ Follow these steps to download a CSV report about subscriptions that includes th
 
 You may notice historical gaps in your statistics data. These can arise for several reasons. Often it is because the application was misconfigured, the server resources were limited, or an application error prevented the logs from being processed. This can leave historical gaps in statistics data if the problem goes unnoticed for a while. When this happens, it can be difficult to restore the data. But it may be possible.
 
-To recover the data, you will need to have log files that cover that period. These may be the application's [stats logs](/dev/documentation/en/statistics#understanding-the-log-files) or the Apache access log files.
+In order to recover the data, you will need to have log files that cover that period. These may be the application's [stats logs](/dev/documentation/en/statistics#understanding-the-log-files) or the Apache access log files.
 
 The sections below provide information to help you determine what log files are available and reprocess them to compile statistics.
 
@@ -218,7 +218,7 @@ The command must be run by a user who has permission to read the Apache log file
 
 ### Reprocess Log Files
 
-Once you have identified the log files you want to reprocess, move them into the `stage` directory. Then run the following command once for every month you want to reprocess.
+Once you have identified the log files you want to reprocess, move them into the `stage` directory. Then run the following command, once for every month you want to reprocess.
 
 ```
 php lib/pkp/tools/reprocessUsageStatsMonth.php YYYYMM
@@ -231,7 +231,7 @@ php lib/pkp/tools/reprocessUsageStatsMonth.php 202210
 php lib/pkp/tools/reprocessUsageStatsMonth.php 202211
 ```
 
-If you want to have accurate monthly statistics, you will need to reprocess a whole month at a time. For example, if you are missing statistics from 2022-10-15 to 2022-11-12, you would need to reprocess logs for every day of both months to have accurate monthly stats for those months.
+If you want to have accurate monthly statistics, you will need to reprocess a whole month at a time. For example, if you are missing statistics from 2022-10-15 to 2022-11-12, you would need to reprocess logs for every day of both months in order to have accurate monthly stats for those months.
 
 ### Things to know
 
@@ -249,7 +249,7 @@ Statistics are compiled once a day. No statistics will appear until 24 hours aft
 
 You can tell if the scheduled task is being run by looking in the log directory at `<files_dir>/usageStats`. Once a log file has been processed, it will be moved to the `archive` directory. Learn more about the [log files](/dev/documentation/en/statistics#understanding-the-log-files).
 
-If you see log files in the archive, but still do not have any statistics, inspect the URLs in the log entries. Does the URL in the log files exactly match the `base_url` in my configuration? Does it point to a published submission in a journal, press, or preprint server?
+If you see log files in the archive, but still do not have any statistics, inspect the URLs in the log entries. Does the URL in the log files exactly match the `base_url` in my configuration? Does it point to a published submission in a journal, press or preprint server?
 
 ### I have enabled geographic statistics, but the geographic report doesn't include any data
 
@@ -257,11 +257,11 @@ The application uses the visitor's IP address to determine their location. In or
 
 ### I upgraded from an old version of OJS and I want to have stats from a long time ago
 
-If you have been running the application for many years, you may have periods during which no stats were recorded. For example, in versions of OJS 2. You may be able to recover these stats if you have the Apache access logs from this period. Read how to [convert log files](#recover-lost-data).
+If you have been running the application for many years, you may have periods during which no stats were recorded. For example in versions of OJS 2. You may be able to recover these stats if you have the Apache access logs from this period. Read how to [convert log files](#recover-lost-data).
 
 ### I’ve seen some OJS journals that display nice-looking article usage metrics on article landing pages. How do I configure that?
 
-This is a theme option. If your theme supports it, you can enable it at **Settings** > **Website** > **Appearance** > **Theme**.
+This is a theme option. If you theme supports it, you can enable it at **Settings** > **Website** > **Appearance** > **Theme**.
 
 ### If I replace a publication's file, will the download count reset to 0?
 
@@ -281,7 +281,7 @@ What to do when you [don't see any stats](#i-dont-see-any-statistics).
 
 ### When I try to download a report, I get a blank page, a 500 error, or a PHP memory limit error, such as "Memory limit exhausted".
 
-This happens when the amount of data you are trying to download exceeds the server’s capacity to deliver it. This can be resolved by trying to download a smaller data set, for example reducing the date range, or by increasing the server's resource (for example, PHP's `memory_limit` or `max_execution_time`).
+This happens when the amount of data you are trying to download exceeds the server’s capacity to deliver it. This can be resolved by trying to download a smaller data set, for example reducing the date range, or by increasing the server's resource (for example PHP's `memory_limit` or `max_execution_time`).
 
 ### I need to reprocess some log files, or troubleshoot a rejected log file.
 

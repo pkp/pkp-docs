@@ -2,7 +2,7 @@
 title: Email - Advanced Configuration - Admin Guide - PKP Developer Docs
 description: Recommendations for configuring a reliable email server for Open Journal Systems (OJS), Open Monograph Press (OPS) or Open Preprint Systems (OPS).
 book: admin-guide
-version: 3.5
+version: 3.4
 ---
 
 # Email Configuration
@@ -37,7 +37,7 @@ The application uses these settings to reconfigure the `FROM` and `REPLY-TO` hea
 
 ## Sendmail vs SMTP vs PHPMailer
 
-Most hosting services will provide the details the application should use to connect to an SMTP server for sending email. If you have those, follow the instructions in the [configuration guide](/admin-guide/en/deploy#email-server).
+Most hosting services will provide the details the application should use to connect to a SMTP server for sending email. If you have those, follow the instructions in the [configuration guide](/admin-guide/en/deploy#email-server).
 
 If not, the server will probably be configured to send email through the `sendmail` application. In such cases, set the `default` sender to `sendmail` in the `config.inc.php`:
 
@@ -78,9 +78,9 @@ smtp_password = <password>
 
 You can use a third-party email service, such as MailGun, Amazon SES, or Postmark, to send email if you don't want to run your own email service. However, this is not officially supported so you may need to write a small amount of custom PHP code.
 
-Under-the-hood, all of our applications use [Laravel's Mail](https://laravel.com/docs/11.x/mail) library, which itself uses Symfony's [Mailer](https://symfony.com/doc/current/mailer.html). Transports are included for Mailgun, Amazon SES and Postmark, and these services can be used by writing a small plugin. See the example [Mailgun plugin](https://github.com/Vitaliy-1/mailgun/).
+Under-the-hood, all of our applications use Laravel's [Mail](https://laravel.com/docs/9.x/mail) library, which itself uses Symfony's [Mailer](https://symfony.com/doc/current/mailer.html). Transports are included for Mailgun, Amazon SES and Postmark, and these services can be used by writing a small plugin. See the example [Mailgun plugin](https://github.com/Vitaliy-1/mailgun/).
 
-Other transports can be found by searching for "symfony mailer transport". A plugin would need to be written to import these transports and make use of them. If you write a transport for a service, please share it with [our community](https://forum.pkp.sfu.ca/).
+Other transports can be be found by searching for "symfony mailer transport". A plugin would need to be written to import these transports and make use of them. If you write a transport for a service, please share it with [our community](https://forum.pkp.sfu.ca/).
 
 ## Bounce Address
 
@@ -108,4 +108,4 @@ If you run your own email server, you can ask for help in our [community forum](
 
 ---
 
-Next, learn how to manage your [scheduled tasks](./deploy-scheduled-tasks).
+Next, learn about how to improve performance with the [job runner](./deploy-jobs).

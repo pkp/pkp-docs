@@ -1,4 +1,4 @@
-## Table of Contents
+# Table of contents
 
 * [Introduction](./)
 * [Getting Started](./getting-started)
@@ -8,7 +8,6 @@
 * [Deployment](./deploy)
   * [Configuration](./deploy#configuration)
   * [Email](./deploy-email)
-  * [Scheduled Tasks](./deploy-scheduled-tasks)
   * [Jobs](./deploy-jobs)
   * [Users](./deploy-users)
   * [Multi-tenant](./deploy-multi-tenant)

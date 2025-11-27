@@ -1,5 +1,6 @@
 admin-guide:
-  3.4: /admin-guide
+  3.5: /admin-guide
+  3.4: /admin-guide/3.4/en
   3.3: /admin-guide/3.3/en
 api:
   ojs:

@@ -4,7 +4,7 @@ version: 3.3
 ---
 # Email
 
-This chapter explains how emails are sent in OJS, OMP, and OCS; the configuration options that are available; and how to troubleshoot email issues.
+This chapter explains how emails are sent in OJS, OMP, and OPS; the configuration options that are available; and how to troubleshoot email issues.
 
 Mail in PKP software applications uses [the PHPMailer library](https://github.com/PHPMailer/PHPMailer). You can find out more about PHPMailer on [their wiki](https://github.com/PHPMailer/PHPMailer/wiki). Other code related to mail can be found in [the pkp-lib mail class](https://github.com/pkp/pkp-lib/tree/main/classes/mail).
 
@@ -70,7 +70,7 @@ By default, PHPMailer will send mail through PHP's built-in `mail()` facility.
 
 On Windows, PHP needs to be configured to send email through a SMTP server \(running either on the same machine or on another machine\).
 
-On other platforms such as Linux and Mac OS X, PHP will sent mail using the local sendmail client, so a local MTA such as Sendmail or Postfix must be running and configured to allow outgoing mail.
+On other platforms such as Linux and Mac OS X, PHP will send mail using the local sendmail client, so a local MTA such as Sendmail or Postfix must be running and configured to allow outgoing mail.
 
 See [https://www.php.net/manual/en/function.mail.php](https://www.php.net/manual/en/function.mail.php) for more details on configuring PHP's mail functionality.
 
@@ -96,9 +96,7 @@ Reloading templates will override any modifications that you may have made. To k
 
 All PKP applications require that primary and technical contacts are configured under Setup for proper daily operations. This is required for every journal, press, or conference in the system.
 
-- In OJS 2.x, this can be done under _Setup Step 1_.
-- In OCS 2.x, this can be done under _Website Management Step 1_.
-- In OJS/OMP 3.x, this can be done under _Settings &gt; Journal &gt; Contact_.
+In OJS/OMP/OPS 3.x, this can be done under _Settings &gt; Journal/Press/Server &gt; Contact_.
 
 ## Email Validation for New Users
 

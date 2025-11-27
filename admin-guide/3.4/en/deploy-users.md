@@ -2,7 +2,7 @@
 title: User Accounts - Advanced Configuration - Admin Guide - PKP Developer Docs
 description: Configuration options to manager users in Open Journal Systems (OJS), Open Monograph Press (OPS) or Open Preprint Systems (OPS).
 book: admin-guide
-version: 3.5
+version: 3.4
 ---
 
 # User Accounts
@@ -27,9 +27,7 @@ require_validation = On
 
 Google's [reCAPTCHA](https://www.google.com/recaptcha/) service can be enabled for the registration and login forms. This will reduce the number of bots that can sign up by requiring users to complete a task that is difficult for bots to perform during registration and login.
 
-You will need to [sign up for a Google account](https://www.google.com/recaptcha/) to receive public and private keys.
-
-To enable reCAPTCHA, set the following options in `config.inc.php`.
+You will need to [sign up](https://www.google.com/recaptcha/) for an account with Google to receive public and private keys. Then set the following options in `config.inc.php`.
 
 ```
 ;;;;;;;;;;;;;;;;;;;;
@@ -59,41 +57,13 @@ recaptcha_enforce_hostname = Off
 
 Use of Google's reCAPTCHA service will send your visitors' data to Google's servers. You may be required to notify users of this depending on the privacy laws in your jurisdiction.
 
-### Altcha
-
-[ALTCHA](https://altcha.org/open-source-captcha/) is an open-source and self-hosted alternative to Google's reCAPTCHA. ALTCHA can be enabled to reduce spam activity on registration, login, and password reset forms.
-
-You will need to set up a self-hosted installation to create a private key. Review [the ALTCHA documentation](https://altcha.org/docs/v2/) for more information.
-
-Once you have a private key for ALTCHA, set the following options in `config.inc.php`:
-
-```
-; Whether or not to enable ALTCHA
-altcha = on
-
-; Private key for ALTCHA
-altcha_hmackey = 'Example key'
-
-; Whether or not to use ALTCHA on user registration
-altcha_on_register = on
-
-; Whether or not to use ALTCHA on user login
-altcha_on_login = on
-
-; Whether or not to use ALTCHA on user lost password
-altcha_on_lost_password = on
-
-; The quantity of encryption cycles performed by the ALTCHA system
-altcha_encrypt_number = 10000
-```
-
 ### Honeypot
 
 The [pkp-formHoneypot](https://github.com/ulsdevteam/pkp-formHoneypot) plugin from the University of Pittsburgh implements a [honeypot](https://en.wikipedia.org/wiki/Honeypot_(computing)) mechanism to protect new user registrations from bots. This plugin is effective against most bots and does not send your visitor's data to any third parties.
 
 ### Disable Registration
 
-It's possible to set up a journal, press, or preprint server to disable user registration. When user registration is disabled, all users will have to be registered by an admin or manager.
+It's possible to set up a journal, press or preprint server to disable user registration. When user registration is disabled, all users will have to be registered by an admin or manager.
 
 Follow these steps to disable user registration in a journal, press or preprint server.
 
@@ -105,15 +75,15 @@ Follow these steps to disable user registration in a journal, press or preprint 
 6. Click **OK**.
 7. Click the **Search** button.
 8. Under *With permission level set to* select **Author**.
-9. For each role, follow steps 3–7 to prevent user self-registration.
-10. Repeat steps 7–8 with **Reviewer** selected for the permission level.
+9. For each role, follow steps 3-7 to prevent user self-registration.
+10. Repeat steps 7-8 with **Reviewer** selected for the permission level.
 11. For each role, follow steps 3-7 to prevent user self-registration.
 
-Only reader, author, and reviewer roles can allow user self-registration. User self-registration is always disabled for other roles.
+Only reader, author and reviewer roles can allow user self-registration. User self-registration is always disabled for other roles.
 
 ### Remove Accounts
 
-If you already have a large number of spam registrations, you may want to remove these accounts. User accounts cannot be deleted. Instead, they must be merged to another account to ensure that any editorial data (such as submissions, reviews, etc) is maintained.
+If you already have a large number of spam registrations, you may want to remove these accounts. User accounts can not be deleted. Instead, they must be merged to another account in order to ensure that any editorial data (such as submissions, reviews, etc) is maintained.
 
 Run the following command from the root directory of the application to merge a spam registration into another account.
 
@@ -141,24 +111,10 @@ usernameTwo
 usernameThree
 ```
 
-Then load the file into the `mergeUsers` command.
+Then load the file into the the command.
 
 ```bash
 php tools/mergeUsers.php spamaccount $(cat usernames.txt)
-```
-
-## User Invitations
-
-In version 3.5, a new Invitations toolset was introduced. This is used to implement three types of invitations:
-
-- The ability to request an email address change (and confirm it)
-- The one-click reviewer access invitation
-- The new GDPR-compliant user account creation process.
-
-You can change the number of days a user has to accept an invitation before it expires in the `[invitations]` section of `config.inc.php`.
-
-```
-expiration_days = 3
 ```
 
 ## User Uploads
@@ -175,7 +131,7 @@ The [controlPublicFiles](https://github.com/pkp/controlPublicFiles) plugin inclu
 
 ## Single Sign-on
 
-Single sign-on allows users to register and login to your journal, press, or preprint server using an account with another service. This may be an institutional account such as a university network, a scholarly infrastructure organization like ORCID, or a commercial service provider like Google, Microsoft, or Apple.
+Single sign-on allows users to register and login to your journal, press or preprint server using an account with another service. This may be an institutional account such as a university network, a scholarly infrastructure organization like ORCID, or a commercial service provider like Google, Microsoft or Apple.
 
 The following are different approaches to single sign-on that are in use by our community.
 
@@ -183,11 +139,11 @@ The following are different approaches to single sign-on that are in use by our 
 
 The [openid plugin](https://github.com/leibniz-psychology/openid) allows users to register and login using any [OpenID](https://en.wikipedia.org/wiki/OpenID) protocol. This protocol is supported by ORCID, Google, Microsoft, Apple and many others.
 
-The Leibniz Institute for Psychology (ZPID) originally developed this plugin, which is now maintained by the PKP team.
+The Leibniz Institute for Psychology (ZPID) has developed this plugin.
 
 ### ORCID
 
-Users can register and login using their ORCID accounts. Use the [OpenID plugin](https://github.com/pkp/openid).
+Users can register and login using their ORCID accounts. Use the [openid plugin](https://github.com/leibniz-psychology/openid).
 
 ### Shibboleth
 

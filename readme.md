@@ -155,7 +155,7 @@ Install [redoc-cli](https://www.npmjs.com/package/redoc-cli) globally if you don
 npm install -g redoc-cli
 ```
 
-From the root directory of the the docs repository, run the following command to build the docs.
+From the root directory of the docs repository, run the following command to build the docs.
 
 ```
 redoc-cli bundle ~/3.3.json --options=.redoc.json --output=dev/api/ojs/3.3.html

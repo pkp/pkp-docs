@@ -2,7 +2,7 @@
 title: Jobs - Advanced Configuration - Admin Guide - PKP Developer Docs
 description: Options to configure the job runner to improve performance with Open Journal Systems (OJS), Open Monograph Press (OPS) or Open Preprint Systems (OPS).
 book: admin-guide
-version: 3.5
+version: 3.4
 ---
 
 # Job Runner
@@ -37,7 +37,7 @@ The following command can be used to initialize a worker.
 php lib/pkp/tools/jobs.php work
 ```
 
-This command supports most of the options supported by Laravel's [queue:work](https://laravel.com/docs/11.x/queues#running-the-queue-worker). Pass the `--help` flag to learn more.
+This command supports most of the options supported by Laravel's [queue:work](https://laravel.com/docs/9.x/queues#running-the-queue-worker). Pass the `--help` flag to learn more.
 
 ```
 php lib/pkp/tools/jobs.php work --help
@@ -64,16 +64,16 @@ stdout_logfile=<log-file>
 
 Replace the following variables in the configuration above with the correct paths in your system:
 
-| Variable        | Description                                                                                                                                            |
-|-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `<path-to-php>` | Absolute path on the server to the CLI PHP executable. This can be found on most Linux servers by running `which php`.                                 |
-| `<root>`        | Absolute path to the root directory of the application (OJS, OMP, OPS).                                                                                |
-| `<log-file>`    | Absolute path to a log file. If hosting in a cloud environment, you may want to [direct logs to stdout](https://stackoverflow.com/a/26897648/1723499). |
+| Variable | Description |
+| --- | --- |
+| `<path-to-php>` | Absolute path on the server to the CLI PHP executable. This can be found on most Linux servers by running `which php`. |
+| `<root>` | Absolute path to the root directory of the application (OJS, OMP, OPS). |
+| `<log-file>` | Absolute path to a log file. If hosting in a cloud environment, you may want to [direct logs to stdout](https://stackoverflow.com/a/26897648/1723499). |
 
-> Take note that workers are long-running processes that load the application in memory. As a result, any changes when workers are running will not reflect instantly without restarting the worker.
+> Take a special note that workers are long running process that loads the application in memory. As a result, any changes when workers are running will not reflect instantly without restarting the worker.
 {:.notice}
 
-To restart the worker:
+Restart Worker.
 
 ```
 php lib/pkp/tools/jobs.php restart
@@ -81,7 +81,7 @@ php lib/pkp/tools/jobs.php restart
 
 The above command will quit the workers gracefully what is workers will get to complete the current job execution and then quit. Then the Supervisor will restart the workers.
 
-To restart Supervisor:
+Restart Supervisor.
 
 ```
 sudo service supervisor restart
@@ -93,10 +93,10 @@ You may need to run the following command to apply the configuration changes.
 supervisorctl reread
 ```
 
-> **Warning:** We strongly recommend restarting the Worker rather than Supervisor to reflect and consider the new changes pushed to production. Restarting Supervisor suddenly will cause the workers to quit abruptly, and if the workers are in the middle of processing a job, they will not complete the job which may cause undesired effects.
+> **Warning:** We strongly recommend to restart the Worker rather than Supervisor to reflect and consider the new changes pushed to production. Restarting Supervisor suddenly will cause the workers to quit abruptly and if the workers are in the middle of processing a job, it will not get the chance to complete the job which may cause undesired.
 {:.warning}
 
-To configure Supervisor on other systems or to learn more about monitoring processes, read the [Supervisor documentation](http://supervisord.org/index.html).
+To configure Supervisor on other systems, or to learn more about monitoring processes, read the [Supervisor documentation](http://supervisord.org/index.html).
 
 Once you have set up the worker, turn the default job runner off in `config.inc.php`:
 
@@ -116,11 +116,11 @@ php lib/pkp/tools/jobs.php run
 
 A cron job configured to run the following command will process only one job.
 
-```
+```php
 php lib/pkp/tools/jobs.php run --once
 ```
 
-Whether to process one or all jobs will depend on your environment. When **running all jobs at once**, a sudden batch of large, resource-intensive jobs could slow down your server. That's because the cron job will try to churn through everything all at once.
+Whether or not to process one or all jobs will depend on your environment. When **running all jobs at once**, a sudden batch of large, resource-intensive jobs could slow down your server. That's because the cron job will try to churn through everything all at once.
 
 When **running one job at a time**, the cron job will be less likely to consume a lot of server resources all at once. However, there is a risk that jobs will back up over time. If a bulk email is sent to 5,000 users, it may create 100 jobs. Processing one job every 60 seconds, it would take 100 minutes to send the email.
 
@@ -131,18 +131,6 @@ job_runner = Off
 ```
 
 We recommend using [workers](#workers) for large sites. Learn more about how to [monitor jobs](#how-to-monitor-jobs) to make sure they are not backing up.
-
-### Run Jobs with Scheduled Tasks
-
-To process all jobs in the queue as part of [your operating system's task scheduler](./deploy-scheduled-tasks#cron), turn on the following setting in `config.inc.php`:
-
-```
-process_jobs_at_task_scheduler = On
-```
-
-This requires that both the `job_runner`and `task_runner` (under `[schedule]`) are set to `Off`.
-
-In this case, we also recommend using [workers](#workers) to process jobs.
 
 ### Built-in Job Runner
 
@@ -172,7 +160,7 @@ job_runner_max_jobs = 30
 ; Lower this setting if jobs are failing due to timeouts.
 job_runner_max_execution_time = 30
 
-; The maximum consumable memory that should be spent by the built-in
+; The maximum consumerable memory that should be spent by the built-in
 ; job runner when running jobs.
 ;
 ; Set as a percentage, such as 80%:
@@ -188,7 +176,7 @@ job_runner_max_execution_time = 30
 job_runner_max_memory = 80
 ```
 
-We recommend staying within the default limits above unless you know your server is capable of running with higher limits.
+We recommend staying within the default limits above, unless you know your server is capable of running with higher limits.
 
 ## How to Monitor Jobs
 
@@ -220,9 +208,9 @@ delete_failed_jobs_after = 180
 
 ## Custom Drivers
 
-[Laravel Queues](https://laravel.com/docs/11.x/queues) are used to dispatch and process jobs. By default, the application uses the `database` driver to store and process jobs.
+Laravel [Queues](https://laravel.com/docs/9.x/queues) are used to dispatch and process jobs. By default, the application uses the `database` driver to store and process jobs.
 
-[Custom drivers](https://laravel.com/docs/11.x/queues#driver-prerequisites) exist for handling jobs with Redis, Beanstalkd, and Amazon SQS. These drivers are not officially supported, but may be implemented with a little coding.
+[Custom drivers](https://laravel.com/docs/9.x/queues#driver-prerequisites) exist for handling jobs with Redis, Beanstalkd, and Amazon SQS. These drivers are not officially supported, but may be implemented with a little coding.
 
 If you use a custom driver, please share your findings with [our community](https://forum.pkp.sfu.ca/).
 

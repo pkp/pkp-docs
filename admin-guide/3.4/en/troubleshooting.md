@@ -2,7 +2,7 @@
 title: Troubleshooting - Admin Guide - PKP Developer Docs
 description: How to fix some common problems encountered when deploying OJS, OMP or OPS.
 book: admin-guide
-version: 3.5
+version: 3.4
 ---
 
 # Troubleshooting
@@ -13,7 +13,7 @@ version: 3.5
 
 It is difficult to prescribe exact steps towards setting proper file permissions, as so much depends on the server's operating system, web server, and PHP setup.
 
-In general, you want your permissions set such that your webserver can read and write (recursively) to the `config.inc.php` `files_dir`, and to `cache/`, and `public/`. Optionally, for added features and reduced security, you can enable write to `config.inc.php`, to `plugins/` and perhaps to the locale `.po` files. Your webserver should have read-only access to all other files and directories distributed in the package.
+In general, you want your permissions set such that your webserver can read and write (recursively) to the `config.inc.php` `files_dir`, and to `cache/`, and `public/`. Optionally, for added features and reduced security, you can enable write to `config.inc.php`, to `plugins/` and perhaps to the locale `.xml` files. Your webserver should have read-only access to all other files and directories distributed in the package.
 
 Start by checking which server API PHP uses on your server. If OJS, OMP, or OPS is already installed, log in as Site Administrator, click "System Information", and at the bottom of the page, click "Extended PHP Information". Find the line that says "Server API". Depending on which API you are using (mod_php/SAPI or CGI/FastCGI), permissions should be set as follows.
 
@@ -52,7 +52,7 @@ or
 
 #### But What About Shared Hosts?
 
-With some shared hosts (for example, if your only access is via cPanel or a similar web-based admin tool), you may not be able to change the file ownership, and your webserver is effectively running as your user. In that case, you may still be able to protect your files by making them non-writable by your own user (even though this sounds counter-intuitive). In a shared host, you will almost certainly want to deny world permissions to your files, but look to the documentation and support for your host in particular.
+With some shared hosts (for example, if your only access is via cPanel or a similar web-based admin tool), you may not have the ability to change the file ownership, and your webserver is effectively running as your user. In that case, you may still have the ability to protect your files by making them non-writable by your own user (even though this sounds counter-intuitive). In a shared host, you will almost certainly want to deny world permissions to your files, but look to the documentation and support for your host in particular.
 
 #### A Note on Security Configurations
 
@@ -90,7 +90,7 @@ Note that this situation often occurs when uploading a modified copy of the main
 
 ## Character Encoding
 
-Character encoding issues mostly crop up in two situations: when journals are migrated from another platform to OJS; or (more commonly) when an OJS journal is migrated between servers.
+Character encoding issues mostly crop up in two situations: when journals are migrated from another platform to OJS; or (more commonly) when an OJS journal is migrated from another server to our servers.
 
 It’s often helpful to check the current database settings to ensure that you’re working in the character set that you think you’re working with. Once logged into MySQL, try the following:
 
@@ -150,13 +150,13 @@ The following conversion steps and import process can be used to resolve these i
 
 #### Common Problem #2: double-quotes with encoding issue on DUMP files
 
-During migration or upgrade, MySQL dump files may present encoding characters issue related to double-quotes, e.g.: â€œlearning,â€<9d> which should be “learning,” even using correct UTF8 collation to export from the database.
+During migration/upgrade from lib-ojs server to sfulib MySQL dump files from former may present encoding characters issue related to double-quotes, e.g.:  â€œlearning,â€<9d> which should be “learning,” even using correct UTF8 collation to export from Database.
 
-This problem can appear when users copy-and-paste fancy/smart quotes from MS Word which uses the windows-1252 character set that doesn't match with anything in UTF8. Which results in this sequence that looks like â€œlearning,â€<9d>.
+This problem shows up when users copy-and-paste fancy/smart quotes from MS Word which uses the windows-1252 character set that  doesn't match with anything in UTF8. Which results in this sequences that look like â€œlearning,â€<9d>.
 
 The following steps can be used to resolve this encoding issue:
 
-* Install on your local machine [ftfy](https://ftfy.readthedocs.io/en/latest/), which will require python3 as well
+* Install on your local machine [ftfy](https://ftfy.readthedocs.io/en/latest/), as it is a python tool it will require python3 as well
 * Edit the command-line ftfy executable cli.py (it may be in a different path depending on your environment.):
 	`/usr/local/lib/python3.6/site-packages/ftfy/cli.py`
 * Around line 100 (`$ vim +100 cli.py`) add an extra parameter 'uncurl_quotes=False' to the fix_file function. It will then look as follows:
@@ -234,7 +234,7 @@ Be sure to revert this change when you are finished.
 
 ### What is a stacktrace and how do I display them in OxS?
 
-A stacktrace shows the route through the code taken to display the current page. When an error is displayed, a stacktrace is often helpful to track down how the cause of the error, by letting the developer step through the code and see what route they must take to reproduce the error.
+A stacktrace shows the route through the code taken to display the current page. When an error is displayed, a stacktrace is often helpful in helping to track down how the error is being caused, by letting the developer step through the code and see what route they must take to reproduce the error.
 
 To enable stacktracing on errors in OxS, turn on the 'show_stacktrace' option in `config.inc.php`. An example stacktrace will look like this:
 
