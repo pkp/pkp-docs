@@ -1,6 +1,6 @@
 ---
 book: learning-omp
-version: 3.4
+version: 3.5
 title: Learning OMP (Open Monograph Press) - Role-specific Workflows
 description: A guide to working as an author, reviewer, or editor in OMP.
 ---
