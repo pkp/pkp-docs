@@ -1,6 +1,6 @@
 ---
 book: learning-omp
-version: 3.4
+version: 3.5
 title: Learning OMP (Open Monograph Press) - Press Setup
 description: A guide to configuring the settings for the website, workflow, display, and distribution (including payment) of an OMP press.
 ---
@@ -22,7 +22,18 @@ In OMP 3.2, the Publisher information is now stored under the Press setting. You
 
 ### Masthead
 
-Enter and edit information about your press, including press name, editorial team, and about the press. All Masthead information will appear under pages in the About menu on your press website.
+Under Settings > Press > Masthead, you can enter and edit key publishing and press details. All Masthead information will appear under the pages in the About menu on your press website.
+
+While a section is provided for adding editorial board information, OMP 3.5 can now automatically compile a list of editorial board members, replacing the need to manually document the members of your team. Simply select which roles should be captured in the masthead and configure start and end dates for board members. 
+
+To select which roles should be captured in the masthead:
+- Navigate to Users & Roles and select the "Roles" tab
+- Find the role you want to be captured in the masthead
+- Under "Role Options", enable the option "Consider role in masthead list"
+- Select the option to automatically include anyone with this role on the list of Editorial Board members.
+
+You can learn more about assigning users roles and toggling the display of individual users in the list of Editorial Board members in the [User Accounts chapter](./user-accounts). You can view the Editorial Masthead at any time by visiting your press website and selecting "Editorial Masthead" from the "About Menu". You can view a history of previous editorial members by clicking "View Editorial History".
+
 
 ### Contact
 
@@ -132,11 +143,34 @@ Please refer to the [Learning OJS guide](/learning-ojs/en/) for information on W
 
 Please note that some plugins for OJS are not available for OMP.
 
+### Highlights 
+
+Use Highlights to Draw Attention to Big News on your Press #highlights
+
+Highlights allow you to feature images and information on your press home page. Use this to draw attention to a Call for Book Manuscripts or to highlight a particular publication. If you add multiple highlights, they will be displayed in a manual carousel. 
+
+![Press Homepage showcasing a Call for Book Manuscripts as a highlight.](./assets/omp-highlight-3.5.png)
+
+#### Create a Press Highlight #create-highlights
+
+To add a highlight, navigate to Website > Settings > Set Up > Highlights. 
+
+Click on the button ‘Add Highlight’. Enter a title, a short description, the URL of the page you want readers to visit, a button label, an optional image and click ‘Save’.
+
+> The Highlights feature may not currently work with all themes. 
+
+![Menu screen with the fillable fields to create a highlight.](./assets/omp-website-add-highlights-3.5.png)
+
 ## Workflow Settings
 
-Workflow Settings include all submission and publication configuration options, including those that relate to the initial submission process as well as the review, editing, and production workflow processes.
+The Settings > Workflow screen includes all submission, and review configuration options, as well as the Press Library (a space to store frequently access files) and email template settings. You will want to review each tab to ensure that the settings match your press policies for submission and review.
 
-This section will focus on the Production tab of Workflow Settings, as these are specific to your OMP installation. Please refer to [Learning OJS](/learning-ojs/en/) for information on configuring Components, Submissions, Review, Press Library, and Emails. The Publisher Library is the journal equivalent to your Press Library.
+Each tab of the workflow settings is documented in detail in Learning OJS 3.5 for Journal Managers.
+
+- To learn about the configurations on the Submissions tab, consult [the Configure Submission Settings section](https://docs.pkp.sfu.ca/learning-ojs/journal-managers/en/policies#submission-settings-config) of Learning OJS. This will teach you how to disable submissions, set author guidelines, choose what metadata (information about a submission) to collect, and configure components (the labels of the files included with submissions).
+- To learn about the configurations on the Review tab, consult [the Configure Basic Review Settings section](https://docs.pkp.sfu.ca/learning-ojs/journal-managers/en/policies#basic-review-settings)) of Learning OJS. This will teach you how to set the review type, enable reviewer suggestions from authors, configure review deadlines and review reminders, and create and edit review forms.
+- To learn about the Press Library tab, consult [the Use the Publisher Library for Documents section](https://docs.pkp.sfu.ca/learning-ojs/journal-managers/en/other-tools#publisher-library) of Learning OJS. Although it is referred to as the Press Library in OMP, the Press/Publisher library is a place to store frequently used or otherwise useful documents for your Editorial team to access easily.
+- Lastly, to learn about configuring Email templates, consult [the Configure and Customize Automated Emails section](https://docs.pkp.sfu.ca/learning-ojs/journal-managers/en/communications#email-templates) section of Learning OJS. This will teach you how to configure what kinds of automated emails are sent when a submission as received, as well as customize and edit all automated email templates.
 
 ## Distribution
 
