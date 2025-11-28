@@ -5,4 +5,4 @@ Learn how to write plugins to customize almost anything in OJS and OMP. [View No
 
 ---
 
-Versions: [3.4](/dev/plugin-guide/en), [3.3](/dev/plugin-guide/3.3/en)
+Versions: [3.5](/dev/plugin-guide/en), [3.4](/dev/plugin-guide/3.4/en), [3.3](/dev/plugin-guide/3.3/en)
