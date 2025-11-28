@@ -2,7 +2,7 @@
 title: Release a Plugin - Plugin Guide for OJS, OMP and OPS
 description: How to package and release a plugin for OJS, OMP or OPS.
 book: dev-plugin-guide
-version: 3.5
+version: 3.4
 ---
 
 # Release a Plugin
@@ -104,9 +104,9 @@ Your plugin's XML must provide a title, description, contact details, and inform
 </plugin>
 ```
 
-When you have opened the pull request, tests will run against your XML snippet and we will be able to merge your plugin into the list. In addition, each plugin must pass a code review. We may not include your plugin in the gallery if it does not pass review.
+When you have opened the pull request, tests will run against your XML snippet and we will be able to merge your plugin into the list.
 
-Your plugin will be given a certification after review. The `reviewed` certification is given for plugins which have passed code review, and the `partner` certification is given for plugins from partner organizations. The `official` certification is used for plugins maintained and supported by PKP.
+In addition, each plugin must pass a code review. Your plugin will be given a `reviewed` or `partner` certification. We may not include your plugin in the gallery if it does not pass review.
 
 ## Update Releases
 

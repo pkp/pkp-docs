@@ -1,7 +1,7 @@
 ---
 title: Example - Add Styles and Scripts - Plugin Guide for OJS, OMP and OPS
 book: dev-plugin-guide
-version: 3.5
+version: 3.4
 ---
 
 # Add Styles and Scripts

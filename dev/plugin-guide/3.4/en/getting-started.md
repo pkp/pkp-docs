@@ -2,16 +2,13 @@
 title: Getting Started - Plugin Guide for OJS, OMP and OPS
 description: A step-by-step tutorial to create your first plugin for Open Journal System (OJS), Open Monograph Press (OMP), or Open Preprint Systems (OPS).
 book: dev-plugin-guide
-version: 3.5
+version: 3.4
 ---
 
 # Getting Started
 
 > View the [example plugin](https://github.com/pkp/tutorialExample) that will be built in this tutorial.
 {:.notice}
-
-> **New in 3.5:** If you want to extend the editorial backend UI with custom components, see [Extending Backend UI with Vue.js](./examples-backend-ui) for the recommended approach.
-{:.tip}
 
 This step-by-step tutorial will describe how to create a generic plugin called the "Tutorial Example Plugin". This plugin will be created for OJS, but the same steps can be followed to create a plugin for OMP or OPS.
 

@@ -1,7 +1,7 @@
 ---
 title: Plugin Categories - Plugin Guide for OJS, OMP and OPS
 book: dev-plugin-guide
-version: 3.5
+version: 3.4
 ---
 
 # Plugin Categories

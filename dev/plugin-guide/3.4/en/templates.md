@@ -2,7 +2,7 @@
 title: Templates - Plugin Guide for OJS, OMP and OPS
 description: How to use and override templates in your OJS, OMP or OPS plugin.
 book: dev-plugin-guide
-version: 3.5
+version: 3.4
 ---
 
 # Templates

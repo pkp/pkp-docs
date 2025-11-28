@@ -2,7 +2,7 @@
 title: Plugin Guide for OJS, OMP and OPS
 description: How to create a plugin for Open Journal Systems, Open Monograph Press or Open Preprint Systems, to customize almost anything about the application to suit your needs.
 book: dev-plugin-guide
-version: 3.5
+version: 3.4
 ---
 
 # Introduction
