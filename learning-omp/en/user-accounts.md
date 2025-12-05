@@ -169,7 +169,7 @@ B) When making or managing a submission, the submitting author or the Editor ass
 ![Example contributor window showing the option to Request Verification for this contributor's ORCID iD](./assets/profile-orcid-contributor-3.5.png)
 
 
-C) New users can choose to verify their ORCID when creating their OJS user account. 
+C) New users can choose to verify their ORCID when creating their OMP user account. 
 ![Step 1 of the user invitation process with the option to verify ORCID iD or skip ORCID verification](./assets/invitation-orcid-3.5.png)
 
 ## Emailing all users in a role

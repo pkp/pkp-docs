@@ -76,6 +76,11 @@ You can add additional contributors (e.g., co-authors), by clicking the **Add Co
 
 ![The Add Contributors window, with field to enter information like name, affiliation, email, etc.](./assets/author-add-contributors-3.5.png)
 
+When entering a contributor affiliation, you will be able to search the Research Organization Registry (ROR) for the organization the contributor is associated with. Using ROR to identify contributor affiliations provides similar benefits as using ORCID to identify contributors, ensuring that names in DOI metadata identify the correct entity. If the contributor's affiliation cannot be found in ROR, the organization's name can be added manually. Each contributor may have multiple affiliations. 
+
+![The Affiliations section of the Add Contributor editing screen showing one contributor affiliation identified with ROR and another as plain text.](./assets/author-add-contributor-affiliations-3.5.png)
+
+
 Hit **Save**, and the new contributor will be added to the list.
 
 You can also change the order of the list of contributors. Click Order and press the up and down arrows beside a contributor to move them in the list. Click the Save Order button when you are done.
