@@ -19,6 +19,25 @@ If subcategories have been created, users will be able to search these by clicki
 
 ![A sample History category with a Cultural History subcategory.](./assets/learning-ops-content-discovery-search-subcategory.png)
 
+### Highlights
+
+Highlights allow you to feature images and information on your preprint server home page. Use this to draw attention to a Call for Preprints or to highlight a particular post. If you add multiple highlights, they will be added to a carousel display that rotates between highlights. **This feature may not work for all themes**.
+
+![Homepage displaying a call for manuscripts highlight.](./assets/ops-highlight-3.5.png)
+
+#### Create a Highlight #create-highlights
+
+> Note: The Highlights feature may not currently work with all themes.
+{:.warning}
+
+In the Highlights section of Website > Setup, you can feature images and information on your home page. Use this to draw attention to a Call for Preprints or to highlight a particular post. If you add multiple highlights, they will be added to a carousel display that rotates between highlights.
+
+To add a highlight, navigate to Website, under Settings, click on the Set Up menu tab and click on Highlights. 
+Click on the button ‘Add Highlight’. Enter a title, a short description, the URL of the page you want readers to visit, a button label, an optional image and click ‘Save’.
+
+![Menu screen with the fillable fields to create a highlight.](./assets/ops-website-add-highlights-3.5.png)
+
+
 ### Advanced Search
 
 The advanced search provides you with a few more filters to find content. This includes having a specific date range or by author name.
