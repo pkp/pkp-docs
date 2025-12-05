@@ -169,13 +169,14 @@ To view and edit your profile, log in and click your username in the upper right
 ![The Profile edit screen, set to the Identity tab with fields for Given Name, Family name, Preferred Public Name, and Preferred Avatar Initials.](./assets/learning-ojs-3.5-edit-profile.png)
 
 From here, you can add and change information about yourself and configure your preferences in each of the different tabs:
-Identity: Manage your Given Name, Family Name, Preferred Public Name, Preferred Avatar Initials, and Create or Connect your ORCID iD.
-Contact: Manage your Email, Signature, Phone, Affiliation, Mailing Address, Country, and Working Languages.
-Roles: Change or add new roles to your account (select Reader, Author, or Reviewer) and set your Reviewing Interests, register for additional roles on other journals hosted on the installation.
-Public: Manage your Profile Image, Bio Statement, and Homepage URL.
-Password: Change your password by entering your current password and a new password.
-Notifications: Enable/disable system and email notifications related to Public Announcements, Submission Events, Reviewing Events, and notifications for Editors. 
-API Key: Store an API key that will allow use you to OJS’s REST API to interact with external applications. Most users will not use the API and can safely ignore this tab.
+
+* **Identity**: Manage your Given Name, Family Name, Preferred Public Name, Preferred Avatar Initials, and Create or Connect your ORCID iD.
+* **Contact**: Manage your Email, Signature, Phone, Affiliation, Mailing Address, Country, and Working Languages.
+* **Roles**: Change or add new roles to your account (select Reader, Author, or Reviewer) and set your Reviewing Interests, register for additional roles on other journals hosted on the installation.
+* **Public**: Manage your Profile Image, Bio Statement, and Homepage URL.
+* **Password**: Change your password by entering your current password and a new password.
+* **Notifications**: Enable/disable system and email notifications related to Public Announcements, Submission Events, Reviewing Events, and notifications for Editors. 
+* **API Key**: Store an API key that will allow use you to OJS’s REST API to interact with external applications. Most users will not use the API and can safely ignore this tab.
 
 #### Reset Your Password {#reset-password}
 If you're already logged in, you can change your password by going to Edit Profile and clicking the Password tab.
