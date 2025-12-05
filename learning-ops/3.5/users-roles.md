@@ -31,6 +31,27 @@ If permissions have been granted, the Author will be able to provide updates and
 
 The Reader role is the simplest role in OPS, and has the fewest capabilities. They will be able to access and read content if the Server provides online access to content in the distribution settings.
 
+## Edit or Add a Role
+From the Roles tab, you can grant or remove access to the Production stage by checking or unchecking the relevant stage.
+
+You can create new roles by clicking the “Create New Role” button, or edit an existing role by clicking the blue arrow next to a role and selecting “Edit”.
+
+![Slide out windor to create a new role in OPS.](./assets/OPS-3.5-Role.png)
+
+Permission Level: As described in the previous section, this indicates the level of permissions granted to this role.
+
+Role Name: You can use this field to rename any role easily.
+
+Abbreviation: Each role must have a unique abbreviation. This is used as a short identifier for participants.
+
+Role Options: Configure specific options related to the role.
+- Show role title in contributor lists: Users with this role will have their title included in the contributor list when making submissions.
+- Allow user self-registration: Allow users to register freely for this role. Useful for allowing users register as Authors or Reviewers. Be very careful not to enable this option for roles that have access to sensitive information, such as Editors or Journal Managers.
+- This role is only allowed to recommend a review decision and will require an authorised editor to record a final decision: Enable this to limit a role’s ability to make editorial decisions.
+Consider role in masthead list: Select this to automatically include anyone with this role on the list of Editorial Board members.
+- Permit changes to Settings: Select this to allow the role access to all journal settings and configurations.
+
+
 ## Permission to Edit Metadata
 
 ### Granting Author permissions
