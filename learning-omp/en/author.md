@@ -36,6 +36,8 @@ Once you click the Start Submission button, you will be able to save your incomp
 ### Step 1: Enter Submission Details
 In step one, you will provide some basic information about your submission, including the language, abstract, and optionally, keywords and a list of references.
 
+![The submission details screen.](./assets/author-details-screen-3.5.png)
+
 Formatting options for bold, italics, underline, superscript and subscript are available in the text editor when entering titles and subtitles. You can also use HTML tags for formatting these fields: 
 * ``<b>`` (bold)
 * ``<i>`` (italics)
@@ -47,7 +49,9 @@ To enter keywords, type the keyword or keyphrase and hit the Enter key. The word
 
 If you have translated titles, abstracts or keywords to include, you can open additional fields for other languages by clicking the language in the upper right corner.
 
-In addition to the information about the overall monograph, 
+In addition to the information about the overall monograph, you can also upload individual chapters. Click "Add Chapter" to open a sliding panel where you can enter the title, subtitle, abstract, and pages covered by the chapter. You can choose whether a chapter should have its own page in the table of contents by checking the box labeled "Show this chapter on its own page and link to that page from the book's table of contents". Lastly, if you selected "Edited Volume" in step one, you can add the contributors to the chapter.
+
+![The Chapters section of the submission details screen.](./assets/author-details-chapters-3.5.png)
 
 ### Step 2: Upload Files {#upload}
 In **Step 2**, a window will open allowing you to upload your submission file(s).
@@ -83,22 +87,24 @@ You can then preview the order in various forms, by using the “Preview Option�
 Once all contributors have been added and ordered to suit your preferences,  click **Continue** to proceed.
 
 ### Step 4: Enter Comments for Editors {#comments}
-Next, you will be asked to provide any comments you have for the editors. This field is optional. Press Continue when you’re ready to move on.
 
+Next, you will be asked to select a relevant series for your submission. You can also optionally provide any comments you have for the editors. Press Continue when you’re ready to move on.
+
+![The screen for selecting a series and entering comments for editors.](./assets/author-comment-3.5.png)
 
 ### Step 5: Suggest Reviewers {#suggest-reviewers}
 
-Depending on the journal’s settings, you may be asked to suggest reviewers. 
+Depending on the press settings, you may be asked to suggest reviewers. 
 
 ![The Reviewer Suggestions screen, with a cursor hovering over the Add Reviewer Suggestion button](./assets/suggest-reviewers-3.5.png)
 
-Read the journal’s instructions on the left side and click “Add Reviewer Suggestion” if you wish to suggest a reviewer. 
+Read the instructions on the left side and click “Add Reviewer Suggestion” if you wish to suggest a reviewer. 
 
 ### Step 6: Review Your Submission {#review-submission}
 
 Finally, you can review all of the information you’ve entered for your submission. If there are any required fields not filled out, you will be warned on this screen and given the opportunity to make corrections.
 
-After reviewing the details of your submission, you will be asked to read and agree to the copyright terms for submissions to the journal. 
+After reviewing the details of your submission, you will be asked to read and agree to the copyright terms for submissions to the press. 
 
 Click the checkbox to agree and click the **Submit** button.
 
