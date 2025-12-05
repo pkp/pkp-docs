@@ -32,8 +32,11 @@ Highlights allow you to feature images and information on your preprint server h
 
 In the Highlights section of Website > Setup, you can feature images and information on your home page. Use this to draw attention to a Call for Preprints or to highlight a particular post. If you add multiple highlights, they will be added to a carousel display that rotates between highlights.
 
-To add a highlight, navigate to Website, under Settings, click on the Set Up menu tab and click on Highlights. 
-Click on the button ‘Add Highlight’. Enter a title, a short description, the URL of the page you want readers to visit, a button label, an optional image and click ‘Save’.
+To add a highlight:
+1. Navigate to Website, under Settings, click on the Set Up menu tab and click on Highlights. 
+2. Click on the button ‘Add Highlight’.
+3. Enter a title, a short description, the URL of the page you want readers to visit, a button label, an optional image
+4. Click ‘Save’.
 
 ![Menu screen with the fillable fields to create a highlight.](./assets/ops-website-add-highlights-3.5.png)
 
