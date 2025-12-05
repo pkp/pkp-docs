@@ -90,7 +90,7 @@ Highlights allow you to feature images and information on your journal home page
 ![Homepage displaying a call for papers highlight.](../../journal-managers/en/assets/website-highlights-3.5.png)
 
 
-See [Learning OJS 3.5 for Journal Managers -Create a Journal Highlight](../../journal-managers/en/appearance.md#highlights) for more details.
+See [Learning OJS 3.5 for Journal Managers - Create a Journal Highlight](../../journal-managers/en/appearance.md#highlights) for more details.
 
 
 ### Other Notable Changes {#other-changes}
@@ -100,9 +100,13 @@ Below are some other changes in 3.5 you should be aware of:
 * Bulk delete incomplete submission: Journal Managers and Editors can remove all submissions with the Incomplete status by pressing the three dots next to the “Filter” button and choosing “Delete Incomplete Submissions”.
 * Journal Managers can grant or revoke the Journal Editor role access to the Settings menu by editing the role's options.
 
-**ROR**
-* ROR is now a core functionality in OJS and no longer depends on a plugin.
+**Contributor Affiliations and ROR**
+* The use of [Research Organization Registry (ROR)](https://ror.org) identifiers for contributor affiliations is now a core functionality in OJS and no longer depends on a plugin.
 * Contributors can now have more than one affiliation.
+
+![Multiple contributor affiliations identified by ROR.](./assets/multiple-contributor-affiliations-ror-3.5.png)
+
+See [Learning OJS 3.5 for Authors - Add Contributors](../../author/en/#contributors) for more details.
 
 **Reviews**
 * You can now send reminders *before* review response and review submission deadlines. Previously, OJS only allowed for reminders after a due date had passed. Make your configurations from [Settings - Workflow > Review > Setup](../../journal-managers/en/policies.md#basic-review-settings).
@@ -160,7 +164,7 @@ This will open the Registration Form for you to complete with all required infor
 
 ![The Registration Form for a user profile.](./assets/learning-ojs-3.5-registration-form.png)
 
-All fields with an asterisk (Given Name, Affiliation, Country, Email, Username, Password, Repeat Password) are mandatory. 
+All fields with an asterisk (Given Name, Affiliation, Country, Email, Username, Password, Repeat Password) are mandatory. Note that affiliation fields in user profiles are plain text, but contributor affiliations attached to a publication are managed with [Research Organization Registry (ROR)](https://ror.org) identifiers. 
 
 #### Edit Your Profile {#edit-profile}
 
