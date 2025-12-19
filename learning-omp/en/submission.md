@@ -2,13 +2,14 @@
 book: learning-omp
 version: 3.5
 title: Learning OMP 3.5 (Open Monograph Press) - The Editorial Dashboard
-description: A guide to understanding the layout and functions in OMP's edtorial interface.
+description: A guide to managing newly received submissions in the OMP editorial workflow.
 ---
+
 # The Submission Stage: Assign Editors and Make Desk Decisions {#submission}
 The first stage of the Editorial Workflow is the Submission stage. New submissions land in this stage, where they are assigned to Series Editors (automatically or manually by a Press Editor or Press Manager). The Editor will be able to record an editorial decision or choose to move into the Review stage. 
 
 In this chapter, we will explain:
-* How an Editor is notified and  automatically assigned to a submission
+* How an Editor is notified and automatically assigned to a submission
 * How to manually assign an Editor
 * How to make a desk decision or send the submission for internal or external review.
 
