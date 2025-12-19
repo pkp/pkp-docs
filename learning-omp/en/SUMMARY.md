@@ -14,7 +14,7 @@
   * [Creating New Roles](./user-accounts.md#creating-new-roles)
   * [Emailing All Users in a Role](./user-accounts.md#emailing-all-users-in-a-role)
   * [Granting Author Permission](./user-accounts.md#granting-author-permissions) 
-* [Editorial Workflow: From Submission to Publication](./editorial-interface.md)
+* [Editorial Workflow: From Submission to Publication](./editorial-workflow.md)
   * [The Editorial Dashboard](./)
 * [For Authors: Submitting and Tracking a Manuscript in OMP](./authors.md)
 * [Tools](./tools.md)
