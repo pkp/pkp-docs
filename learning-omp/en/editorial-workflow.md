@@ -4,8 +4,7 @@ version: 3.5
 title: Learning OMP (Open Monograph Press) - Editorial Interface
 description: A guide to understanding the layout and functions in OMP's edtorial interface.
 ---
-# Editorial Interface
-
+# Editorial Workflow
 <figure class="video_container">
   <video controls="true" allowfullscreen="true">
     <source src="./assets/learning-omp3.3-dashboard.mp4" type="video/mp4">
