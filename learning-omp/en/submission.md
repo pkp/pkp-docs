@@ -1,7 +1,7 @@
 ---
 book: learning-omp
 version: 3.5
-title: Learning OMP 3.5 (Open Monograph Press) - The Editorial Dashboard
+title: Learning OMP 3.5 (Open Monograph Press) - Editorial Workflow - Submission Stage
 description: A guide to managing newly received submissions in the OMP editorial workflow.
 ---
 
