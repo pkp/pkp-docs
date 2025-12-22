@@ -11,7 +11,7 @@ Editorial statistics refer to the editorial activity of a journal or press. The 
 Get a count of submissions received by one journal.
 
 ```php
-$received = Services::get('editorialStats')
+$received = app()->get('editorialStats')
     ->countSubmissionsReceived([
         'contextIds' => [1]
     ]);

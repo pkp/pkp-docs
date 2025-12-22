@@ -82,7 +82,7 @@ use APP\core\Application;
 use APP\core\Services;
 use APP\facades\Repo;
 
-$fileId = Services::get('file')->add($source, $destination);
+$fileId = app()->get('file')->add($source, $destination);
 Repo::submissionFile()->edit(
 	$submissionFile,
 	[
@@ -214,5 +214,3 @@ The following table describes when users are granted access to submission files.
 7. Access is granted when file has been shared with the review assignment. An entry is added to the `review_files` table.
 8. Read access only.
 9. Access to dependent files is granted if the user has access to the parent file.
-
-

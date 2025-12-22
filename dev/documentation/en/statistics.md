@@ -127,7 +127,7 @@ Several service classes are available to access the compiled metrics data for su
 For example, get a list of the most viewed publications.
 
 ```php
-$totals = Services::get('publicationStats')->getTotals([
+$totals = app()->get('publicationStats')->getTotals([
     'contextIds' => [1]
 ]);
 ```
