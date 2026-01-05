@@ -23,67 +23,7 @@ At present, PKP supports two kinds of sponsored memberships:
 
 ### List of Eligible Countries
 
-Organizations/journals from the following countries (as identified by [Crossref’s Global Equitable Membership](https://www.crossref.org/gem/) criteria, Jan 1st, 2023) may be eligible for sponsorship. We ask for both mailing and billing addresses on our membership application form and both of these need to be in an eligible country (not necessarily the same one) to qualify.
-
-- Afghanistan
-- Bangladesh
-- Benin
-- Bhutan
-- Burkina Faso
-- Berundi
-- Cambodia
-- Central Africa Republic
-- Chad
-- Comoros
-- Democratic Republic of Congo
-- Côte d'Ivoire
-- Djibouti
-- Eritrea
-- Ethiopia
-- Gambia
-- Ghana
-- Guinea
-- Guinea-Bissau
-- Guyana
-- Haiti
-- Honduras
-- Kiribati
-- Kosovo
-- Kyrgyz Republic
-- Lao PDR
-- Lesotho
-- Liberia
-- Madagascar
-- Malawi
-- Maldives
-- Mali
-- Marshall Islands
-- Mauritania
-- Micronesia (Federated States of)
-- Mozambique
-- Myanmar
-- Nepal
-- Nicaragua
-- Niger
-- Rwanda
-- Samoa
-- São Tomé and Principe
-- Senegal
-- Sierra Leone
-- Solomon Islands
-- Somalia
-- South Sudan
-- Sri Lanka
-- Sudan
-- Tajikistan
-- Tanzania
-- Togo
-- Tonga
-- Tuvalu
-- Uganda
-- Vanuatu
-- Yemen
-- Zambia
+Organizations/journals from countries identified by [Crossref’s Global Equitable Membership](https://www.crossref.org/gem/) criteria may be eligible for sponsorship. We ask for both mailing and billing addresses on our membership application form and both of these need to be in an eligible country (not necessarily the same one) to qualify.
 
 Crossref will review the eligibility criteria annually and note any changes to sponsoring organizations. The IDA reviews their criteria list annually, and while it is not common to have lots of movement, Crossref will notify members whose country moves on or off the IDA list of any upcoming fees (or the removal of them) so they can plan and budget. For further eligibility criteria and any other information, [contact us](mailto:pkp.contact@gmail.com).
 
