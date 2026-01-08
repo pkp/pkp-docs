@@ -600,6 +600,12 @@ Resolves individual articles, issues and galleys in the current OJS installation
 
 * [Public Identifier Resolver plugin](https://github.com/yasielpv/pubIdResolver)
 
+### Publication Facts Label
+
+This plugin integrates [the Publication Facts Label](https://pkp.sfu.ca/pfl-information/) into Open Journal Systems.
+
+* [Publication Facts Label plugin in GitHub](https://github.com/pkp/pflPlugin)
+
 ### Publons Reviewer Recognition
 
 Enables integration with Publons Reviewer Recognition Service. This plugin will require the [Reviewer Recognition Service](https://publons.com/benefits/publishers) to account to be set up.
