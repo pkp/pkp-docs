@@ -8,7 +8,7 @@ Veuillez suivre ces instructions lorsque l'équipe de Coalition Publica vous le 
 * la revue utilise OJS pour la gestion éditoriale sans publier ;
 * la revue a choisi la production XML du texte intégral et Érudit a besoin d'accéder aux fichiers prêts pour la production pour moissonnage. 
 
-Il est également requis que votre instance OJS soit à la **[version de soutien à long terme (Long-term Support)](https://pkp.sfu.ca/software/ojs/download/) ou plus récente**
+Il est également requis que votre instance OJS soit à la **[version de soutien à long terme (Long-term Support)](https://pkp.sfu.ca/software/ojs/download/) ou plus récente.**
 
 **Ces étapes ne sont pas requises si vous utilisez OJS pour publier une revue en libre accès.**
 
