@@ -1,9 +1,15 @@
 ---
 noindex: true
 ---
-# Subscriptions and Non-Publishing Use of OJS
+# Providing an API key
 
-If you are using OJS to publish content that requires subscription, or if you are using OJS for workflow but not publishing, some additional configuration is required to allow Érudit to access your content. **These steps are not required if you are using OJS to publish an open access journal.**
+Please follow these instructions to provide an API key when requested by the Coalition Publica team.
+
+This additional configuration is required to allow Érudit to access content in the following cases: 
+- the journal is using OJS to publish content that requires a subscription, 
+- the journal is using OJS for editorial workflow but not for online publishing,
+- the journal has opted for full text XML production and Érudit requires access to production ready files for harvesting
+
 
 You will need to be running **OJS [Long-Term Support](https://pkp.sfu.ca/software/ojs/download/) version or newer**.
 
