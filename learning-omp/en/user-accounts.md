@@ -147,6 +147,8 @@ To edit a user:
 
 ![Step 1 of the User Invitation window. User details is shown with the Role table. The listed roles show the Remove Role button](./assets/omp-user-add-role-3.5.png)
 
+If a user is set to appear in the Journal Masthead, their name and affiliation will be displayed in the Editorial Masthead section.
+
 When you remove a role from a user, the End Date will automatically be set to the current date. If you select the user to appear in the Press Masthead, their name and affiliation will be displayed in the Editorial Masthead section of the press.
 
 ![Editorial Masthead of the Press showing the Editorail list with start and end dates for each user.](./assets/omp-press-masthead-3.5.png)
