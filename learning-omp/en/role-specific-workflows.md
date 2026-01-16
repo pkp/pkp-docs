@@ -92,15 +92,16 @@ The second tab will outline the press’ reviewer guidelines. The third tab will
 
 ## Editorial Workflow
 
-### Incomplete Submissions
+### Manage Submission
+
+#### Incomplete Submissions
 
 As of OMP 3.5, Press Managers and Editors can remove all submissions with the Incomplete status by clicking the three dots next to the “Filters” button and selecting “Delete Incomplete Submissions”.
 
 Each submission is marked with a coloured dot and a status in the Stage column.
 Incomplete submissions appear under the Incomplete stage when an author does not finish the submission process.
 
-![Three dots next to the Filters button showing the option of Delete Incomplete Submissions]
-(/omp-delete-incomplete-3.5)
+![Three dots next to the Filters button showing the option of Delete Incomplete Submissions](./assets/omp-delete-incomplete-3.5.png)
 
 
 ### Manuscript Review
