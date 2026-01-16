@@ -39,7 +39,7 @@ Publishing research data with preprints can help build trust. In OPS, authors ca
 
 It is recommended that you publish your policies on your site under Server Settings, Workflow Settings, and on static pages as needed. Clear policies can increase reader trust in the preprints you post and can help authors understand your acceptance criteria and moderation and posting policies and practices.
 
-You can also create an FAQ which summarizes your policies and communicates them in simple language to your authors and readers. You may want to include general information about preprints in your FAQ. You can use the Static Pages plugin to create and publish an FAQ (see [Learning OJS 3 - Website Settings - Static Pages](/learning-ojs/en/settings-website#static-pages)).
+You can also create an FAQ which summarizes your policies and communicates them in simple language to your authors and readers. You may want to include general information about preprints in your FAQ. You can use the Static Pages plugin to create and publish an FAQ (see [Learning OJS 3 - Website Settings - Static Pages](/learning-ojs/3.4/en/settings-website#static-pages)).
 
 Here are examples of preprint servers’ FAQs:
 
