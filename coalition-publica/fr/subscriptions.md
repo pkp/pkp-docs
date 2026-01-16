@@ -1,9 +1,14 @@
 ---
 noindex: true
 ---
-# Abonnements et utilisation d’OJS sans publication
+# Fournir une clé API
 
-Si vous utilisez OJS pour publier du contenu requérant un abonnement ou si vous utilisez OJS pour la gestion éditoriale sans publier, une configuration supplémentaire est nécessaire afin de permettre à Érudit d’accéder à votre contenu. Il est également requis que votre instance OJS soit à la **[version de soutien à long terme (Long-term Support)](https://pkp.sfu.ca/software/ojs/download/) ou plus récente**
+Veuillez suivre ces instructions lorsque l'équipe de Coalition Publica vous le demande. Cette configuration supplémentaire est nécessaire pour permettre à Érudit d'accéder au contenu dans les cas suivants :  
+* la revue utilise OJS pour publier du contenu requérant un abonnement ;
+* la revue utilise OJS pour la gestion éditoriale sans publier ;
+* la revue a choisi la production XML du texte intégral et Érudit a besoin d'accéder aux fichiers prêts pour la production pour moissonnage. 
+
+Il est également requis que votre instance OJS soit à la **[version de soutien à long terme (Long-term Support)](https://pkp.sfu.ca/software/ojs/download/) ou plus récente**
 
 **Ces étapes ne sont pas requises si vous utilisez OJS pour publier une revue en libre accès.**
 
