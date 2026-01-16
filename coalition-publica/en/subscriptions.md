@@ -6,10 +6,9 @@ noindex: true
 Please follow these instructions to provide an API key when requested by the Coalition Publica team.
 
 This additional configuration is required to allow Érudit to access content in the following cases: 
-- the journal is using OJS to publish content that requires a subscription, 
-- the journal is using OJS for editorial workflow but not for online publishing,
-- the journal has opted for full text XML production and Érudit requires access to production ready files for harvesting
-
+* the journal is using OJS to publish content that requires a subscription, 
+* the journal is using OJS for editorial workflow but not for online publishing,
+* the journal has opted for full text XML production and Érudit requires access to production ready files for harvesting
 
 You will need to be running **OJS [Long-Term Support](https://pkp.sfu.ca/software/ojs/download/) version or newer**.
 
