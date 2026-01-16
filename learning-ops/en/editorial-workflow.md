@@ -32,12 +32,12 @@ Which submissions are visible will depend on the role of the logged in user.
 * Moderators will see submissions that have been assigned to them.
 * Authors will see their own submissions.
 
-See [Learning OJS 3](https://docs.pkp.sfu.ca/learning-ojs/en/editorial-workflow#tasks) for further information about the Submissions dashboard and tasks.
+See [Learning OJS 3](https://docs.pkp.sfu.ca/learning-ojs/3.4/en/editorial-workflow#tasks) for further information about the Submissions dashboard and tasks.
 
 ## Making a Submission
 
 The editorial workflow in OPS starts when an author submits a new manuscript.
-How an author can make a submission is explained in [Learning OJS 3](https://docs.pkp.sfu.ca/learning-ojs/en/authoring). It is the same in OJS and OPS except that when the author makes a submission of a new preprint, they can choose a Category to submit to instead of a Section.
+How an author can make a submission is explained in [Learning OJS 3](https://docs.pkp.sfu.ca/learning-ojs/3.4/en/authoring). It is the same in OJS and OPS except that when the author makes a submission of a new preprint, they can choose a Category to submit to instead of a Section.
 
 ![The Submission screen in OPS with language and category selection fields.](./assets/learning-ops-make-submission-choose-category.png)
 
@@ -72,7 +72,7 @@ It’s possible to add a new participant to the submission by selecting the ‘A
 
 ![The "Assign" button found next to the participants list.](./assets/learning-ops-editorial-workflow-assign-participant.png)
 
-If the Moderator wants to ask the author a question or have a discussion with the author, another moderator, the Preprint Server Manager, or another participant in the submission, they can Add a Discussion in the Production Discussions. How to create a response to a discussion is explained in [Learning OJS 3](/learning-ojs/en/editorial-workflow#consult-with-the-author).
+If the Moderator wants to ask the author a question or have a discussion with the author, another moderator, the Preprint Server Manager, or another participant in the submission, they can Add a Discussion in the Production Discussions. How to create a response to a discussion is explained in [Learning OJS 3](/learning-ojs/3.4/en/editorial-workflow#consult-with-the-author).
 
 There are two possible editorial decisions, which are ‘Decline Submission’ or ‘Post the preprint’. Selecting ‘Decline Submission” will open a pop-up with the option to notify the author(s) or not, and selecting ‘Post the preprint’ will move the user to the Publication tab.
 
@@ -88,9 +88,9 @@ It’s important to note that the metadata and galley files for review and publi
 
 Any publication files submitted by the author will be visible under the Galleys tab. Data sets and other supplementary files can be uploaded and published in any format in the Galleys tab, and it’s also possible to set the file label and language.
 
-For more information on the tabs and options available, please refer to the [Publication tabs section](/learning-ojs/en/production-publication#publication-tabs) of the Learning OJS guide.
+For more information on the tabs and options available, please refer to the [Publication tabs section](/learning-ojs/3.4/en/production-publication#publication-tabs) of the Learning OJS guide.
 
-For information about managing and posting metadata in multiple languages, see [Multilingual Submissions in Learning OJS 3](/learning-ojs/en/production-publication#multilingual-submissions).
+For information about managing and posting metadata in multiple languages, see [Multilingual Submissions in Learning OJS 3](/learning-ojs/3.4/en/production-publication#multilingual-submissions).
 
 The preprint status (indicating whether it has been submitted to or published in a journal) can be altered in the dropdown menu that becomes available by selecting the ‘Relations’ button. For more information on preprint status, please refer to the [Preprint Status section](#preprint-status) in this guide.
 
@@ -136,7 +136,7 @@ Please keep in mind that metadata that accurately and unambiguously describes th
 
 The Server Manager can view all past and current versions of a preprint in the ‘All Versions’ button, which becomes available next to the ‘Relations’ button and the preprint Status. The current version is displayed in gray and the other versions are in blue.
 
-For more information on versioning and editing a posted preprint, check the [Versioning of Articles](/learning-ojs/en/production-publication#versioning-of-articles) section of the Learning OJS guide.
+For more information on versioning and editing a posted preprint, check the [Versioning of Articles](/learning-ojs/3.4/en/production-publication#versioning-of-articles) section of the Learning OJS guide.
 
 It is currently not possible to withdraw a posted preprint. There are ongoing discussions to integrate an option for this for future release. In this case, it’s recommended that the Preprint Manager replace the existing PDF with a "placeholder" PDF indicating that it has been withdrawn and the reason.
 
