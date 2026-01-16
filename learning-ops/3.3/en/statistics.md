@@ -5,7 +5,7 @@ title: Statistics - Learning OPS
 ---
 # Statistics
 
-This chapter of Learning OPS provides a general overview of statistics available in Open Preprint Server (OPS). For more detailed information on statistics and usage guidelines, please see the Statistics chapter on the [Learning OJS](/learning-ojs/en/statistics).
+This chapter of Learning OPS provides a general overview of statistics available in Open Preprint Server (OPS). For more detailed information on statistics and usage guidelines, please see the Statistics chapter on the [Learning OJS](/learning-ojs/3.3/en/statistics).
 
 There are a number of identified improvements that will be made towards statistics specific to Server Preprints for future releases.
 
@@ -31,4 +31,4 @@ Provides a summary of the number of users registered in your server and by roles
 
 ## Report Generator
 
-You can generate statistical reports for usage and reviews or create a custom report. For information on how to use and configure statistics in OPS, see the relevant section in [Learning OJS](/learning-ojs/en/statistics#report-generator).
+You can generate statistical reports for usage and reviews or create a custom report. For information on how to use and configure statistics in OPS, see the relevant section in [Learning OJS](/learning-ojs/3.3/en/statistics#report-generator).

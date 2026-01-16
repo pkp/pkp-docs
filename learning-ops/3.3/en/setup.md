@@ -47,7 +47,7 @@ One use case for sections is using them to classify preprints in different disci
 
 Multiple sections can be created and multiple moderators can be assigned to each of them. Any moderator assigned to a given section will be automatically assigned to all submissions made to that specific section.
 
-Instructions on how to create, edit, and manage sections is in [Learning OJS 3](/learning-ojs/en/journal-setup#sections).
+Instructions on how to create, edit, and manage sections is in [Learning OJS 3](/learning-ojs/3.3/en/journal-setup#sections).
 
 ![The Create Section Window](./assets/learning-ops3.3-server-settings-create-section.png)
 
@@ -55,7 +55,7 @@ Instructions on how to create, edit, and manage sections is in [Learning OJS 3](
 
 This area allows for the creation and management of categories, which is another way to classify and categorize preprints in OPS. One use case for categories is using them to classify preprints in different disciplines of knowledge. Unlike sections, there can be multiple categories associated with a submission/preprint.
 
-Instructions on how to create, edit, and manage categories is in [Learning OJS 3](/learning-ojs/en/journal-setup#categories). Here’s an example of what adding a new category looks like:
+Instructions on how to create, edit, and manage categories is in [Learning OJS 3](/learning-ojs/3.3/en/journal-setup#categories). Here’s an example of what adding a new category looks like:
 
 ![The Create Category Window](./assets/learning-ops3.3-server-settings-add-category.png)
 
@@ -71,7 +71,7 @@ This is what will appear to the author during the submission process:
 
 ## Website Settings
 
-The Website settings in OPS are very comparable to OJS/OMP. For an overview of this, please consult the [Learning OJS guide section on website settings](/learning-ojs/en/settings-website).
+The Website settings in OPS are very comparable to OJS/OMP. For an overview of this, please consult the [Learning OJS guide section on website settings](/learning-ojs/3.3/en/settings-website).
 
 One key option in Website settings that differs in OPS from OJS/OMP is the ability to show the server summary in the homepage by selecting a checkbox.
 
@@ -83,7 +83,7 @@ In the “Advanced settings” you can add several customizable options, such as
 
 ### Plugins
 
-The Plugins tab under Website Settings lists pre-installed plugins under Installed Plugins and additional plugins under Plugin Gallery. See [Learning OJS](/learning-ojs/en/settings-website#installed-plugins) for information about how to install and use plugins. The list below highlights the plugins that are especially useful for OPS.
+The Plugins tab under Website Settings lists pre-installed plugins under Installed Plugins and additional plugins under Plugin Gallery. See [Learning OJS](/learning-ojs/3.3/en/settings-website#installed-plugins) for information about how to install and use plugins. The list below highlights the plugins that are especially useful for OPS.
 
 To learn more about available plugins, see [the Plugin Inventory](/plugin-inventory/en/).
 
@@ -105,7 +105,7 @@ To learn more about available plugins, see [the Plugin Inventory](/plugin-invent
 
 ## Workflow Settings
 
-The workflow settings in OPS are very comparable to OJS/OMP. For an overview of this, please consult the [Learning OJS guide section on workflow settings](/learning-ojs/en/settings-workflow).
+The workflow settings in OPS are very comparable to OJS/OMP. For an overview of this, please consult the [Learning OJS guide section on workflow settings](/learning-ojs/3.3/en/settings-workflow).
 
 ### Screening policies and plugins
 
@@ -121,7 +121,7 @@ In OPS there is an option to enable standard Keyword Metadata and to additionall
 
 ## Distribution Settings
 
-The distribution settings in OPS are very comparable to OJS/OMP. For an overview of this, please consult the [Learning OJS guide section on distribution settings](/learning-ojs/en/settings-distribution). OPS does not have the payment or archiving settings that you will find in OJS. The information provided below is what will be relevant to OPS.
+The distribution settings in OPS are very comparable to OJS/OMP. For an overview of this, please consult the [Learning OJS guide section on distribution settings](/learning-ojs/3.3/en/settings-distribution). OPS does not have the payment or archiving settings that you will find in OJS. The information provided below is what will be relevant to OPS.
 
 ### License
 
