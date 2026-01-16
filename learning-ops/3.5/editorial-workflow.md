@@ -34,6 +34,15 @@ Which submissions are visible will depend on the role of the logged in user.
 
 See [Learning OJS 3](https://docs.pkp.sfu.ca/learning-ojs/en/editorial-workflow#tasks) for further information about the Submissions dashboard and tasks.
 
+## Delete Incomplete Submission
+
+As of OPS 3.5, Preprint Server managers and Moderators can remove all submissions with the Incomplete status by clicking the three dots next to the “Filters” button and selecting “Delete Incomplete Submissions”.
+
+Each submission is marked with a coloured dot and a status in the Stage column.
+Incomplete submissions appear under the Incomplete stage when an author does not finish the submission process.
+
+![Three dots next to the Filters button showing the option of Delete Incomplete Submissions](./assets/ops-delete-incomplete-3.5.png)
+
 ## Making a Submission
 
 The editorial workflow in OPS starts when an author submits a new manuscript.
