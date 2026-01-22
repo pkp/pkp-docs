@@ -9,7 +9,7 @@ version: 3.3
 
 Your server must meet the following requirements in order to run the 3.3 LTS release of OJS, OMP or OPS.
 
-- [PHP 7.3–8.0](http://www.php.net/) with php-mbstring, php-xml, and php-intl enabled (Recommended: PHP 8.0)
+- [PHP 7.3 or newer, including 8.x](http://www.php.net/) with php-mbstring, php-xml, and php-intl enabled (Recommended: PHP 8.x)
 - [MySQL 4.1+](http://www.mysql.com/), [MariaDB 4.1+](https://mariadb.org/) or [PostgreSQL 9.5+](http://www.postgresql.org/)
 - Linux, or one of the following: BSD, Solaris, Mac OS X, Windows
 
