@@ -131,14 +131,16 @@ The language of the abstract should match the language of the metatags, such as 
 
 The fix for both of these issues is to use the language of the full text in the PDF as a guide for the language to use in entering the metadata in the fields in OJS.
 
-#### Adding multilingual metadata in OJS 3.2
+#### Adding multilingual metadata
 
 In OJS 3.2, it is possible to enable multiple languages for your journal and add metadata in those languages in separate fields. This avoids the indexing issues that can result from inconsistencies with the metadata language not matching the language of the article text, or of combining multiple languages in the same metadata field. Note that you should still ensure that the [primary language for the submission](/learning-ojs/en/authoring#step-1) matches the language of the full article text, and that metadata is entered in the language of the full article text, regardless of whether or not additional language metadata is included.
 
 > If an article is published in multiple languages, Google Scholar will only index the primary language.
 {:.notice}
 
-See the Learning OJS 3.2 guide under [Website settings - Languages](/learning-ojs/en/settings-website#languages) for details on enabling multiple languages for your journal. See Production and Publication - [Multilingual Submissions](/learning-ojs/en/production-publication#multilingual-submissions) for details on adding metadata in multiple languages.
+Starting in OJS 3.5, it is possible to change the language of a submission, if authors have entered metadata content in an incorrect language. In previous versions, it might be necessary to start a new submission in the correct language using the QuickSubmit plugin.
+
+See the Learning OJS 3.2 guide under [Website settings - Languages](/learning-ojs/en/settings-website#languages) for details on enabling multiple languages for your journal. See Production and Publication - [Multilingual Submissions](/learning-ojs/en/production-publication#multilingual-submissions) for details on adding metadata in multiple languages. See also [Managing Multilingual Metadata](/multiling-guide/en/publishing#managing-multilingual-metadata).
 
 ### Ensure that authors’ names are formatted consistently
 
