@@ -11,13 +11,13 @@ The second stage of the Editorial Workflow is the Review stage. This stage is st
 In this chapter, we will explain:
 * The difference between internal and external review
 * How to prepare files for review
-* How Editors can assign internal reviewers and track the status of reviews
+* How Editors can assign internal or external reviewers and track the status of reviews
 * How to open a new review round
 * How to request revisions from an author
 * How to make a final editorial decision
 
 
-The roles involved in this stage are typically: Editors (Press Editor and Series Editor), Internal Reviewers, and Authors.
+The roles involved in this stage are typically: Editors (Press Editor and Series Editor), Internal Reviewers, External Reviewers, and Authors.
 
 If you are an author who has been asked to submit revisions, please view [Learning OMP for Authors](./author.md). If you are a reviewer tasked with completing a review in an OMP press, please view [Learning OMP for Reviewers](.reviewer.md).
 
@@ -25,29 +25,32 @@ If you are an author who has been asked to submit revisions, please view [Learni
 
 ## Internal vs. External Review {#internal-review}
 
-[WHAT'S THE DANG DIFFERENCE????]
+OMP allows Editors to assign reviewers to evaluate submitted proposals, manuscripts, chapters, and other materials. There are two different types of reviews you can initiate in OMP: External Review and Internal Review.
+
+**Internal Review** is typically done by members of the Press' Editorial Board to determine the suitability of a proposal or manuscript for the press. On the other hand, **External Review** is done by subject experts and peers, and is more similar to the peer review system of an online scholarly journal. A manuscript may undergo one or both types of review depending on the needs of the press.
+
+Whether you choose to use internal review, external review, or both, the process is similar, with the main difference being the users and roles available to be assigned to the review. 
 
 
-## Internal Review {#internal-review}
+## Initiating a Review {#internal-review}
 
-Editors can initiate the internal review process for an assigned submission by choosing the Internal Review option on the monograph’s slide out submission window. By sending the monograph for Internal Review, other Editors can review the manuscript.
+Editors can initiate the internal review process for an assigned submission by choosing the Internal Review or External Review option on the monograph’s slide out submission window. By sending the monograph for review, the manuscript will be available for other Editors (in the case of Internal Reviews) or peer reviewers (in the case of External Review).
 
 
-Once the Internal Review has been prompted on your dashboard, you will first see the Notify Author slide-out window. 
+Once either type of Review has been prompted on your dashboard, you will first see the Notify Author slide-out window. In our examples, we will be selecting Internal Review, but the process will look much the same for External Review.
 
 
 ![The Send to Internal Review confirmation window.](./assets/internalreview-sent-to-internal-review-omp35.png)
-
 
 
 After reviewing the notification that will be sent to the author and attaching any relevant files, click Continue to open the second slide-out window. Here, you will find all the submission files the author provided. You can select the files relevant for the internal review process. 
 
 Ensure that the files intended for review by internal editors are checked before clicking Record Decision to proceed.
 
-If you need to [prepare files for review](#prepare for review) or [remove identifying information](#anonymize-info) before [uploading the anonymized document](#upload-anonymized), you can deselect the existing files, and then upload the new versions in the Internal Review stage.
+If you need to [prepare files for review](#prepare-for-review) or [remove identifying information](#anonymize-info) before [uploading the anonymized document](#upload-anonymized), you can deselect the existing files, and then upload the new versions in the Internal Review stage.
 
 
-![The Sent to Internal Review:Select file window, showing submission files checked.](./assets/internalreview-select-files-OMP35)
+![The Sent to Internal Review: Select file window, showing submission files checked.](./assets/internalreview-select-files-OMP35)
 
 
 
@@ -65,6 +68,7 @@ Although the type of review be automatically selected based on what has been con
 * Open: The identities of the author and reviewer are known.
 
 If you select Anonymous Reviewer/Anonymous Author, you will need to ensure that identifying information has been removed from the files for review.
+
 
 ### Remove Identifying Information {#anonymize-info}
 
@@ -86,7 +90,6 @@ If you have anonymized a document for your reviewers, you can upload to the the 
 ![A cursor hovering over the Upload/Select Files button in the upper right corner of the Review Files section.](./assets/internalreview-file-for-review-OMP35.png)
 
 
-
 Click **Upload Review File**. You can use the “Show files from all accessible workflow stages” to access files from other stages.
 
 ![The cursor hovering over the Upload Review File button in the Current Review Files window.](./assets/internalreview-select-review-files-OMP35.png)
@@ -95,7 +98,6 @@ Click **Upload Review File**. You can use the “Show files from all accessible 
 Use the “Submission Component” dropdown to indicate the type of file, click Upload and select your file, then click Continue.
 
 ![An uploaded revision file identified as Chapter Manuscript.](./assets/internalreview-upload-review-file-omp35.png)
-
 
 
 On the Review Details screen that appears next, you can rename the file before continuing and confirming the upload. The file can also be renamed later by clicking the three dot icon on the right side of the file name in the _Files for review_ section and selecting Edit.
@@ -107,6 +109,7 @@ Now that you have the files for review ready, you can assign reviewers.
 
 > Note: If your Reviewers will be providing files that could potentially contain identifying information in an Anonymous Reviewer/Anonymous Author or Anonymous Reviewer/Disclosed Author review, such as a Microsoft Word document with comments or tracked changes, you may wish to advise them.
 
+
 ## Assign Reviewers {#assign-reviewer}
 
 When the submission enters the Review stage, a notification indicates that Reviewers need to be assigned. You can also see which submissions in the Review stage require reviewer assignments from the “Needs reviewers” Dashboard view, or the presence of the “Assign Reviewers” button under the Editorial Activity column of other Dashboard views.
@@ -117,6 +120,9 @@ When the submission enters the Review stage, a notification indicates that Revie
 Click the “Assign Reviewers” button to jump directly to the Add Reviewer screen, or open the relevant submission record to find the “Reviewers” section in the central panel and click “Add Reviewer”.
 
 ![The Reviewers panel with an Add Reviewer button in the upper right](./assets/internalreview-reviewers-panel-OMP35.png)
+
+> Remember that the reviewers available to you will depend on whether the manuscript is undergoing Internal Review (review by Editors) or External Review (review by peers)
+{:.tip}
 
 
 This will open a new window listing Reviewers for selection, with details such as their affiliation, number of active reviews, and the number of days since they were last assigned a review. If the Author suggested any potential Reviewers, they will also be listed here for your consideration.
@@ -307,15 +313,11 @@ Options include:
 
 
 ### Send to External Review
-The external review stage follows the same workflow as the internal review stage. Repeat the same steps to complete the external review process.
-For detailed instructions, see [link: The Internal Review Stage: Assign Internal Reviewers and Make an Editorial Decision].
+If you opted for an Internal Review of the manuscript, you will be able to send the manuscript to External Review next. The external review stage follows the same workflow as the internal review stage. Repeat the same steps to complete the external review process.
 
-The external review process can be initiated at the end of the internal review process by choosing the Send to External Review or at the time of initial triage. Similar to the Internal Review, you will be prompted to select the submission files the author provided for inclusion in the review process, and you can optionally upload new files or revise existing files. Once you have selected the appropriate files, you can select to send the manuscript to external review.
-
-Once the External Review has been prompted on your dashboard, you will need to select reviewers. You can select a reviewer from the reviewers in your press, create a new reviewer, or enroll an existing reviewer from another journal within a multi-journal installation. Although the internal and external review stages each have their own designated sets of reviewers, you can also assign reviewers from the internal review stage in the external review stage. To do this, open the Add Reviewer panel, click Enroll Existing User, and type the reviewer’s name into the search field.
+Although the internal and external review stages each have their own designated sets of reviewers, you can also assign reviewers from the internal review stage in the external review stage. To do this, open the Add Reviewer panel, click Enroll Existing User, and type the reviewer’s name into the search field.
 
 ![Add reviewer panel is open to add an internal reviewer in the external review stage. The same reviewer’s name is typed in the search bar.](./assets/externalreview-same-reviewer-added-OMP35.png)
-
 
 
 
