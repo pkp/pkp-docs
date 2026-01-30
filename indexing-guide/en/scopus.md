@@ -14,7 +14,7 @@ Scopus is a source-neutral abstract and citation database for journals, book ser
 * **Regular Publication** - No delays or interruptions in the publication schedule
 * **Peer Reviewed Content**
 * **Publication Ethics Statement** - A statement addressing the responsibility of each stakeholder and describing the process to be followed in the event of a transgression of ethical requirements.
-* **English Abstracts** - Full-text of titles covered in Scopus can be in any language as long as the title, abstracts and keywords are in English.
+* **English Titles and Abstracts** - Full-text of titles covered in Scopus can be in any language as long as the title, abstracts and keywords are in English. See [Managing Multilingual Metadata](https://docs.pkp.sfu.ca/multiling-guide/en/publishing#managing-multilingual-metadata).
 * **Roman Script References** - Every article should have at least 80% of its references in Roman Script.
 
 ## Application
