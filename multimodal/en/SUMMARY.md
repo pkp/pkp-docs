@@ -1,4 +1,4 @@
-# Summary
+# Table of Contents
 
 * [Introduction](./introduction.md)
 * [What is Multimodal Publishing?](./what-is-multimodal.md)
