@@ -7,11 +7,5 @@
 * [Plugins](./plugins.md)
 * [Multimodal Content in OJS](./multimodal-content-ojs.md)
 * [Additional Considerations](./additional-considerations.md)
-* [Additional Resources](./resources.md)
+* [Further Reading and Resources](./resources.md)
 
-Image ex: 
-! [A display of the component settings within OJS](./assets/mulitmodal-component-settings.png)
-
-
-title: Components - Multimodal Publishing
----
