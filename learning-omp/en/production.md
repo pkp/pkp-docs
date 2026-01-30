@@ -240,13 +240,13 @@ Depending on your market, the Audience, Ranges and Education values may be handl
 * ONIX Code List 28 for Audience codes
 * Audience Range for age and grade ranges
 
-![The Audience Screen in OMP 3.5.](./assets/marketing-menu-omp3.5.png)
+![The Marketing: Audience Screen in OMP 3.5.](./assets/marketing-menu-omp3.5.png)
 
 
 **Audience** - Identify the intended audience from the dropdown list.
 
 
-![The Audience Screen in OMP 3.5.](./assets/marketing-audience-omp3.5.png)
+![The Audience dropdown in OMP 3.5 with a list of audiences that can be selected.](./assets/marketing-audience-omp3.5.png)
 
 
 **Audience Range Qualifier** - Identify the range from the dropdown list.
