@@ -3,10 +3,8 @@
 ---
 isBookIndex: true
 ---
-# Multimodal Publishing in OJS Keep as OJS? 
+# Multimodal Publishing  
 
 * [English](./en)
 
-Add summary here, like: 
-
-Better Practices in Journal Metadata explains how to create accurate journal title, journal issue, and journal article metadata in Open Journal Systems (OJS) and how to avoid and correct common errors. It was created by the Coalition Publica Metadata Working Group for Coalition Publica members, but these better practices are relevant for all publishers who use OJS.
+This guide explores multimodal publishing within PKP software, with a focus on Open Journal Systems (OJS). Multimodal pubilshing invovles moving beyond traditional text-based articles to include scholarship that incorporates video, sound, and interactive elements. This guide explores various facets of multimodal publishing that should be considered when approaching multimodal publishing offers guidance pertaining to how to best leverage PKP software for multimodal publishing.
