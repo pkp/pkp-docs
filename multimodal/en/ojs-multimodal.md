@@ -1,5 +1,6 @@
 ---
 title: OJS and PKP Software as a multimodal platform - Multimodal Publishing
+showPageTOC: true
 ---
 
 # OJS and PKP Software as a multimodal platform
