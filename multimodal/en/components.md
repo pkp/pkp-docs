@@ -1,5 +1,6 @@
 ---
 title: Components - Multimodal Publishing
+showPageTOC: true
 ---
 
 # Components
@@ -14,7 +15,8 @@ Using the links in the Article Components screen, you can change the order of th
 
 You can edit each component by selecting the blue arrow to the left of the component name. This will reveal an Edit link and a Delete link.
 
-**Please exercise caution when deleting components!** If a component is deleted, all files currently labeled with that component type will be hidden and will not be viewable until they are assigned a new component type. Unintended deletion of a common component can seriously affect your journal content, and in some cases is not feasible if the component has already been used in a prior submission.
+> **Please exercise caution when deleting components!** If a component is deleted, all files currently labeled with that component type will be hidden and will not be viewable until they are assigned a new component type. Unintended deletion of a common component can seriously affect your journal content, and in some cases is not feasible if the component has already been used in a prior submission.
+{:.warning}
 
 ![Editing options for a editing a component within OJS.](./assets/multimodal-edit-component.png)
 
