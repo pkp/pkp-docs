@@ -1,5 +1,6 @@
 ---
 title: What is Multimodal Publishing? - Multimodal Publishing
+showPageTOC: true
 ---
 # What is Multimodal publishing?
 
