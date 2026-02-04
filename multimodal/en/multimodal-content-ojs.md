@@ -1,5 +1,6 @@
 ---
 title: Multimodal Content in OJS - Multimodal Publishing
+showPageTOC: true
 ---
 
 # Multimodal content in OJS
