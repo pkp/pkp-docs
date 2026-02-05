@@ -155,11 +155,17 @@ Ensure that “Enable OAI access to content” is checked. Save the settings.
 
 Ensure the correct Publishing Mode option is selected for your journal’s publishing model (open access or subscription content)
 
-### A Note for subscription and non publishing use of OJS
+### A Note about API Keys
 
-If the journal requires a subscription to access some or all of its contents, or does not use OJS to publish its content but uses the editorial workflow only, the Site Administrator or Journal Manager will need to complete the steps outlined in the *Subscriptions and Non-Publishing Use of OJS* section of this document finish configuring the journal. 
+Additional configuration is required to allow Érudit to access content in the following cases:
 
-However, the steps outlined in the *Subscriptions and Non-Publishing Use of OJS* section must be taken **after** a System Administrator completes Steps 1, 2, and 3 in the System Administrator Steps section below.
+* the journal is using OJS to publish content that requires a subscription,
+* the journal is using OJS for editorial workflow but not for online publishing,
+* the journal has opted for full text XML production and Érudit requires access to production ready files for harvesting
+
+When requested by Coalition Publica to provide an API Key, the Site Administrator or Journal Manager will need to complete the steps outlined in the *Providing an API Key* section of this document finish configuring the journal. 
+
+However, the steps outlined in the *Providing an API Key* section must be taken **after** a System Administrator completes Steps 1, 2, and 3 in the System Administrator Steps section below.
 
 
 ## System Administrator Steps {#sys-admin}
@@ -197,7 +203,7 @@ This identifier can be configured within the `config.inc.php` file in your OJS i
 
 ### Step 3. Ensure that you have entered an API key secret
 
-**The following step is only required if the journal is using OJS to publish content that requires subscription or is using OJS for workflow but not publishing.**
+**The following step is only required if an API Key is requested by Coalition Publica.**
 
 In your OJS configuration file (`config.inc.php` in your OJS installation directory) you will find a directive called “`api_key_secret`”. By default this setting is empty. If so, change it to contain a sequence of 32 characters or more (any letters and symbols). This will help make your installation more secure when using API keys.
 
