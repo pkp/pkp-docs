@@ -3,15 +3,13 @@ noindex: true
 ---
 # Fournir une clé API
 
-Veuillez suivre ces instructions lorsque l'équipe de Coalition Publica vous le demande. Cette configuration supplémentaire est nécessaire pour permettre à Érudit d'accéder au contenu dans les cas suivants :  
+Un paramétrage supplémentaire est nécessaire pour permettre à Coalition Publica de moissonner le contenu de vos articles et numéros diffusés sur OJS dans les cas suivants : 
 * la revue utilise OJS pour publier du contenu requérant un abonnement ;
 * la revue utilise OJS pour la gestion éditoriale sans publier ;
 * la revue a choisi la production XML du texte intégral et Érudit a besoin d'accéder aux fichiers prêts pour la production pour moissonnage. 
 
 Il est également requis que votre instance OJS soit à la **[version de soutien à long terme (Long-term Support)](https://pkp.sfu.ca/software/ojs/download/) ou plus récente.**
-
-**Ces étapes ne sont pas requises si vous utilisez OJS pour publier une revue en libre accès.**
-
+  
 ## Étapes de l’Administrateur de site
 
 Les étapes suivantes peuvent être effectuées dans OJS par les utilisateurs ayant le rôle d'administrateur de site ou de Directeur de revue **après** qu'un administrateur de système a suivi les étapes pour l'administrateur de système de ce document, notamment *Étape 3. Assurez-vous d'avoir saisi un secret de clé API*.
