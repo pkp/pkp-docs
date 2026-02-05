@@ -160,11 +160,16 @@ Sous Paramètres > Distribution > Accès, vous verrez un ensemble de paramètres
 
 Assurez-vous d’avoir coché “​*Enable OAI access to content*​”. Enregistrez les paramètres.
 
-### Note concernant l'utilisation d'OJS  pour abonnements et utilisation d’OJS sans publication
+### Note concernant les clés API
 
-Si la revue exige un abonnement pour accéder à une partie ou à l’intégralité de son contenu, ou n’utilise pas OJS pour publier le contenu de la revue en ligne, l'administrateur du site ou quelqu’un ayant le rôle Directeur de la revue devra suivre les étapes décrites dans la section *Abonnements et utilisation d’OJS sans publication* du présent document pour terminer la configuration de la revue. 
+Un paramétrage supplémentaire est nécessaire pour permettre à Coalition Publica de moissonner le contenu de vos articles et numéros diffusés sur OJS dans les cas suivants : 
+*la revue utilise OJS pour publier du contenu requérant un abonnement ;
+*la revue utilise OJS pour la gestion éditoriale sans publier ;
+*la revue a choisi la production XML du texte intégral et Érudit a besoin d'accéder aux fichiers prêts pour la production pour moissonnage.
 
-Toutefois, les étapes décrites dans la section *Abonnements et utilisation d’OJS sans publication* doivent être réalisées **après** qu'un administrateur système a effectué les étapes 1, 2 et 3 de la section Étapes de l'administrateur système ci-dessous.
+Si Coalition Publica vous demande une clé API, l'administrateur du site ou quelqu’un ayant le rôle Directeur de la revue devra suivre les étapes décrites dans la section *Fournir une cleé API* du présent document pour terminer la configuration de la revue. 
+
+Toutefois, les étapes décrites dans la section *Fournir une clé API* doivent être réalisées **après** qu'un administrateur système a effectué les étapes 1, 2 et 3 de la section Étapes de l'administrateur système ci-dessous.
 
 
 ## Étapes de l'administrateur système {#sys-admin}
@@ -204,7 +209,7 @@ Cet identifiant peut être configuré dans le fichier config.inc.php dans votre 
 
 ### Étape 3. S’assurer d’avoir saisi un API key secret
 
-**Cette étape n’est pas requise si vous utilisez OJS pour publier une revue en libre accès.**
+**Cette étape n’est que requise si Coalition Publica vous une clé API.**
 
 Dans votre fichier de configuration OJS (​`config.inc.php`​ dans le répertoire d’installation de votre OJS) vous trouverez une directive appelée “`api_key_secret`​”. Par défaut, ce paramètre est vide. Si c’est le cas, modifiez-le pour qu’il contienne une séquence de 32 caractères ou plus (n’importe quelle lettres et symboles). Votre instance OJS en sera plus sécurisée lors de l’utilisation des ​*API keys​*.
 
