@@ -26,7 +26,7 @@ OJS sets the publication date as the date when the "Publish Issue" button was pr
 
 ## Step Three: Add Articles Using QuickSubmit
 
-You can now use the QuickSubmit plugin to add articles to the back issues you've created with the original publication date. Please reference our [detailed instructions for the QuickSubmit plugin in Learning OJS](https://docs.pkp.sfu.ca/learning-ojs/en/tools#quick-submit-plugin) as needed (a video tutorial is also available at the link).
+You can now use the QuickSubmit plugin to add articles to the back issues you've created with the original publication date. Please reference our [detailed instructions for the QuickSubmit plugin in Learning OJS](https://docs.pkp.sfu.ca/learning-ojs/3.4/en/tools#quick-submit-plugin) as needed (a video tutorial is also available at the link).
 
 If you are uploading articles with existing DOIs or articles without contributors, without contributor emails, or without abstracts, further instructions are provided below.
 
