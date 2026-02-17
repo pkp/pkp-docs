@@ -5,5 +5,5 @@
 * [Configuration initiale](./initial-setup.md)
     * [Étapes de l’administrateur de site](./initial-setup.md#site-admin)
     * [Étapes de l’administrateur de système](./initial-setup.md#sys-admin)
-* [Abonnements et utilisation d’OJS sans publication](./subscriptions.md)
+* [Fournir une clé API](./subscriptions.md)
 * [Aide au dépannage](./troubleshooting.md)
