@@ -209,7 +209,7 @@ Cet identifiant peut être configuré dans le fichier config.inc.php dans votre 
 
 ### Étape 3. S’assurer d’avoir saisi un API key secret
 
-**Cette étape n’est que requise si Coalition Publica vous une clé API.**
+**Cette étape n’est que requise si Coalition Publica vous demande une clé API.**
 
 Dans votre fichier de configuration OJS (​`config.inc.php`​ dans le répertoire d’installation de votre OJS) vous trouverez une directive appelée “`api_key_secret`​”. Par défaut, ce paramètre est vide. Si c’est le cas, modifiez-le pour qu’il contienne une séquence de 32 caractères ou plus (n’importe quelle lettres et symboles). Votre instance OJS en sera plus sécurisée lors de l’utilisation des ​*API keys​*.
 
