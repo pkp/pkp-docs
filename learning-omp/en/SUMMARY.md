@@ -21,7 +21,7 @@
   * [Copyediting Stage](./copyediting.md)
   * [Production Stage: Prepare Final File Formats and Finalize Details](./production.md)
   * [Publication & Post-Publication: Publishing Books & Managing your Catalog](./postpub.md)
-* [For Authors: Submitting and Tracking a Manuscript in OMP](./authors.md)
+* [For Authors: Submitting and Tracking a Manuscript in OMP](./author.md)
 * [Other Tools](./tools.md)
   * [Import/Export](./tools.md#importexport)
 * [Statistics](./statistics)
