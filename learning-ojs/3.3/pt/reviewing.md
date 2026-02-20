@@ -1,14 +1,15 @@
 ---
 book: learning-ojs
 version: 3.3
-showPageTOC: true
+showPageTOC: false
 title: Aprendendo Open Journal Systems 3.3 - Processo de Avaliação
-descriptions: Instruções para gerenciar avaliações atribuídas como um avaliador no OJS.
+description: Instruções para gerenciar avaliações atribuídas como um avaliador no OJS.
 ---
 
 # Avaliando
 
 {% include video.html id="CINhUa35Jic" provider="youtube" title=" Vídeo dos Passos do Avaliador no OJS"%}
+
 Este vídeo da PKP School explica como avaliar um artigo no OJS. Para assistir a outros vídeos desta série, visite o [canal do PKP no YouTube](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
 
 Como avaliador, você ficará sabendo da solicitação de avaliação por e-mail ou verificando seu painel:

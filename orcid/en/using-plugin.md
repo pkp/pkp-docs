@@ -84,7 +84,7 @@ Once the review is complete, the editor reads the review and clicks “Confirm.�
 
 ![read review.](./assets/orcid_read_review.png)
 
-![confirm review.](./assets/orcid_confirm_review.png)
+![confirm review.](./assets/orcid_review_confirm.png)
 
 The editor can then select “Thank Reviewer,” which sends an (optional) email to the reviewer. Completing this step sends the article details to the reviewer’s ORCID record.
 

@@ -1,9 +1,9 @@
 ---
 book: learning-ojs
 version: 3.3
-showPageTOC: true
+showPageTOC: false
 title: Open Journal System 3.3 lernen - Reviewen
-descriptions: Anleitung zur Verwaltung zugewiesener Begutachtungen als Gutachter/innen in OJS.
+description: Anleitung zur Verwaltung zugewiesener Begutachtungen als Gutachter/innen in OJS.
 ---
 
 # Begutachtung
