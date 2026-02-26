@@ -96,7 +96,7 @@ To edit the metadata of an updated file format, click in the blue arrow next to 
 
 Use the metadata tab to enter further details about the format, including specific product information (ID codes, sales rights, composition, availability, dimensions, etc).
 
-![The Metadata menu tab window from a publication format.](./assets/metadata-format-file-omp3.5.png) (./assets/metadata2-format-file-omp3.5.png)
+![The Metadata menu tab window from a publication format.](./assets/metadata-format-file-omp3.5.png)
 
 
 
