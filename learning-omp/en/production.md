@@ -216,7 +216,7 @@ We will explore each item in the menu below.
 **Catalog Entry**: Use this tab to add catalog information including date, series, series position, and category. 
 **Permissions & Disclosure**: Edit copyright holder, copyright year, and license. These are generally filled in automatically according to the press's settings. Use this tab to override these defaults.
 
->Note: If your press is using identifiers such as DOIs, you should consult the DOIs and DOI Plugin guide](https://docs.pkp.sfu.ca/doi-plugin/en/) and the related [Crossref Plugin Guide](https://docs.pkp.sfu.ca/crossref-ojs-manual/en/references) (if using Crossref services).
+>Note: If your press is using identifiers such as DOIs, you should consult the [DOIs and DOI Plugin guide](https://docs.pkp.sfu.ca/doi-plugin/en/) and the related [Crossref Plugin Guide](https://docs.pkp.sfu.ca/crossref-ojs-manual/en/references) (if using Crossref services).
 {:.notice}
 
 Edit the information on this tab in any relevant languages and be sure to click Save at the bottom of each page.
