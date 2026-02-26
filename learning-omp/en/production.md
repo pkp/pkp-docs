@@ -96,7 +96,7 @@ To edit the metadata of an updated file format, click in the blue arrow next to 
 
 Use the metadata tab to enter further details about the format, including specific product information (ID codes, sales rights, composition, availability, dimensions, etc).
 
-![The Metadata menu tab window from a publication format.](./assets/metadata-format-file-omp3.5.png) (./assets/metadata2-format-file-omp3.5.png)
+![The Metadata menu tab window from a publication format.](./assets/metadata-format-file-omp3.5.png)
 
 
 
@@ -149,7 +149,7 @@ Once the files have been approved and made available, their status under ‘Comp
 {:.tip}
 
 >Any approved Publication Format files that have not been assigned to a Chapter will appear as a Publication Format under the cover image.
-{:note}
+{:.note}
 
 
 ### Add Chapters {#add-chapters}
@@ -177,7 +177,7 @@ To add chapters, click Add Chapter and then:
 ![The Add Chapters window with title, subtitle, abstract and pages field.](./assets/add-chapter-window-omp3.5.png)
 
 ![The Add Chapters window with an option to select the chapters landing page, the contributors and file.](./assets/add-chapter-window-omp3.5.png)
-(add-chapter-window2-omp3.5)
+![The Add Chapters window with an option to select the chapters landing page, the contributors and file.](./assets/add-chapter-window2-omp3.5.png)
 
 
 
@@ -216,7 +216,7 @@ We will explore each item in the menu below.
 **Catalog Entry**: Use this tab to add catalog information including date, series, series position, and category. 
 **Permissions & Disclosure**: Edit copyright holder, copyright year, and license. These are generally filled in automatically according to the press's settings. Use this tab to override these defaults.
 
->Note: If your press is using identifiers such as DOIs, you should consult the DOIs and DOI Plugin guide](https://docs.pkp.sfu.ca/doi-plugin/en/) and the related [Crossref Plugin Guide](https://docs.pkp.sfu.ca/crossref-ojs-manual/en/references) (if using Crossref services).
+>Note: If your press is using identifiers such as DOIs, you should consult the [DOIs and DOI Plugin guide](https://docs.pkp.sfu.ca/doi-plugin/en/) and the related [Crossref Plugin Guide](https://docs.pkp.sfu.ca/crossref-ojs-manual/en/references) (if using Crossref services).
 {:.notice}
 
 Edit the information on this tab in any relevant languages and be sure to click Save at the bottom of each page.
@@ -267,13 +267,13 @@ In order to save you will need to fill all the required fields (marked with an a
 
 
 To edit or delete a representative, click the blue arrow beside the name
-![The Representative Screen in OMP 3.5 with a cursor hooving over the Edit link.](./assets/marketing-edit-representatives-omp3.5.png)
+![The Representative Screen in OMP 3.5 with a cursor hovering over the Edit link.](./assets/marketing-edit-representatives-omp3.5.png)
 
 
 ### Publication Dates {#publication-dates}
 If your manuscript will have multiple chapters with differing publication dates, you can enable it here.
 
-![The Publication Dates Screen in OMP 3.5 with a cursor hooving over the Edit link.](./assets/marketing-publication-dates-omp3.5.png)
+![The Publication Dates Screen in OMP 3.5 with a cursor hovering over the Edit link.](./assets/marketing-publication-dates-omp3.5.png)
 This will enable an extra field for publication dates when adding chapter files.
 
 ![Date Published option in the Edit chapter screen.](./assets/marketing-publication-dates-date-published-omp3.5.png) 

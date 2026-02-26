@@ -57,7 +57,8 @@ The selected Editor will now be added to the Participants list.
 
 Once the editor is assigned, the submitted manuscript will appear in the “assigned to me” section of the editor dashboard. 
 
-The editor will review the submission to determine its suitability. After reviewing the manuscript, the Editor can decide to proceed with one of the following actions: (./assets/submission-desk-options-OMP35.png)
+The editor will review the submission to determine its suitability. After reviewing the manuscript, the Editor can decide to proceed with one of the following actions.
+![List of desk decision options in OJS, with buttons to send to external review, accept and skip review, decline, or send to internal review.](./assets/submission-desk-options-OMP35.png)
 
 
 

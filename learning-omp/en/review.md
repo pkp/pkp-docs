@@ -50,7 +50,7 @@ Ensure that the files intended for review by internal editors are checked before
 If you need to [prepare files for review](#prepare-for-review) or [remove identifying information](#anonymize-info) before [uploading the anonymized document](#upload-anonymized), you can deselect the existing files, and then upload the new versions in the Internal Review stage.
 
 
-![The Sent to Internal Review: Select file window, showing submission files checked.](./assets/internalreview-select-files-OMP35)
+![The Sent to Internal Review: Select file window, showing submission files checked.](./assets/internalreview-select-files-OMP35.png)
 
 
 
