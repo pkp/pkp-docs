@@ -149,7 +149,7 @@ Once the files have been approved and made available, their status under ‘Comp
 {:.tip}
 
 >Any approved Publication Format files that have not been assigned to a Chapter will appear as a Publication Format under the cover image.
-{:note}
+{:.note}
 
 
 ### Add Chapters {#add-chapters}
@@ -267,13 +267,13 @@ In order to save you will need to fill all the required fields (marked with an a
 
 
 To edit or delete a representative, click the blue arrow beside the name
-![The Representative Screen in OMP 3.5 with a cursor hooving over the Edit link.](./assets/marketing-edit-representatives-omp3.5.png)
+![The Representative Screen in OMP 3.5 with a cursor hovering over the Edit link.](./assets/marketing-edit-representatives-omp3.5.png)
 
 
 ### Publication Dates {#publication-dates}
 If your manuscript will have multiple chapters with differing publication dates, you can enable it here.
 
-![The Publication Dates Screen in OMP 3.5 with a cursor hooving over the Edit link.](./assets/marketing-publication-dates-omp3.5.png)
+![The Publication Dates Screen in OMP 3.5 with a cursor hovering over the Edit link.](./assets/marketing-publication-dates-omp3.5.png)
 This will enable an extra field for publication dates when adding chapter files.
 
 ![Date Published option in the Edit chapter screen.](./assets/marketing-publication-dates-date-published-omp3.5.png) 
