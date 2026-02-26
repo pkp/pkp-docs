@@ -177,7 +177,7 @@ To add chapters, click Add Chapter and then:
 ![The Add Chapters window with title, subtitle, abstract and pages field.](./assets/add-chapter-window-omp3.5.png)
 
 ![The Add Chapters window with an option to select the chapters landing page, the contributors and file.](./assets/add-chapter-window-omp3.5.png)
-(add-chapter-window2-omp3.5)
+![The Add Chapters window with an option to select the chapters landing page, the contributors and file.](./assets/add-chapter-window2-omp3.5.png)
 
 
 
