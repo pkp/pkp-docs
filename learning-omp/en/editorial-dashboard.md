@@ -69,7 +69,7 @@ Use **Filters** to further narrow down your search.
 
 - __Assigned to Editor:__ Only roles with the Press Manager permission level have this filter option. Begin typing the name of a Series Editor, Press Editor, or Guest Editor's name and choose the correct name from the suggestion to display all articles assigned to the editor.
 
-- __Categories:__ This option is only available if you have set up at least 1 customized [category](URL).
+- __Categories:__ This option is only available if you have set up at least 1 customized [category](./press-setup#categories).
 
 - __Days Since Last Activity:__ Specify the number of days since the last activity using the slider or the textbox.
 
@@ -94,7 +94,7 @@ Editors receive a weekly email summary of submissions which require editorial ac
 * Newly submitted revisions
 * Submissions in the copyediting or production stages which have been inactive for 30 or more days
 
-An editor can opt out of email notifications by changing [notification settings in their profile](URL) or clicking on the unsubscribe link.
+An editor can opt out of email notifications by changing [notification settings in their profile](https://docs.pkp.sfu.ca/learning-ojs/about-ojs/en/#edit-profile) or clicking on the unsubscribe link.
 
 ### Get to Know the Submission Record {#submission-record}
 
@@ -174,7 +174,7 @@ The **Notes** tab of the Activity Log can be used to add editorial notes. These 
 
 **Library**: The Library is accessible to Authors and Editors from the top right of every submission page. It is a general file storage for documents that may include conflict-of-interest forms, galley approval forms, etc. 
 
-This submission-specific Library is different from the press-wide [Publisher Library](URL#publisher-library) that is meant for general files and can generate public links to them.
+This submission-specific Library is different from the press-wide [Publisher Library](https://docs.pkp.sfu.ca/learning-ojs/journal-managers/en/other-tools#publisher-library) that is meant for general files and can generate public links to them.
 
 Users throughout the editorial workflow can access all the files in the Publisher Library by opening the submission-specific Library and clicking "View Document Library".
 
