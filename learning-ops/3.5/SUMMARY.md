@@ -1,13 +1,10 @@
 ## Table of Contents
 
-* [Preface](.)
-* [About OPS](./about-ops)
-  * [OPS Features](./about-ops#ops-features)
-  * [Install and Upgrade](./about-ops#install-and-upgrade)
-  * [What's New in This Version of OPS](./about-ops#whats-new-in-this-version-of-ops)
-  * [OPS Uses](./about-ops#ops-uses)
-  * [Terminology](./about-ops#terminology)
-  * [Support and Community Resources](./about-ops#support-and-community-resources)
+* [About OPS 3.5](.)
+  * [OPS Features](./#ops-features)
+  * [Install and Upgrade](./#install-upgrade)
+  * [Preprint Terminology](./#terms)
+  * [Support and Community Resources](./#resources)
 * [Developing Policies and Workflows](./policies-workflows)
   * [Theme or Discipline](./policies-workflows#theme-or-discipline)
   * [Submission](./policies-workflows#submission)
