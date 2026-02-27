@@ -61,7 +61,7 @@ Use **Filters** to further narrow down your search.
 
 - __Assigned to Moderator:__ only roles with the Preprint Server Manager permission level have this filter option. Begin typing the name of a Moderator and choose the correct name from the suggestion to display all preprints assigned to the moderator.
 
-- __Categories:__ This option is only available if you have set up at least 1 customized [category](./journal-setup#categories).
+- __Categories:__ This option is only available if you have set up at least 1 customized [category](./setup#categories).
 
 - __Days Since Last Activity:__ Specify the number of days since the last activity using the slider or the textbox.
 
@@ -82,7 +82,7 @@ Moderators receive a weekly email summary of submissions which require editorial
 * Newly submitted revisions
 * Submissions in the production stage which have been inactive for 30 or more days
 
-A moderator can opt out of email notifications by changing [notification settings in their profile](URL) or clicking on the unsubscribe link.
+A moderator can opt out of email notifications by changing [notification settings in their profile](https://docs.pkp.sfu.ca/learning-ojs/about-ojs/en/#edit-profile) or clicking on the unsubscribe link.
 
 ### Get to Know the Submission Record {#submission-record}
 
@@ -112,7 +112,7 @@ In the central panel of the Submission Record, you will see:
 
 **Submission Status**: A notice of the current status of the submission. You can generally view stages that the submission has not entered or has already completed, but this will always show the current status of the submission.
 
-**Discussions**: This panel allows participants in a stage to communicate with the author, or with other moderators. Using discussions to communicate with authors and other members of your team will be an important part of using OPS effectively, so we will cover them in-depth in [a dedicated section further below](./#discussions.md).
+**Discussions**: This panel allows participants in a stage to communicate with the author, or with other moderators. Using discussions to communicate with authors and other members of your team will be an important part of using OPS effectively, so we will cover them in-depth in [a dedicated section further below](#discussions).
 
 The content of the central panel will change between stages. Please consult the chapter for your current stage for further information.
 
@@ -153,7 +153,7 @@ The **Notes** tab of the Activity Log can be used to add editorial notes. These 
 
 **Library**: The Library is accessible to Authors and Moderators from the top right of every submission page. It is a general file storage for documents that may include conflict-of-interest forms, galley approval forms, etc. 
 
-This submission-specific Library is different from the journal-wide [Publisher Library](URL#publisher-library) that is meant for general files and can generate public links to them.
+This submission-specific Library is different from the server-wide [Publisher Library](https://docs.pkp.sfu.ca/learning-ojs/journal-managers/en/other-tools#publisher-library) that is meant for general files and can generate public links to them.
 
 Users throughout the editorial workflow can access all the files in the Publisher Library by opening the submission-specific Library and clicking "View Document Library".
 
