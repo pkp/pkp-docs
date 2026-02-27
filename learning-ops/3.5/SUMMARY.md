@@ -1,8 +1,10 @@
 ## Table of Contents
 
-* [Introduction](.)
-  * [Features](./#omp-3-features)
-  * [Install and Upgrade](./#install-and-upgrade)
+* [About OPS 3.5](.)
+  * [OPS Features](./#ops-features)
+  * [Install and Upgrade](./#install-upgrade)
+  * [Preprint Terminology](./#terms)
+  * [Support and Community Resources](./#resources)
 * [Developing Policies and Workflows](./policies-workflows)
   * [Theme or Discipline](./policies-workflows#theme-or-discipline)
   * [Submission](./policies-workflows#submission)
