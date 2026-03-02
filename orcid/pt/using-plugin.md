@@ -84,7 +84,7 @@ Uma vez que a avaliação foi concluída, o editor lê a avaliação e clica em 
 
 ![ler avaliação.](./assets/orcid_read_review.png)
 
-![confirmar a avaliação.](./assets/orcid_confirm_review.png)
+![confirmar a avaliação.](./assets/orcid_review_confirm.png)
 
 O editor pode então selecionar "Agradecimento ao avaliador", que envia um e-mail (opcional) para o avaliador. Concluindo esta etapa envia os detalhes do artigo para o registro ORCID do avaliador.
 
