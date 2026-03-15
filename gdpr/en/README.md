@@ -21,4 +21,4 @@ PKP would like to thank our development partners for their many significant cont
 
 * Dulip Withanage, Heidelberg University
 * Antti-Jussi Nygård, journal.fi
-* Svantje Lilienthal, Free University Berlin
+* Svantje Lilienthal, Free University Berlin 
