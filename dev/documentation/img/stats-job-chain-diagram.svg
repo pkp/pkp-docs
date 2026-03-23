@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="802" viewBox="0 0 440 802">
+  <defs>
+    <marker id="arr" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#666"/>
+    </marker>
+  </defs>
+
+  <rect width="440" height="802" fill="white"/>
+
+  <!-- Section label: per log file -->
+  <text x="220" y="24" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#666" font-style="italic">per log file</text>
+
+  <!-- Box 1: ProcessUsageStatsLogFile -->
+  <rect x="30" y="34" width="380" height="40" rx="4" fill="#f5de80" stroke="#c0a840" stroke-width="2"/>
+  <text x="220" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="500">ProcessUsageStatsLogFile</text>
+
+  <line x1="220" y1="74" x2="220" y2="88" stroke="#888" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- Box 2: RemoveDoubleClicks -->
+  <rect x="30" y="88" width="380" height="40" rx="4" fill="#f5de80" stroke="#c0a840" stroke-width="2"/>
+  <text x="220" y="114" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="500">RemoveDoubleClicks</text>
+
+  <line x1="220" y1="128" x2="220" y2="142" stroke="#888" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- Box 3: CompileUniqueInvestigations -->
+  <rect x="30" y="142" width="380" height="40" rx="4" fill="#f5de80" stroke="#c0a840" stroke-width="2"/>
+  <text x="220" y="168" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="500">CompileUniqueInvestigations</text>
+
+  <line x1="220" y1="182" x2="220" y2="196" stroke="#888" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- Box 4: CompileUniqueRequests -->
+  <rect x="30" y="196" width="380" height="40" rx="4" fill="#f5de80" stroke="#c0a840" stroke-width="2"/>
+  <text x="220" y="222" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="500">CompileUniqueRequests</text>
+
+  <line x1="220" y1="236" x2="220" y2="250" stroke="#888" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- Box 5: CompileContextMetrics -->
+  <rect x="30" y="250" width="380" height="40" rx="4" fill="#f5de80" stroke="#c0a840" stroke-width="2"/>
+  <text x="220" y="276" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="500">CompileContextMetrics</text>
+
+  <line x1="220" y1="290" x2="220" y2="304" stroke="#888" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- Box 6: CompileIssueMetrics -->
+  <rect x="30" y="304" width="380" height="40" rx="4" fill="#f5de80" stroke="#c0a840" stroke-width="2"/>
+  <text x="220" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="500">CompileIssueMetrics</text>
+
+  <line x1="220" y1="344" x2="220" y2="358" stroke="#888" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- Box 7: CompileSubmissionMetrics -->
+  <rect x="30" y="358" width="380" height="40" rx="4" fill="#f5de80" stroke="#c0a840" stroke-width="2"/>
+  <text x="220" y="384" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="500">CompileSubmissionMetrics</text>
+
+  <line x1="220" y1="398" x2="220" y2="412" stroke="#888" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- Box 8: CompileSubmissionGeoDailyMetrics -->
+  <rect x="30" y="412" width="380" height="40" rx="4" fill="#f5de80" stroke="#c0a840" stroke-width="2"/>
+  <text x="220" y="438" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="500">CompileSubmissionGeoDailyMetrics</text>
+
+  <line x1="220" y1="452" x2="220" y2="466" stroke="#888" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- Box 9: CompileCounterSubmissionDailyMetrics -->
+  <rect x="30" y="466" width="380" height="40" rx="4" fill="#f5de80" stroke="#c0a840" stroke-width="2"/>
+  <text x="220" y="492" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="500">CompileCounterSubmissionDailyMetrics</text>
+
+  <line x1="220" y1="506" x2="220" y2="520" stroke="#888" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- Box 10: CompileCounterSubmissionInstitutionDailyMetrics -->
+  <rect x="30" y="520" width="380" height="40" rx="4" fill="#f5de80" stroke="#c0a840" stroke-width="2"/>
+  <text x="220" y="546" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="500">CompileCounterSubmissionInstitutionDailyMetrics</text>
+
+  <line x1="220" y1="560" x2="220" y2="574" stroke="#888" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- Box 11: DeleteUsageStatsTemporaryRecords -->
+  <rect x="30" y="574" width="380" height="40" rx="4" fill="#f5de80" stroke="#c0a840" stroke-width="2"/>
+  <text x="220" y="600" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="500">DeleteUsageStatsTemporaryRecords</text>
+
+  <line x1="220" y1="614" x2="220" y2="628" stroke="#888" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- Box 12: ArchiveUsageStatsLogFile -->
+  <rect x="30" y="628" width="380" height="40" rx="4" fill="#f5de80" stroke="#c0a840" stroke-width="2"/>
+  <text x="220" y="654" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="500">ArchiveUsageStatsLogFile</text>
+
+  <!-- Separator: per month -->
+  <line x1="220" y1="668" x2="220" y2="690" stroke="#888" stroke-width="1.5"/>
+  <line x1="30" y1="708" x2="410" y2="708" stroke="#bbb" stroke-width="1" stroke-dasharray="5,4"/>
+  <text x="220" y="703" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#666" font-style="italic">per month</text>
+  <line x1="220" y1="716" x2="220" y2="736" stroke="#888" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- Box 13: CompileMonthlyMetrics -->
+  <rect x="30" y="736" width="380" height="40" rx="4" fill="#f5de80" stroke="#c0a840" stroke-width="2"/>
+  <text x="220" y="762" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="500">CompileMonthlyMetrics</text>
+
+</svg>
