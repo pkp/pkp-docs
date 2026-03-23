@@ -83,7 +83,11 @@ class TutorialExamplePlugin extends GenericPlugin
 
 The `version.xml` file provides information required to load the plugin. The `<application>` must match the plugin's directory name. The `<type>` must be the plugin's [category](./categories).
 
-The `<compatibility>` tags must inform with which applications the plugin is compatible. For each application, you must specify the versions with which the plugin is compatible using the `<release>` tags.
+Starting with 3.5.0, the `<compatibility>` tags *should* state the application version requirements. For each application, you must specify the applications and versions with which the plugin is compatible using the `<release>` tags.
+
+Starting with 3.6.0, `<compatibility>` statements will be required.
+
+(Prior to 3.5.0, `<compatibility>` statements are not supported and will be ignored if specified.)
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
