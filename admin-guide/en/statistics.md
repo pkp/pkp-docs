@@ -29,24 +29,25 @@ Follow the steps below to set the statistics settings for all journals, presses,
 
 A manager may configure some of these settings differently for each journal, press or preprint server they manage. In such cases, the site settings act as a "ceiling". For example, if the site has disabled geographic statistics, the manager will not be able to enable them for their journal, press or preprint server. If the site has enabled country-level statistics only, the manager will not be able to enable region and city statistics.
 
-However, the manager can turn off statistics even if the site has disabled them. For example, if the site has enabled geographic statistics for country, region, and city, the manager will be able to turn geographic statistics off, or choose to collect only country and region data.
+However, the manager can turn off statistics even if the site has enabled them. For example, if the site has enabled geographic statistics for country, region, and city, the manager will be able to turn geographic statistics off, or choose to collect only country and region data.
 
 ## Download
 
-Statistics are collected for different kinds of data and can be accessed in several different formats. Some statistics can be viewed as tables and graphs in the application. Others can only be viewed by downloading a report in CSV or JSON. The CSV format can be opened in spreadsheet software, like Excel or LibreOffice Calc.
+Statistics are collected for different kinds of data and can be accessed in several different formats. Some statistics can be viewed as tables and graphs in the application. Others can only be viewed by downloading a report in CSV, TSV, or JSON. The CSV and TSV formats can be opened in spreadsheet software, like Excel or LibreOffice Calc.
 
-| Type                                      | Description                                                                            | Web | CSV | JSON |
+| Type                                      | Description                                                                            | Web | CSV/TSV | JSON |
 |-------------------------------------------|----------------------------------------------------------------------------------------|-----|-----|------|
 | [Publications](#publications)             | Views and downloads of articles, books and preprints, and their files.                 | ✔   | ✔   | ✔    |
-| [Issues](#issues)                         | Views and downloads (OJS)                                                              | ✔   | ✔   | ✔    |
+| [Issues](#issues)                         | Views and downloads of issues and issue galley files (OJS).                            | ✔   | ✔   | ✔    |
 | [Homepage](#homepage)                     | Views of the homepage of the journal, press or preprint server.                        | ✔   | ✔   | ✔    |
 | [Geography](#geography)                   | Views by country, region and city                                                      | ✔   | ✔   | ✔    |
-| [COUNTER](#counter)                       | An industry-recognized format for distributing usage statistics.                       | ✘   | ✘   | ✔    |
-| [Editorial Activity](#editorial-activity) | Number of submissions accepted and rejected, the average time to a decision, and more. | ✔   | ✘   | ✘    |
-| [Users](#user)                            | User profiles and roles.                                                               | ✘   | ✔   | ✘    |
+| [Editorial Activity](#editorial-activity) | Number of submissions accepted and rejected, the average time to a decision, and more. | ✔   | ✘   | ✔    |
+| [Users](#users)                           | User profiles and roles.                                                               | ✘   | ✔   | ✘    |
+| [COUNTER](#counter)                       | An industry-recognized format for distributing usage statistics.            		     | ✘   | ✔   | ✔    |
 | [Reviews](#reviews)                       | Reviewer names, due dates, and comments for all review assignments                     | ✘   | ✔   | ✘    |
 | [Submissions](#submissions)               | Titles and metadata for all submissions                                                | ✘   | ✔   | ✘    |
 | [Subscriptions](#subscriptions)           | Data on subscriptions (OJS)                                                            | ✘   | ✔   | ✘    |
+
 
 ### Publications
 
@@ -102,14 +103,6 @@ Follow these steps to download a CSV file with the number of views and downloads
 
 Geographic statistics can also be accessed in JSON format through the [REST API](/dev/api/).
 
-### COUNTER
-
-[COUNTER](https://www.projectcounter.org/) sets standards for our how usage statistics should be calculated and distributed. Statistics matching the [COUNTER 5 SUSHI](https://www.projectcounter.org/counter-sushi/) protocol can be downloaded through the [REST API](/dev/api). Statistics matching the [COUNTER 4](https://www.projectcounter.org/code-of-practice-sections/archived-code-of-practice-release-4/) protocol (Journal Report 1 and Article Report 1) can be downloaded by following these steps.
-
-1. Login as an administrator or manager.
-2. Click **Statistics** > **Reports**.
-3. Click **COUNTER Reports**.
-
 ### Editorial Activity
 
 > Editorial statistics can change significantly depending on the selected date range. Read the recommendations below to avoid these pitfalls.
@@ -119,11 +112,13 @@ Follow these steps to view stats about the editorial activity of a journal, pres
 
 1. Login as an administrator or manager.
 2. Click **Statistics** > **Editorial Activity**.
-3. User the web interface to filter statistics by date. In OJS you can filter by section.
+3. Use the web interface to filter statistics by date. In OJS you can filter by section.
 
 These stats are based on editorial activity recorded by the system. If your editors routinely work outside of the system, stats may not be correct. For example, if an editor asks for a review by email and does not record it in the system, that review will not be counted in the editorial statistics.
 
 When selecting a date range, think carefully about the editorial activity you are interested in. For example, if you are looking at the last three months, the Acceptance Rate will be calculated only from submissions submitted in the last three months that have already received an accepted or declined decision. We recommend using a date range that accounts for the duration of your editorial review and ends at least 12 months ago.
+
+Editorial activity can also be accessed in JSON format through the [REST API](/dev/api/).
 
 ### Users
 
@@ -136,6 +131,20 @@ Follow these steps to download a CSV report with the user profiles and their rol
 5. Click **Export**.
 
 There are other ways to [export user data](./data-import-and-export#users).
+
+### COUNTER
+
+[COUNTER](https://www.projectcounter.org/) sets standards for how usage statistics should be calculated and distributed. Statistics matching the [COUNTER 5](https://cop5.projectcounter.org/en/5.0.3/) protocol can be downloaded through the [REST API](/dev/api/) and as TSV by following these steps:
+
+1. Login as an administrator or manager.
+2. Click **Statistics** > **Counter R5**.
+3. Choose the type of report to download.
+
+Statistics matching the [COUNTER 4](https://www.projectcounter.org/code-of-practice-sections/archived-code-of-practice-release-4/) protocol (Journal Report 1 and Article Report 1) can be downloaded by following these steps.
+
+1. Login as an administrator or manager.
+2. Click **Statistics** > **Reports**.
+3. Click **COUNTER Reports**.
 
 ### Reviews
 
@@ -160,7 +169,7 @@ There are many other ways to [export submission data](./data-import-and-export).
 > The subscriptions report is only available in OJS when subscriptions are enabled.
 {:.notice}
 
-Follow these steps to download a CSV report about subscriptions that includes the titles, contributors, and metadata.
+Follow these steps to download a CSV report about individual and institutional subscriptions, including subscription details, dates, and contact information.
 
 1. Login as an administrator or manager.
 2. Click **Statistics** > **Reports**.
@@ -179,18 +188,18 @@ The sections below provide information to help you determine what log files are 
 
 ### Prepare the Log Files
 
-> You must [understand the log files](/dev/documentation/en/statistics.md#understanding-the-log-files) before continuing.
+> You must [understand the log files](/dev/documentation/en/statistics#understanding-the-log-files) before continuing.
 {:.notice}
 
 Before processing the logs, they must be in the format recognized by the application. A log file will typically have hundreds or thousands of lines in JSON format, like the one below.
 
 ```json
-{"time":"2023-02-27 11:41:14","ip":"87d8edf8ca58ab4d3e9421b03edcd9c5a2093a79c341964179b8e379faabd324","userAgent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko\/20100101 Firefox\/110.0","canonicalUrl":"https:\/\/example.org\/publicknowledge\/index","assocType":256,"contextId":1,"submissionId":null,"representationId":null,"submissionFileId":null,"fileType":null,"country":null,"region":null,"city":null,"institutionIds":[],"version":"3.4.0.0","issueId":null,"issueGalleyId":null}
+{"time":"2026-02-27 11:41:14","ip":"87d8edf8ca58ab4d3e9421b03edcd9c5a2093a79c341964179b8e379faabd324","userAgent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko\/20100101 Firefox\/110.0","canonicalUrl":"https:\/\/example.org\/publicknowledge\/index","assocType":256,"contextId":1,"submissionId":null,"representationId":null,"submissionFileId":null,"fileType":null,"country":null,"region":null,"city":null,"institutionIds":[],"version":"3.5.0.0","issueId":null,"issueGalleyId":null}
 ```
 
 #### Using logs from older versions
 
-If your log file looks like the one below, it is a log file from an older version of the application.
+If your log file looks like the one below, it is a log file from version 3.3 or earlier.
 
 ```
 127.0.0.1 bot 1 "2023-03-01 11:52:47" http://localhost/index.php/publicknowledge/index 200 "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/110.0.5481.100 Safari/537.36"
@@ -202,7 +211,7 @@ To convert this log file to the correct format, move the log file into the `arch
 php lib/pkp/tools/convertUsageStatsLogFile.php <log>
 ```
 
-After conversion, the old log file will be renamed `<filename>_old.log`. For example, if the file was `usage_event_20230202.log`, the old log file will be named `usage_event_20230202_old.log`.
+After conversion, the old log file will be renamed `<filename>_old.log`. For example, if the file was `usage_events_20230202.log`, the old log file will be named `usage_events_20230202_old.log`.
 
 #### Using Apache access logs
 
@@ -218,20 +227,25 @@ The command must be run by a user who has permission to read the Apache log file
 
 ### Reprocess Log Files
 
-Once you have identified the log files you want to reprocess, move them into the `stage` directory. Then run the following command once for every month you want to reprocess.
+Once you have identified the log files you want to reprocess, move them into the `<files_dir>/usageStats/stage` directory. Then run the following command from the root directory of your application once for every month you want to reprocess.
 
 ```
 php lib/pkp/tools/reprocessUsageStatsMonth.php YYYYMM
 ```
 
-For example, if I had log files for 2022-10-01 to 2022-11-30, I would run the command twice:
+This command deletes the existing metrics for that month and recompiles them from the log files in `stage`. This means your current data for that month will be replaced, not added to.
+
+For example, if you had log files for 2022-10-01 to 2022-11-30, you would run the command twice:
 
 ```
 php lib/pkp/tools/reprocessUsageStatsMonth.php 202210
 php lib/pkp/tools/reprocessUsageStatsMonth.php 202211
 ```
 
-If you want to have accurate monthly statistics, you will need to reprocess a whole month at a time. For example, if you are missing statistics from 2022-10-15 to 2022-11-12, you would need to reprocess logs for every day of both months to have accurate monthly stats for those months.
+To have accurate monthly statistics, you must reprocess a whole month at a time. Make sure all log files for those months are in the `stage` directory before running the command — not just the ones covering the gap. For example, if you are missing statistics from 2022-10-15 to 2022-11-12, you would need to have log files for every day of both October and November in the `stage` directory to get accurate monthly stats for those months.
+
+> **Note:** This requirement only applies if the site is configured to keep monthly statistics only. If daily statistics are kept, you can reprocess individual days without needing all log files for the month.
+{:.notice}
 
 ### Things to know
 
@@ -240,49 +254,73 @@ Keep the following in mind when working with the log files.
 - Never change the log file names. The system assumes they are called `usage_events_YYYYMMDD.log` or `apache_usage_events_YYYYMMDD.log`.
 - If you run the application with `disable_path_info` set to `On` in `config.inc.php`, change the `PATH_INFO_DISABLED` variable to `true` in the log conversion scripts before running the commands.
 - Any log files for the current month in the `stage` directory will be processed automatically. Do not move files in there unless you want them processed.
+- The `base_url` configured in `config.inc.php` must match the URLs in the log files.
 
 ## Frequently Asked Questions
 
 ### I don't see any statistics
 
-Statistics are compiled once a day. No statistics will appear until 24 hours after a visitor has been logged. If you have visited the homepage of your journal, press or preprint server, waited more than 24 hours and still do not see those statistics, you may need to [configure scheduled tasks and jobs](./deploy).
+Statistics are compiled once a day by a scheduled task. No statistics will appear until the scheduled task has run on the day after a visit has been logged. Work through the following checklist to identify where the problem is.
 
-You can tell if the scheduled task is being run by looking in the log directory at `<files_dir>/usageStats`. Once a log file has been processed, it will be moved to the `archive` directory. Learn more about the [log files](/dev/documentation/en/statistics#understanding-the-log-files).
+First, visit a public page on your site and check whether a new entry appears in the current day's log file in `<files_dir>/usageStats/usageEventLogs`. If an entry appears, the logging is working and the problem is in the processing pipeline — continue from step 3. If no entry appears, the problem is in the logging itself — start from step 1.
 
-If you see log files in the archive, but still do not have any statistics, inspect the URLs in the log entries. Does the URL in the log files exactly match the `base_url` in my configuration? Does it point to a published submission in a journal, press, or preprint server?
+**1. Is the log directory writable by the web server user?**
+
+The application writes log entries to `<files_dir>/usageStats/usageEventLogs`. If this directory is not writable by the web server user, no log files will be created and no statistics can be compiled. Check the directory permissions on your server.
+
+**2. Are log files being created?**
+
+Check whether log files exist in `<files_dir>/usageStats/usageEventLogs`. Learn more about the [log files and their directories](/dev/documentation/en/statistics#understanding-the-log-files). If no files are being created, the directory permissions may be the problem (see above), or the application may not be configured correctly.
+
+**3. Is the scheduled task running?**
+
+The scheduled task moves log files from `usageEventLogs` to `dispatch`, after which the jobs process them and move them to `archive`. If you see log files in `dispatch` but not in `archive`, the scheduled task is running but the jobs are not processing — skip to step 4. If files are still in `usageEventLogs`, `stage`, or `processing` and nothing has moved, the scheduled task is not running or was interrupted mid-run. Check that you have [configured scheduled tasks and jobs](./deploy) correctly. You can also check the scheduled task log files at `<files_dir>/scheduledTaskLogs` to confirm whether the task has run and whether any errors were reported. Learn more in the [scheduled tasks documentation](./deploy-scheduled-tasks).
+
+**4. Are jobs being processed?**
+
+The scheduled task dispatches a queue of jobs to compile the statistics. If jobs are failing, statistics will not be compiled even if the scheduled task is running. Go to **Administration** > **Jobs** to check whether jobs are queued and processing without errors. Learn more about [configuring jobs](./deploy-jobs) and about the [usage statistics processing jobs](/dev/documentation/en/statistics#how-stats-are-compiled).
+
+**5. Are you reprocessing log files from a different system?**
+
+If you are reprocessing log files generated on a system with a different `base_url` — for example, copied from a production server to a test system — the URLs in the log entries will not match and processing may fail. See [Things to know](#things-to-know) under Recover Lost Data.
 
 ### I have enabled geographic statistics, but the geographic report doesn't include any data
 
 The application uses the visitor's IP address to determine their location. In order for this to work, the application must have a copy of the database that maps IPs to their location. This file will be located in `<files_dir>/usageStats/IPGeoDB.mmdb`. If you have properly [configured](./deploy) the application to run scheduled tasks, this will be updated monthly.
 
-### I upgraded from an old version of OJS and I want to have stats from a long time ago
-
-If you have been running the application for many years, you may have periods during which no stats were recorded. For example, in versions of OJS 2. You may be able to recover these stats if you have the Apache access logs from this period. Read how to [convert log files](#recover-lost-data).
-
-### I’ve seen some OJS journals that display nice-looking article usage metrics on article landing pages. How do I configure that?
+### How do I display a usage statistics graph on the article landing page?
 
 This is a theme option. If your theme supports it, you can enable it at **Settings** > **Website** > **Appearance** > **Theme**.
 
 ### If I replace a publication's file, will the download count reset to 0?
 
-The application collects statistics based on the IDs of these files. If you change the file without deleting the galley (OJS, OPS), the download counts will not be effected. However, if you delete the galley and upload the file to a new galley, the download counts will be effected.
-
-This will not effect the publication's overall download counts. It will only be reflected in the submission file itself, when download counts for each file are distinguished in the downloadable reports.
-
-### I’ve upgraded from a very old version (2.x) and now my usage stats seem to have gone down. They haven’t disappeared entirely, but they seem to trend lower. What’s going on?
-
-Since 3.x, the application filters views as per the COUNTER Project code of conduct. Specifically, when someone views or downloads a file more than once in 30 seconds, the application only registers one view or download. Also, known bots and crawlers are filtered out.
-
-This will result in lower overall usage metrics. The drop shouldn’t be significant, though it can be noticeable. The COUNTER Project is always adding new bots to their specification, and the application updates this specification in each release.
+The application tracks download counts per uploaded file. If you replace a file within an existing galley, the file's internal record stays the same and the download counts are preserved. If you delete the galley and upload the file to a new galley, the old metrics are permanently deleted and the new galley starts with a download count of zero.
 
 ### I’ve generated a report, and it doesn’t contain any data besides column titles.
 
-What to do when you [don't see any stats](#i-dont-see-any-statistics).
+**1. Check the filters and verify in the web interface.**
+
+An incorrect date range, section, or issue filter can be a cause of an empty report. Try adjusting the filters in the web interface first and see if data appears there.
+
+**2. Check the database tables.**
+
+If no statistics appear anywhere, inspect the `metrics_*` database tables to confirm whether any data has been compiled. Learn more about the [database tables](/dev/documentation/en/statistics#understanding-the-database-tables).
+
+**3. If no statistics exist at all.**
+
+See [I don’t see any statistics](#i-dont-see-any-statistics).
 
 ### When I try to download a report, I get a blank page, a 500 error, or a PHP memory limit error, such as "Memory limit exhausted".
 
 This happens when the amount of data you are trying to download exceeds the server’s capacity to deliver it. This can be resolved by trying to download a smaller data set, for example reducing the date range, or by increasing the server's resource (for example, PHP's `memory_limit` or `max_execution_time`).
 
-### I need to reprocess some log files, or troubleshoot a rejected log file.
+### I need to reprocess some log files.
 
-See the section on [recovering lost data](#recover-lost-data)
+See the section on [recovering lost data](#recover-lost-data).
+
+### A log file has been moved to the reject directory. What do I do?
+
+A log file is moved to the `reject` directory when the `ProcessUsageStatsLogFile` job fails to open it. Check **Administration** > **Jobs** for the failed job and its error message to find out why it was rejected. Once you have identified and fixed the issue, move the file from the `reject` directory back to `stage` to reprocess it.
+
+> **Note:** If you cannot find a failed job in **Administration** > **Jobs**, the file may have been rejected by an older version of the application. In that case, check the scheduled task log files at `<files_dir>/scheduledTaskLogs` for information about why it was rejected.
+{:.notice}
