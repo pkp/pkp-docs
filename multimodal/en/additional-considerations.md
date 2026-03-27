@@ -1,6 +1,5 @@
 ---
 title: Addtional Considerations - Multimodal Publishing
-showPageTOC: true
 ---
 
 # Additional Considerations
