@@ -138,7 +138,7 @@ In OJS 3.2, it is possible to enable multiple languages for your journal and add
 > If an article is published in multiple languages, Google Scholar will only index the primary language.
 {:.notice}
 
-Starting in OJS 3.5, it is possible to change the language of a submission, if authors have entered metadata content in an incorrect language. In previous versions, it might be necessary to start a new submission in the correct language using the QuickSubmit plugin.
+Starting in OJS 3.5, it is possible to change the language of a submission if authors have entered metadata content in an incorrect language. In OJS 3.4 or older, it might be necessary to start a new submission in the correct language using the QuickSubmit plugin, allowing you skip the normal workflow and publish the new version immediately before then archiving the original, incorrect submission.
 
 See the Learning OJS 3.2 guide under [Website settings - Languages](/learning-ojs/en/settings-website#languages) for details on enabling multiple languages for your journal. See Production and Publication - [Multilingual Submissions](/learning-ojs/en/production-publication#multilingual-submissions) for details on adding metadata in multiple languages. See also [Managing Multilingual Metadata](/multiling-guide/en/publishing#managing-multilingual-metadata).
 
