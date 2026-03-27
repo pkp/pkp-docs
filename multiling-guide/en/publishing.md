@@ -11,7 +11,7 @@ In this section, we'll cover the options for publishing content in different lan
 
 OJS, OMP, and OPS can support the publication of an article, monograph, or preprint in multiple languages under one submission ID, rather than publishing the original article as one item and the translation as a separate item.
 
-By providing the original language and translations under one submission ID, rather than as two or more different submissions, the files will be kept together under one identifier. This also avoids splitting up the statistics for one article across multiple submission IDs. Please note only the primary language version will normally be indexed. You may wish to consider which languarge version will have to broadest reach.
+By providing the original language and translations under one submission ID, rather than as two or more different submissions, the files will be kept together under one identifier. This also avoids splitting up the statistics for one article across multiple submission IDs. Please note only the primary language version will normally be indexed. You may wish to consider which language version will have the broadest reach.
 
 However, some identifier and indexing services recommend that translations be treated as separate items. This is also consistent with traditional cataloguing, where translations are treated as standalone publications.
 
