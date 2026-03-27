@@ -75,6 +75,7 @@ Confirm that you wish to assign the DOIs. To view a DOI, locate the article usin
 
 > It is also possible to edit or manually enter a DOI by clicking the Edit button next to the DOI field. **This is generally not recommended**, unless you are associating an existing DOI with previously published content you have moved to OJS. 
 {:.notice}
+
 ### Step 3: Deposit Your DOIs {#register-dois}
 
 Lastly, you’ll register your DOIs with the registration agency. This is known as “depositing” DOIs. This may not be necessary if you have configured automatic depositing in Step 1, but can be useful for troubleshooting any failed automatic deposits.
@@ -90,8 +91,18 @@ To deposit DOIs, click the checkbox next to any articles you wish to deposit, cl
 
 ![Two articles are selected in the Articles DOI screen. The Bulk Actions menu is open, and the cursor is hovering over the Deposit DOIs button. The Deposit All button is available next to the Bulk Actions button.](./assets/dois-deposit-3.5.png)
 
-
 Confirm that you wish to deposit the items, and their status will be updated to “Submitted”. When the task completes and the DOIs are functional, the status will update once again to “Registered”. 
+
+### Step 4: (Optional) Update Your DOIs {#update-dois}
+
+Sometimes you’ll have an update to metadata related to a publication. Maybe there was a typo in a title or author name, or a substantial change to an abstract. When you replace a galley and/or update your metadata, you should also push that new metadata to your registration agency.
+
+Changes in OJS metadata will not be transferred to the registration agency automatically. You’ll have re-deposit the metadata to the registration agency using the same process as detailed in “deposit” above.
+
+Additional Bulk Actions include: 
+* **Mark Issue DOIs registered**: This will mark the specified issue DOIs as registered. This can be done to indicate the items were deposited outside of OJS.
+* **Mark Submission DOIs unregistered**: This will mark the specified submission DOIs as unregistered. This can be done to remove a DOI's previous registration status.
+* **Mark Submission DOIs needs sync**: This will mark the specified submission DOIs as needing to be resubmitted to the registration agency to update their metadata records.
 
 ## Use Import/Export Tools {#import-export}
 
