@@ -1,6 +1,5 @@
 ---
 title: Relevant Plugins for Multimodal publishing - Multimodal Publishing
-showPageTOC: true
 ---
 
 # Relevant Plugins for multimodal publishing
