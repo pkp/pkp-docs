@@ -1,7 +1,7 @@
-
 ---
 isBookIndex: true
 ---
+
 # Multimodal Publishing  
 
 * [English](./en)
