@@ -1,6 +1,5 @@
 ---
 title: Introduction - Multimodal Publishing
-showPageTOC: true
 ---
 
 # Introduction 
