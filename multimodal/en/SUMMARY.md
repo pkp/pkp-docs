@@ -1,6 +1,6 @@
 # Table of Contents
 
-* [Introduction](./introduction.md)
+* [Introduction](./README.md)
 * [What is Multimodal Publishing?](./what-is-multimodal.md)
 * [OJS and PKP Software as a multimodal platform](./ojs-multimodal.md)
 * [Components](./components.md)
