@@ -1,7 +1,6 @@
 ---
 book: learning-ojs
 version: 3.3
-showPageTOC: false
 title: Learning Open Journal Systems 3.3 - Reviewing
 description: Instructions for managing assigned reviews as a peer reviewer in OJS.
 ---
