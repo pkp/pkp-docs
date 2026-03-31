@@ -17,6 +17,10 @@ As of version 3.5, the recommended approach to extend the editorial backend UI i
 
 The Storybook guide also documents available JavaScript hooks for injecting components into specific pages and managers (Dashboard, Workflow, FileManager, ReviewerManager, ParticipantManager, GalleyManager).
 
+## Plugin Settings
+
+For adding a Vue.js-based settings form to your plugin using `PluginSettingsController` and `FormModal`, see the [Plugin Settings](./settings) chapter.
+
 ---
 
 View more [examples](./examples).
