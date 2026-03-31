@@ -122,7 +122,7 @@ Finally, bind the props to a `<pkp-form>` component in the template and use the 
 {/block}
 ```
 
-### Locales
+## Locales
 
 Every form expects to receive an array of locales it should support. This list must be drawn from the context settings.
 
@@ -149,7 +149,7 @@ $locales = array_map(function($localeKey) use ($localeNames) {
 $contactForm = new PKP\components\forms\context\PKPContactForm($apiUrl, $locales, $context);
 ```
 
-### Modify Forms
+## Modify Forms
 
 It is possible to add, edit, or remove fields from an existing form. This can be necessary when an application needs to modify a base form or when a plugin wants to replace a field in a form.
 
@@ -202,7 +202,7 @@ HookRegistry::register('Form::config::before', function($hookName, $form) {
 }
 ```
 
-### Groups
+## Groups
 
 Fields can be grouped together to provide a shared label and description.
 
@@ -249,7 +249,7 @@ class PKPMastheadForm extends FormComponent {
 
 Fields in a group are placed in a `<fieldset>`. The UI Library includes an example of [field groups](/dev/ui-library/dev/#/component/Form/with-groups).
 
-### Conditional Display
+## Conditional Display
 
 Fields can be shown or hidden based on the value of another field. This can be used to hide fields that are not relevant when a feature is enabled or disabled.
 

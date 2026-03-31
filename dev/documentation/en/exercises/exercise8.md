@@ -17,41 +17,41 @@ When you're ready to commit your changes, you need to identify which repositorie
 - Changes to files under `lib/ui-library` are committed to the ui-library repository.
 - Some plugins, such as themes, are stored in their own repositories and may need commits to those repositories.
 
-# Configure remotes
+## Configure remotes
 
-Your work will need to be committed in branches for each of these repositories, pushed up to your fork on GitHub, and separate pull requests will be needed for each repository. In order to do this, you will need to make sure that your remotes are set up to push and pull from PKP's repository and your fork.
+Your work will need to be committed in branches for each of these repositories, pushed up to your fork on GitHub, and separate pull requests will be needed for each repository. To do this, you will need to make sure that your remotes are set up to push and pull from PKP's repository and your fork.
 
 > 💡 The instructions below use the command line, but you may use a GUI tool to do the same thing. The commands are written assuming that you have configured a SSH key on GitHub. If not, follow these steps to [add a SSH key](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account) or modify the instructions below to use the `http` URL to push and pull from remote repositories.
 
 First, open your terminal, navigate to the OJS root directory, and check your remotes.
 
-```jsx
+```shell
 cd <ojs-root-directory>
 git remote -v
 ```
 
 If you have cloned your fork, the result will look like this, but instead of `NateWr` it should be your GitHub username.
 
-```jsx
+```shell
 origin git@github.com:NateWr/ojs.git (fetch)
 origin git@github.com:NateWr/ojs.git (push)
 ```
 
 Use the following command to add the PKP library as an upstream remote.
 
-```jsx
+```shell
 git remote add upstream git@github.com:pkp/ojs.git
 ```
 
 Check your remotes again to make sure that this worked.
 
-```jsx
+```shell
 git remote -v
 ```
 
 The result should look like this.
 
-```jsx
+```shell
 origin git@github.com:NateWr/ojs.git (fetch)
 origin git@github.com:NateWr/ojs.git (push)
 upstream git@github.com:pkp/ojs.git (fetch)
@@ -60,14 +60,14 @@ upstream git@github.com:pkp/ojs.git (push)
 
 Now check your remotes for the pkp-lib repository.
 
-```jsx
+```shell
 cd lib/pkp
 git remote -v
 ```
 
 If you followed the steps in [Getting Started](../getting-started) and have not yet configured your remotes for the submodules, it may look something like this.
 
-```jsx
+```shell
 origin https://github.com/pkp/pkp-lib.git (fetch)
 origin https://github.com/pkp/pkp-lib.git (push)
 ```
@@ -76,7 +76,7 @@ Use the command `git remote set-url origin <url>` to set the `origin` to your fo
 
 When you check your remotes with `git remote -v`, it should look like this.
 
-```jsx
+```shell
 origin git@github.com:NateWr/pkp-lib.git (fetch)
 origin git@github.com:NateWr/pkp-lib.git (push)
 upstream git@github.com:pkp/pkp-lib.git (fetch)
@@ -87,7 +87,7 @@ Next, navigate to the `lib/ui-library` and run the same configuration steps so t
 
 When you want to sync your `main` branch with PKP's `main` branch, you can pull from the `upstream` remote and push to the `origin` remote. 
 
-```jsx
+```shell
 # Update the app
 git checkout main
 git pull upstream main
@@ -108,7 +108,7 @@ git push
 cd ../..
 ```
 
-# Submodule commits
+## Submodule commits
 
 Add an empty text file, `example.txt` to the root directory of each of the `lib/pkp` and `lib/ui-library` repositories. (Do not commit the work.)
 

@@ -5,7 +5,7 @@ showPageTOC: true
 
 # Troubleshooting & Known Issues
 
-### Troubleshooting: Changing Primary Locale
+## Troubleshooting: Changing Primary Locale
 
 As mentioned before, changing the primary locale of your journal can result in serious gaps in your data.
 
@@ -19,7 +19,7 @@ To move the data manually:
     
 If the site-wide locale shows a different language than the one selected to be the primary locale, clean the cache files after changing the language information manually.
 
-### Known Issues
+## Known Issues
 
 There are some known issues with multilingualism in OJS.
 

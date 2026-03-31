@@ -13,11 +13,11 @@ In your OJS install, go to Administration > Site Settings > Site Setup > Languag
 Enable the second language on your Journal.
 
 - Choose one Journal at Hosted Journals;
-    - Click at Settings Wizard:
+    - Click on Settings Wizard:
         
         ![Exercise 3 Image 1](./assets/exercise3-1.png)
         
-    - Click at tab Languages
+    - Click on the tab Languages
         
         ![Exercise 3 Image 2](./assets/exercise3-2.png)
         
@@ -34,8 +34,8 @@ Use what you've learned to show the announcements for the current journal on the
 
 *Do not worry about making this page look nice.*
 
-# Specifications
+## Specifications
 
-- When I visit `http://localhost:8000/index.php/publicknowledge/example/announcements` I can see all of the announcements that I created in this journal.
-- For each announcement, I can see the the ID, title, date it was created, and a link to the announcement.
+- When I visit `http://localhost:8000/index.php/publicknowledge/example/announcements` I can see all the announcements that I created in this journal.
+- For each announcement, I can see the ID, title, date it was created, and a link to the announcement.
 - For each announcement, the title that is shown reflects the current language that I am using. When I change languages, I see the title in the other language. (You can change the language you are using by going to any backend page, like submissions, clicking the user profile icon at the top right, and changing your language.)

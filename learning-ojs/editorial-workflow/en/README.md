@@ -6,6 +6,7 @@ description: A comprehensive visual guide to receiving submissions in OJS, condu
 ---
 
 # Learning OJS for Editors: Editorial Workflow from Submission to Post-Publication
+
 OJS features a robust editorial workflow for guiding new submissions through various stages leading up to publication.
 In this guide, editorial board members will learn about each stage in the editorial workflow, including the purpose of each stage and how various editor roles will participate.
 This guide is intended for Journal Managers, Editors (including Journal Editors, Section Editors, and Guest Editors), Copyeditors, Proofreaders, and Layout Editors, and covers editorial tasks necessary for publishing user-submitted manuscripts in OJS, including: 
@@ -27,8 +28,7 @@ This guide is part of a series of learning materials for OJS users. Other parts 
 * [Learning OJS 3.5 for Reviewers](../../reviewer/en/) - Learn how to respond to a review request and complete a review in OJS as a Reviewer.
 * [Learning OJS 3.5 for Authors](../../author/en/) - Learn how to make a submission to a journal using OJS as an Author.
 
-  
-# Understand the Flow of This Guide
+## Understand the Flow of This Guide
 
 This guide is broken into six chapters. The first is an orientation chapter, followed by four chapters based on each stage of the workflow, and a final chapter on publication and post-publication. Read a brief summary of each and decide which chapters are important to your role below.
 
@@ -49,4 +49,3 @@ This guide is broken into six chapters. The first is an orientation chapter, fol
 
 [**Publication & Post-Publication**](./publication.md): Lastly, this section teaches Journal Editors and/or Journal Managers how to create and manage issues, as well as publish articles. This section also contains information on statistics and creating new versions of articles to manage significant changes to content that has already been published.
 **Who should read this?**: Journal Managers & Journal Editors
-

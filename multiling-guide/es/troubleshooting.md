@@ -5,7 +5,7 @@ showPageTOC: true
 
 # Solución de problemas y problemas conocidos
 
-### Solución de problemas: Cambio en la configuración del idioma principal
+## Solución de problemas: Cambio en la configuración del idioma principal
 
 Como ya se ha mencionado, cambiar el idioma principal de su revista puede provocar espacios vacíos en sus datos.
 
@@ -19,7 +19,7 @@ Para hacerlo de forma manual:
 
 Si la configuración regional del sitio muestra un idioma distinto del seleccionado como idioma principal, limpie los archivos de caché, de su navegador, después de cambiar manualmente la información del idioma.
 
-### Problemas conocidos
+## Problemas conocidos
 
 Existen algunos problemas conocidos con el multilingüismo en OJS.
 

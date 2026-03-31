@@ -21,7 +21,7 @@ Use one of the following methods to update the announcements you created in [Exe
 
 Finally, update the announcements page you created in [Exercise 3](./exercise3) to show the keyword.
 
-# Specifications
+## Specifications
 
 - When I visit `http://localhost:8000/index.php/publicknowledge/example/announcements` I can see the keyword for any announcements where I entered one.
 - When I try to save an announcement with a keyword that isn't `apple`, `banana`, or `cherry`, I see an error message.

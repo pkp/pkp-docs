@@ -16,7 +16,7 @@ Here are the main steps in setting up your press with OMP. The steps are split b
 5. [Install Open Monograph Press (OMP)](/learning-omp/en/install-upgrade) 
 6. [Configure OMP](/learning-omp/en/press-setup)
 
-    *Please note, it  will require some technical expertise to install and configure your Press.*
+    *Please note, it will require some technical expertise to install and configure your Press.*
 7. [Register an ISBN](https://www.isbn.org/faqs_general_questions) prefix for your monograph(s).
 8. [Register for a DOI](/doi-plugin/en/doi-registration) prefix
 9. Consider the staff, time, and funds you will need to start and maintain your press. Ongoing staff resources needed could include editorial board, reviewers, copyeditors, and layout editors.

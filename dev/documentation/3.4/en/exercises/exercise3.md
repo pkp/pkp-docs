@@ -34,7 +34,7 @@ Use what you've learned to show the announcements for the current journal on the
 
 *Do not worry about making this page look nice.*
 
-# Specifications
+## Specifications
 
 - When I visit `http://localhost:8000/index.php/publicknowledge/example/announcements` I can see all of the announcements that I created in this journal.
 - For each announcement, I can see the the ID, title, date it was created, and a link to the announcement.

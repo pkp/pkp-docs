@@ -67,7 +67,7 @@ The router will look for and load a `Handler` at `/controllers/grid/issues/BackI
 
 Controller URLs are derived from the `Handler` class name. The `Handler` suffix is dropped and the remaining name is transformed from `PascalCase` to `kebab-case`.
 
-# Writing URLs
+## Writing URLs
 
 Never manually write a URL path because the application can be run without the URL routing enabled. When the config option `disable_path_info` is turned on, URL routing will use query parameters.
 
