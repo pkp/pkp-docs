@@ -1,6 +1,6 @@
 .book {
-	margin-top: 4rem;
-	padding: 3rem 1rem 0 1rem;
+	margin-top: 0rem;
+	padding: 7rem 1rem 0 1rem;
 
 	hr {
 		margin-top: 2rem;
@@ -307,8 +307,8 @@
 @media (min-width: 992px) {
 
 	.book {
-		margin-top: 5rem;
-		padding-top: 3rem;
+		margin-top: 0rem;
+		padding-top: 8rem;
 	}
 
 	.book__content {
@@ -342,6 +342,7 @@
 
 		.book {
 			position: relative;
+			margin-top: 0;
 		}
 
 		.book__sidebar {
