@@ -21,13 +21,13 @@ Los servicios de indexación y descubrimiento suelen solicitar metadatos en ingl
 
 - [SciELO](https://wp.scielo.org/wp-content/uploads/Criterios-Rede-SciELO-es.pdf) - El título, los resúmenes y las palabras clave en inglés de todos los artículos son obligatorios.
 
-### Google Scholar
+## Google Scholar
 
 Google Scholar ha declarado que puede indexar artículos en donde todos los campos de metadatos coinciden con los metadatos incluidos en la galerada del artículo, incluido el idioma utilizado. Independientemente del número de idiomas en que estén disponibles los metadatos, Google Scholar ha declarado que sólo indexará aquellos idiomas que vayan acompañados de una versión traducida de la galerada del artículo. Sin embargo, Google Scholar también ha declarado que busca el idioma del artículo en la URL y no en las etiquetas de metadatos, y no indexará artículos multilingües en OJS porque el idioma del artículo no se indica en la URL (debido a otros problemas técnicos que esto causaría).
 
 Si observa que Google Scholar no indexa su revista, consulte la sección [Solución de problemas (disponible en inglés)](https://docs.pkp.sfu.ca/google-scholar/en/#troubleshooting-for-journal-managers-and-editors) de la guía de Google Scholar para obtener más información.
 
-### PubMed
+## PubMed
 
 MEDLINE/Pubmed muestra un número ilimitado de idiomas cuando hay traducciones disponibles en el momento de la publicación, cada editor es responsable de presentar todos los idiomas en las citas de los archivos XML.
 
@@ -35,7 +35,7 @@ Para obtener más información de este proceso, ponen a disposición las "[Instr
 
 Las revistas se indexan en el idioma original de la publicación. El idioma de indización es aprobado por el Comité de Revisión Técnica de Selección Bibliográfica en el momento en que se acepta una revista.
 
-### Crossref
+## Crossref
 
 Cuando los metadatos se exportan para su depósito en CrossRef, el DOI registrado por OJS, OMP y OPS adopta el idioma principal del envío.
 
@@ -43,7 +43,7 @@ Si la revista hace el envío de archivos de galeradas en varios idiomas, puede r
 
 Para conocer otros requisitos de indexación, consulte la  [Guía de aplicación de indexación](https://docs.pkp.sfu.ca/indexing-guide/en/).
 
-### Búsqueda en el sitio
+## Búsqueda en el sitio
 
 Si publica contenidos en más de un idioma, actualmente no es posible buscar artículos en un solo idioma. Hay un único índice de búsqueda para cada sitio y se buscará en todo el índice. Sin embargo, si un usuario busca palabras en un idioma, lo más probable es que recupere artículos en ese idioma, a menos que las palabras aparezcan en ambos o en todos los idiomas.
 

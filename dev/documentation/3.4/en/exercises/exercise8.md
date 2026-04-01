@@ -17,7 +17,7 @@ When you're ready to commit your changes, you need to identify which repositorie
 - Changes to files under `lib/ui-library` are committed to the ui-library repository.
 - Some plugins, such as themes, are stored in their own repositories and may need commits to those repositories.
 
-# Configure remotes
+## Configure remotes
 
 Your work will need to be committed in branches for each of these repositories, pushed up to your fork on GitHub, and separate pull requests will be needed for each repository. In order to do this, you will need to make sure that your remotes are set up to push and pull from PKP's repository and your fork.
 
@@ -108,7 +108,7 @@ git push
 cd ../..
 ```
 
-# Submodule commits
+## Submodule commits
 
 Add an empty text file, `example.txt` to the root directory of each of the `lib/pkp` and `lib/ui-library` repositories. (Do not commit the work.)
 

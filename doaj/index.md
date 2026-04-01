@@ -9,6 +9,6 @@ isBookIndex: true
 
 This guide provides guidance for journals using Open Journal Systems (OJS) on how to represent and link to information in OJS that is relevant for Directory of Open Access Journals (DOAJ) inclusion and the DOAJ application.
 
-# Contributors
+## Contributors
 
 Mariya Maistrovskaya, Urooj Nizami, Amanda Stevens, Patricia Mangahis, Vanessa Gabler, Kaitlin Newson, Maria Lemury
