@@ -14,7 +14,12 @@ Plugins can add a settings form so that an editor or admin can configure the plu
 
 ![screenshot showing the settings action for the Citation Style Language plugin](../plugin-settings-action.png)
 
-View the [Plugin Template](https://github.com/pkp/pluginTemplate) for an example of a plugin with a settings form.
+As of 3.5, plugin settings are built using two key pieces:
+
+- **PluginSettingsController** — a base controller class that your plugin extends to define form fields and handle the API endpoints for reading and saving settings.
+- **FormModal** — a Vue.js component from the ui-library that renders the settings form in a modal dialog, handling validation and saving automatically.
+
+View the [Plugin Template](https://github.com/pkp/pluginTemplate) for a complete working example.
 
 ---
 
