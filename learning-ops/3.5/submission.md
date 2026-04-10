@@ -19,16 +19,6 @@ A typical workflow might look like the following, with variations depending on t
 This chapter explains the steps in the editorial workflow for Authors, Moderators, and Preprint Server Managers.
 
 
-## Viewing Submissions {#submission-dashboard}
-
-All active and archived (published or declined) submissions for the preprint server will appear in the editorial dashboard.
-
-![The editorial dashboard, showing submissions in the dashboard and my queue tab. Which submissions are visible will depend on the role of the logged in user.](./assets/learning-submissions-dashboard-OPS35.png)
-
-Which submissions are visible will depend on the role of the logged in user.
-* Preprint Server Managers and Moderators will see all active and archived submissions.
-* Authors will see their own submissions.
-
 ## The Submission Stage: Assign Preprint Server Managers or Moderators and Make Desk Decisions {#submission}
 The first stage of the Editorial Workflow is the Submission stage. New submissions land in this stage, where they are assigned to Preprint Server Manager or Moderator (automatically or manually by a Preprint Server manager or Moderator). The Manager or Moderator will be able to record an editorial decision by choosing to decline the submission or posting the preprint. 
 
