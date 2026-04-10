@@ -64,7 +64,7 @@ The Manager will now be added to the Participants list.
 > Note that a Pre-Review Discussion has been automatically created as part of the assignment.
 > 
 
-## Post the Preprint or Decline Submission {#post-or-decline}
+## Post or Decline the Preprint {#post-or-decline}
 
 Once a Manager or Moderator has been assigned as a participant, the following Action buttons will become available:
 
