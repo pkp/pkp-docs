@@ -20,9 +20,10 @@ This chapter explains the steps in the editorial workflow for Authors, Moderator
 
 
 # The Submission Stage: Assign Preprint Server Managers or Moderators and Make Desk Decisions {#submission}
+
 The first stage of the Editorial Workflow is the Submission stage. New submissions land in this stage, where they are assigned to Preprint Server Manager or Moderator (automatically or manually by a Preprint Server manager or Moderator). The Manager or Moderator will be able to record an editorial decision by choosing to decline the submission or posting the preprint. 
 
-In this chapter, we will explain:
+In this section, we will explain:
 * How a Preprint Server manager or Moderator is notified and assigned to a submission
 * How to manually assign a Preprint Server Manager or Moderator
 * How to make a desk decision.
@@ -50,8 +51,6 @@ Select the _Assign_ link in the **Participants** panel.
 
 ![The Add Participants window, showing that a specific Preprint Server Manager has been searched for and selected. The Manager’s name, number of assignments, affiliation, and reviewing interests are shown..](./assets/manager-assign-OPS35.png)
 
-
-
 Search for an individual by name or view all individuals in a given role by choosing the relevant role and pressing the Search button. You will see the number of submissions already assigned to each individual to help you track their editorial workload and plan accordingly.
 Choose whether the assignee should be able to finalize an editorial decision, or simply recommend an editorial decision.
 Choose an email template from the dropdown to inform the assignee about their new assignment, or draft a custom email message. 
@@ -62,18 +61,16 @@ The Manager will now be added to the Participants list.
 
 ![The added participants name shown in the participants list.](./assets/participant-assigned-OPS35.png)
 
-
 > Note that a Pre-Review Discussion has been automatically created as part of the assignment.
+> 
 
-## Post the Preprint or Decline Submission  {#post-or-decline}
+# Post the Preprint or Decline Submission  {#post-or-decline}
 
 Once a Manager or Moderator has been assigned as a participant, the following Action buttons will become available:
 
 **Post the Preprint**: If the assigned Manager or Moderator is satisfied that the submission is appropriate for the preprint server, they can select this option to begin editing the metadata of the preprint. The system will direct them to the first subsection of the Preprint Menu, Title & Abstract.
 
 ![ Lead to Action Buttons, Post the preprint and Decline Submission buttons are displayed.](./assets/production-actionbuttons-OPS35.png)
-
-
 
 **Decline Submission**: Rejects the submission. The submission would then be archived and listed under the ‘Declined’ tab. This decision can be reverted by clicking **Revert Decline** option in the Workflow tab. After a declined decision is reverted, the submission is restored to its previous stage,Production.
 
@@ -93,7 +90,6 @@ You can make these changes using the Preprint menu on the left sidebar of the su
 > Note: If a preprint has already been posted, it will need to be unposted before you can edit these details. Click Unpost at the top right of the window, make your changes, and click Post to publish it once again.
 {:.warning}
 
-
 ![Lead to Preprint Menu in the submission record. Title & Abstract section subsection is shown.](./assets/preprint-subsection-OPS35.png)
 
 
@@ -101,9 +97,9 @@ We will explore each item in the menu below.
 
 * **Title & Abstract**: Edit the preprint title, subtitle, and abstract.
 * **Contributors**: Add, edit, or remove preprint contributors.
-* **Metadata**: Add or edit additional metadata requested by the server such as keywords.This item will only appear for servers who have enabled the collection of additional metadata in [their metadata settings](https://docs.pkp.sfu.ca/learning-ojs/journal-managers/en/policies.html#metadata-settings).
-* **References**: Add or edit the reference list for the submission. Note that every reference should be entered on a new line. This item will only appear for journals who have enabled the collection of references in [their metadata settings](https://docs.pkp.sfu.ca/learning-ojs/journal-managers/en/policies.html#metadata-settings).
-**Galleys**: The preprint uploaded by the author is automatically listed under Galleys. Depending on your workflow, if the galley has been updated or prepared for publication, you should upload the final files for publication. For more information on which galley formats OPS accepts, and how to add, manage, and preview galleys, see [the documentation](https://docs.pkp.sfu.ca/learning-ojs/editorial-workflow/en/production#what-galleys-formats-can-ojs-accept)
+* **Metadata**: Add or edit additional metadata requested by the server such as keywords. This item will only appear for servers who have enabled the collection of additional metadata in [their metadata settings](https://docs.pkp.sfu.ca/learning-ojs/journal-managers/en/policies.html#metadata-settings).
+* **References**: Add or edit the reference list for the submission. Note that every reference should be entered on a new line. This item will only appear for servers who have enabled the collection of references in [their metadata settings](https://docs.pkp.sfu.ca/learning-ojs/journal-managers/en/policies.html#metadata-settings).
+**Galleys**: The preprint uploaded by the author is automatically listed under Galleys. Depending on your workflow, if the galley has been updated or prepared for publication, you should upload the final files for publication. For more information on which galley formats OPS accepts, and how to add, manage, and preview galleys, see [the OJS documentation on formats](https://docs.pkp.sfu.ca/learning-ojs/editorial-workflow/en/production#what-galleys-formats-can-ojs-accept), which also applies to OPS.
 **Permissions & Disclosure**: Edit copyright holder, copyright year, and license. These are generally filled in automatically according to the server’s settings. Use this tab to override these defaults.
 **Preprint Entry**: Assign the preprint to a section and/or category, or update its section and/or category if it has already been assigned.
 
@@ -112,6 +108,6 @@ We will explore each item in the menu below.
 
 Edit the information on this tab in any relevant languages and be sure to click Save at the bottom of each page.
 
-Now the submission should have everything needed for you to formally publish the content online.
+Now the submission should have everything needed for you to formally post the content online.
 
 
