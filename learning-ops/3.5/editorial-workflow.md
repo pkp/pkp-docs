@@ -19,7 +19,7 @@ A typical workflow might look like the following, with variations depending on t
 This chapter explains the steps in the editorial workflow for Authors, Moderators, and Preprint Server Managers.
 
 
-# The Submission Stage: Assign Preprint Server Managers or Moderators and Make Desk Decisions {#submission}
+## The Submission Stage: Assign Preprint Server Managers or Moderators and Make Desk Decisions {#submission}
 
 The first stage of the Editorial Workflow is the Submission stage. New submissions land in this stage, where they are assigned to Preprint Server Manager or Moderator (automatically or manually by a Preprint Server manager or Moderator). The Manager or Moderator will be able to record an editorial decision by choosing to decline the submission or posting the preprint. 
 
@@ -30,7 +30,7 @@ In this section, we will explain:
 
 The roles involved in this stage are typically: Preprint Server managers, Moderators, and Authors.
 
-## Manage New Submission Notifications and Automatic Assignments {#manage-assignment}
+### Manage New Submission Notifications and Automatic Assignments {#manage-assignment}
 
 When an author makes a new submission, Preprint Server manager(s) and/or Moderator(s) will be automatically emailed a notification and informed via their Tasks menu. 
 
@@ -43,7 +43,7 @@ When an author makes a new submission, Preprint Server manager(s) and/or Moderat
 
 You can change your personal notification settings by clicking the user menu from the top right and accessing Edit Profile > Notifications.
 
-## Manually Assign a Preprint Server Managers or Moderators to a Submission {#assign-manager}
+### Manually Assign a Preprint Server Managers or Moderators to a Submission {#assign-manager}
 
 Depending on the configurations described above, some new submissions may come in unassigned. In this case, the next step is to assign a Preprint Server Manager or Moderator. You can assign yourself or another user with one of these roles.
 
@@ -64,7 +64,7 @@ The Manager will now be added to the Participants list.
 > Note that a Pre-Review Discussion has been automatically created as part of the assignment.
 > 
 
-# Post the Preprint or Decline Submission  {#post-or-decline}
+## Post the Preprint or Decline Submission {#post-or-decline}
 
 Once a Manager or Moderator has been assigned as a participant, the following Action buttons will become available:
 
@@ -79,7 +79,7 @@ Once the manager has selected an action, the submission status will change and t
 If more discussion is needed to make a decision, for example between the assigned Manager and Moderator or the assigned Manager and the author, the Discussions panel can be used to communicate.
 
 
-## Use the Publication Menu to Finalize Details
+### Use the Publication Menu to Finalize Details
 
 Before posting, the final step is to edit the metadata of the submission. Metadata is information about the submission. This includes basic information like the author list, abstract, title, copyright information, and more.
 
