@@ -25,5 +25,8 @@
   * [Distribution Settings](./setup#distribution-settings)
 * Managing and Posting Preprints
   * [The Preprint Management Dashboard](./editorial-dashboard.md)
-  * [Making a Submission](./editorial-workflow.md)
-  * [Making a Submission](./postpub-stats.md)
+  * [Assign Preprint Server Managers or Moderators and Make Desk Decisions](./editorial-workflow.md#submission)
+  * [Post or Decline the Preprint](./editorial-workflow.md#post-or-decline)
+  * [Update Preprint Relation Status](./postpub-stats.md#relation-status)
+  * [Publish New Versions of a Preprint](./postpub-stats.md#new-versions)
+  * [View Your Statistics](./postpub-stats.md#stats)
