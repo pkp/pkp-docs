@@ -24,8 +24,6 @@
   * [Workflow Settings](./setup#workflow-settings)
   * [Distribution Settings](./setup#distribution-settings)
 * Managing and Posting Preprints
-  * [Submissions Dashboard](./editorial-dashboard.md)
-  * [Making a Submission](./editorial-workflow#making-a-submission)
-  * [Moderation and Production](./editorial-workflow#moderation-and-production)
-  * [Publication](./editorial-workflow#publication)
-  * [Publishing New Versions](./editorial-workflow#publishing-new-versions)
+  * [The Preprint Management Dashboard](./editorial-dashboard.md)
+  * [Making a Submission](./editorial-workflow.md)
+  * [Making a Submission](./postpub-stats.md)
