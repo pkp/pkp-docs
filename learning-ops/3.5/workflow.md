@@ -19,7 +19,7 @@ A typical workflow might look like the following, with variations depending on t
 This chapter explains the steps in the editorial workflow for Authors, Moderators, and Preprint Server Managers.
 
 
-## The Submission Stage: Assign Preprint Server Managers or Moderators and Make Desk Decisions {#submission}
+# The Submission Stage: Assign Preprint Server Managers or Moderators and Make Desk Decisions {#submission}
 The first stage of the Editorial Workflow is the Submission stage. New submissions land in this stage, where they are assigned to Preprint Server Manager or Moderator (automatically or manually by a Preprint Server manager or Moderator). The Manager or Moderator will be able to record an editorial decision by choosing to decline the submission or posting the preprint. 
 
 In this chapter, we will explain:
