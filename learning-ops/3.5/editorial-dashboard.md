@@ -12,10 +12,14 @@ When you log in and access the Dashboard from your user menu, you can view your 
 
 You will also see the “Start a New Submission” button under the list of Dashboard views. You can use this to make a new submission as an author.
 
+Which submissions are visible will depend on the role of the logged in user.
+* Preprint Server Managers and Moderators will see all active and archived submissions.
+* Authors will see their own submissions.
+
 
 ### Get to Know the Dashboard Layout {#dashboard}
 
-When you open the Moderator Dashboard menu, you will automatically be taken to the “Assigned to Me” Dashboard view. Let’s look at this example of a Dashboard to understand how it is organized.
+When you open the Dashboard menu as a Manager or Moderator, you will automatically be taken to the “Assigned to Me” Dashboard view. Let’s look at this example of a Dashboard to understand how it is organized.
 
 ![The Assigned to Me Moderator Dashboard view with a single submission.](./assets/dashboard-assigned-3.5.png)
 
