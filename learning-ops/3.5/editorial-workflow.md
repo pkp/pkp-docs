@@ -1,8 +1,8 @@
 ---
 book: learning-ops
 version: 3.5
-title: Learning OPS 3.5 (Open Monograph Press) - The Preprint Management Dashboard
-description: A guide to understanding the layout and functions in OPS's edtorial interface.
+title: Learning OPS 3.5 (Open Monograph Press) - The OPS Editorial Workflow - Managing Preprints
+description: A guide to receiving, managing, and posting preprints in OPS.
 ---
 
 # OPS Editorial Workflow: Managing Preprints {#managing-preprints}
