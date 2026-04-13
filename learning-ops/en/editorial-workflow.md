@@ -1,143 +1,110 @@
 ---
 book: learning-ops
-version: 3.4
-title: Editorial Workflow - Learning OPS
+version: 3.5
+title: Learning OPS 3.5 (Open Monograph Press) - The OPS Editorial Workflow - Managing Preprints
+description: A guide to receiving, managing, and posting preprints in OPS.
 ---
-# Editorial Workflow
 
-The editorial workflow for preprints is simple compared to the editorial workflow for journal articles. When a preprint is submitted it is immediately in the Production stage and Production is the only stage in the workflow. An activity log, similar to what is in place in OJS, indicates all of the activity that has taken place on the submission. Generally, the author has more control over the process than they would when submitting to a journal. Authors can self-post immediately upon submission, or a screening process can be used, depending on the server’s screening policy. Additionally, unlike journals, preprints are not organized into issues.
+# OPS Editorial Workflow: Managing Preprints {#managing-preprints}
 
-A typical workflow could be the following, with variations depending on the preprint server’s policies (see above):
+The editorial workflow for preprints is straightforward compared to refereed articles. When a preprint is submitted, it is immediately placed in the Production stage, the only stage in the workflow. An activity log, similar to what is in place in OJS, indicates all of the activity that has taken place on the submission. Generally, the author has more control over the process than they would when submitting to a journal. Authors can self-post immediately upon submission, or a screening process can be used, depending on the server’s screening policy. Additionally, unlike journals, preprints are not organized into issues.
+
+A typical workflow might look like the following, with variations depending on the preprint server’s policies:
 
 1. An author makes a submission, which includes the full-text preprint file, supplemental material, and metadata.
-2. The preprint is posted online automatically and immediately.
-Or:
-The preprint is screened by a moderator. The moderator will decide to decline the
-submission or schedule it for posting.
+2. The preprint is posted online automatically and immediately. (Alternatively: The preprint is screened by a moderator. The moderator will decide to decline the submission or schedule it for posting.)
 3. Metadata is finalized and the preprint is posted online.
 4. The author may post revised versions of the preprint as they become available.
 
 This chapter explains the steps in the editorial workflow for Authors, Moderators, and Preprint Server Managers.
 
-## Submissions Dashboard
+## The Submission Stage: Assign Preprint Server Managers or Moderators and Make Desk Decisions {#submission}
 
-All active and archived (published or declined) submissions for the preprint server will
-appear in the Submissions dashboard.
+The first stage of the Editorial Workflow is the Submission stage. New submissions land in this stage, where they are assigned to Preprint Server Manager or Moderator (automatically or manually by a Preprint Server manager or Moderator). The Manager or Moderator will be able to record an editorial decision by choosing to decline the submission or posting the preprint. 
 
-![The OPS submission dashboard as Preprint Manager.](./assets/learning-ops3.3-submissions-dashboard.png)
+In this section, we will explain:
+* How a Preprint Server manager or Moderator is notified and assigned to a submission
+* How to manually assign a Preprint Server Manager or Moderator
+* How to make a desk decision.
 
-Which submissions are visible will depend on the role of the logged in user.
+The roles involved in this stage are typically: Preprint Server managers, Moderators, and Authors.
 
-* Preprint Server Managers will see all active and archived submissions.
-* Moderators will see submissions that have been assigned to them.
-* Authors will see their own submissions.
+### Manage New Submission Notifications and Automatic Assignments {#manage-assignment}
 
-See [Learning OJS 3](https://docs.pkp.sfu.ca/learning-ojs/en/editorial-workflow#tasks) for further information about the Submissions dashboard and tasks.
+When an author makes a new submission, Preprint Server manager(s) and/or Moderator(s) will be automatically emailed a notification and informed via their Tasks menu. 
 
-## Making a Submission
+>  Automatic assignments and notifications about a new submission are reliant on the journal settings selected by the Preprint Server Manager. 
+>
+> * If there is only one user appointed to a Preprint Server Manager role, that user will be automatically assigned and notified. 
+> * If one or more Preprint Server Managers and/or Moderators are [assigned to the section](https://docs.pkp.sfu.ca/learning-ojs/journal-managers/en/policies.html#edit-section) the submission was made in, they will be automatically assigned to the submission and notified.
+> * If one or more Preprint Server Managers and/or Moderators are [assigned to a category](https://docs.pkp.sfu.ca/learning-ojs/journal-managers/en/policies.html#categories) the submission was made in, they will be automatically assigned to the submission and notified.
+> * Additional contacts for new submission notifications can be customized from Settings > Workflow > Emails. See [Configure Email Settings in Learning OMP for Preprint Server Managers](https://docs.pkp.sfu.ca/learning-ojs/journal-managers/en/communications.html#email-config) for more details.
 
-The editorial workflow in OPS starts when an author submits a new manuscript.
-How an author can make a submission is explained in [Learning OJS 3](https://docs.pkp.sfu.ca/learning-ojs/en/authoring). It is the same in OJS and OPS except that when the author makes a submission of a new preprint, they can choose a Category to submit to instead of a Section.
+You can change your personal notification settings by clicking the user menu from the top right and accessing Edit Profile > Notifications.
 
-![The Submission screen in OPS with language and category selection fields.](./assets/learning-ops-make-submission-choose-category.png)
+### Manually Assign a Preprint Server Managers or Moderators to a Submission {#assign-manager}
 
-Depending on your preprint server policies, the preprint will be published immediately
-after submission or it will be screened by a Moderator. It is also possible to have moderation done by the research community after a preprint is posted and made public.
+Depending on the configurations described above, some new submissions may come in unassigned. In this case, the next step is to assign a Preprint Server Manager or Moderator. You can assign yourself or another user with one of these roles.
 
-The [Moderation and Production section](./#moderation) explains the pre-publication moderation process.
+Select the _Assign_ link in the **Participants** panel.
 
-## License Selection
-Following adding the contributors to a submission, authors can then assign a license of their choosing to their submission: 
+![The Add Participants window, showing that a specific Preprint Server Manager has been searched for and selected. The Manager’s name, number of assignments, affiliation, and reviewing interests are shown..](./assets/manager-assign-OPS35.png)
 
-![The license selection options in OPS.](./assets/learning-ops-3.4-license-selection.png)
+Search for an individual by name or view all individuals in a given role by choosing the relevant role and pressing the Search button. You will see the number of submissions already assigned to each individual to help you track their editorial workload and plan accordingly.
+Choose whether the assignee should be able to finalize an editorial decision, or simply recommend an editorial decision.
+Choose an email template from the dropdown to inform the assignee about their new assignment, or draft a custom email message. 
 
-The license options are the standard [Creative Commons licenses](https://creativecommons.org/licenses/), or, a URL to an alternate license can be provided. 
+Hit the **OK** button to make the assignment and send the message.
 
-Once the submission is published, the license will appear alongside the preprint with the preprint’s metadata. 
+The Manager will now be added to the Participants list.
+
+![The added participants name shown in the participants list.](./assets/participant-assigned-OPS35.png)
+
+> Note that a Pre-Review Discussion has been automatically created as part of the assignment.
+> 
+
+## Post or Decline the Preprint {#post-or-decline}
+
+Once a Manager or Moderator has been assigned as a participant, the following Action buttons will become available:
+
+**Post the Preprint**: If the assigned Manager or Moderator is satisfied that the submission is appropriate for the preprint server, they can select this option to begin editing the metadata of the preprint. The system will direct them to the first subsection of the Preprint Menu, Title & Abstract.
+
+![ Lead to Action Buttons, Post the preprint and Decline Submission buttons are displayed.](./assets/production-actionbuttons-OPS35.png)
+
+**Decline Submission**: Rejects the submission. The submission would then be archived and listed under the ‘Declined’ tab. This decision can be reverted by clicking **Revert Decline** option in the Workflow tab. After a declined decision is reverted, the submission is restored to its previous stage,Production.
+
+Once the manager has selected an action, the submission status will change and the action buttons will be disabled.
+
+If more discussion is needed to make a decision, for example between the assigned Manager and Moderator or the assigned Manager and the author, the Discussions panel can be used to communicate.
 
 
+### Use the Publication Menu to Finalize Details
 
-## Moderation and Production
+Before posting, the final step is to edit the metadata of the submission. Metadata is information about the submission. This includes basic information like the author list, abstract, title, copyright information, and more.
 
-The Preprint Server Manager will receive a notification that a new submission was received
-and can assign a Moderator to the submission. Or in the [Server Settings](./setup#server-settings), they can assign a Moderator to a Category or Section, which means that any new submissions to that category or section will automatically be assigned to the moderator.
+While much of this information will have been provided to you by the author, it is the job of the Manager to make sure that this metadata is accurate. Accurate and complete metadata is a key element for allowing your server’s content to be indexed and easily discovered.
 
-If your server chooses to assign moderators to screen submissions before they are posted, you can manage, assign, and notify participants for a submission as necessary using the ‘Participants’ list.
+You can make these changes using the Preprint menu on the left sidebar of the submission record.
 
-Selecting the arrow next to a user’s name shows the list of options, which include ‘Remove’, ‘Edit’, ‘Notify’ (this option will create a new Discussion), and ‘Login As’.
+> Note: If a preprint has already been posted, it will need to be unposted before you can edit these details. Click Unpost at the top right of the window, make your changes, and click Post to publish it once again.
+{:.warning}
 
-![The participants list highlighted on a submission's production tab.](./assets/learning-ops3.3-editorial-workflow-participants.png)
+![Lead to Preprint Menu in the submission record. Title & Abstract section subsection is shown.](./assets/preprint-subsection-OPS35.png)
 
-It’s possible to add a new participant to the submission by selecting the ‘Assign’ button. When assigning a moderator it’s possible to allow for them to view and edit submission metadata (this option is selected by default) and/or to only recommend an editorial decision, in which case a Server Manager or another Moderator needs to record the decision to either post or decline the submission.
 
-![The "Assign" button found next to the participants list.](./assets/learning-ops-editorial-workflow-assign-participant.png)
+We will explore each item in the menu below.
 
-If the Moderator wants to ask the author a question or have a discussion with the author, another moderator, the Preprint Server Manager, or another participant in the submission, they can Add a Discussion in the Production Discussions. How to create a response to a discussion is explained in [Learning OJS 3](/learning-ojs/en/editorial-workflow#consult-with-the-author).
+* **Title & Abstract**: Edit the preprint title, subtitle, and abstract.
+* **Contributors**: Add, edit, or remove preprint contributors.
+* **Metadata**: Add or edit additional metadata requested by the server such as keywords. This item will only appear for servers who have enabled the collection of additional metadata in [their metadata settings](https://docs.pkp.sfu.ca/learning-ojs/journal-managers/en/policies.html#metadata-settings).
+* **References**: Add or edit the reference list for the submission. Note that every reference should be entered on a new line. This item will only appear for servers who have enabled the collection of references in [their metadata settings](https://docs.pkp.sfu.ca/learning-ojs/journal-managers/en/policies.html#metadata-settings).
+**Galleys**: The preprint uploaded by the author is automatically listed under Galleys. Depending on your workflow, if the galley has been updated or prepared for publication, you should upload the final files for publication. For more information on which galley formats OPS accepts, and how to add, manage, and preview galleys, see [the OJS documentation on formats](https://docs.pkp.sfu.ca/learning-ojs/editorial-workflow/en/production#what-galleys-formats-can-ojs-accept), which also applies to OPS.
+**Permissions & Disclosure**: Edit copyright holder, copyright year, and license. These are generally filled in automatically according to the server’s settings. Use this tab to override these defaults.
+**Preprint Entry**: Assign the preprint to a section and/or category, or update its section and/or category if it has already been assigned.
 
-There are two possible editorial decisions, which are ‘Decline Submission’ or ‘Post the preprint’. Selecting ‘Decline Submission” will open a pop-up with the option to notify the author(s) or not, and selecting ‘Post the preprint’ will move the user to the Publication tab.
+>Note: If your server is using identifiers such as DOIs or plugins related to identifiers (e.g. the Crossref Reference Linking plugin), you should consult the DOIs and DOI Plugin guide](https://docs.pkp.sfu.ca/doi-plugin/en/) and the related [Crossref Plugin Guide](https://docs.pkp.sfu.ca/crossref-ojs-manual/en/references) (if using Crossref services).
+{:.notice}
 
-![The Post and Decline options for a submission.](./assets/learning-ops3.3-editorial-workflow-editorial-decision.png)
+Edit the information on this tab in any relevant languages and be sure to click Save at the bottom of each page.
 
-In OPS 3.3 it is possible to revert a 'Decline Submission' Decision. This can be done by clicking 'Change Decision' after you have recorded a Decline decision followed by Revert Decline.
-
-## Publication
-
-The Publication tab can be accessed at any time, not just when ‘Schedule for Publication’ is selected. This tab contains the submission’s metadata and galleys. A Galley is a final publication-ready file that has been prepared for readers and will be posted on the preprint site.
-
-It’s important to note that the metadata and galley files for review and publication can be freely edited by both the author(s) and editorial team prior to posting.
-
-Any publication files submitted by the author will be visible under the Galleys tab. Data sets and other supplementary files can be uploaded and published in any format in the Galleys tab, and it’s also possible to set the file label and language.
-
-For more information on the tabs and options available, please refer to the [Publication tabs section](/learning-ojs/en/production-publication#publication-tabs) of the Learning OJS guide.
-
-For information about managing and posting metadata in multiple languages, see [Multilingual Submissions in Learning OJS 3](/learning-ojs/en/production-publication#multilingual-submissions).
-
-The preprint status (indicating whether it has been submitted to or published in a journal) can be altered in the dropdown menu that becomes available by selecting the ‘Relations’ button. For more information on preprint status, please refer to the [Preprint Status section](#preprint-status) in this guide.
-
-In order to post the preprint, it’s necessary to select the ‘Schedule for Publication” button which opens a pop-up asking the user to confirm that they would like to move forward with the posting of the preprint. This will immediately release the preprint to public view.
-
-If enabled, an email is automatically sent to the author when the preprint is posted online on the server. This automated email template can be modified, or turned off, at **Workflow Settings > Email > Email Templates**, identified with the key `POSTED_ACK`.
-
-![The Preprint Posted Acknowledgement email template screen.](./assets/learning_ops3.3_preprint_posted_acknowledgement_email_template.jpg)
-
-Once the preprint is published, the options to ‘Unpublish’ or ‘Create New Version’ become available. By unpublishing, it’s possible to edit the current version of the preprint without creating a new version, as published preprints can’t be edited while public. Adding a new version will keep the current version as is and create a new record. For more information on versioning, please refer to the [Publishing New Versions](./editorial-workflow#publishing-new-versions) section of this guide below.
-
-### Preprint Status
-
-There are three possible Relations statuses for a published preprint. Only the bottom two relational status will appear on the abstract page if selected.
-
-* Preprint has not been submitted for publication;
-* Preprint has been submitted for publication in a journal; or
-* Preprint has been published in a journal as an article.
-
-![The relations dropdown for a preprint.](./assets/learning-ops-editorial-workflow-preprint-status.png)
-
-Submission statuses can be updated even after a Preprint has been posted, either by a Moderator or an Author. Additionally, once the preprint has had its Version of Record (VoR) published in a journal, the DOI assigned to the published preprint can be added by going to the "Relations" button and selecting the last option, that will show a text box in which the user should add the VoR’s DOI link.
-
-![The DOI entry field that appears when the "Preprint has been published in a journal" relation is selected.](./assets/learning-ops-editorial-workflow-relations.png)
-
-Once a DOI has been entered, it will appear publicly on the Preprint abstract page.
-
-![The entered DOI shown on the preprint abstract page.](./assets/learning-ops-editorial-workflow-abstract-page.png)
-
-## Publishing New Versions
-
-Versioning is an important feature of preprint servers because it allows researchers to correct, expand, and improve their articles over time. Since preprints can change significantly between versions, it is important to post and clearly identify all versions of a preprint. OPS allows you to post different versions of an article and display all of the versions on the posted article page.
-
-By default, only Server Managers can create new versions of a posted preprint. The **‘Create New Version’** button is available next to the **‘Unpublish’** button:
-
-![The Create New Version button found on the Publication tab.](./assets/learning-ops-editorial-workflow-create-new-version.png)
-
-Clicking **‘Create New Version’** will open a pop-up asking if you are sure you’d like to create a new version. It’s important to note that, once a new version is created, it’s not possible to delete it; OPS allows the user to unpublish a version and create new ones, but not to delete an existing record. Note that an unpublished version of a preprint is only visible to the Server Managers and Authors.
-
-Only once a new version is created by the Server Manager the author is allowed to edit it and add/edit metadata and galleys when they have permission to do so (for more information on this, please refer to the [“Granting Author permissions” section](./users-roles#granting-author-permissions) of this guide).
-
-Please keep in mind that metadata that accurately and unambiguously describes the relationships between different versions should be maintained as it’s useful for helping indexing servers and reference managers deduplicate records and point readers to new versions when available.
-
-The Server Manager can view all past and current versions of a preprint in the ‘All Versions’ button, which becomes available next to the ‘Relations’ button and the preprint Status. The current version is displayed in gray and the other versions are in blue.
-
-For more information on versioning and editing a posted preprint, check the [Versioning of Articles](/learning-ojs/en/production-publication#versioning-of-articles) section of the Learning OJS guide.
-
-It is currently not possible to withdraw a posted preprint. There are ongoing discussions to integrate an option for this for future release. In this case, it’s recommended that the Preprint Manager replace the existing PDF with a "placeholder" PDF indicating that it has been withdrawn and the reason.
-
-In the future, it should be possible for authors to submit their posted preprints for publication in a journal via OPS, using the [SWORD protocol](https://sword.cottagelabs.com/).
+Now the submission should have everything needed for you to formally post the content online.
