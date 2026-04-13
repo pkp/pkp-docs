@@ -24,7 +24,7 @@ Note that OPS is distinct from OJS and journal publishing workflows and identifi
 
 Visit our website to learn more about [Open Preprint Systems](https://pkp.sfu.ca/software/ops) and what it has to offer for preprint servers.
 
-For a detailed description of new features in OPS 3.5, see [What's New in This Version of OJS in the Learning OJS guide]([https://docs.pkp.sfu.ca/learning-ojs/en/about-ojs#whats-new](https://docs.pkp.sfu.ca/learning-ojs/about-ojs/en/#whats-new)).
+For a detailed description of new features in OPS 3.5, see [What's New in This Version of OJS in the Learning OJS guide](https://docs.pkp.sfu.ca/learning-ojs/en/about-ojs#whats-new).
 
 ## Install and Upgrade {#install-upgrade}
 
