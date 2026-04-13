@@ -34,7 +34,7 @@ Submission statuses can be updated even after a Preprint has been posted, either
 
 Once a DOI has been entered, it will appear publicly on the Preprint abstract page.
 
-![OPS Preprint landing page with a notice informing users that the preprint has been published in a journal as an article.](./assets/relation-status-doi-ops3.5.png)
+![OPS Preprint landing page with a notice informing users that the preprint has been published in a journal as an article.](./assets/relation-status-doi2-ops3.5.png)
 
 
 ## Publish New Versions {#new-versions}
