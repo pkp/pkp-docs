@@ -95,6 +95,43 @@ When you remove a role from a user, the End Date will automatically be set to th
 
 The role end date will be automatically registered when the role is removed from the user.
 
+## Manage and Track Editorial Board History/Masthead
+OPS can now automatically compile a list of editorial board members, replacing the need to manually document the members of your team. Simply select which roles should be captured in the masthead and configure start and end dates for board members.
+
+To select which roles should be captured in the masthead:
+- Navigate to Users & Roles
+- Find the role you want to be captured in the masthead
+- Under ‘Roles Options’, make sure to enable the option: Consider role in masthead list
+- Select the option to automatically include anyone with this role on the list of Editorial Board members.
+
+You can also decide if a user will be displayed in the Masthead list when inviting a user to a role.
+
+When inviting a user that you want to be included in the Masthead, select the option ‘Appear on the masthead’ and click save.
+
+![Invite User screen] (./assets/ops-editorial-masthead-3.5.png)
+
+To add an existing user to the Editorial Masthead, click in Users & Roles. Click on the three dots next to the user's name you wish to add to the Editorial Masthead and click on Edit.
+
+Now, click Add Another Role, select a relevant role, such as Moderator, set a Start Date and indicate whether this user should appear on the journal’s Masthead. 
+If a user is set to appear in the Journal Masthead, their name and affiliation will be displayed in the Editorial Masthead section.
+
+With the Editorial Masthead feature, you are also able to remove an editorial role from a user but leave them in the editorial history.
+
+To remove a role from the user:
+- Select the user you wish to remove a role
+- Click ‘Edit’
+- Click ‘Remove Role’
+
+When you remove a role from a user, the End Date will automatically be set to the current date. If you leave the option to appear in the Journal Masthead selected, the user's name, affiliation, star and end date will be displayed in the Editorial Masthead History section of the press.
+
+When you are done, click Save and Continue.
+
+To access your press Editorial Masthead:
+- Navigate to your preprint server home page
+- Hover over the ‘About’ menu
+- Click in Editorial Masthead
+- You can also access the previous editorial members that were added to the masthead by clicking in ‘View Editorial History’ 
+
 ## Permission to Edit Metadata
 
 ### Granting Author permissions
