@@ -2,7 +2,7 @@
 book: learning-ops
 version: 3.5
 title: Learning OPS 3.5 (Open Monograph Press) - The Preprint Management Dashboard
-description: A guide to understanding the layout and functions in OPS's edtorial interface.
+description: A guide to understanding the layout and functions in OPS's editorial interface.
 ---
 
 # The Preprint Management Dashboard
@@ -53,6 +53,7 @@ You can use the various views under the Dashboards menu to filter submissions by
 
 
 #### Search and Refine Your Results With Filters {#search-filters}
+
 You can use the Search and Filters options to further refine the submissions you see in a given dashboard view. 
 
 ![A sample partial search of the Assigned to me dashboard returning two results.](./assets/sample-search-3.5.png)
@@ -68,7 +69,6 @@ Use **Filters** to further narrow down your search.
 - __Categories:__ This option is only available if you have set up at least 1 customized [category](./setup#categories).
 
 - __Days Since Last Activity:__ Specify the number of days since the last activity using the slider or the textbox.
-
 
 ## View Your Tasks {view-tasks}
 
@@ -94,7 +94,7 @@ When you’re ready to take a look at a specific submission, select the **View**
 
 ![A sample submission record.](./assets/sample-record-3.5.png)
 
-In addition to the author(s) and title at the top of the window, you will see a three column layout. The actions available to you will change at each stage, but the general layout will remain the same. Below, you’ll get to know each of the columns.
+In addition to the author(s) and title at the top of the window, you will see a three-column layout. The actions available to you will change at each stage, but the general layout will remain the same. Below, you’ll get to know each of the columns.
 
 #### The Left Sidebar Menus: View Stages and Prepare for Publication {#left-sidebar}
 
@@ -104,7 +104,7 @@ The **Workflow menu**: This where you can view the work for this submission in t
 
 > Note: Depending on your role, you may only have access to a limited number of workflow stages. 
 
-The **Preprint  menu**: This where you will make edits to information and files related to the posted version of a preprint. For example, you can edit the title and abstract, list of contributors, keywords and other metadata, as well as schedule it for posting. You can also view the files related to the preprint under Galley. This menu is covered in depth in the [Publication section of this guide](./#publication.md). You can click “Publication” to expand or collapse these options.
+The **Preprint menu**: This is where you will make edits to information and files related to the posted version of a preprint. For example, you can edit the title and abstract, list of contributors, keywords and other metadata, as well as schedule it for posting. You can also view the files related to the preprint under Galley. This menu is covered in depth in the [Publication section of this guide](./#publication.md). You can click “Publication” to expand or collapse these options.
 
 #### The Central Panel: Files and Discussions {#central-panel}
 
@@ -124,7 +124,7 @@ The content of the central panel will change between stages. Please consult the 
 
 On the right side of the Submission Record, you will see:
 
-**Action Buttons**: This where you can choose to post or decline the preprint at any stage.
+**Action Buttons**: This is where you can choose to post or decline the preprint at any stage.
 
 **Participants**: This panel is where you will see the list of participants involved in the submission, for example, any Authors or Moderators. 
 
@@ -177,7 +177,6 @@ Click the “Add discussion” button in the stage’s discussion panel to begin
 
 ![The Discussion panel of the Submission stage with the Add discussion button.](./assets/disc-panel-3.5.png)
 
-
 This opens the Add discussion window.
 
 Choose the participants you would like to include in the discussion. 
@@ -191,7 +190,6 @@ You can then choose a predefined message template, or choose the generic “Disc
 
 ![The Add discussion window. In the example, the author and the administrator account are selected as participants, with a generic subject and message entered.](./assets/add-disc-3.5.png)
 
-
 You can also use the Upload File button in the Attached files panel to upload a file.
 
 ![The Attached Files panel with a Search and Upload File button.](./assets/disc-attach-3.5.png)
@@ -203,9 +201,7 @@ To upload a file:
 4. Rename the file and fill out the optional information fields as necessary. Click continue.
 5. Press the Complete button after your file has been successfully uploaded.
 
-
 ![The Attached Files panel with a Search and Upload File button.](./assets/attach-list-3.5.png)
-
 
 You can edit or delete any attached files by clicking the blue arrow next to the file name in the Attached Files panel and selecting Delete.
 
@@ -220,19 +216,17 @@ Any Discussions will be added to the Discussions panel for the relevant stage.
 
 ![The Discussions panel with multiple discussions.](./assets/sample-disc-3.5.png)
 
-You can easily see who sent the most recent reply, when the reply was sent, and the number of replies. 
+You can see who sent the most recent reply, when the reply was sent, and the number of replies. 
 
-Moderators also have the option to mark a discussion as closed, which can be useful when tracking tasks that result from discussions. Only Moderators can reply to closed discussions.
+Moderators can also mark a discussion as closed, which can be useful when tracking tasks that result from discussions. Only Moderators can reply to closed discussions.
 
-> Moderators can edit and delete discussions by pressing the blue arrow next to the discussion and clicking the Edit or Delete links. Note that deleted discussions will **still be logged in the Activity Log**. This means the content of deleted discussion will still be accessible to Moderators.
+> Moderators can edit and delete discussions by pressing the blue arrow next to the discussion and clicking the Edit or Delete links. Note that deleted discussions will **still be logged in the Activity Log**. This means the content of deleted discussions will still be accessible to Moderators.
 {:.notice}
 
 To open a discussion, click the subject of the discussion in the Discussions panel.
 
 ![An example discussion between the author and Moderators, including an attachment and an option to Add a message.](./assets/sample-disc-message-3.5.png)
 
-
 All participants in the discussion as well as all messages will be displayed in the window. Attached files are displayed below their messages. You can download the file by clicking the filename.
 
 To reply, click the Add Message button. You can include an attachment in a reply just as you would when starting a discussion.
-
