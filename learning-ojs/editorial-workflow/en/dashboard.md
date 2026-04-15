@@ -17,7 +17,7 @@ When you log in and access the Dashboard from your user menu, you can view your 
 You will also see the “Start a New Submission” button under the list of Dashboard views. You can use this to make a new submission as an author. Learn about making a submission in [Learning OJS for Authors](../../author/en/).
 
 
-### Get to Know the Dashboard Layout {#dashboard}
+## Get to Know the Dashboard Layout {#dashboard}
 
 When you open the Editor Dashboard menu, you will automatically be taken to the “Assigned to Me” Dashboard view. Let’s look at this example of a Dashboard to understand how it is organized.
 
@@ -56,7 +56,7 @@ You can use the various views under the Dashboards menu to filter submissions by
 > Note: The “Needs Editor” and “Declined” Dashboard views are only accessible to roles with the Journal Manager permission level. Section Editors see the rejected manuscripts that were assigned to them, Journal Managers see all manuscripts.
 
 
-#### Search and Refine Your Results With Filters {#search-filters}
+## Search and Refine Your Results With Filters {#search-filters}
 You can use the Search and Filters options to further refine the submissions you see in a given dashboard view. 
 
 ![A sample partial search of the Assigned to me dashboard returning two results.](./assets/sample-search-3.5.png)
@@ -99,7 +99,7 @@ Editors receive a weekly email summary of submissions which require editorial ac
 
 An editor can opt out of email notifications by changing [notification settings in their profile](../../about-ojs/en/#edit-profile) or clicking on the unsubscribe link.
 
-### Get to Know the Submission Record {#submission-record}
+## Get to Know the Submission Record {#submission-record}
 
 When you’re ready to take a look at a specific submission, select the **View** button. This will take you to the submission record. In our example, the submission is in the Submission stage (i.e. it has not yet been sent to review).
 
@@ -107,7 +107,7 @@ When you’re ready to take a look at a specific submission, select the **View**
 
 In addition to the author(s) and title at the top of the window, you will see a three column layout. The actions available to you will change at each stage, but the general layout will remain the same. Below, you’ll get to know each of the columns.
 
-#### The Left Sidebar Menus: View Stages and Prepare for Publication {#left-sidebar}
+### The Left Sidebar Menus: View Stages and Prepare for Publication {#left-sidebar}
 
 On the left side of the Submission Record, you will see:
 
@@ -117,7 +117,7 @@ The **Workflow menu**: This where you can view the work for this Submission in e
 
 The **Publication menu**: This where you will make edits to information and files related to the final published version of a submission. For example, you can edit the title and abstract, list of contributors, keywords and other metadata, as well as schedule the issue for publication. This menu is covered in depth in the [Publication section of this guide](./#publication.md). You can click “Publication” to expand or collapse these options.
 
-#### The Central Panel: Files and Discussions {#central-panel}
+### The Central Panel: Files and Discussions {#central-panel}
 
 In the central panel of the Submission Record, you will see:
 
@@ -133,7 +133,7 @@ In the central panel of the Submission Record, you will see:
 
 The content of the central panel will change between stages. Please consult the chapter for your current stage for further information.
 
-#### The Right Sidebar Menu: Make Decisions and Assign Participants {#right-sidebar}
+### The Right Sidebar Menu: Make Decisions and Assign Participants {#right-sidebar}
 
 On the right side of the Submission Record, you will see:
 
