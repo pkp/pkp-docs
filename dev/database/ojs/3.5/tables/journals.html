@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>journals - ojs-main.ojs-main</title>
+        <!-- Tell the browser to be responsive to screen width -->
+        <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+        <link rel="icon" type="image/png" sizes="16x16" href="../favicon.png">
+        <!-- Bootstrap 3.3.5 -->
+        <link rel="stylesheet" href="../bower/admin-lte/bootstrap/css/bootstrap.min.css">
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="../bower/font-awesome/css/font-awesome.min.css">
+        <!-- Ionicons -->
+        <link rel="stylesheet" href="../bower/ionicons/css/ionicons.min.css">
+        <!-- DataTables -->
+        <link rel="stylesheet" href="../bower/datatables.net-bs/css/dataTables.bootstrap.min.css">
+        <link rel="stylesheet" href="../bower/datatables.net-buttons-bs/css/buttons.bootstrap.min.css">
+        <!-- Code Mirror -->
+        <link rel="stylesheet" href="../bower/codemirror/codemirror.css">
+        <!-- Fonts -->
+        <link href='../fonts/indieflower/indie-flower.css' rel='stylesheet' type='text/css'>
+        <link href='../fonts/source-sans-pro/source-sans-pro.css' rel='stylesheet' type='text/css'>
+
+        <!-- Theme style -->
+        <link rel="stylesheet" href="../bower/admin-lte/dist/css/AdminLTE.min.css">
+        <!-- Salvattore -->
+        <link rel="stylesheet" href="../bower/salvattore/salvattore.css">
+        <!-- AdminLTE Skins. Choose a skin from the css/skins
+           folder instead of downloading all of them to reduce the load. -->
+        <link rel="stylesheet" href="../bower/admin-lte/dist/css/skins/_all-skins.min.css">
+        <!-- SchemaSpy -->
+        <link rel="stylesheet" href="../schemaSpy.css">
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+        <script src="../bower/html5shiv/html5shiv.min.js"></script>
+        <script src="../bower/respond/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <!-- ADD THE CLASS layout-top-nav TO REMOVE THE SIDEBAR. -->
+    <body class="hold-transition skin-blue layout-top-nav">
+        <div class="wrapper">
+            <header class="main-header">
+                <nav class="navbar navbar-static-top">
+                    <div class="container">
+                        <div class="navbar-header">
+                            <a href="../index.html" class="navbar-brand"><b>ojs-main</b></a><span class="navbar-brand" style="padding-left: 0">.ojs-main</span>
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse"><i class="fa fa-bars"></i></button>
+                        </div>
+
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse pull-left" id="navbar-collapse">
+                            <ul class="nav navbar-nav">
+                                <li><a href="../index.html">Tables <span class="sr-only">(current)</span></a></li>
+                                <li><a href="../columns.html" title="All of the columns in the schema">Columns</a></li>
+                                <li><a href="../constraints.html" title="Useful for diagnosing error messages that just give constraint name or number">Constraints</a></li>
+                                <li><a href="../relationships.html" title="Diagram of table relationships">Relationships</a></li>
+                                <li><a href="../orphans.html" title="View of tables with neither parents nor children">Orphan&nbsp;Tables</a></li>
+                                <li><a href="../anomalies.html" title="Things that might not be quite right">Anomalies</a></li>
+                                <li><a href="../routines.html" title="Procedures and functions">Routines</a></li>
+                            </ul>
+                        </div>
+                        <!-- /.navbar-collapse -->
+                        <!-- Navbar Right Menu -->
+                    </div>
+                    <!-- /.container-fluid -->
+                </nav>
+            </header>
+            <!-- Main content -->
+            <!-- Full Width Column -->
+            <div class="content-wrapper">
+                <!-- Content Header (Page header) -->
+                <section class="content-header">
+                    <h1>journals</h1><br />
+                    <div class="box box-primary">
+                        <div class="box-header with-border">
+                            <i class="fa fa-file-text-o"></i>
+                            <h3 id="Description" class="box-title">Description</h3>
+                            <div class="box-tools pull-right">
+                                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
+                                <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+                            </div>
+                        </div><!-- /.box-header -->
+                        <div class="box-body clearfix">
+                            <p>A list of all journals in the installation of OJS.</p>
+                        </div><!-- /.box-body -->
+                    </div>
+                </section>
+                <!-- Main content -->
+                <section class="content">
+                    <div class="box box-primary">
+                        <div class="box-header with-border">
+                            <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>
+                            <h3 id="Columns" class="box-title">Columns</h3>
+                            <div class="box-tools pull-right">
+                                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
+                                <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+                            </div>
+                        </div>
+                        <div class="box-body">
+                            <table
+                                    id="standard_table"
+                                    class="table table-bordered table-striped dataTable"
+                                    role="grid"
+                                    data-paging="true"
+                                    data-page-length="10"
+                                    data-length-change="false">
+                                <thead align='left'>
+                                <tr>
+                                    <th>Column</th>
+                                    <th>Type</th>
+                                    <th>Size</th>
+                                    <th title='Are nulls allowed?'>Nulls</th>
+                                    <th title='Is column automatically updated?'>Auto</th>
+                                    <th title='Default value'>Default</th>
+                                    <th title='Columns in tables that reference this column'>Children</th>
+                                    <th title='Columns in tables that are referenced by this column'>Parents</th>
+                                    <th title='Comments' class="toggle"><span>Comments</span></th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td class='primaryKey' title='Primary Key'><i class='icon ion-key iconkey' style='padding-left: 5px;'></i><span id="journal_id">journal_id</span></td>
+                                    <td>BIGINT</td>
+                                    <td>19</td>
+                                    <td title=''></td>
+                                    <td title='Automatically updated by the database'>√</td>
+                                    <td>null</td>
+                                    <td>
+                                        <table border='0' cellspacing='0' cellpadding='0'>
+                                            <tr>
+                                                <td title="announcement_types.context_id references journals.journal_id via announcement_types_context_id_foreign"><a href='announcement_types.html'>announcement_types</a><span class='relatedKey'>.context_id</span></td>
+                                                <td class="constraint detail">announcement_types_context_id_foreign</td>
+                                                <td class="constraint detail"><span title='Cascade on delete:&#10;Deletion of parent deletes child'>C</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td title="categories.context_id references journals.journal_id via categories_context_id_foreign"><a href='categories.html'>categories</a><span class='relatedKey'>.context_id</span></td>
+                                                <td class="constraint detail">categories_context_id_foreign</td>
+                                                <td class="constraint detail"><span title='Cascade on delete:&#10;Deletion of parent deletes child'>C</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td title="completed_payments.context_id references journals.journal_id via completed_payments_context_id"><a href='completed_payments.html'>completed_payments</a><span class='relatedKey'>.context_id</span></td>
+                                                <td class="constraint detail">completed_payments_context_id</td>
+                                                <td class="constraint detail"><span title='Cascade on delete:&#10;Deletion of parent deletes child'>C</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td title="custom_issue_orders.journal_id references journals.journal_id via custom_issue_orders_journal_id"><a href='custom_issue_orders.html'>custom_issue_orders</a><span class='relatedKey'>.journal_id</span></td>
+                                                <td class="constraint detail">custom_issue_orders_journal_id</td>
+                                                <td class="constraint detail"><span title='Cascade on delete:&#10;Deletion of parent deletes child'>C</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td title="dois.context_id references journals.journal_id via dois_context_id_foreign"><a href='dois.html'>dois</a><span class='relatedKey'>.context_id</span></td>
+                                                <td class="constraint detail">dois_context_id_foreign</td>
+                                                <td class="constraint detail"><span title='Cascade on delete:&#10;Deletion of parent deletes child'>C</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td title="edit_task_templates.context_id references journals.journal_id via edit_task_templates_context_fk"><a href='edit_task_templates.html'>edit_task_templates</a><span class='relatedKey'>.context_id</span></td>
+                                                <td class="constraint detail">edit_task_templates_context_fk</td>
+                                                <td class="constraint detail"><span title='Cascade on delete:&#10;Deletion of parent deletes child'>C</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td title="email_template_user_group_access.context_id references journals.journal_id via email_template_user_group_access_context_id_foreign"><a href='email_template_user_group_access.html'>email_template_user_group_access</a><span class='relatedKey'>.context_id</span></td>
+                                                <td class="constraint detail">email_template_user_group_access_context_id_foreign</td>
+                                                <td class="constraint detail"><span title='Cascade on delete:&#10;Deletion of parent deletes child'>C</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td title="email_templates.context_id references journals.journal_id via email_templates_context_id_foreign"><a href='email_templates.html'>email_templates</a><span class='relatedKey'>.context_id</span></td>
+                                                <td class="constraint detail">email_templates_context_id_foreign</td>
+                                                <td class="constraint detail"><span title='Cascade on delete:&#10;Deletion of parent deletes child'>C</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td title="filters.context_id references journals.journal_id via filters_context_id"><a href='filters.html'>filters</a><span class='relatedKey'>.context_id</span></td>
+                                                <td class="constraint detail">filters_context_id</td>
+                                                <td class="constraint detail"><span title='Cascade on delete:&#10;Deletion of parent deletes child'>C</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td title="genres.context_id references journals.journal_id via genres_context_id_foreign"><a href='genres.html'>genres</a><span class='relatedKey'>.context_id</span></td>
+                                                <td class="constraint detail">genres_context_id_foreign</td>
+                                                <td class="constraint detail"><span title='Cascade on delete:&#10;Deletion of parent deletes child'>C</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td title="highlights.context_id references journals.journal_id via highlights_context_id_foreign"><a href='highlights.html'>highlights</a><span class='relatedKey'>.context_id</span></td>
+                                                <td class="constraint detail">highlights_context_id_foreign</td>
+                                                <td class="constraint detail"><span title='Cascade on delete:&#10;Deletion of parent deletes child'>C</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td title="institutions.context_id references journals.journal_id via institutions_context_id_foreign"><a href='institutions.html'>institutions</a><span class='relatedKey'>.context_id</span></td>
+                                                <td class="constraint detail">institutions_context_id_foreign</td>
+                                                <td class="constraint detail"><span title='Cascade on delete:&#10;Deletion of parent deletes child'>C</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td title="invitations.context_id references journals.journal_id via invitations_context_id"><a href='invitations.html'>invitations</a><span class='relatedKey'>.context_id</span></td>
+                                                <td class="constraint detail">invitations_context_id</td>
+                                                <td class="constraint detail"><span title='Cascade on delete:&#10;Deletion of parent deletes child'>C</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td title="issues.journal_id references journals.journal_id via issues_journal_id"><a href='issues.html'>issues</a><span class='relatedKey'>.journal_id</span></td>
+                                                <td class="constraint detail">issues_journal_id</td>
+                                                <td class="constraint detail"><span title='Cascade on delete:&#10;Deletion of parent deletes child'>C</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td title="journal_settings.journal_id references journals.journal_id via journal_settings_journal_id"><a href='journal_settings.html'>journal_settings</a><span class='relatedKey'>.journal_id</span></td>
+                                                <td class="constraint detail">journal_settings_journal_id</td>
+                                                <td class="constraint detail"><span title='Cascade on delete:&#10;Deletion of parent deletes child'>C</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td title="library_files.context_id references journals.journal_id via library_files_context_id"><a href='library_files.html'>library_files</a><span class='relatedKey'>.context_id</span></td>
+                                                <td class="constraint detail">library_files_context_id</td>
+                                                <td class="constraint detail"><span title='Cascade on delete:&#10;Deletion of parent deletes child'>C</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td title="metrics_context.context_id references journals.journal_id via metrics_context_context_id_foreign"><a href='metrics_context.html'>metrics_context</a><span class='relatedKey'>.context_id</span></td>
+                                                <td class="constraint detail">metrics_context_context_id_foreign</td>
+                                                <td class="constraint detail"><span title='Cascade on delete:&#10;Deletion of parent deletes child'>C</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td title="metrics_counter_submission_daily.context_id references journals.journal_id via msd_context_id_foreign"><a href='metrics_counter_submission_daily.html'>metrics_counter_submission_daily</a><span class='relatedKey'>.context_id</span></td>
+                                                <td class="constraint detail">msd_context_id_foreign</td>
+                                                <td class="constraint detail"><span title='Cascade on delete:&#10;Deletion of parent deletes child'>C</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td title="metrics_counter_submission_institution_daily.context_id references journals.journal_id via msid_context_id_foreign"><a href='metrics_counter_submission_inst_766cb7fe.html'>metrics_counter_submission_institution_daily</a><span class='relatedKey'>.context_id</span></td>
+                                                <td class="constraint detail">msid_context_id_foreign</td>
+                                                <td class="constraint detail"><span title='Cascade on delete:&#10;Deletion of parent deletes child'>C</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td title="metrics_counter_submission_institution_monthly.context_id references journals.journal_id via msim_context_id_foreign"><a href='metrics_counter_submission_inst_826484b2.html'>metrics_counter_submission_institution_monthly</a><span class='relatedKey'>.context_id</span></td>
+                                                <td class="constraint detail">msim_context_id_foreign</td>
+                                                <td class="constraint detail"><span title='Cascade on delete:&#10;Deletion of parent deletes child'>C</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td title="metrics_counter_submission_monthly.context_id references journals.journal_id via msm_context_id_foreign"><a href='metrics_counter_submission_monthly.html'>metrics_counter_submission_monthly</a><span class='relatedKey'>.context_id</span></td>
+                                                <td class="constraint detail">msm_context_id_foreign</td>
+                                                <td class="constraint detail"><span title='Cascade on delete:&#10;Deletion of parent deletes child'>C</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td title="metrics_issue.context_id references journals.journal_id via metrics_issue_context_id_foreign"><a href='metrics_issue.html'>metrics_issue</a><span class='relatedKey'>.context_id</span></td>
+                                                <td class="constraint detail">metrics_issue_context_id_foreign</td>
+                                                <td class="constraint detail"><span title='Cascade on delete:&#10;Deletion of parent deletes child'>C</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td title="metrics_submission.context_id references journals.journal_id via metrics_submission_context_id_foreign"><a href='metrics_submission.html'>metrics_submission</a><span class='relatedKey'>.context_id</span></td>
+                                                <td class="constraint detail">metrics_submission_context_id_foreign</td>
+                                                <td class="constraint detail"><span title='Cascade on delete:&#10;Deletion of parent deletes child'>C</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td title="metrics_submission_geo_daily.context_id references journals.journal_id via msgd_context_id_foreign"><a href='metrics_submission_geo_daily.html'>metrics_submission_geo_daily</a><span class='relatedKey'>.context_id</span></td>
+                                                <td class="constraint detail">msgd_context_id_foreign</td>
+                                                <td class="constraint detail"><span title='Cascade on delete:&#10;Deletion of parent deletes child'>C</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td title="metrics_submission_geo_monthly.context_id references journals.journal_id via msgm_context_id_foreign"><a href='metrics_submission_geo_monthly.html'>metrics_submission_geo_monthly</a><span class='relatedKey'>.context_id</span></td>
+                                                <td class="constraint detail">msgm_context_id_foreign</td>
+                                                <td class="constraint detail"><span title='Cascade on delete:&#10;Deletion of parent deletes child'>C</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td title="navigation_menu_items.context_id references journals.journal_id via navigation_menu_items_context_id"><a href='navigation_menu_items.html'>navigation_menu_items</a><span class='relatedKey'>.context_id</span></td>
+                                                <td class="constraint detail">navigation_menu_items_context_id</td>
+                                                <td class="constraint detail"><span title='Cascade on delete:&#10;Deletion of parent deletes child'>C</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td title="navigation_menus.context_id references journals.journal_id via navigation_menus_context_id"><a href='navigation_menus.html'>navigation_menus</a><span class='relatedKey'>.context_id</span></td>
+                                                <td class="constraint detail">navigation_menus_context_id</td>
+                                                <td class="constraint detail"><span title='Cascade on delete:&#10;Deletion of parent deletes child'>C</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td title="notification_subscription_settings.context_id references journals.journal_id via notification_subscription_settings_context_id_foreign"><a href='notification_subscription_settings.html'>notification_subscription_settings</a><span class='relatedKey'>.context_id</span></td>
+                                                <td class="constraint detail">notification_subscription_settings_context_id_foreign</td>
+                                                <td class="constraint detail"><span title='Cascade on delete:&#10;Deletion of parent deletes child'>C</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td title="notifications.context_id references journals.journal_id via notifications_context_id_foreign"><a href='notifications.html'>notifications</a><span class='relatedKey'>.context_id</span></td>
+                                                <td class="constraint detail">notifications_context_id_foreign</td>
+                                                <td class="constraint detail"><span title='Cascade on delete:&#10;Deletion of parent deletes child'>C</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td title="plugin_settings.context_id references journals.journal_id via plugin_settings_context_id"><a href='plugin_settings.html'>plugin_settings</a><span class='relatedKey'>.context_id</span></td>
+                                                <td class="constraint detail">plugin_settings_context_id</td>
+                                                <td class="constraint detail"><span title='Cascade on delete:&#10;Deletion of parent deletes child'>C</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td title="reviewer_recommendations.context_id references journals.journal_id via reviewer_recommendations_context_id_foreign"><a href='reviewer_recommendations.html'>reviewer_recommendations</a><span class='relatedKey'>.context_id</span></td>
+                                                <td class="constraint detail">reviewer_recommendations_context_id_foreign</td>
+                                                <td class="constraint detail"><span title='Cascade on delete:&#10;Deletion of parent deletes child'>C</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td title="sections.journal_id references journals.journal_id via sections_journal_id"><a href='sections.html'>sections</a><span class='relatedKey'>.journal_id</span></td>
+                                                <td class="constraint detail">sections_journal_id</td>
+                                                <td class="constraint detail"><span title='Cascade on delete:&#10;Deletion of parent deletes child'>C</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td title="site.redirect_context_id references journals.journal_id via site_redirect_context_id_foreign"><a href='site.html'>site</a><span class='relatedKey'>.redirect_context_id</span></td>
+                                                <td class="constraint detail">site_redirect_context_id_foreign</td>
+                                                <td class="constraint detail"><span title='Null on delete:&#10;Foreign key to parent set to NULL when parent deleted'>N</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td title="static_pages.context_id references journals.journal_id via static_pages_context_id"><a href='static_pages.html'>static_pages</a><span class='relatedKey'>.context_id</span></td>
+                                                <td class="constraint detail">static_pages_context_id</td>
+                                                <td class="constraint detail"><span title='Cascade on delete:&#10;Deletion of parent deletes child'>C</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td title="subeditor_submission_group.context_id references journals.journal_id via section_editors_context_id"><a href='subeditor_submission_group.html'>subeditor_submission_group</a><span class='relatedKey'>.context_id</span></td>
+                                                <td class="constraint detail">section_editors_context_id</td>
+                                                <td class="constraint detail"><span title='Cascade on delete:&#10;Deletion of parent deletes child'>C</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td title="submissions.context_id references journals.journal_id via submissions_context_id"><a href='submissions.html'>submissions</a><span class='relatedKey'>.context_id</span></td>
+                                                <td class="constraint detail">submissions_context_id</td>
+                                                <td class="constraint detail"><span title='Cascade on delete:&#10;Deletion of parent deletes child'>C</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td title="subscription_types.journal_id references journals.journal_id via subscription_types_journal_id"><a href='subscription_types.html'>subscription_types</a><span class='relatedKey'>.journal_id</span></td>
+                                                <td class="constraint detail">subscription_types_journal_id</td>
+                                                <td class="constraint detail"><span title='Cascade on delete:&#10;Deletion of parent deletes child'>C</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td title="subscriptions.journal_id references journals.journal_id via subscriptions_journal_id"><a href='subscriptions.html'>subscriptions</a><span class='relatedKey'>.journal_id</span></td>
+                                                <td class="constraint detail">subscriptions_journal_id</td>
+                                                <td class="constraint detail"><span title='Cascade on delete:&#10;Deletion of parent deletes child'>C</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td title="usage_stats_total_temporary_records.context_id references journals.journal_id via ust_context_id_foreign"><a href='usage_stats_total_temporary_records.html'>usage_stats_total_temporary_records</a><span class='relatedKey'>.context_id</span></td>
+                                                <td class="constraint detail">ust_context_id_foreign</td>
+                                                <td class="constraint detail"><span title='Cascade on delete:&#10;Deletion of parent deletes child'>C</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td title="usage_stats_unique_item_investigations_temporary_records.context_id references journals.journal_id via usii_context_id_foreign"><a href='usage_stats_unique_item_investi_d5d14002.html'>usage_stats_unique_item_investigations_temporary_records</a><span class='relatedKey'>.context_id</span></td>
+                                                <td class="constraint detail">usii_context_id_foreign</td>
+                                                <td class="constraint detail"><span title='Cascade on delete:&#10;Deletion of parent deletes child'>C</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td title="usage_stats_unique_item_requests_temporary_records.context_id references journals.journal_id via usir_context_id_foreign"><a href='usage_stats_unique_item_request_745ee055.html'>usage_stats_unique_item_requests_temporary_records</a><span class='relatedKey'>.context_id</span></td>
+                                                <td class="constraint detail">usir_context_id_foreign</td>
+                                                <td class="constraint detail"><span title='Cascade on delete:&#10;Deletion of parent deletes child'>C</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td title="user_group_stage.context_id references journals.journal_id via user_group_stage_context_id"><a href='user_group_stage.html'>user_group_stage</a><span class='relatedKey'>.context_id</span></td>
+                                                <td class="constraint detail">user_group_stage_context_id</td>
+                                                <td class="constraint detail"><span title='Cascade on delete:&#10;Deletion of parent deletes child'>C</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td title="user_groups.context_id references journals.journal_id via user_groups_context_id"><a href='user_groups.html'>user_groups</a><span class='relatedKey'>.context_id</span></td>
+                                                <td class="constraint detail">user_groups_context_id</td>
+                                                <td class="constraint detail"><span title='Cascade on delete:&#10;Deletion of parent deletes child'>C</span></td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td>
+                                        <table border='0' cellspacing='0' cellpadding='0'>
+                                        </table>
+                                    </td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td class='indexedColumn' title='Indexed'><i class='fa fa-sitemap fa-rotate-120' style='padding-right: 5px;'></i><span id="path">path</span></td>
+                                    <td>VARCHAR</td>
+                                    <td>32</td>
+                                    <td title=''></td>
+                                    <td title=''></td>
+                                    <td>null</td>
+                                    <td>
+                                        <table border='0' cellspacing='0' cellpadding='0'>
+                                        </table>
+                                    </td>
+                                    <td>
+                                        <table border='0' cellspacing='0' cellpadding='0'>
+                                        </table>
+                                    </td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td><span id="seq">seq</span></td>
+                                    <td>DOUBLE</td>
+                                    <td>22</td>
+                                    <td title=''></td>
+                                    <td title=''></td>
+                                    <td>0</td>
+                                    <td>
+                                        <table border='0' cellspacing='0' cellpadding='0'>
+                                        </table>
+                                    </td>
+                                    <td>
+                                        <table border='0' cellspacing='0' cellpadding='0'>
+                                        </table>
+                                    </td>
+                                    <td><p>Used to order lists of journals</p></td>
+                                </tr>
+                                <tr>
+                                    <td><span id="primary_locale">primary_locale</span></td>
+                                    <td>VARCHAR</td>
+                                    <td>28</td>
+                                    <td title=''></td>
+                                    <td title=''></td>
+                                    <td>null</td>
+                                    <td>
+                                        <table border='0' cellspacing='0' cellpadding='0'>
+                                        </table>
+                                    </td>
+                                    <td>
+                                        <table border='0' cellspacing='0' cellpadding='0'>
+                                        </table>
+                                    </td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td><span id="enabled">enabled</span></td>
+                                    <td>SMALLINT</td>
+                                    <td>5</td>
+                                    <td title=''></td>
+                                    <td title=''></td>
+                                    <td>1</td>
+                                    <td>
+                                        <table border='0' cellspacing='0' cellpadding='0'>
+                                        </table>
+                                    </td>
+                                    <td>
+                                        <table border='0' cellspacing='0' cellpadding='0'>
+                                        </table>
+                                    </td>
+                                    <td><p>Controls whether or not the journal is considered &ldquo;live&rdquo; and will appear on the website. (Note that disabled journals may still be accessible, but only if the user knows the URL.)</p></td>
+                                </tr>
+                                <tr>
+                                    <td class='foreignKey' title='Foreign Key'><i class='icon ion-key iconkey' style='padding-left: 5px;'></i><span id="current_issue_id">current_issue_id</span></td>
+                                    <td>BIGINT</td>
+                                    <td>19</td>
+                                    <td title='nullable'>√</td>
+                                    <td title=''></td>
+                                    <td>null</td>
+                                    <td>
+                                        <table border='0' cellspacing='0' cellpadding='0'>
+                                        </table>
+                                    </td>
+                                    <td>
+                                        <table border='0' cellspacing='0' cellpadding='0'>
+                                            <tr>
+                                                <td title="journals.current_issue_id references issues.issue_id via journals_current_issue_id_foreign"><a href='issues.html'>issues</a><span class='relatedKey'>.issue_id</span></td>
+                                                <td class="constraint detail">journals_current_issue_id_foreign</td>
+                                                <td class="constraint detail"><span title='Null on delete:&#10;Foreign key to parent set to NULL when parent deleted'>N</span></td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td></td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="box box-primary">
+                        <div class="box-header with-border">
+                            <i class="fa fa-sitemap"></i>
+                            <h3 id="Indexes" class="box-title">Indexes</h3>
+                            <div class="box-tools pull-right">
+                                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
+                                <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+                            </div>
+                        </div>
+                        <div class="box-body">
+                            <table
+                                    id="indexes_table"
+                                    class="table table-bordered table-striped dataTable"
+                                    role="grid"
+                                    data-paging="true"
+                                    data-page-length="10"
+                                    data-length-change="false">
+                                <thead>
+                                <tr>
+                                    <th>Constraint Name</th>
+                                    <th>Type</th>
+                                    <th>Sort</th>
+                                    <th>Column(s)</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td class='primaryKey' title='Primary Key'><i class='icon ion-key iconkey'></i> PRIMARY</td>
+                                    <td>Primary key</td>
+                                    <td><span title='Ascending'>Asc</span></td>
+                                    <td>journal_id</td>
+                                </tr>
+                                <tr>
+                                    <td title='Indexed'>journals_issue_id</td>
+                                    <td>Performance</td>
+                                    <td><span title='Ascending'>Asc</span></td>
+                                    <td>current_issue_id</td>
+                                </tr>
+                                <tr>
+                                    <td class='uniqueKey' title='Unique Key'><i class='icon ion-key iconkey'></i> journals_path</td>
+                                    <td>Must be unique</td>
+                                    <td><span title='Ascending'>Asc</span></td>
+                                    <td>path</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div><!-- /.box-body -->
+                    </div>
+                    <div class="box box-primary">
+                        <div class="box-header with-border">
+                            <i class="fa fa-code-fork"></i>
+                            <h3 id="Relationships" class="box-title">Relationships</h3>
+                            <div class="box-tools pull-right">
+                                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
+                                <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+                            </div>
+                        </div>
+                        <div class="box-body">
+                            <div class="nav-tabs-custom"><!-- Tabs within a box -->
+                                <h5>Close relationships within degrees of separation</h5>
+                                <ul class="nav nav-tabs pull-left ui-sortable-handle">
+                                    <li class="active"><a href="#oneDegreeImg-chart" data-toggle="tab" aria-expanded="true">One</a></li>
+                                    <li class=""><a href="#twodegreesDegreeImg-chart" data-toggle="tab" aria-expanded="true">Two degrees</a></li>
+                                </ul>
+                                <div class="tab-content no-padding">
+                                    <div class="chart tab-pane active" id="oneDegreeImg-chart" style="position: relative; overflow-x:auto;">
+                                        <map id="oneDegreeRelationshipsDiagram" name="oneDegreeRelationshipsDiagram">
+<area shape="rect" id="node1" href="announcement_types.html" target="_top" title="announcement_types" alt="" coords="881,2118,1150,2241">
+<area shape="rect" id="node2" href="journals.html" target="_top" title="journals" alt="" coords="496,2612,784,2857">
+<area shape="rect" id="node6" href="issues.html" target="_top" title="issues" alt="" coords="196,1660,452,1865">
+<area shape="rect" id="node3" href="categories.html" target="_top" title="categories" alt="" coords="928,3012,1103,3217">
+<area shape="rect" id="node4" href="completed_payments.html" target="_top" title="completed_payments" alt="" coords="856,3234,1176,3410">
+<area shape="rect" id="node5" href="custom_issue_orders.html" target="_top" title="custom_issue_orders" alt="" coords="884,90,1147,266">
+<area shape="rect" id="node7" href="dois.html" target="_top" title="dois" alt="" coords="13,2038,152,2185">
+<area shape="rect" id="node8" href="edit_task_templates.html" target="_top" title="edit_task_templates" alt="" coords="887,3428,1144,3574">
+<area shape="rect" id="node9" href="email_template_user_group_access.html" target="_top" title="email_template_user_group_access" alt="" coords="1356,4221,1742,4397">
+<area shape="rect" id="node10" href="user_groups.html" target="_top" title="user_groups" alt="" coords="888,3664,1144,3840">
+<area shape="rect" id="node11" href="email_templates.html" target="_top" title="email_templates" alt="" coords="902,3893,1129,4074">
+<area shape="rect" id="node12" href="filters.html" target="_top" title="filters" alt="" coords="926,4092,1106,4297">
+<area shape="rect" id="node13" href="genres.html" target="_top" title="genres" alt="" coords="926,4314,1106,4461">
+<area shape="rect" id="node14" href="highlights.html" target="_top" title="highlights" alt="" coords="930,4478,1102,4625">
+<area shape="rect" id="node15" href="institutions.html" target="_top" title="institutions" alt="" coords="924,2366,1108,2513">
+<area shape="rect" id="node16" href="invitations.html" target="_top" title="invitations" alt="" coords="927,4642,1104,4936">
+<area shape="rect" id="node17" href="journal_settings.html" target="_top" title="journal_settings" alt="" coords="904,4953,1127,5158">
+<area shape="rect" id="node18" href="library_files.html" target="_top" title="library_files" alt="" coords="1446,1349,1652,1525">
+<area shape="rect" id="node19" href="submissions.html" target="_top" title="submissions" alt="" coords="894,2638,1137,2814">
+<area shape="rect" id="node20" href="metrics_context.html" target="_top" title="metrics_context" alt="" coords="904,5176,1127,5352">
+<area shape="rect" id="node21" href="metrics_counter_submission_daily.html" target="_top" title="metrics_counter_submission_daily" alt="" coords="1360,2076,1738,2310">
+<area shape="rect" id="node22" href="metrics_counter_submission_inst_766cb7fe.html" target="_top" title="metrics_counter_submission_institution_daily" alt="" coords="1310,1542,1788,1806">
+<area shape="rect" id="node23" href="metrics_counter_submission_inst_826484b2.html" target="_top" title="metrics_counter_submission_institution_monthly" alt="" coords="1295,1824,1803,2058">
+<area shape="rect" id="node24" href="metrics_counter_submission_monthly.html" target="_top" title="metrics_counter_submission_monthly" alt="" coords="1344,2328,1754,2533">
+<area shape="rect" id="node25" href="metrics_issue.html" target="_top" title="metrics_issue" alt="" coords="916,284,1116,518">
+<area shape="rect" id="node26" href="metrics_submission.html" target="_top" title="metrics_submission" alt="" coords="1422,2550,1676,2873">
+<area shape="rect" id="node27" href="metrics_submission_geo_daily.html" target="_top" title="metrics_submission_geo_daily" alt="" coords="1378,2890,1720,3213">
+<area shape="rect" id="node28" href="metrics_submission_geo_monthly.html" target="_top" title="metrics_submission_geo_monthly" alt="" coords="1362,3230,1736,3524">
+<area shape="rect" id="node29" href="navigation_menu_items.html" target="_top" title="navigation_menu_items" alt="" coords="871,5369,1160,5516">
+<area shape="rect" id="node30" href="navigation_menus.html" target="_top" title="navigation_menus" alt="" coords="894,5533,1137,5680">
+<area shape="rect" id="node31" href="notification_subscription_settings.html" target="_top" title="notification_subscription_settings" alt="" coords="828,572,1204,748">
+<area shape="rect" id="node32" href="notifications.html" target="_top" title="notifications" alt="" coords="919,765,1112,1029">
+<area shape="rect" id="node33" href="plugin_settings.html" target="_top" title="plugin_settings" alt="" coords="908,1210,1124,1416">
+<area shape="rect" id="node34" href="reviewer_recommendations.html" target="_top" title="reviewer_recommendations" alt="" coords="853,1433,1178,1580">
+<area shape="rect" id="node35" href="sections.html" target="_top" title="sections" alt="" coords="892,1597,1140,1773">
+<area shape="rect" id="node36" href="site.html" target="_top" title="site" alt="" coords="888,1790,1144,1937">
+<area shape="rect" id="node37" href="static_pages.html" target="_top" title="static_pages" alt="" coords="920,1954,1111,2101">
+<area shape="rect" id="node38" href="subeditor_submission_group.html" target="_top" title="subeditor_submission_group" alt="" coords="1384,4414,1714,4654">
+<area shape="rect" id="node39" href="subscription_types.html" target="_top" title="subscription_types" alt="" coords="893,1046,1138,1193">
+<area shape="rect" id="node40" href="subscriptions.html" target="_top" title="subscriptions" alt="" coords="1445,582,1653,788">
+<area shape="rect" id="node41" href="usage_stats_total_temporary_records.html" target="_top" title="usage_stats_total_temporary_records" alt="" coords="1346,921,1752,1332">
+<area shape="rect" id="node42" href="usage_stats_unique_item_investi_d5d14002.html" target="_top" title="usage_stats_unique_item_investigations_temporary_records" alt="" coords="1248,3541,1850,3864">
+<area shape="rect" id="node43" href="usage_stats_unique_item_request_745ee055.html" target="_top" title="usage_stats_unique_item_requests_temporary_records" alt="" coords="1272,3881,1826,4204">
+<area shape="rect" id="node44" href="user_group_stage.html" target="_top" title="user_group_stage" alt="" coords="1431,4672,1667,4853">
+</map>
+                                        <a name='diagram'><img id="oneDegreeImg" src="../diagrams/tables/journals.1degree.png" usemap="#oneDegreeRelationshipsDiagram" class="diagram" border="0" align="left"></a>
+                                    </div>
+                                    <div class="chart tab-pane " id="twodegreesDegreeImg-chart" style="position: relative; overflow-x:auto;">
+                                        <map id="twoDegreesRelationshipsDiagram" name="twoDegreesRelationshipsDiagram">
+<area shape="rect" id="node1" href="announcement_type_settings.html" target="_top" title="announcement_type_settings" alt="" coords="1150,4920,1489,5008">
+<area shape="rect" id="node2" href="announcement_types.html" target="_top" title="announcement_types" alt="" coords="742,4662,1011,4784">
+<area shape="rect" id="node3" href="journals.html" target="_top" title="journals" alt="" coords="400,2670,688,2915">
+<area shape="rect" id="node10" href="issues.html" target="_top" title="issues" alt="" coords="194,2678,330,2766">
+<area shape="rect" id="node4" href="announcements.html" target="_top" title="announcements" alt="" coords="1207,4815,1431,4903">
+<area shape="rect" id="node5" href="categories.html" target="_top" title="categories" alt="" coords="1232,5342,1407,5547">
+<area shape="rect" id="node6" href="category_settings.html" target="_top" title="category_settings" alt="" coords="1661,5344,1899,5432">
+<area shape="rect" id="node7" href="completed_payments.html" target="_top" title="completed_payments" alt="" coords="1159,4095,1479,4271">
+<area shape="rect" id="node8" href="users.html" target="_top" title="users" alt="" coords="811,3378,942,3466">
+<area shape="rect" id="node9" href="custom_issue_orders.html" target="_top" title="custom_issue_orders" alt="" coords="745,5236,1008,5324">
+<area shape="rect" id="node14" href="dois.html" target="_top" title="dois" alt="" coords="5,2748,124,2836">
+<area shape="rect" id="node11" href="custom_section_orders.html" target="_top" title="custom_section_orders" alt="" coords="1179,5706,1460,5794">
+<area shape="rect" id="node12" href="sections.html" target="_top" title="sections" alt="" coords="753,5464,1001,5640">
+<area shape="rect" id="node66" href="review_forms.html" target="_top" title="review_forms" alt="" coords="444,5883,644,5971">
+<area shape="rect" id="node13" href="doi_settings.html" target="_top" title="doi_settings" alt="" coords="168,2572,356,2660">
+<area shape="rect" id="node15" href="edit_decisions.html" target="_top" title="edit_decisions" alt="" coords="2186,3219,2390,3307">
+<area shape="rect" id="node16" href="publications.html" target="_top" title="publications" alt="" coords="1224,5236,1415,5324">
+<area shape="rect" id="node17" href="review_rounds.html" target="_top" title="review_rounds" alt="" coords="1675,3308,1885,3396">
+<area shape="rect" id="node18" href="submissions.html" target="_top" title="submissions" alt="" coords="782,1251,971,1339">
+<area shape="rect" id="node19" href="edit_task_template_settings.html" target="_top" title="edit_task_template_settings" alt="" coords="1157,2254,1482,2342">
+<area shape="rect" id="node20" href="edit_task_templates.html" target="_top" title="edit_task_templates" alt="" coords="748,2356,1005,2503">
+<area shape="rect" id="node21" href="edit_task_template_user_groups.html" target="_top" title="edit_task_template_user_groups" alt="" coords="1139,2359,1500,2447">
+<area shape="rect" id="node22" href="user_groups.html" target="_top" title="user_groups" alt="" coords="782,2678,971,2766">
+<area shape="rect" id="node23" href="email_template_user_group_access.html" target="_top" title="email_template_user_group_access" alt="" coords="1127,2464,1512,2552">
+<area shape="rect" id="node24" href="email_templates.html" target="_top" title="email_templates" alt="" coords="763,4802,990,4983">
+<area shape="rect" id="node25" href="email_templates_settings.html" target="_top" title="email_templates_settings" alt="" coords="1167,5026,1471,5114">
+<area shape="rect" id="node26" href="filter_settings.html" target="_top" title="filter_settings" alt="" coords="1217,5811,1421,5899">
+<area shape="rect" id="node27" href="filters.html" target="_top" title="filters" alt="" coords="787,5694,967,5899">
+<area shape="rect" id="node28" href="filter_groups.html" target="_top" title="filter_groups" alt="" coords="447,5726,641,5814">
+<area shape="rect" id="node29" href="genre_settings.html" target="_top" title="genre_settings" alt="" coords="1213,347,1425,435">
+<area shape="rect" id="node30" href="genres.html" target="_top" title="genres" alt="" coords="787,527,967,674">
+<area shape="rect" id="node31" href="highlight_settings.html" target="_top" title="highlight_settings" alt="" coords="1199,5131,1439,5219">
+<area shape="rect" id="node32" href="highlights.html" target="_top" title="highlights" alt="" coords="791,5000,963,5147">
+<area shape="rect" id="node33" href="institution_ip.html" target="_top" title="institution_ip" alt="" coords="1220,1902,1419,1990">
+<area shape="rect" id="node34" href="institutions.html" target="_top" title="institutions" alt="" coords="785,1904,969,1992">
+<area shape="rect" id="node35" href="institution_settings.html" target="_top" title="institution_settings" alt="" coords="1193,2112,1445,2200">
+<area shape="rect" id="node36" href="institutional_subscriptions.html" target="_top" title="institutional_subscriptions" alt="" coords="1623,3414,1937,3502">
+<area shape="rect" id="node37" href="subscriptions.html" target="_top" title="subscriptions" alt="" coords="1219,4288,1419,4376">
+<area shape="rect" id="node82" href="subscription_types.html" target="_top" title="subscription_types" alt="" coords="754,3627,999,3715">
+<area shape="rect" id="node38" href="invitations.html" target="_top" title="invitations" alt="" coords="1231,3591,1408,3884">
+<area shape="rect" id="node39" href="issue_files.html" target="_top" title="issue_files" alt="" coords="459,188,629,276">
+<area shape="rect" id="node40" href="issue_galleys.html" target="_top" title="issue_galleys" alt="" coords="779,134,975,222">
+<area shape="rect" id="node41" href="issue_settings.html" target="_top" title="issue_settings" alt="" coords="441,294,647,382">
+<area shape="rect" id="node42" href="journal_settings.html" target="_top" title="journal_settings" alt="" coords="765,691,988,896">
+<area shape="rect" id="node43" href="library_file_settings.html" target="_top" title="library_file_settings" alt="" coords="1653,558,1907,646">
+<area shape="rect" id="node44" href="library_files.html" target="_top" title="library_files" alt="" coords="1227,594,1411,682">
+<area shape="rect" id="node45" href="metrics_context.html" target="_top" title="metrics_context" alt="" coords="765,914,988,1090">
+<area shape="rect" id="node46" href="metrics_counter_submission_daily.html" target="_top" title="metrics_counter_submission_daily" alt="" coords="1130,1444,1509,1532">
+<area shape="rect" id="node47" href="metrics_counter_submission_inst_766cb7fe.html" target="_top" title="metrics_counter_submission_institution_daily" alt="" coords="1081,912,1558,1000">
+<area shape="rect" id="node48" href="metrics_counter_submission_inst_826484b2.html" target="_top" title="metrics_counter_submission_institution_monthly" alt="" coords="1065,1655,1573,1743">
+<area shape="rect" id="node49" href="metrics_counter_submission_monthly.html" target="_top" title="metrics_counter_submission_monthly" alt="" coords="1115,1550,1524,1638">
+<area shape="rect" id="node50" href="metrics_issue.html" target="_top" title="metrics_issue" alt="" coords="1219,170,1419,258">
+<area shape="rect" id="node51" href="metrics_submission.html" target="_top" title="metrics_submission" alt="" coords="2161,700,2415,788">
+<area shape="rect" id="node52" href="publication_galleys.html" target="_top" title="publication_galleys" alt="" coords="1655,843,1905,931">
+<area shape="rect" id="node53" href="submission_files.html" target="_top" title="submission_files" alt="" coords="1207,1054,1431,1142">
+<area shape="rect" id="node54" href="metrics_submission_geo_daily.html" target="_top" title="metrics_submission_geo_daily" alt="" coords="1149,488,1490,576">
+<area shape="rect" id="node55" href="metrics_submission_geo_monthly.html" target="_top" title="metrics_submission_geo_monthly" alt="" coords="1133,1339,1506,1427">
+<area shape="rect" id="node56" href="navigation_menu_item_assignments.html" target="_top" title="navigation_menu_item_assignments" alt="" coords="1120,4499,1519,4587">
+<area shape="rect" id="node57" href="navigation_menus.html" target="_top" title="navigation_menus" alt="" coords="755,3732,998,3879">
+<area shape="rect" id="node58" href="navigation_menu_items.html" target="_top" title="navigation_menu_items" alt="" coords="732,4334,1021,4480">
+<area shape="rect" id="node59" href="navigation_menu_item_settings.html" target="_top" title="navigation_menu_item_settings" alt="" coords="1140,4604,1499,4692">
+<area shape="rect" id="node60" href="notification_settings.html" target="_top" title="notification_settings" alt="" coords="1649,3062,1911,3150">
+<area shape="rect" id="node61" href="notifications.html" target="_top" title="notifications" alt="" coords="1223,3096,1416,3360">
+<area shape="rect" id="node62" href="notification_subscription_settings.html" target="_top" title="notification_subscription_settings" alt="" coords="1131,3902,1507,4078">
+<area shape="rect" id="node63" href="plugin_settings.html" target="_top" title="plugin_settings" alt="" coords="769,3896,985,4102">
+<area shape="rect" id="node64" href="publication_categories.html" target="_top" title="publication_categories" alt="" coords="1640,5238,1920,5326">
+<area shape="rect" id="node65" href="review_assignments.html" target="_top" title="review_assignments" alt="" coords="2159,4751,2417,4839">
+<area shape="rect" id="node67" href="reviewer_recommendations.html" target="_top" title="reviewer_recommendations" alt="" coords="1617,6024,1943,6171">
+<area shape="rect" id="node68" href="review_round_author_responses.html" target="_top" title="review_round_author_responses" alt="" coords="2107,3482,2469,3570">
+<area shape="rect" id="node69" href="review_round_files.html" target="_top" title="review_round_files" alt="" coords="2166,1122,2410,1210">
+<area shape="rect" id="node70" href="reviewer_recommendation_settings.html" target="_top" title="reviewer_recommendation_settings" alt="" coords="2091,6027,2485,6115">
+<area shape="rect" id="node71" href="reviewer_suggestions.html" target="_top" title="reviewer_suggestions" alt="" coords="1184,3378,1455,3466">
+<area shape="rect" id="node72" href="section_settings.html" target="_top" title="section_settings" alt="" coords="1208,5600,1431,5688">
+<area shape="rect" id="node73" href="site.html" target="_top" title="site" alt="" coords="749,4119,1005,4266">
+<area shape="rect" id="node74" href="stage_assignments.html" target="_top" title="stage_assignments" alt="" coords="1195,2675,1443,2763">
+<area shape="rect" id="node75" href="static_page_settings.html" target="_top" title="static_page_settings" alt="" coords="1190,4710,1449,4798">
+<area shape="rect" id="node76" href="static_pages.html" target="_top" title="static_pages" alt="" coords="781,4498,972,4644">
+<area shape="rect" id="node77" href="subeditor_submission_group.html" target="_top" title="subeditor_submission_group" alt="" coords="1154,2991,1485,3079">
+<area shape="rect" id="node78" href="submission_comments.html" target="_top" title="submission_comments" alt="" coords="1179,2007,1459,2095">
+<area shape="rect" id="node79" href="submission_settings.html" target="_top" title="submission_settings" alt="" coords="1190,807,1449,895">
+<area shape="rect" id="node80" href="submissions_fulltext.html" target="_top" title="submissions_fulltext" alt="" coords="1649,3203,1911,3291">
+<area shape="rect" id="node81" href="subscription_type_settings.html" target="_top" title="subscription_type_settings" alt="" coords="1163,4394,1476,4482">
+<area shape="rect" id="node83" href="usage_stats_institution_tempora_4b25b44f.html" target="_top" title="usage_stats_institution_temporary_records" alt="" coords="1091,1796,1547,1884">
+<area shape="rect" id="node84" href="usage_stats_total_temporary_records.html" target="_top" title="usage_stats_total_temporary_records" alt="" coords="2085,594,2491,682">
+<area shape="rect" id="node85" href="usage_stats_unique_item_investi_d5d14002.html" target="_top" title="usage_stats_unique_item_investigations_temporary_records" alt="" coords="1987,808,2589,896">
+<area shape="rect" id="node86" href="usage_stats_unique_item_request_745ee055.html" target="_top" title="usage_stats_unique_item_requests_temporary_records" alt="" coords="2011,1016,2565,1104">
+<area shape="rect" id="node87" href="user_group_settings.html" target="_top" title="user_group_settings" alt="" coords="1191,2780,1448,2868">
+<area shape="rect" id="node88" href="user_group_stage.html" target="_top" title="user_group_stage" alt="" coords="1201,2570,1437,2658">
+<area shape="rect" id="node89" href="user_user_groups.html" target="_top" title="user_user_groups" alt="" coords="1202,2886,1437,2974">
+</map>
+                                        <a name='diagram'><img id="twodegreesDegreeImg" src="../diagrams/tables/journals.2degrees.png" usemap="#twoDegreesRelationshipsDiagram" class="diagram" border="0" align="left"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- /.box-body -->
+                    </div>
+                </section>
+                <script>
+                    var config = {
+                        pagination: true
+                    }
+                </script>
+            </div>
+            <!-- /.content-wrapper -->
+            <footer class="main-footer">
+                <div>
+                    <div class="pull-right hidden-xs">
+                        <a href="https://github.com/schemaspy/schemaspy" title="GitHub for SchemaSpy"><i class="fa fa-github-square fa-2x"></i></a>
+                        <a href="http://stackoverflow.com/questions/tagged/schemaspy" title="StackOverflow for SchemaSpy"><i class="fa fa-stack-overflow fa-2x"></i></a>
+                    </div>
+                    <strong>Generated by <a href="http://schemaspy.org/" class="logo-text"><i class="fa fa-database"></i> SchemaSpy 7.0.2</a></strong>
+                </div>
+                <!-- /.container -->
+            </footer>
+        </div>
+        <!-- ./wrapper -->
+
+        <!-- jQuery 2.2.3 -->
+        <script src="../bower/admin-lte/plugins/jQuery/jquery-2.2.3.min.js"></script>
+        <script src="../bower/admin-lte/plugins/jQueryUI/jquery-ui.min.js"></script>
+        <!-- Bootstrap 3.3.5 -->
+        <script src="../bower/admin-lte/bootstrap/js/bootstrap.min.js"></script>
+        <!-- DataTables -->
+        <script src="../bower/datatables.net/jquery.dataTables.min.js"></script>
+        <script src="../bower/datatables.net-bs/js/dataTables.bootstrap.min.js"></script>
+        <script src="../bower/datatables.net-buttons/dataTables.buttons.min.js"></script>
+        <script src="../bower/datatables.net-buttons-bs/js/buttons.bootstrap.min.js"></script>
+        <script src="../bower/datatables.net-buttons/buttons.html5.min.js"></script>
+        <script src="../bower/datatables.net-buttons/buttons.print.min.js"></script>
+        <script src="../bower/datatables.net-buttons/buttons.colVis.min.js"></script>
+        <!-- SheetJS -->
+        <script src="../bower/js-xlsx/xlsx.full.min.js"></script>
+        <!-- pdfmake -->
+        <script src="../bower/pdfmake/pdfmake.min.js"></script>
+        <script src="../bower/pdfmake/vfs_fonts.js"></script>
+        <!-- SlimScroll -->
+        <script src="../bower/admin-lte/plugins/slimScroll/jquery.slimscroll.min.js"></script>
+        <!-- FastClick -->
+        <script src="../bower/admin-lte/plugins/fastclick/fastclick.js"></script>
+        <!-- Salvattore -->
+        <script src="../bower/salvattore/salvattore.min.js"></script>
+        <!-- AnchorJS -->
+        <script src="../bower/anchor-js/anchor.min.js"></script>
+        <!-- CodeMirror -->
+        <script src="../bower/codemirror/codemirror.js"></script>
+        <script src="../bower/codemirror/sql.js"></script>
+        <!-- AdminLTE App -->
+        <script src="../bower/admin-lte/dist/js/app.min.js"></script>
+        <script src="table.js"></script>
+        <script src="../schemaSpy.js"></script>
+    </body>
+</html>

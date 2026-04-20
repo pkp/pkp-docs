@@ -1,0 +1,5 @@
+date=2026-04-20 14:56:57-0700
+os=Linux 6.17.0-20-generic
+schemaspy-version=7.0.2
+schemaspy-revision=v7.0.2
+renderer=Graphviz dot 2.43.0 

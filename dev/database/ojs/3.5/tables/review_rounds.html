@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>review_rounds - ojs-main.ojs-main</title>
+        <!-- Tell the browser to be responsive to screen width -->
+        <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+        <link rel="icon" type="image/png" sizes="16x16" href="../favicon.png">
+        <!-- Bootstrap 3.3.5 -->
+        <link rel="stylesheet" href="../bower/admin-lte/bootstrap/css/bootstrap.min.css">
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="../bower/font-awesome/css/font-awesome.min.css">
+        <!-- Ionicons -->
+        <link rel="stylesheet" href="../bower/ionicons/css/ionicons.min.css">
+        <!-- DataTables -->
+        <link rel="stylesheet" href="../bower/datatables.net-bs/css/dataTables.bootstrap.min.css">
+        <link rel="stylesheet" href="../bower/datatables.net-buttons-bs/css/buttons.bootstrap.min.css">
+        <!-- Code Mirror -->
+        <link rel="stylesheet" href="../bower/codemirror/codemirror.css">
+        <!-- Fonts -->
+        <link href='../fonts/indieflower/indie-flower.css' rel='stylesheet' type='text/css'>
+        <link href='../fonts/source-sans-pro/source-sans-pro.css' rel='stylesheet' type='text/css'>
+
+        <!-- Theme style -->
+        <link rel="stylesheet" href="../bower/admin-lte/dist/css/AdminLTE.min.css">
+        <!-- Salvattore -->
+        <link rel="stylesheet" href="../bower/salvattore/salvattore.css">
+        <!-- AdminLTE Skins. Choose a skin from the css/skins
+           folder instead of downloading all of them to reduce the load. -->
+        <link rel="stylesheet" href="../bower/admin-lte/dist/css/skins/_all-skins.min.css">
+        <!-- SchemaSpy -->
+        <link rel="stylesheet" href="../schemaSpy.css">
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+        <script src="../bower/html5shiv/html5shiv.min.js"></script>
+        <script src="../bower/respond/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <!-- ADD THE CLASS layout-top-nav TO REMOVE THE SIDEBAR. -->
+    <body class="hold-transition skin-blue layout-top-nav">
+        <div class="wrapper">
+            <header class="main-header">
+                <nav class="navbar navbar-static-top">
+                    <div class="container">
+                        <div class="navbar-header">
+                            <a href="../index.html" class="navbar-brand"><b>ojs-main</b></a><span class="navbar-brand" style="padding-left: 0">.ojs-main</span>
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse"><i class="fa fa-bars"></i></button>
+                        </div>
+
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse pull-left" id="navbar-collapse">
+                            <ul class="nav navbar-nav">
+                                <li><a href="../index.html">Tables <span class="sr-only">(current)</span></a></li>
+                                <li><a href="../columns.html" title="All of the columns in the schema">Columns</a></li>
+                                <li><a href="../constraints.html" title="Useful for diagnosing error messages that just give constraint name or number">Constraints</a></li>
+                                <li><a href="../relationships.html" title="Diagram of table relationships">Relationships</a></li>
+                                <li><a href="../orphans.html" title="View of tables with neither parents nor children">Orphan&nbsp;Tables</a></li>
+                                <li><a href="../anomalies.html" title="Things that might not be quite right">Anomalies</a></li>
+                                <li><a href="../routines.html" title="Procedures and functions">Routines</a></li>
+                            </ul>
+                        </div>
+                        <!-- /.navbar-collapse -->
+                        <!-- Navbar Right Menu -->
+                    </div>
+                    <!-- /.container-fluid -->
+                </nav>
+            </header>
+            <!-- Main content -->
+            <!-- Full Width Column -->
+            <div class="content-wrapper">
+                <!-- Content Header (Page header) -->
+                <section class="content-header">
+                    <h1>review_rounds</h1><br />
+                    <div class="box box-primary">
+                        <div class="box-header with-border">
+                            <i class="fa fa-file-text-o"></i>
+                            <h3 id="Description" class="box-title">Description</h3>
+                            <div class="box-tools pull-right">
+                                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
+                                <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+                            </div>
+                        </div><!-- /.box-header -->
+                        <div class="box-body clearfix">
+                            <p>Peer review assignments are organized into multiple rounds on a submission.</p>
+                        </div><!-- /.box-body -->
+                    </div>
+                </section>
+                <!-- Main content -->
+                <section class="content">
+                    <div class="box box-primary">
+                        <div class="box-header with-border">
+                            <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>
+                            <h3 id="Columns" class="box-title">Columns</h3>
+                            <div class="box-tools pull-right">
+                                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
+                                <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+                            </div>
+                        </div>
+                        <div class="box-body">
+                            <table
+                                    id="standard_table"
+                                    class="table table-bordered table-striped dataTable"
+                                    role="grid"
+                                    data-paging="true"
+                                    data-page-length="10"
+                                    data-length-change="false">
+                                <thead align='left'>
+                                <tr>
+                                    <th>Column</th>
+                                    <th>Type</th>
+                                    <th>Size</th>
+                                    <th title='Are nulls allowed?'>Nulls</th>
+                                    <th title='Is column automatically updated?'>Auto</th>
+                                    <th title='Default value'>Default</th>
+                                    <th title='Columns in tables that reference this column'>Children</th>
+                                    <th title='Columns in tables that are referenced by this column'>Parents</th>
+                                    <th title='Comments' class="toggle"><span>Comments</span></th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td class='primaryKey' title='Primary Key'><i class='icon ion-key iconkey' style='padding-left: 5px;'></i><span id="review_round_id">review_round_id</span></td>
+                                    <td>BIGINT</td>
+                                    <td>19</td>
+                                    <td title=''></td>
+                                    <td title='Automatically updated by the database'>√</td>
+                                    <td>null</td>
+                                    <td>
+                                        <table border='0' cellspacing='0' cellpadding='0'>
+                                            <tr>
+                                                <td title="edit_decisions.review_round_id references review_rounds.review_round_id via edit_decisions_review_round_id_foreign"><a href='edit_decisions.html'>edit_decisions</a><span class='relatedKey'>.review_round_id</span></td>
+                                                <td class="constraint detail">edit_decisions_review_round_id_foreign</td>
+                                                <td class="constraint detail"><span title='Cascade on delete:&#10;Deletion of parent deletes child'>C</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td title="review_assignments.review_round_id references review_rounds.review_round_id via review_assignments_review_round_id_foreign"><a href='review_assignments.html'>review_assignments</a><span class='relatedKey'>.review_round_id</span></td>
+                                                <td class="constraint detail">review_assignments_review_round_id_foreign</td>
+                                                <td class="constraint detail"><span title='Restrict delete:&#10;Parent cannot be deleted if children exist'>R</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td title="review_round_author_responses.review_round_id references review_rounds.review_round_id via review_round_author_responses_review_round_id_foreign"><a href='review_round_author_responses.html'>review_round_author_responses</a><span class='relatedKey'>.review_round_id</span></td>
+                                                <td class="constraint detail">review_round_author_responses_review_round_id_foreign</td>
+                                                <td class="constraint detail"><span title='Cascade on delete:&#10;Deletion of parent deletes child'>C</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td title="review_round_files.review_round_id references review_rounds.review_round_id via review_round_files_review_round_id_foreign"><a href='review_round_files.html'>review_round_files</a><span class='relatedKey'>.review_round_id</span></td>
+                                                <td class="constraint detail">review_round_files_review_round_id_foreign</td>
+                                                <td class="constraint detail"><span title='Cascade on delete:&#10;Deletion of parent deletes child'>C</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td title="review_round_settings.review_round_id references review_rounds.review_round_id via review_round_settings_review_round_id_foreign"><a href='review_round_settings.html'>review_round_settings</a><span class='relatedKey'>.review_round_id</span></td>
+                                                <td class="constraint detail">review_round_settings_review_round_id_foreign</td>
+                                                <td class="constraint detail"><span title='Cascade on delete:&#10;Deletion of parent deletes child'>C</span></td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td>
+                                        <table border='0' cellspacing='0' cellpadding='0'>
+                                        </table>
+                                    </td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td class='foreignKey' title='Foreign Key'><i class='icon ion-key iconkey' style='padding-left: 5px;'></i><span id="submission_id">submission_id</span></td>
+                                    <td>BIGINT</td>
+                                    <td>19</td>
+                                    <td title=''></td>
+                                    <td title=''></td>
+                                    <td>null</td>
+                                    <td>
+                                        <table border='0' cellspacing='0' cellpadding='0'>
+                                        </table>
+                                    </td>
+                                    <td>
+                                        <table border='0' cellspacing='0' cellpadding='0'>
+                                            <tr>
+                                                <td title="review_rounds.submission_id references submissions.submission_id via review_rounds_submission_id_foreign"><a href='submissions.html'>submissions</a><span class='relatedKey'>.submission_id</span></td>
+                                                <td class="constraint detail">review_rounds_submission_id_foreign</td>
+                                                <td class="constraint detail"><span title='Restrict delete:&#10;Parent cannot be deleted if children exist'>R</span></td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td class='foreignKey' title='Foreign Key'><i class='icon ion-key iconkey' style='padding-left: 5px;'></i><span id="publication_id">publication_id</span></td>
+                                    <td>BIGINT</td>
+                                    <td>19</td>
+                                    <td title=''></td>
+                                    <td title=''></td>
+                                    <td>null</td>
+                                    <td>
+                                        <table border='0' cellspacing='0' cellpadding='0'>
+                                        </table>
+                                    </td>
+                                    <td>
+                                        <table border='0' cellspacing='0' cellpadding='0'>
+                                            <tr>
+                                                <td title="review_rounds.publication_id references publications.publication_id via review_rounds_publication_id_foreign"><a href='publications.html'>publications</a><span class='relatedKey'>.publication_id</span></td>
+                                                <td class="constraint detail">review_rounds_publication_id_foreign</td>
+                                                <td class="constraint detail"><span title='Restrict delete:&#10;Parent cannot be deleted if children exist'>R</span></td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td class='indexedColumn' title='Indexed'><i class='fa fa-sitemap fa-rotate-120' style='padding-right: 5px;'></i><span id="stage_id">stage_id</span></td>
+                                    <td>BIGINT</td>
+                                    <td>19</td>
+                                    <td title='nullable'>√</td>
+                                    <td title=''></td>
+                                    <td>null</td>
+                                    <td>
+                                        <table border='0' cellspacing='0' cellpadding='0'>
+                                        </table>
+                                    </td>
+                                    <td>
+                                        <table border='0' cellspacing='0' cellpadding='0'>
+                                        </table>
+                                    </td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td class='indexedColumn' title='Indexed'><i class='fa fa-sitemap fa-rotate-120' style='padding-right: 5px;'></i><span id="round">round</span></td>
+                                    <td>SMALLINT</td>
+                                    <td>5</td>
+                                    <td title=''></td>
+                                    <td title=''></td>
+                                    <td>null</td>
+                                    <td>
+                                        <table border='0' cellspacing='0' cellpadding='0'>
+                                        </table>
+                                    </td>
+                                    <td>
+                                        <table border='0' cellspacing='0' cellpadding='0'>
+                                        </table>
+                                    </td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td><span id="review_revision">review_revision</span></td>
+                                    <td>BIGINT</td>
+                                    <td>19</td>
+                                    <td title='nullable'>√</td>
+                                    <td title=''></td>
+                                    <td>null</td>
+                                    <td>
+                                        <table border='0' cellspacing='0' cellpadding='0'>
+                                        </table>
+                                    </td>
+                                    <td>
+                                        <table border='0' cellspacing='0' cellpadding='0'>
+                                        </table>
+                                    </td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td><span id="status">status</span></td>
+                                    <td>BIGINT</td>
+                                    <td>19</td>
+                                    <td title='nullable'>√</td>
+                                    <td title=''></td>
+                                    <td>null</td>
+                                    <td>
+                                        <table border='0' cellspacing='0' cellpadding='0'>
+                                        </table>
+                                    </td>
+                                    <td>
+                                        <table border='0' cellspacing='0' cellpadding='0'>
+                                        </table>
+                                    </td>
+                                    <td></td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="box box-primary">
+                        <div class="box-header with-border">
+                            <i class="fa fa-sitemap"></i>
+                            <h3 id="Indexes" class="box-title">Indexes</h3>
+                            <div class="box-tools pull-right">
+                                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
+                                <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+                            </div>
+                        </div>
+                        <div class="box-body">
+                            <table
+                                    id="indexes_table"
+                                    class="table table-bordered table-striped dataTable"
+                                    role="grid"
+                                    data-paging="true"
+                                    data-page-length="10"
+                                    data-length-change="false">
+                                <thead>
+                                <tr>
+                                    <th>Constraint Name</th>
+                                    <th>Type</th>
+                                    <th>Sort</th>
+                                    <th>Column(s)</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td class='primaryKey' title='Primary Key'><i class='icon ion-key iconkey'></i> PRIMARY</td>
+                                    <td>Primary key</td>
+                                    <td><span title='Ascending'>Asc</span></td>
+                                    <td>review_round_id</td>
+                                </tr>
+                                <tr>
+                                    <td title='Indexed'>review_rounds_publication_id</td>
+                                    <td>Performance</td>
+                                    <td><span title='Ascending'>Asc</span></td>
+                                    <td>publication_id</td>
+                                </tr>
+                                <tr>
+                                    <td title='Indexed'>review_rounds_submission_id</td>
+                                    <td>Performance</td>
+                                    <td><span title='Ascending'>Asc</span></td>
+                                    <td>submission_id</td>
+                                </tr>
+                                <tr>
+                                    <td class='uniqueKey' title='Unique Key'><i class='icon ion-key iconkey'></i> review_rounds_submission_id_stage_id_round_pkey</td>
+                                    <td>Must be unique</td>
+                                    <td><span title='Ascending'>Asc</span>/<span title='Ascending'>Asc</span>/<span title='Ascending'>Asc</span></td>
+                                    <td>submission_id + stage_id + round</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div><!-- /.box-body -->
+                    </div>
+                    <div class="box box-primary">
+                        <div class="box-header with-border">
+                            <i class="fa fa-code-fork"></i>
+                            <h3 id="Relationships" class="box-title">Relationships</h3>
+                            <div class="box-tools pull-right">
+                                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
+                                <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+                            </div>
+                        </div>
+                        <div class="box-body">
+                            <div class="nav-tabs-custom"><!-- Tabs within a box -->
+                                <h5>Close relationships within degrees of separation</h5>
+                                <ul class="nav nav-tabs pull-left ui-sortable-handle">
+                                    <li class="active"><a href="#oneDegreeImg-chart" data-toggle="tab" aria-expanded="true">One</a></li>
+                                    <li class=""><a href="#twodegreesDegreeImg-chart" data-toggle="tab" aria-expanded="true">Two degrees</a></li>
+                                    <li class=""><a href="#oneimpliedDegreeImg-chart" data-toggle="tab" aria-expanded="true">One implied</a></li>
+                                    <li class=""><a href="#twoimpliedDegreeImg-chart" data-toggle="tab" aria-expanded="true">Two implied</a></li>
+                                </ul>
+                                <div class="tab-content no-padding">
+                                    <div class="chart tab-pane active" id="oneDegreeImg-chart" style="position: relative; overflow-x:auto;">
+                                        <map id="oneDegreeRelationshipsDiagram" name="oneDegreeRelationshipsDiagram">
+<area shape="rect" id="node1" href="edit_decisions.html" target="_top" title="edit_decisions" alt="" coords="986,925,1190,1160">
+<area shape="rect" id="node2" href="publications.html" target="_top" title="publications" alt="" coords="302,893,536,1216">
+<area shape="rect" id="node3" href="review_rounds.html" target="_top" title="review_rounds" alt="" coords="580,565,863,840">
+<area shape="rect" id="node4" href="submissions.html" target="_top" title="submissions" alt="" coords="15,708,258,884">
+<area shape="rect" id="node5" href="review_assignments.html" target="_top" title="review_assignments" alt="" coords="936,5,1241,299">
+<area shape="rect" id="node6" href="review_round_author_responses.html" target="_top" title="review_round_author_responses" alt="" coords="907,539,1270,744">
+<area shape="rect" id="node7" href="review_round_files.html" target="_top" title="review_round_files" alt="" coords="966,316,1210,521">
+<area shape="rect" id="node8" href="review_round_settings.html" target="_top" title="review_round_settings" alt="" coords="949,761,1228,908">
+</map>
+                                        <a name='diagram'><img id="oneDegreeImg" src="../diagrams/tables/review_rounds.1degree.png" usemap="#oneDegreeRelationshipsDiagram" class="diagram" border="0" align="left"></a>
+                                    </div>
+                                    <div class="chart tab-pane " id="twodegreesDegreeImg-chart" style="position: relative; overflow-x:auto;">
+                                        <map id="twoDegreesRelationshipsDiagram" name="twoDegreesRelationshipsDiagram">
+<area shape="rect" id="node1" href="authors.html" target="_top" title="authors" alt="" coords="2077,1885,2227,1973">
+<area shape="rect" id="node2" href="publications.html" target="_top" title="publications" alt="" coords="1131,1892,1321,1980">
+<area shape="rect" id="node5" href="dois.html" target="_top" title="dois" alt="" coords="16,1645,135,1733">
+<area shape="rect" id="node10" href="submissions.html" target="_top" title="submissions" alt="" coords="671,993,860,1081">
+<area shape="rect" id="node11" href="issues.html" target="_top" title="issues" alt="" coords="179,1467,315,1555">
+<area shape="rect" id="node24" href="sections.html" target="_top" title="sections" alt="" coords="688,2001,843,2089">
+<area shape="rect" id="node3" href="citations.html" target="_top" title="citations" alt="" coords="1586,1505,1745,1593">
+<area shape="rect" id="node4" href="data_citations.html" target="_top" title="data_citations" alt="" coords="1563,1611,1768,1699">
+<area shape="rect" id="node6" href="journals.html" target="_top" title="journals" alt="" coords="381,1083,536,1171">
+<area shape="rect" id="node7" href="edit_decisions.html" target="_top" title="edit_decisions" alt="" coords="2050,1107,2254,1195">
+<area shape="rect" id="node8" href="users.html" target="_top" title="users" alt="" coords="700,1719,831,1807">
+<area shape="rect" id="node9" href="review_rounds.html" target="_top" title="review_rounds" alt="" coords="1524,1213,1807,1488">
+<area shape="rect" id="node12" href="library_files.html" target="_top" title="library_files" alt="" coords="1134,692,1318,780">
+<area shape="rect" id="node13" href="metrics_counter_submission_daily.html" target="_top" title="metrics_counter_submission_daily" alt="" coords="1037,1083,1415,1171">
+<area shape="rect" id="node14" href="metrics_counter_submission_inst_766cb7fe.html" target="_top" title="metrics_counter_submission_institution_daily" alt="" coords="987,1188,1465,1276">
+<area shape="rect" id="node15" href="metrics_counter_submission_inst_826484b2.html" target="_top" title="metrics_counter_submission_institution_monthly" alt="" coords="972,1293,1480,1381">
+<area shape="rect" id="node16" href="metrics_counter_submission_monthly.html" target="_top" title="metrics_counter_submission_monthly" alt="" coords="1021,1399,1431,1487">
+<area shape="rect" id="node17" href="metrics_submission.html" target="_top" title="metrics_submission" alt="" coords="2025,123,2279,211">
+<area shape="rect" id="node18" href="publication_galleys.html" target="_top" title="publication_galleys" alt="" coords="1541,479,1790,567">
+<area shape="rect" id="node19" href="submission_files.html" target="_top" title="submission_files" alt="" coords="1114,445,1338,533">
+<area shape="rect" id="node20" href="metrics_submission_geo_daily.html" target="_top" title="metrics_submission_geo_daily" alt="" coords="1055,232,1397,320">
+<area shape="rect" id="node21" href="metrics_submission_geo_monthly.html" target="_top" title="metrics_submission_geo_monthly" alt="" coords="1039,587,1413,675">
+<area shape="rect" id="node22" href="publication_categories.html" target="_top" title="publication_categories" alt="" coords="1525,1716,1805,1804">
+<area shape="rect" id="node23" href="publication_settings.html" target="_top" title="publication_settings" alt="" coords="1536,1821,1795,1909">
+<area shape="rect" id="node27" href="review_forms.html" target="_top" title="review_forms" alt="" coords="359,2036,559,2124">
+<area shape="rect" id="node25" href="review_assignment_settings.html" target="_top" title="review_assignment_settings" alt="" coords="2549,2093,2877,2181">
+<area shape="rect" id="node26" href="review_assignments.html" target="_top" title="review_assignments" alt="" coords="2023,1991,2281,2079">
+<area shape="rect" id="node28" href="reviewer_recommendations.html" target="_top" title="reviewer_recommendations" alt="" coords="603,1896,928,1984">
+<area shape="rect" id="node29" href="review_files.html" target="_top" title="review_files" alt="" coords="2620,1180,2805,1268">
+<area shape="rect" id="node30" href="review_form_responses.html" target="_top" title="review_form_responses" alt="" coords="2570,1988,2855,2076">
+<area shape="rect" id="node31" href="review_round_author_response_authors.html" target="_top" title="review_round_author_response_authors" alt="" coords="2499,1883,2927,1971">
+<area shape="rect" id="node32" href="review_round_author_responses.html" target="_top" title="review_round_author_responses" alt="" coords="1971,2096,2333,2301">
+<area shape="rect" id="node33" href="review_round_author_response_settings.html" target="_top" title="review_round_author_response_settings" alt="" coords="2497,2199,2928,2287">
+<area shape="rect" id="node34" href="review_round_files.html" target="_top" title="review_round_files" alt="" coords="2030,765,2274,853">
+<area shape="rect" id="node35" href="review_round_settings.html" target="_top" title="review_round_settings" alt="" coords="2013,1212,2291,1359">
+<area shape="rect" id="node36" href="reviewer_suggestions.html" target="_top" title="reviewer_suggestions" alt="" coords="1091,1751,1361,1839">
+<area shape="rect" id="node37" href="stage_assignments.html" target="_top" title="stage_assignments" alt="" coords="1102,1540,1350,1628">
+<area shape="rect" id="node38" href="submission_comments.html" target="_top" title="submission_comments" alt="" coords="1086,1645,1366,1733">
+<area shape="rect" id="node39" href="submission_settings.html" target="_top" title="submission_settings" alt="" coords="1097,869,1355,957">
+<area shape="rect" id="node40" href="submissions_fulltext.html" target="_top" title="submissions_fulltext" alt="" coords="1535,952,1796,1040">
+<area shape="rect" id="node41" href="usage_stats_total_temporary_records.html" target="_top" title="usage_stats_total_temporary_records" alt="" coords="1949,656,2355,744">
+<area shape="rect" id="node42" href="usage_stats_unique_item_investi_d5d14002.html" target="_top" title="usage_stats_unique_item_investigations_temporary_records" alt="" coords="1851,353,2453,441">
+<area shape="rect" id="node43" href="usage_stats_unique_item_request_745ee055.html" target="_top" title="usage_stats_unique_item_requests_temporary_records" alt="" coords="1875,468,2429,556">
+</map>
+                                        <a name='diagram'><img id="twodegreesDegreeImg" src="../diagrams/tables/review_rounds.2degrees.png" usemap="#twoDegreesRelationshipsDiagram" class="diagram" border="0" align="left"></a>
+                                    </div>
+                                    <div class="chart tab-pane " id="oneimpliedDegreeImg-chart" style="position: relative; overflow-x:auto;">
+                                        <map id="oneDegreeRelationshipsDiagramImplied" name="oneDegreeRelationshipsDiagramImplied">
+<area shape="rect" id="node1" href="edit_decisions.html" target="_top" title="edit_decisions" alt="" coords="986,925,1190,1160">
+<area shape="rect" id="node2" href="publications.html" target="_top" title="publications" alt="" coords="302,893,536,1216">
+<area shape="rect" id="node3" href="review_rounds.html" target="_top" title="review_rounds" alt="" coords="580,565,863,840">
+<area shape="rect" id="node4" href="submissions.html" target="_top" title="submissions" alt="" coords="15,708,258,884">
+<area shape="rect" id="node5" href="review_assignments.html" target="_top" title="review_assignments" alt="" coords="936,5,1241,299">
+<area shape="rect" id="node6" href="review_round_author_responses.html" target="_top" title="review_round_author_responses" alt="" coords="907,539,1270,744">
+<area shape="rect" id="node7" href="review_round_files.html" target="_top" title="review_round_files" alt="" coords="966,316,1210,521">
+<area shape="rect" id="node8" href="review_round_settings.html" target="_top" title="review_round_settings" alt="" coords="949,761,1228,908">
+</map>
+                                        <a name='diagram'><img id="oneimpliedDegreeImg" src="../diagrams/tables/review_rounds.implied1degrees.png" usemap="#oneDegreeRelationshipsDiagramImplied" class="diagram" border="0" align="left"></a>
+                                    </div>
+                                    <div class="chart tab-pane " id="twoimpliedDegreeImg-chart" style="position: relative; overflow-x:auto;">
+                                        <map id="twoDegreesRelationshipsDiagramImplied" name="twoDegreesRelationshipsDiagramImplied">
+<area shape="rect" id="node1" href="authors.html" target="_top" title="authors" alt="" coords="2068,445,2219,533">
+<area shape="rect" id="node2" href="publications.html" target="_top" title="publications" alt="" coords="1122,807,1313,895">
+<area shape="rect" id="node5" href="dois.html" target="_top" title="dois" alt="" coords="7,969,126,1057">
+<area shape="rect" id="node10" href="submissions.html" target="_top" title="submissions" alt="" coords="662,1169,851,1257">
+<area shape="rect" id="node11" href="issues.html" target="_top" title="issues" alt="" coords="170,1133,306,1221">
+<area shape="rect" id="node24" href="sections.html" target="_top" title="sections" alt="" coords="679,913,834,1001">
+<area shape="rect" id="node3" href="citations.html" target="_top" title="citations" alt="" coords="1577,765,1736,853">
+<area shape="rect" id="node4" href="data_citations.html" target="_top" title="data_citations" alt="" coords="1554,871,1759,959">
+<area shape="rect" id="node6" href="journals.html" target="_top" title="journals" alt="" coords="373,1201,527,1289">
+<area shape="rect" id="node7" href="edit_decisions.html" target="_top" title="edit_decisions" alt="" coords="2041,941,2245,1029">
+<area shape="rect" id="node8" href="users.html" target="_top" title="users" alt="" coords="691,455,822,543">
+<area shape="rect" id="node9" href="review_rounds.html" target="_top" title="review_rounds" alt="" coords="1515,1012,1798,1287">
+<area shape="rect" id="node12" href="library_files.html" target="_top" title="library_files" alt="" coords="1125,1267,1309,1355">
+<area shape="rect" id="node13" href="metrics_counter_submission_daily.html" target="_top" title="metrics_counter_submission_daily" alt="" coords="1028,1372,1407,1460">
+<area shape="rect" id="node14" href="metrics_counter_submission_inst_766cb7fe.html" target="_top" title="metrics_counter_submission_institution_daily" alt="" coords="979,1477,1456,1565">
+<area shape="rect" id="node15" href="metrics_counter_submission_inst_826484b2.html" target="_top" title="metrics_counter_submission_institution_monthly" alt="" coords="963,1937,1471,2025">
+<area shape="rect" id="node16" href="metrics_counter_submission_monthly.html" target="_top" title="metrics_counter_submission_monthly" alt="" coords="1013,241,1422,329">
+<area shape="rect" id="node17" href="metrics_submission.html" target="_top" title="metrics_submission" alt="" coords="2017,1588,2270,1676">
+<area shape="rect" id="node18" href="publication_galleys.html" target="_top" title="publication_galleys" alt="" coords="1532,1697,1781,1785">
+<area shape="rect" id="node19" href="submission_files.html" target="_top" title="submission_files" alt="" coords="1105,1619,1329,1707">
+<area shape="rect" id="node20" href="metrics_submission_geo_daily.html" target="_top" title="metrics_submission_geo_daily" alt="" coords="1047,912,1388,1000">
+<area shape="rect" id="node21" href="metrics_submission_geo_monthly.html" target="_top" title="metrics_submission_geo_monthly" alt="" coords="1031,1017,1404,1105">
+<area shape="rect" id="node22" href="publication_categories.html" target="_top" title="publication_categories" alt="" coords="1517,555,1797,643">
+<area shape="rect" id="node23" href="publication_settings.html" target="_top" title="publication_settings" alt="" coords="1527,660,1786,748">
+<area shape="rect" id="node27" href="review_forms.html" target="_top" title="review_forms" alt="" coords="350,913,550,1001">
+<area shape="rect" id="node25" href="review_assignment_settings.html" target="_top" title="review_assignment_settings" alt="" coords="2540,387,2868,475">
+<area shape="rect" id="node26" href="review_assignments.html" target="_top" title="review_assignments" alt="" coords="2014,235,2273,323">
+<area shape="rect" id="node28" href="reviewer_recommendations.html" target="_top" title="reviewer_recommendations" alt="" coords="594,232,919,320">
+<area shape="rect" id="node29" href="review_files.html" target="_top" title="review_files" alt="" coords="2611,951,2797,1039">
+<area shape="rect" id="node30" href="review_form_responses.html" target="_top" title="review_form_responses" alt="" coords="2561,176,2847,264">
+<area shape="rect" id="node31" href="review_round_author_response_authors.html" target="_top" title="review_round_author_response_authors" alt="" coords="2490,281,2918,369">
+<area shape="rect" id="node32" href="review_round_author_responses.html" target="_top" title="review_round_author_responses" alt="" coords="1962,5,2325,211">
+<area shape="rect" id="node33" href="review_round_author_response_settings.html" target="_top" title="review_round_author_response_settings" alt="" coords="2489,8,2919,96">
+<area shape="rect" id="node34" href="review_round_files.html" target="_top" title="review_round_files" alt="" coords="2021,1481,2265,1569">
+<area shape="rect" id="node35" href="review_round_settings.html" target="_top" title="review_round_settings" alt="" coords="2004,1047,2283,1193">
+<area shape="rect" id="node36" href="reviewer_suggestions.html" target="_top" title="reviewer_suggestions" alt="" coords="1082,455,1353,543">
+<area shape="rect" id="node37" href="stage_assignments.html" target="_top" title="stage_assignments" alt="" coords="1093,560,1341,648">
+<area shape="rect" id="node38" href="submission_comments.html" target="_top" title="submission_comments" alt="" coords="1077,665,1357,753">
+<area shape="rect" id="node39" href="submission_settings.html" target="_top" title="submission_settings" alt="" coords="1088,1760,1347,1848">
+<area shape="rect" id="node40" href="submissions_fulltext.html" target="_top" title="submissions_fulltext" alt="" coords="1526,1304,1787,1392">
+<area shape="rect" id="node41" href="usage_stats_total_temporary_records.html" target="_top" title="usage_stats_total_temporary_records" alt="" coords="1941,2113,2346,2201">
+<area shape="rect" id="node42" href="usage_stats_unique_item_investi_d5d14002.html" target="_top" title="usage_stats_unique_item_investigations_temporary_records" alt="" coords="1842,1908,2445,1996">
+<area shape="rect" id="node43" href="usage_stats_unique_item_request_745ee055.html" target="_top" title="usage_stats_unique_item_requests_temporary_records" alt="" coords="1866,1749,2421,1837">
+<area shape="rect" id="node44" href="user_comments.html" target="_top" title="user_comments" alt="" coords="1547,377,1767,465">
+</map>
+                                        <a name='diagram'><img id="twoimpliedDegreeImg" src="../diagrams/tables/review_rounds.implied2degrees.png" usemap="#twoDegreesRelationshipsDiagramImplied" class="diagram" border="0" align="left"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- /.box-body -->
+                    </div>
+                </section>
+                <script>
+                    var config = {
+                        pagination: true
+                    }
+                </script>
+            </div>
+            <!-- /.content-wrapper -->
+            <footer class="main-footer">
+                <div>
+                    <div class="pull-right hidden-xs">
+                        <a href="https://github.com/schemaspy/schemaspy" title="GitHub for SchemaSpy"><i class="fa fa-github-square fa-2x"></i></a>
+                        <a href="http://stackoverflow.com/questions/tagged/schemaspy" title="StackOverflow for SchemaSpy"><i class="fa fa-stack-overflow fa-2x"></i></a>
+                    </div>
+                    <strong>Generated by <a href="http://schemaspy.org/" class="logo-text"><i class="fa fa-database"></i> SchemaSpy 7.0.2</a></strong>
+                </div>
+                <!-- /.container -->
+            </footer>
+        </div>
+        <!-- ./wrapper -->
+
+        <!-- jQuery 2.2.3 -->
+        <script src="../bower/admin-lte/plugins/jQuery/jquery-2.2.3.min.js"></script>
+        <script src="../bower/admin-lte/plugins/jQueryUI/jquery-ui.min.js"></script>
+        <!-- Bootstrap 3.3.5 -->
+        <script src="../bower/admin-lte/bootstrap/js/bootstrap.min.js"></script>
+        <!-- DataTables -->
+        <script src="../bower/datatables.net/jquery.dataTables.min.js"></script>
+        <script src="../bower/datatables.net-bs/js/dataTables.bootstrap.min.js"></script>
+        <script src="../bower/datatables.net-buttons/dataTables.buttons.min.js"></script>
+        <script src="../bower/datatables.net-buttons-bs/js/buttons.bootstrap.min.js"></script>
+        <script src="../bower/datatables.net-buttons/buttons.html5.min.js"></script>
+        <script src="../bower/datatables.net-buttons/buttons.print.min.js"></script>
+        <script src="../bower/datatables.net-buttons/buttons.colVis.min.js"></script>
+        <!-- SheetJS -->
+        <script src="../bower/js-xlsx/xlsx.full.min.js"></script>
+        <!-- pdfmake -->
+        <script src="../bower/pdfmake/pdfmake.min.js"></script>
+        <script src="../bower/pdfmake/vfs_fonts.js"></script>
+        <!-- SlimScroll -->
+        <script src="../bower/admin-lte/plugins/slimScroll/jquery.slimscroll.min.js"></script>
+        <!-- FastClick -->
+        <script src="../bower/admin-lte/plugins/fastclick/fastclick.js"></script>
+        <!-- Salvattore -->
+        <script src="../bower/salvattore/salvattore.min.js"></script>
+        <!-- AnchorJS -->
+        <script src="../bower/anchor-js/anchor.min.js"></script>
+        <!-- CodeMirror -->
+        <script src="../bower/codemirror/codemirror.js"></script>
+        <script src="../bower/codemirror/sql.js"></script>
+        <!-- AdminLTE App -->
+        <script src="../bower/admin-lte/dist/js/app.min.js"></script>
+        <script src="table.js"></script>
+        <script src="../schemaSpy.js"></script>
+    </body>
+</html>

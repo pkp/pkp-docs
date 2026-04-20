@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>publications - ojs-main.ojs-main</title>
+        <!-- Tell the browser to be responsive to screen width -->
+        <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+        <link rel="icon" type="image/png" sizes="16x16" href="../favicon.png">
+        <!-- Bootstrap 3.3.5 -->
+        <link rel="stylesheet" href="../bower/admin-lte/bootstrap/css/bootstrap.min.css">
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="../bower/font-awesome/css/font-awesome.min.css">
+        <!-- Ionicons -->
+        <link rel="stylesheet" href="../bower/ionicons/css/ionicons.min.css">
+        <!-- DataTables -->
+        <link rel="stylesheet" href="../bower/datatables.net-bs/css/dataTables.bootstrap.min.css">
+        <link rel="stylesheet" href="../bower/datatables.net-buttons-bs/css/buttons.bootstrap.min.css">
+        <!-- Code Mirror -->
+        <link rel="stylesheet" href="../bower/codemirror/codemirror.css">
+        <!-- Fonts -->
+        <link href='../fonts/indieflower/indie-flower.css' rel='stylesheet' type='text/css'>
+        <link href='../fonts/source-sans-pro/source-sans-pro.css' rel='stylesheet' type='text/css'>
+
+        <!-- Theme style -->
+        <link rel="stylesheet" href="../bower/admin-lte/dist/css/AdminLTE.min.css">
+        <!-- Salvattore -->
+        <link rel="stylesheet" href="../bower/salvattore/salvattore.css">
+        <!-- AdminLTE Skins. Choose a skin from the css/skins
+           folder instead of downloading all of them to reduce the load. -->
+        <link rel="stylesheet" href="../bower/admin-lte/dist/css/skins/_all-skins.min.css">
+        <!-- SchemaSpy -->
+        <link rel="stylesheet" href="../schemaSpy.css">
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+        <script src="../bower/html5shiv/html5shiv.min.js"></script>
+        <script src="../bower/respond/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <!-- ADD THE CLASS layout-top-nav TO REMOVE THE SIDEBAR. -->
+    <body class="hold-transition skin-blue layout-top-nav">
+        <div class="wrapper">
+            <header class="main-header">
+                <nav class="navbar navbar-static-top">
+                    <div class="container">
+                        <div class="navbar-header">
+                            <a href="../index.html" class="navbar-brand"><b>ojs-main</b></a><span class="navbar-brand" style="padding-left: 0">.ojs-main</span>
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse"><i class="fa fa-bars"></i></button>
+                        </div>
+
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse pull-left" id="navbar-collapse">
+                            <ul class="nav navbar-nav">
+                                <li><a href="../index.html">Tables <span class="sr-only">(current)</span></a></li>
+                                <li><a href="../columns.html" title="All of the columns in the schema">Columns</a></li>
+                                <li><a href="../constraints.html" title="Useful for diagnosing error messages that just give constraint name or number">Constraints</a></li>
+                                <li><a href="../relationships.html" title="Diagram of table relationships">Relationships</a></li>
+                                <li><a href="../orphans.html" title="View of tables with neither parents nor children">Orphan&nbsp;Tables</a></li>
+                                <li><a href="../anomalies.html" title="Things that might not be quite right">Anomalies</a></li>
+                                <li><a href="../routines.html" title="Procedures and functions">Routines</a></li>
+                            </ul>
+                        </div>
+                        <!-- /.navbar-collapse -->
+                        <!-- Navbar Right Menu -->
+                    </div>
+                    <!-- /.container-fluid -->
+                </nav>
+            </header>
+            <!-- Main content -->
+            <!-- Full Width Column -->
+            <div class="content-wrapper">
+                <!-- Content Header (Page header) -->
+                <section class="content-header">
+                    <h1>publications</h1><br />
+                    <div class="box box-primary">
+                        <div class="box-header with-border">
+                            <i class="fa fa-file-text-o"></i>
+                            <h3 id="Description" class="box-title">Description</h3>
+                            <div class="box-tools pull-right">
+                                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
+                                <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+                            </div>
+                        </div><!-- /.box-header -->
+                        <div class="box-body clearfix">
+                            <p>Each publication is one version of a submission.</p>
+                        </div><!-- /.box-body -->
+                    </div>
+                </section>
+                <!-- Main content -->
+                <section class="content">
+                    <div class="box box-primary">
+                        <div class="box-header with-border">
+                            <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>
+                            <h3 id="Columns" class="box-title">Columns</h3>
+                            <div class="box-tools pull-right">
+                                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
+                                <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+                            </div>
+                        </div>
+                        <div class="box-body">
+                            <table
+                                    id="standard_table"
+                                    class="table table-bordered table-striped dataTable"
+                                    role="grid"
+                                    data-paging="true"
+                                    data-page-length="10"
+                                    data-length-change="false">
+                                <thead align='left'>
+                                <tr>
+                                    <th>Column</th>
+                                    <th>Type</th>
+                                    <th>Size</th>
+                                    <th title='Are nulls allowed?'>Nulls</th>
+                                    <th title='Is column automatically updated?'>Auto</th>
+                                    <th title='Default value'>Default</th>
+                                    <th title='Columns in tables that reference this column'>Children</th>
+                                    <th title='Columns in tables that are referenced by this column'>Parents</th>
+                                    <th title='Comments' class="toggle"><span>Comments</span></th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td class='primaryKey' title='Primary Key'><i class='icon ion-key iconkey' style='padding-left: 5px;'></i><span id="publication_id">publication_id</span></td>
+                                    <td>BIGINT</td>
+                                    <td>19</td>
+                                    <td title=''></td>
+                                    <td title='Automatically updated by the database'>√</td>
+                                    <td>null</td>
+                                    <td>
+                                        <table border='0' cellspacing='0' cellpadding='0'>
+                                            <tr>
+                                                <td title="authors.publication_id references publications.publication_id via authors_publication_id_foreign"><a href='authors.html'>authors</a><span class='relatedKey'>.publication_id</span></td>
+                                                <td class="constraint detail">authors_publication_id_foreign</td>
+                                                <td class="constraint detail"><span title='Cascade on delete:&#10;Deletion of parent deletes child'>C</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td title="citations.publication_id references publications.publication_id via citations_publication"><a href='citations.html'>citations</a><span class='relatedKey'>.publication_id</span></td>
+                                                <td class="constraint detail">citations_publication</td>
+                                                <td class="constraint detail"><span title='Cascade on delete:&#10;Deletion of parent deletes child'>C</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td title="data_citations.publication_id references publications.publication_id via data_citations_publication"><a href='data_citations.html'>data_citations</a><span class='relatedKey'>.publication_id</span></td>
+                                                <td class="constraint detail">data_citations_publication</td>
+                                                <td class="constraint detail"><span title='Cascade on delete:&#10;Deletion of parent deletes child'>C</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td title="edit_decisions.publication_id references publications.publication_id via edit_decisions_publication_id"><a href='edit_decisions.html'>edit_decisions</a><span class='relatedKey'>.publication_id</span></td>
+                                                <td class="constraint detail">edit_decisions_publication_id</td>
+                                                <td class="constraint detail"><span title='Cascade on delete:&#10;Deletion of parent deletes child'>C</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td title="publication_categories.publication_id references publications.publication_id via publication_categories_publication_id_foreign"><a href='publication_categories.html'>publication_categories</a><span class='relatedKey'>.publication_id</span></td>
+                                                <td class="constraint detail">publication_categories_publication_id_foreign</td>
+                                                <td class="constraint detail"><span title='Cascade on delete:&#10;Deletion of parent deletes child'>C</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td title="publication_galleys.publication_id references publications.publication_id via publication_galleys_publication_id"><a href='publication_galleys.html'>publication_galleys</a><span class='relatedKey'>.publication_id</span></td>
+                                                <td class="constraint detail">publication_galleys_publication_id</td>
+                                                <td class="constraint detail"><span title='Cascade on delete:&#10;Deletion of parent deletes child'>C</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td title="publication_settings.publication_id references publications.publication_id via publication_settings_publication_id"><a href='publication_settings.html'>publication_settings</a><span class='relatedKey'>.publication_id</span></td>
+                                                <td class="constraint detail">publication_settings_publication_id</td>
+                                                <td class="constraint detail"><span title='Cascade on delete:&#10;Deletion of parent deletes child'>C</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td title="publications.source_publication_id references publications.publication_id via publications_source_publication_id"><a href='publications.html'>publications</a><span class='relatedKey'>.source_publication_id</span></td>
+                                                <td class="constraint detail">publications_source_publication_id</td>
+                                                <td class="constraint detail"><span title='Null on delete:&#10;Foreign key to parent set to NULL when parent deleted'>N</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td title="review_rounds.publication_id references publications.publication_id via review_rounds_publication_id_foreign"><a href='review_rounds.html'>review_rounds</a><span class='relatedKey'>.publication_id</span></td>
+                                                <td class="constraint detail">review_rounds_publication_id_foreign</td>
+                                                <td class="constraint detail"><span title='Restrict delete:&#10;Parent cannot be deleted if children exist'>R</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td title="submissions.current_publication_id references publications.publication_id via submissions_publication_id"><a href='submissions.html'>submissions</a><span class='relatedKey'>.current_publication_id</span></td>
+                                                <td class="constraint detail">submissions_publication_id</td>
+                                                <td class="constraint detail"><span title='Null on delete:&#10;Foreign key to parent set to NULL when parent deleted'>N</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td title="submissions_fulltext.publication_id references publications.publication_id via submissions_fulltext_publication_id_foreign"><a href='submissions_fulltext.html'>submissions_fulltext</a><span class='relatedKey'>.publication_id</span></td>
+                                                <td class="constraint detail">submissions_fulltext_publication_id_foreign</td>
+                                                <td class="constraint detail"><span title='Cascade on delete:&#10;Deletion of parent deletes child'>C</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td title="user_comments.publication_id&#39;s name implies that it&#39;s a child of publications.publication_id, but it doesn&#39;t reference that column."><a href='user_comments.html'>user_comments</a><span class='relatedKey'>.publication_id</span></td>
+                                                <td class="constraint detail">Implied Constraint</td>
+                                                <td class="constraint detail"><span title='Restrict delete:&#10;Parent cannot be deleted if children exist'>R</span></td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td>
+                                        <table border='0' cellspacing='0' cellpadding='0'>
+                                        </table>
+                                    </td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td><span id="access_status">access_status</span></td>
+                                    <td>BIGINT</td>
+                                    <td>19</td>
+                                    <td title='nullable'>√</td>
+                                    <td title=''></td>
+                                    <td>0</td>
+                                    <td>
+                                        <table border='0' cellspacing='0' cellpadding='0'>
+                                        </table>
+                                    </td>
+                                    <td>
+                                        <table border='0' cellspacing='0' cellpadding='0'>
+                                        </table>
+                                    </td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td><span id="date_published">date_published</span></td>
+                                    <td>DATE</td>
+                                    <td>10</td>
+                                    <td title='nullable'>√</td>
+                                    <td title=''></td>
+                                    <td>null</td>
+                                    <td>
+                                        <table border='0' cellspacing='0' cellpadding='0'>
+                                        </table>
+                                    </td>
+                                    <td>
+                                        <table border='0' cellspacing='0' cellpadding='0'>
+                                        </table>
+                                    </td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td><span id="last_modified">last_modified</span></td>
+                                    <td>DATETIME</td>
+                                    <td>19</td>
+                                    <td title='nullable'>√</td>
+                                    <td title=''></td>
+                                    <td>null</td>
+                                    <td>
+                                        <table border='0' cellspacing='0' cellpadding='0'>
+                                        </table>
+                                    </td>
+                                    <td>
+                                        <table border='0' cellspacing='0' cellpadding='0'>
+                                        </table>
+                                    </td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td class='foreignKey' title='Foreign Key'><i class='icon ion-key iconkey' style='padding-left: 5px;'></i><span id="primary_contact_id">primary_contact_id</span></td>
+                                    <td>BIGINT</td>
+                                    <td>19</td>
+                                    <td title='nullable'>√</td>
+                                    <td title=''></td>
+                                    <td>null</td>
+                                    <td>
+                                        <table border='0' cellspacing='0' cellpadding='0'>
+                                        </table>
+                                    </td>
+                                    <td>
+                                        <table border='0' cellspacing='0' cellpadding='0'>
+                                            <tr>
+                                                <td title="publications.primary_contact_id references authors.author_id via publications_primary_contact_id"><a href='authors.html'>authors</a><span class='relatedKey'>.author_id</span></td>
+                                                <td class="constraint detail">publications_primary_contact_id</td>
+                                                <td class="constraint detail"><span title='Null on delete:&#10;Foreign key to parent set to NULL when parent deleted'>N</span></td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td class='foreignKey' title='Foreign Key'><i class='icon ion-key iconkey' style='padding-left: 5px;'></i><span id="section_id">section_id</span></td>
+                                    <td>BIGINT</td>
+                                    <td>19</td>
+                                    <td title='nullable'>√</td>
+                                    <td title=''></td>
+                                    <td>null</td>
+                                    <td>
+                                        <table border='0' cellspacing='0' cellpadding='0'>
+                                        </table>
+                                    </td>
+                                    <td>
+                                        <table border='0' cellspacing='0' cellpadding='0'>
+                                            <tr>
+                                                <td title="publications.section_id references sections.section_id via publications_section_id"><a href='sections.html'>sections</a><span class='relatedKey'>.section_id</span></td>
+                                                <td class="constraint detail">publications_section_id</td>
+                                                <td class="constraint detail"><span title='Null on delete:&#10;Foreign key to parent set to NULL when parent deleted'>N</span></td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td><span id="seq">seq</span></td>
+                                    <td>DOUBLE</td>
+                                    <td>22</td>
+                                    <td title=''></td>
+                                    <td title=''></td>
+                                    <td>0</td>
+                                    <td>
+                                        <table border='0' cellspacing='0' cellpadding='0'>
+                                        </table>
+                                    </td>
+                                    <td>
+                                        <table border='0' cellspacing='0' cellpadding='0'>
+                                        </table>
+                                    </td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td class='foreignKey' title='Foreign Key'><i class='icon ion-key iconkey' style='padding-left: 5px;'></i><span id="submission_id">submission_id</span></td>
+                                    <td>BIGINT</td>
+                                    <td>19</td>
+                                    <td title=''></td>
+                                    <td title=''></td>
+                                    <td>null</td>
+                                    <td>
+                                        <table border='0' cellspacing='0' cellpadding='0'>
+                                        </table>
+                                    </td>
+                                    <td>
+                                        <table border='0' cellspacing='0' cellpadding='0'>
+                                            <tr>
+                                                <td title="publications.submission_id references submissions.submission_id via publications_submission_id"><a href='submissions.html'>submissions</a><span class='relatedKey'>.submission_id</span></td>
+                                                <td class="constraint detail">publications_submission_id</td>
+                                                <td class="constraint detail"><span title='Cascade on delete:&#10;Deletion of parent deletes child'>C</span></td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td><span id="status">status</span></td>
+                                    <td>SMALLINT</td>
+                                    <td>5</td>
+                                    <td title=''></td>
+                                    <td title=''></td>
+                                    <td>1</td>
+                                    <td>
+                                        <table border='0' cellspacing='0' cellpadding='0'>
+                                        </table>
+                                    </td>
+                                    <td>
+                                        <table border='0' cellspacing='0' cellpadding='0'>
+                                        </table>
+                                    </td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td class='indexedColumn' title='Indexed'><i class='fa fa-sitemap fa-rotate-120' style='padding-right: 5px;'></i><span id="url_path">url_path</span></td>
+                                    <td>VARCHAR</td>
+                                    <td>64</td>
+                                    <td title='nullable'>√</td>
+                                    <td title=''></td>
+                                    <td>null</td>
+                                    <td>
+                                        <table border='0' cellspacing='0' cellpadding='0'>
+                                        </table>
+                                    </td>
+                                    <td>
+                                        <table border='0' cellspacing='0' cellpadding='0'>
+                                        </table>
+                                    </td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td class='foreignKey' title='Foreign Key'><i class='icon ion-key iconkey' style='padding-left: 5px;'></i><span id="doi_id">doi_id</span></td>
+                                    <td>BIGINT</td>
+                                    <td>19</td>
+                                    <td title='nullable'>√</td>
+                                    <td title=''></td>
+                                    <td>null</td>
+                                    <td>
+                                        <table border='0' cellspacing='0' cellpadding='0'>
+                                        </table>
+                                    </td>
+                                    <td>
+                                        <table border='0' cellspacing='0' cellpadding='0'>
+                                            <tr>
+                                                <td title="publications.doi_id references dois.doi_id via publications_doi_id_foreign"><a href='dois.html'>dois</a><span class='relatedKey'>.doi_id</span></td>
+                                                <td class="constraint detail">publications_doi_id_foreign</td>
+                                                <td class="constraint detail"><span title='Null on delete:&#10;Foreign key to parent set to NULL when parent deleted'>N</span></td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td><span id="version_stage">version_stage</span></td>
+                                    <td>enum(&#39;AO&#39;, &#39;PMUR&#39;, &#39;VoR&#39;)</td>
+                                    <td>4</td>
+                                    <td title='nullable'>√</td>
+                                    <td title=''></td>
+                                    <td>null</td>
+                                    <td>
+                                        <table border='0' cellspacing='0' cellpadding='0'>
+                                        </table>
+                                    </td>
+                                    <td>
+                                        <table border='0' cellspacing='0' cellpadding='0'>
+                                        </table>
+                                    </td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td><span id="version_minor">version_minor</span></td>
+                                    <td>INT</td>
+                                    <td>10</td>
+                                    <td title='nullable'>√</td>
+                                    <td title=''></td>
+                                    <td>null</td>
+                                    <td>
+                                        <table border='0' cellspacing='0' cellpadding='0'>
+                                        </table>
+                                    </td>
+                                    <td>
+                                        <table border='0' cellspacing='0' cellpadding='0'>
+                                        </table>
+                                    </td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td><span id="version_major">version_major</span></td>
+                                    <td>INT</td>
+                                    <td>10</td>
+                                    <td title='nullable'>√</td>
+                                    <td title=''></td>
+                                    <td>null</td>
+                                    <td>
+                                        <table border='0' cellspacing='0' cellpadding='0'>
+                                        </table>
+                                    </td>
+                                    <td>
+                                        <table border='0' cellspacing='0' cellpadding='0'>
+                                        </table>
+                                    </td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td><span id="created_at">created_at</span></td>
+                                    <td>DATETIME</td>
+                                    <td>19</td>
+                                    <td title=''></td>
+                                    <td title=''></td>
+                                    <td>CURRENT_TIMESTAMP</td>
+                                    <td>
+                                        <table border='0' cellspacing='0' cellpadding='0'>
+                                        </table>
+                                    </td>
+                                    <td>
+                                        <table border='0' cellspacing='0' cellpadding='0'>
+                                        </table>
+                                    </td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td class='foreignKey' title='Foreign Key'><i class='icon ion-key iconkey' style='padding-left: 5px;'></i><span id="issue_id">issue_id</span></td>
+                                    <td>BIGINT</td>
+                                    <td>19</td>
+                                    <td title='nullable'>√</td>
+                                    <td title=''></td>
+                                    <td>null</td>
+                                    <td>
+                                        <table border='0' cellspacing='0' cellpadding='0'>
+                                        </table>
+                                    </td>
+                                    <td>
+                                        <table border='0' cellspacing='0' cellpadding='0'>
+                                            <tr>
+                                                <td title="publications.issue_id references issues.issue_id via publications_issue_id_foreign"><a href='issues.html'>issues</a><span class='relatedKey'>.issue_id</span></td>
+                                                <td class="constraint detail">publications_issue_id_foreign</td>
+                                                <td class="constraint detail"><span title='Null on delete:&#10;Foreign key to parent set to NULL when parent deleted'>N</span></td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td class='foreignKey' title='Foreign Key'><i class='icon ion-key iconkey' style='padding-left: 5px;'></i><span id="source_publication_id">source_publication_id</span></td>
+                                    <td>BIGINT</td>
+                                    <td>19</td>
+                                    <td title='nullable'>√</td>
+                                    <td title=''></td>
+                                    <td>null</td>
+                                    <td>
+                                        <table border='0' cellspacing='0' cellpadding='0'>
+                                        </table>
+                                    </td>
+                                    <td>
+                                        <table border='0' cellspacing='0' cellpadding='0'>
+                                            <tr>
+                                                <td title="publications.source_publication_id references publications.publication_id via publications_source_publication_id"><a href='publications.html'>publications</a><span class='relatedKey'>.publication_id</span></td>
+                                                <td class="constraint detail">publications_source_publication_id</td>
+                                                <td class="constraint detail"><span title='Null on delete:&#10;Foreign key to parent set to NULL when parent deleted'>N</span></td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td></td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="box box-primary">
+                        <div class="box-header with-border">
+                            <i class="fa fa-sitemap"></i>
+                            <h3 id="Indexes" class="box-title">Indexes</h3>
+                            <div class="box-tools pull-right">
+                                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
+                                <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+                            </div>
+                        </div>
+                        <div class="box-body">
+                            <table
+                                    id="indexes_table"
+                                    class="table table-bordered table-striped dataTable"
+                                    role="grid"
+                                    data-paging="true"
+                                    data-page-length="10"
+                                    data-length-change="false">
+                                <thead>
+                                <tr>
+                                    <th>Constraint Name</th>
+                                    <th>Type</th>
+                                    <th>Sort</th>
+                                    <th>Column(s)</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td class='primaryKey' title='Primary Key'><i class='icon ion-key iconkey'></i> PRIMARY</td>
+                                    <td>Primary key</td>
+                                    <td><span title='Ascending'>Asc</span></td>
+                                    <td>publication_id</td>
+                                </tr>
+                                <tr>
+                                    <td title='Indexed'>publications_doi_id</td>
+                                    <td>Performance</td>
+                                    <td><span title='Ascending'>Asc</span></td>
+                                    <td>doi_id</td>
+                                </tr>
+                                <tr>
+                                    <td title='Indexed'>publications_issue_id_index</td>
+                                    <td>Performance</td>
+                                    <td><span title='Ascending'>Asc</span></td>
+                                    <td>issue_id</td>
+                                </tr>
+                                <tr>
+                                    <td title='Indexed'>publications_primary_contact_id</td>
+                                    <td>Performance</td>
+                                    <td><span title='Ascending'>Asc</span></td>
+                                    <td>primary_contact_id</td>
+                                </tr>
+                                <tr>
+                                    <td title='Indexed'>publications_section_id</td>
+                                    <td>Performance</td>
+                                    <td><span title='Ascending'>Asc</span></td>
+                                    <td>section_id</td>
+                                </tr>
+                                <tr>
+                                    <td title='Indexed'>publications_source_publication_id_index</td>
+                                    <td>Performance</td>
+                                    <td><span title='Ascending'>Asc</span></td>
+                                    <td>source_publication_id</td>
+                                </tr>
+                                <tr>
+                                    <td title='Indexed'>publications_submission_id</td>
+                                    <td>Performance</td>
+                                    <td><span title='Ascending'>Asc</span></td>
+                                    <td>submission_id</td>
+                                </tr>
+                                <tr>
+                                    <td title='Indexed'>publications_url_path</td>
+                                    <td>Performance</td>
+                                    <td><span title='Ascending'>Asc</span></td>
+                                    <td>url_path</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div><!-- /.box-body -->
+                    </div>
+                    <div class="box box-primary">
+                        <div class="box-header with-border">
+                            <i class="fa fa-code-fork"></i>
+                            <h3 id="Relationships" class="box-title">Relationships</h3>
+                            <div class="box-tools pull-right">
+                                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
+                                <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+                            </div>
+                        </div>
+                        <div class="box-body">
+                            <div class="nav-tabs-custom"><!-- Tabs within a box -->
+                                <h5>Close relationships within degrees of separation</h5>
+                                <ul class="nav nav-tabs pull-left ui-sortable-handle">
+                                    <li class="active"><a href="#oneDegreeImg-chart" data-toggle="tab" aria-expanded="true">One</a></li>
+                                    <li class=""><a href="#twodegreesDegreeImg-chart" data-toggle="tab" aria-expanded="true">Two degrees</a></li>
+                                    <li class=""><a href="#oneimpliedDegreeImg-chart" data-toggle="tab" aria-expanded="true">One implied</a></li>
+                                    <li class=""><a href="#twoimpliedDegreeImg-chart" data-toggle="tab" aria-expanded="true">Two implied</a></li>
+                                </ul>
+                                <div class="tab-content no-padding">
+                                    <div class="chart tab-pane active" id="oneDegreeImg-chart" style="position: relative; overflow-x:auto;">
+                                        <map id="oneDegreeRelationshipsDiagram" name="oneDegreeRelationshipsDiagram">
+<area shape="rect" id="node1" href="authors.html" target="_top" title="authors" alt="" coords="914,1418,1121,1565">
+<area shape="rect" id="node2" href="publications.html" target="_top" title="publications" alt="" coords="488,884,833,1452">
+<area shape="rect" id="node7" href="submissions.html" target="_top" title="submissions" alt="" coords="195,441,437,617">
+<area shape="rect" id="node8" href="issues.html" target="_top" title="issues" alt="" coords="188,1326,444,1532">
+<area shape="rect" id="node9" href="dois.html" target="_top" title="dois" alt="" coords="5,1414,144,1561">
+<area shape="rect" id="node13" href="sections.html" target="_top" title="sections" alt="" coords="192,1033,440,1209">
+<area shape="rect" id="node3" href="citations.html" target="_top" title="citations" alt="" coords="932,664,1103,840">
+<area shape="rect" id="node4" href="data_citations.html" target="_top" title="data_citations" alt="" coords="915,857,1120,1004">
+<area shape="rect" id="node5" href="edit_decisions.html" target="_top" title="edit_decisions" alt="" coords="1201,277,1405,512">
+<area shape="rect" id="node6" href="review_rounds.html" target="_top" title="review_rounds" alt="" coords="913,412,1122,646">
+<area shape="rect" id="node10" href="publication_categories.html" target="_top" title="publication_categories" alt="" coords="877,1021,1157,1173">
+<area shape="rect" id="node11" href="publication_galleys.html" target="_top" title="publication_galleys" alt="" coords="893,1582,1142,1817">
+<area shape="rect" id="node12" href="publication_settings.html" target="_top" title="publication_settings" alt="" coords="888,1190,1147,1401">
+<area shape="rect" id="node14" href="submissions_fulltext.html" target="_top" title="submissions_fulltext" alt="" coords="887,60,1148,358">
+</map>
+                                        <a name='diagram'><img id="oneDegreeImg" src="../diagrams/tables/publications.1degree.png" usemap="#oneDegreeRelationshipsDiagram" class="diagram" border="0" align="left"></a>
+                                    </div>
+                                    <div class="chart tab-pane " id="twodegreesDegreeImg-chart" style="position: relative; overflow-x:auto;">
+                                        <map id="twoDegreesRelationshipsDiagram" name="twoDegreesRelationshipsDiagram">
+<area shape="rect" id="node1" href="author_affiliations.html" target="_top" title="author_affiliations" alt="" coords="2011,761,2255,849">
+<area shape="rect" id="node2" href="authors.html" target="_top" title="authors" alt="" coords="1545,853,1751,1000">
+<area shape="rect" id="node4" href="publications.html" target="_top" title="publications" alt="" coords="1037,432,1383,1000">
+<area shape="rect" id="node3" href="author_settings.html" target="_top" title="author_settings" alt="" coords="2023,867,2243,955">
+<area shape="rect" id="node11" href="issues.html" target="_top" title="issues" alt="" coords="194,2751,330,2839">
+<area shape="rect" id="node13" href="sections.html" target="_top" title="sections" alt="" coords="657,2763,905,2939">
+<area shape="rect" id="node17" href="dois.html" target="_top" title="dois" alt="" coords="5,983,124,1071">
+<area shape="rect" id="node21" href="submissions.html" target="_top" title="submissions" alt="" coords="686,1569,875,1657">
+<area shape="rect" id="node5" href="categories.html" target="_top" title="categories" alt="" coords="693,1251,868,1339">
+<area shape="rect" id="node6" href="journals.html" target="_top" title="journals" alt="" coords="425,1799,580,1887">
+<area shape="rect" id="node7" href="citation_settings.html" target="_top" title="citation_settings" alt="" coords="2019,271,2247,359">
+<area shape="rect" id="node8" href="citations.html" target="_top" title="citations" alt="" coords="1563,268,1733,444">
+<area shape="rect" id="node9" href="credit_contributor_roles.html" target="_top" title="credit_contributor_roles" alt="" coords="1988,972,2279,1060">
+<area shape="rect" id="node10" href="custom_issue_orders.html" target="_top" title="custom_issue_orders" alt="" coords="649,1053,912,1141">
+<area shape="rect" id="node12" href="custom_section_orders.html" target="_top" title="custom_section_orders" alt="" coords="1069,2927,1351,3015">
+<area shape="rect" id="node40" href="review_forms.html" target="_top" title="review_forms" alt="" coords="403,2821,603,2909">
+<area shape="rect" id="node14" href="data_citation_settings.html" target="_top" title="data_citation_settings" alt="" coords="1996,464,2271,552">
+<area shape="rect" id="node15" href="data_citations.html" target="_top" title="data_citations" alt="" coords="1545,461,1751,608">
+<area shape="rect" id="node16" href="doi_settings.html" target="_top" title="doi_settings" alt="" coords="168,912,356,1000">
+<area shape="rect" id="node18" href="edit_decisions.html" target="_top" title="edit_decisions" alt="" coords="2031,1393,2235,1481">
+<area shape="rect" id="node19" href="users.html" target="_top" title="users" alt="" coords="715,2536,846,2624">
+<area shape="rect" id="node20" href="review_rounds.html" target="_top" title="review_rounds" alt="" coords="1543,1444,1753,1532">
+<area shape="rect" id="node22" href="issue_files.html" target="_top" title="issue_files" alt="" coords="417,3104,588,3192">
+<area shape="rect" id="node23" href="issue_galleys.html" target="_top" title="issue_galleys" alt="" coords="683,3103,879,3191">
+<area shape="rect" id="node24" href="issue_settings.html" target="_top" title="issue_settings" alt="" coords="400,2963,605,3051">
+<area shape="rect" id="node25" href="library_files.html" target="_top" title="library_files" alt="" coords="1118,1799,1302,1887">
+<area shape="rect" id="node26" href="metrics_counter_submission_daily.html" target="_top" title="metrics_counter_submission_daily" alt="" coords="1021,1904,1399,1992">
+<area shape="rect" id="node27" href="metrics_counter_submission_inst_766cb7fe.html" target="_top" title="metrics_counter_submission_institution_daily" alt="" coords="971,2009,1449,2097">
+<area shape="rect" id="node28" href="metrics_counter_submission_inst_826484b2.html" target="_top" title="metrics_counter_submission_institution_monthly" alt="" coords="956,2115,1464,2203">
+<area shape="rect" id="node29" href="metrics_counter_submission_monthly.html" target="_top" title="metrics_counter_submission_monthly" alt="" coords="1005,1053,1415,1141">
+<area shape="rect" id="node30" href="metrics_issue.html" target="_top" title="metrics_issue" alt="" coords="1110,3068,1310,3156">
+<area shape="rect" id="node31" href="metrics_submission.html" target="_top" title="metrics_submission" alt="" coords="2007,1077,2260,1165">
+<area shape="rect" id="node32" href="publication_galleys.html" target="_top" title="publication_galleys" alt="" coords="1523,1231,1773,1319">
+<area shape="rect" id="node33" href="submission_files.html" target="_top" title="submission_files" alt="" coords="1098,2325,1322,2413">
+<area shape="rect" id="node34" href="metrics_submission_geo_daily.html" target="_top" title="metrics_submission_geo_daily" alt="" coords="1039,1159,1381,1247">
+<area shape="rect" id="node35" href="metrics_submission_geo_monthly.html" target="_top" title="metrics_submission_geo_monthly" alt="" coords="1023,1693,1397,1781">
+<area shape="rect" id="node36" href="publication_categories.html" target="_top" title="publication_categories" alt="" coords="1508,99,1788,251">
+<area shape="rect" id="node37" href="publication_galley_settings.html" target="_top" title="publication_galley_settings" alt="" coords="1974,1183,2293,1271">
+<area shape="rect" id="node38" href="publication_settings.html" target="_top" title="publication_settings" alt="" coords="1519,625,1777,836">
+<area shape="rect" id="node39" href="review_assignments.html" target="_top" title="review_assignments" alt="" coords="2004,2640,2263,2728">
+<area shape="rect" id="node41" href="review_round_author_response_authors.html" target="_top" title="review_round_author_response_authors" alt="" coords="2479,1836,2907,1924">
+<area shape="rect" id="node42" href="review_round_author_responses.html" target="_top" title="review_round_author_responses" alt="" coords="1952,2995,2315,3083">
+<area shape="rect" id="node43" href="review_round_files.html" target="_top" title="review_round_files" alt="" coords="2011,1604,2255,1692">
+<area shape="rect" id="node44" href="review_round_settings.html" target="_top" title="review_round_settings" alt="" coords="1994,1499,2273,1587">
+<area shape="rect" id="node45" href="reviewer_suggestions.html" target="_top" title="reviewer_suggestions" alt="" coords="1075,2536,1345,2624">
+<area shape="rect" id="node46" href="section_settings.html" target="_top" title="section_settings" alt="" coords="1099,2821,1321,2909">
+<area shape="rect" id="node47" href="stage_assignments.html" target="_top" title="stage_assignments" alt="" coords="1086,2220,1334,2308">
+<area shape="rect" id="node48" href="submission_comments.html" target="_top" title="submission_comments" alt="" coords="1070,2431,1350,2519">
+<area shape="rect" id="node49" href="submission_settings.html" target="_top" title="submission_settings" alt="" coords="1081,1480,1339,1568">
+<area shape="rect" id="node50" href="submissions_fulltext.html" target="_top" title="submissions_fulltext" alt="" coords="1517,1053,1779,1141">
+<area shape="rect" id="node51" href="usage_stats_total_temporary_records.html" target="_top" title="usage_stats_total_temporary_records" alt="" coords="1931,2483,2336,2571">
+<area shape="rect" id="node52" href="usage_stats_unique_item_investi_d5d14002.html" target="_top" title="usage_stats_unique_item_investigations_temporary_records" alt="" coords="1832,1288,2435,1376">
+<area shape="rect" id="node53" href="usage_stats_unique_item_request_745ee055.html" target="_top" title="usage_stats_unique_item_requests_temporary_records" alt="" coords="1856,1964,2411,2052">
+</map>
+                                        <a name='diagram'><img id="twodegreesDegreeImg" src="../diagrams/tables/publications.2degrees.png" usemap="#twoDegreesRelationshipsDiagram" class="diagram" border="0" align="left"></a>
+                                    </div>
+                                    <div class="chart tab-pane " id="oneimpliedDegreeImg-chart" style="position: relative; overflow-x:auto;">
+                                        <map id="oneDegreeRelationshipsDiagramImplied" name="oneDegreeRelationshipsDiagramImplied">
+<area shape="rect" id="node1" href="authors.html" target="_top" title="authors" alt="" coords="914,1670,1121,1817">
+<area shape="rect" id="node2" href="publications.html" target="_top" title="publications" alt="" coords="488,1004,833,1572">
+<area shape="rect" id="node7" href="submissions.html" target="_top" title="submissions" alt="" coords="195,441,437,617">
+<area shape="rect" id="node8" href="issues.html" target="_top" title="issues" alt="" coords="188,1446,444,1652">
+<area shape="rect" id="node9" href="dois.html" target="_top" title="dois" alt="" coords="5,1534,144,1681">
+<area shape="rect" id="node13" href="sections.html" target="_top" title="sections" alt="" coords="192,1153,440,1329">
+<area shape="rect" id="node3" href="citations.html" target="_top" title="citations" alt="" coords="932,1313,1103,1489">
+<area shape="rect" id="node4" href="data_citations.html" target="_top" title="data_citations" alt="" coords="915,1506,1120,1653">
+<area shape="rect" id="node5" href="edit_decisions.html" target="_top" title="edit_decisions" alt="" coords="1201,277,1405,512">
+<area shape="rect" id="node6" href="review_rounds.html" target="_top" title="review_rounds" alt="" coords="913,412,1122,646">
+<area shape="rect" id="node10" href="publication_categories.html" target="_top" title="publication_categories" alt="" coords="877,664,1157,816">
+<area shape="rect" id="node11" href="publication_galleys.html" target="_top" title="publication_galleys" alt="" coords="893,1834,1142,2069">
+<area shape="rect" id="node12" href="publication_settings.html" target="_top" title="publication_settings" alt="" coords="888,833,1147,1044">
+<area shape="rect" id="node14" href="submissions_fulltext.html" target="_top" title="submissions_fulltext" alt="" coords="887,60,1148,358">
+<area shape="rect" id="node15" href="user_comments.html" target="_top" title="user_comments" alt="" coords="907,1061,1127,1296">
+</map>
+                                        <a name='diagram'><img id="oneimpliedDegreeImg" src="../diagrams/tables/publications.implied1degrees.png" usemap="#oneDegreeRelationshipsDiagramImplied" class="diagram" border="0" align="left"></a>
+                                    </div>
+                                    <div class="chart tab-pane " id="twoimpliedDegreeImg-chart" style="position: relative; overflow-x:auto;">
+                                        <map id="twoDegreesRelationshipsDiagramImplied" name="twoDegreesRelationshipsDiagramImplied">
+<area shape="rect" id="node1" href="author_affiliations.html" target="_top" title="author_affiliations" alt="" coords="2011,895,2255,983">
+<area shape="rect" id="node2" href="authors.html" target="_top" title="authors" alt="" coords="1545,787,1751,933">
+<area shape="rect" id="node4" href="publications.html" target="_top" title="publications" alt="" coords="1037,561,1383,1129">
+<area shape="rect" id="node3" href="author_settings.html" target="_top" title="author_settings" alt="" coords="2023,684,2243,772">
+<area shape="rect" id="node11" href="issues.html" target="_top" title="issues" alt="" coords="194,791,330,879">
+<area shape="rect" id="node13" href="sections.html" target="_top" title="sections" alt="" coords="657,411,905,587">
+<area shape="rect" id="node17" href="dois.html" target="_top" title="dois" alt="" coords="5,1016,124,1104">
+<area shape="rect" id="node21" href="submissions.html" target="_top" title="submissions" alt="" coords="686,1699,875,1787">
+<area shape="rect" id="node5" href="categories.html" target="_top" title="categories" alt="" coords="693,1109,868,1197">
+<area shape="rect" id="node6" href="journals.html" target="_top" title="journals" alt="" coords="425,1324,580,1412">
+<area shape="rect" id="node7" href="citation_settings.html" target="_top" title="citation_settings" alt="" coords="2019,132,2247,220">
+<area shape="rect" id="node8" href="citations.html" target="_top" title="citations" alt="" coords="1563,129,1733,305">
+<area shape="rect" id="node9" href="credit_contributor_roles.html" target="_top" title="credit_contributor_roles" alt="" coords="1988,789,2279,877">
+<area shape="rect" id="node10" href="custom_issue_orders.html" target="_top" title="custom_issue_orders" alt="" coords="649,968,912,1056">
+<area shape="rect" id="node12" href="custom_section_orders.html" target="_top" title="custom_section_orders" alt="" coords="1069,93,1351,181">
+<area shape="rect" id="node40" href="review_forms.html" target="_top" title="review_forms" alt="" coords="403,468,603,556">
+<area shape="rect" id="node14" href="data_citation_settings.html" target="_top" title="data_citation_settings" alt="" coords="1996,325,2271,413">
+<area shape="rect" id="node15" href="data_citations.html" target="_top" title="data_citations" alt="" coords="1545,323,1751,469">
+<area shape="rect" id="node16" href="doi_settings.html" target="_top" title="doi_settings" alt="" coords="168,1013,356,1101">
+<area shape="rect" id="node18" href="edit_decisions.html" target="_top" title="edit_decisions" alt="" coords="2031,1627,2235,1715">
+<area shape="rect" id="node19" href="users.html" target="_top" title="users" alt="" coords="715,2701,846,2789">
+<area shape="rect" id="node20" href="review_rounds.html" target="_top" title="review_rounds" alt="" coords="1543,1591,1753,1679">
+<area shape="rect" id="node22" href="issue_files.html" target="_top" title="issue_files" alt="" coords="417,308,588,396">
+<area shape="rect" id="node23" href="issue_galleys.html" target="_top" title="issue_galleys" alt="" coords="683,305,879,393">
+<area shape="rect" id="node24" href="issue_settings.html" target="_top" title="issue_settings" alt="" coords="400,1004,605,1092">
+<area shape="rect" id="node25" href="library_files.html" target="_top" title="library_files" alt="" coords="1118,1859,1302,1947">
+<area shape="rect" id="node26" href="metrics_counter_submission_daily.html" target="_top" title="metrics_counter_submission_daily" alt="" coords="1021,1964,1399,2052">
+<area shape="rect" id="node27" href="metrics_counter_submission_inst_766cb7fe.html" target="_top" title="metrics_counter_submission_institution_daily" alt="" coords="971,2069,1449,2157">
+<area shape="rect" id="node28" href="metrics_counter_submission_inst_826484b2.html" target="_top" title="metrics_counter_submission_institution_monthly" alt="" coords="956,2175,1464,2263">
+<area shape="rect" id="node29" href="metrics_counter_submission_monthly.html" target="_top" title="metrics_counter_submission_monthly" alt="" coords="1005,2280,1415,2368">
+<area shape="rect" id="node30" href="metrics_issue.html" target="_top" title="metrics_issue" alt="" coords="1110,255,1310,343">
+<area shape="rect" id="node31" href="metrics_submission.html" target="_top" title="metrics_submission" alt="" coords="2007,2739,2260,2827">
+<area shape="rect" id="node32" href="publication_galleys.html" target="_top" title="publication_galleys" alt="" coords="1523,2636,1773,2724">
+<area shape="rect" id="node33" href="submission_files.html" target="_top" title="submission_files" alt="" coords="1098,2491,1322,2579">
+<area shape="rect" id="node34" href="metrics_submission_geo_daily.html" target="_top" title="metrics_submission_geo_daily" alt="" coords="1039,1324,1381,1412">
+<area shape="rect" id="node35" href="metrics_submission_geo_monthly.html" target="_top" title="metrics_submission_geo_monthly" alt="" coords="1023,1219,1397,1307">
+<area shape="rect" id="node36" href="publication_categories.html" target="_top" title="publication_categories" alt="" coords="1508,1017,1788,1169">
+<area shape="rect" id="node37" href="publication_galley_settings.html" target="_top" title="publication_galley_settings" alt="" coords="1974,2633,2293,2721">
+<area shape="rect" id="node38" href="publication_settings.html" target="_top" title="publication_settings" alt="" coords="1519,559,1777,769">
+<area shape="rect" id="node39" href="review_assignments.html" target="_top" title="review_assignments" alt="" coords="2004,1235,2263,1323">
+<area shape="rect" id="node41" href="review_round_author_response_authors.html" target="_top" title="review_round_author_response_authors" alt="" coords="2479,2007,2907,2095">
+<area shape="rect" id="node42" href="review_round_author_responses.html" target="_top" title="review_round_author_responses" alt="" coords="1952,2949,2315,3037">
+<area shape="rect" id="node43" href="review_round_files.html" target="_top" title="review_round_files" alt="" coords="2011,1732,2255,1820">
+<area shape="rect" id="node44" href="review_round_settings.html" target="_top" title="review_round_settings" alt="" coords="1994,1521,2273,1609">
+<area shape="rect" id="node45" href="reviewer_suggestions.html" target="_top" title="reviewer_suggestions" alt="" coords="1075,2701,1345,2789">
+<area shape="rect" id="node46" href="section_settings.html" target="_top" title="section_settings" alt="" coords="1099,396,1321,484">
+<area shape="rect" id="node47" href="stage_assignments.html" target="_top" title="stage_assignments" alt="" coords="1086,2385,1334,2473">
+<area shape="rect" id="node48" href="submission_comments.html" target="_top" title="submission_comments" alt="" coords="1070,2596,1350,2684">
+<area shape="rect" id="node49" href="submission_settings.html" target="_top" title="submission_settings" alt="" coords="1081,1501,1339,1589">
+<area shape="rect" id="node50" href="submissions_fulltext.html" target="_top" title="submissions_fulltext" alt="" coords="1517,1413,1779,1501">
+<area shape="rect" id="node51" href="usage_stats_total_temporary_records.html" target="_top" title="usage_stats_total_temporary_records" alt="" coords="1931,1340,2336,1428">
+<area shape="rect" id="node52" href="usage_stats_unique_item_investi_d5d14002.html" target="_top" title="usage_stats_unique_item_investigations_temporary_records" alt="" coords="1832,2509,2435,2597">
+<area shape="rect" id="node53" href="usage_stats_unique_item_request_745ee055.html" target="_top" title="usage_stats_unique_item_requests_temporary_records" alt="" coords="1856,2844,2411,2932">
+<area shape="rect" id="node54" href="user_comment_reports.html" target="_top" title="user_comment_reports" alt="" coords="1992,2367,2275,2455">
+<area shape="rect" id="node55" href="user_comments.html" target="_top" title="user_comments" alt="" coords="1538,2240,1758,2475">
+<area shape="rect" id="node56" href="user_comment_settings.html" target="_top" title="user_comment_settings" alt="" coords="1989,2243,2278,2331">
+</map>
+                                        <a name='diagram'><img id="twoimpliedDegreeImg" src="../diagrams/tables/publications.implied2degrees.png" usemap="#twoDegreesRelationshipsDiagramImplied" class="diagram" border="0" align="left"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- /.box-body -->
+                    </div>
+                </section>
+                <script>
+                    var config = {
+                        pagination: true
+                    }
+                </script>
+            </div>
+            <!-- /.content-wrapper -->
+            <footer class="main-footer">
+                <div>
+                    <div class="pull-right hidden-xs">
+                        <a href="https://github.com/schemaspy/schemaspy" title="GitHub for SchemaSpy"><i class="fa fa-github-square fa-2x"></i></a>
+                        <a href="http://stackoverflow.com/questions/tagged/schemaspy" title="StackOverflow for SchemaSpy"><i class="fa fa-stack-overflow fa-2x"></i></a>
+                    </div>
+                    <strong>Generated by <a href="http://schemaspy.org/" class="logo-text"><i class="fa fa-database"></i> SchemaSpy 7.0.2</a></strong>
+                </div>
+                <!-- /.container -->
+            </footer>
+        </div>
+        <!-- ./wrapper -->
+
+        <!-- jQuery 2.2.3 -->
+        <script src="../bower/admin-lte/plugins/jQuery/jquery-2.2.3.min.js"></script>
+        <script src="../bower/admin-lte/plugins/jQueryUI/jquery-ui.min.js"></script>
+        <!-- Bootstrap 3.3.5 -->
+        <script src="../bower/admin-lte/bootstrap/js/bootstrap.min.js"></script>
+        <!-- DataTables -->
+        <script src="../bower/datatables.net/jquery.dataTables.min.js"></script>
+        <script src="../bower/datatables.net-bs/js/dataTables.bootstrap.min.js"></script>
+        <script src="../bower/datatables.net-buttons/dataTables.buttons.min.js"></script>
+        <script src="../bower/datatables.net-buttons-bs/js/buttons.bootstrap.min.js"></script>
+        <script src="../bower/datatables.net-buttons/buttons.html5.min.js"></script>
+        <script src="../bower/datatables.net-buttons/buttons.print.min.js"></script>
+        <script src="../bower/datatables.net-buttons/buttons.colVis.min.js"></script>
+        <!-- SheetJS -->
+        <script src="../bower/js-xlsx/xlsx.full.min.js"></script>
+        <!-- pdfmake -->
+        <script src="../bower/pdfmake/pdfmake.min.js"></script>
+        <script src="../bower/pdfmake/vfs_fonts.js"></script>
+        <!-- SlimScroll -->
+        <script src="../bower/admin-lte/plugins/slimScroll/jquery.slimscroll.min.js"></script>
+        <!-- FastClick -->
+        <script src="../bower/admin-lte/plugins/fastclick/fastclick.js"></script>
+        <!-- Salvattore -->
+        <script src="../bower/salvattore/salvattore.min.js"></script>
+        <!-- AnchorJS -->
+        <script src="../bower/anchor-js/anchor.min.js"></script>
+        <!-- CodeMirror -->
+        <script src="../bower/codemirror/codemirror.js"></script>
+        <script src="../bower/codemirror/sql.js"></script>
+        <!-- AdminLTE App -->
+        <script src="../bower/admin-lte/dist/js/app.min.js"></script>
+        <script src="table.js"></script>
+        <script src="../schemaSpy.js"></script>
+    </body>
+</html>
