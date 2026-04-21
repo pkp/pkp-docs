@@ -9,7 +9,8 @@ description: Anleitung zur Verwaltung zugewiesener Begutachtungen als Gutachter/
 # Begutachtung
 
 {% include video.html id="CINhUa35Jic" provider="youtube" title="Video of the Reviewer's Steps in OJS"%}
-Dieses PKP-School-Video erklärt, wie man einen Artikel in OJS begutachtet. Um weitere englischsprachige Videos aus dieser Serie zu sehen, besuchen Sie [PKPs YouTube-Kanal](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
+
+Dieses PKP School Video erklärt, wie man einen Artikel in OJS begutachtet. Um weitere englischsprachige Videos aus dieser Serie zu sehen, besuchen Sie [PKPs YouTube-Kanal](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
 
 Als externe/r Gutachter/in erfahren Sie von der Begutachtungsanfrage per E-Mail oder durch Überprüfen Ihres Dashboards:
 
