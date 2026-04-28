@@ -77,9 +77,9 @@ php lib/pkp/tools/replaceVariableInLocaleKey.php example.locale.key oldVariable 
 
 It will replace the variable name in all instances of that locale key from every locale `.po` file in the application and pkp-lib.
 
-### Mark a locale key as fuzzy (needs review)
+### Mark a locale key as fuzzy (needs review by translators)
 
-A CLI tool to mark a locale key as "fuzzy" in all languages, meaning it needs to be reviewed by translators as the original text has changed.
+A CLI tool to mark a locale key as "fuzzy" in all locales except `en`, meaning it needs to be reviewed by translators as the original text has changed.
 
 Run the following from the root directory of an application.
 
