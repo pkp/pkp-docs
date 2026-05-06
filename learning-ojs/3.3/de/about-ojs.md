@@ -28,7 +28,7 @@ _Die Ursprünge von OJS_. Das System wurde 2001 erstmals als Forschungs- und Ent
 
 <hr />
 
-## OJS-Funktionen {#ojs-features}
+## OJS Funktionen {#ojs-features}
 
 Besuchen Sie unsere Webseite, um mehr über [Open Journal Systems](https://pkp.sfu.ca/software/ojs) zu erfahren und darüber, wie es dem gesamten Weg von den Forscher/innen zu den Leser/innen unterstützt - von der Einreichung über die Begutachtung bis hin zur Produktion und Veröffentlichung.
 
@@ -139,7 +139,7 @@ Es gibt mit dem Rich-Text-Editor, der in vielen Formularfeldern in OJS erscheint
 
 Einträge im Navigationsmenü mit Remote-URLs können nun unterschiedliche Remote-URLs für jede Sprache haben.
 
-## Community-Beiträge {#community-contributions}
+## Beiträge aus der Community{#community-contributions}
 
 Das OJS-Team fördert Beiträge aus der Community der Entwickler/innen. Wenn Sie daran interessiert sind, OJS weiter zu verbessern, freuen wir uns über Ihre Beteiligung.
 
@@ -147,7 +147,7 @@ Hervorragende Beispiele für das Engagement der Community sind die große Anzahl
 
 Wir begrüßen auch Beiträge zu Software-Tests und Hinweise auf Software-Fehler.
 
-## Unterstützung {#support}
+## Support {#support}
 
 PKP bietet folgende kostenlose englischsprachige Support-Ressourcen für OJS an:
 
