@@ -42,6 +42,8 @@ When the metadata is exported for deposit in CrossRef, the DOI registered by OJS
 
 If the journal submits galley files in multiple languages, they can make a stand-alone component deposit for each of them. For more information, visit [Crossref’s documentation](https://www.crossref.org/documentation/content-registration/structural-metadata/components/).  
 
+If you publish multilingual content and use DOIs from Crossref, also consider their [recommendation about journal titles](https://www.crossref.org/documentation/content-registration/verify-your-registration/troubleshooting-submissions/#00634): “if your journal is in more than one language, you need to choose one version of the [journal] title as the master entry”, which normally is the title registered with the ISSN authority.  [In other words](https://community.crossref.org/t/parallel-titles-for-a-given-issn/2183/4): “you need to pick one journal title and stick with it. And, the language of the journal title does not need to match the language of the article title.” In practice, this means entering the same journal title is all languges under the journal identity settings. Otherwise, it may cause an error when submitting the DOIs for registration with CrossRef or a problematic citation when using the CSL plugin's how-to-cite display. 
+
 For other indexing content requirements, see our [Index Application Guide](https://docs.pkp.sfu.ca/indexing-guide/en/).
 
 ## Site search
