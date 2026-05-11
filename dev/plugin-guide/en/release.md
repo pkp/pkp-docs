@@ -50,7 +50,7 @@ pkp-plugin release pluginName --newversion 1.0.0.0
 
 When you have prepared your release package and made it publicly available, open a pull request on our [plugin gallery repository](https://github.com/pkp/plugin-gallery/) that adds your plugin to the XML file.
 
-Your plugin's XML must provide a title, description, contact details, and information on each release package.
+Your plugin's XML must provide a title, description, contact details, and information, including available languages, on each release package.
 
 ```xml
 <!-- The product should match the directory name of the plugin. -->
@@ -100,6 +100,14 @@ Your plugin's XML must provide a title, description, contact details, and inform
     </compatibility>
     <certification type="official"/>
     <description>Initial release.</description>
+
+    <!-- Languages available to the plugin -->
+    <locales>
+        <locale>en</subset>
+        <locale>fr</subset>
+        <locale>es</subset>
+        <!-- ... other languages to be added as translations are completed -->
+    </locales>
   </release>
 </plugin>
 ```
