@@ -135,11 +135,7 @@ force_ssl = On
 
 ## Scheduled Tasks
 
-The software must run some tasks every day, such as compiling usage statistics. You should set up a cron job to run the following command once a day.
-
-```
-php lib/pkp/tools/scheduler.php run
-```
+The software must run some tasks every day, such as compiling usage statistics. 
 
 Learn more about [scheduled tasks](./deploy-scheduled-tasks).
 
