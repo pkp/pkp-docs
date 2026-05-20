@@ -1,4 +1,7 @@
+### Design, Accessibility, and Publishing
 
-### [Designing Your Journal](/designing-your-journal/en/)
+Guides for creating attractive, accessible, and engaging journal content and presentation, including themes, multimedia publishing, and reader experience.
 
-This guide gives advice and information on how to make your journal attractive, accessible, and unique. It explains how to customize existing themes, create CSS files, and select images and fonts to suit your audience and content. [View Now](/designing-your-journal/en/)
+- [Designing Your Journal](/designing-your-journal/en/)
+- [Creating Accessible Content](/accessible-content/en) ([Português](/accessible-content/pt/))
+- [Publishing Multimodal Content](/multimodal/en/)

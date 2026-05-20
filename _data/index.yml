@@ -13,7 +13,6 @@ apps:
         isDeveloper: true
       - path: upgrading-guide
       - path: designing-your-journal
-      - path: accessible-content
       - path: disc-sust
       - path: instructor-guide
       - path: student-toolkit

@@ -12,7 +12,7 @@ This guide will teach users everything needed to successfully peer review a subm
 
 Select a language to proceed:
 * [English](./en/)
-
+* [Español](./es/)
 
 ## Other Learning OJS 3.5 Series Guides 
 
