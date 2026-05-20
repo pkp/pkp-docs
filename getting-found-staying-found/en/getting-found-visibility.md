@@ -275,6 +275,28 @@ It is increasingly common that funders require projects to include a knowledge t
 * Social media can amplify your story, but the substantive content usually resides elsewhere such as a news website, institutional blog, or your journal’s announcements page.
 * Journal content can have a long life. Consider promoting articles published several years earlier, especially if an article can fill an information vacuum for something current.
 
+## Checklist 
+
+> Contributed by Stuart Yeates and Max Sullivan
+
+Before you start any promotion:
+
+* Validate your OAI-PMH feed. There are a number of OAI-PMH validators which provide a third-party check of your metadata; for example, the [OAI-PMH Validator](https://validator.oaipmh.com/), the [OVAL Base OAI-PMH Validator](https://oval.base-search.net/), or the [DINI Validator](https://validator.dini.de/).
+* Check your SSL certificate using one of a number of checkers, such as [SSLLabs](https://www.ssllabs.com/ssltest/analyze.html) or [SSLChecker](https://www.sslchecker.com/sslchecker).
+* Check the ISSN details on [the ISSN portal](https://portal.issn.org/). These details are very important if journal ownership becomes contested.
+* Check the DOI metadata by searching for articles on [Crossref](https://search.crossref.org/search/). This only applies if minting DOIs via CrossRef. Search for an article by title and then select "Actions" -> "Metadata as JSON" and check all the details. Articles can take 48 hours to appear here after registering the DOI and providing the metadata.
+* Save the journal homepage to [the Wayback Machine](https://web.archive.org/save) or a similar web harvester. This will fail if you have an institutional firewall or similar blocking external access. Important if journal ownership becomes contested.
+* Browse the journal website with the browser console open, looking for errors or warnings that may be relevant.
+
+Places to check/add your journal, if appropriate:
+
+* [Directory of Open Access Journals](https://doaj.org/)
+* [Retraction Watch Database](https://retractiondatabase.org/)
+* [Unpaywall](https://unpaywall.org/)
+* [Google Scholar](https://scholar.google.com/)
+* [Wikidata](https://www.wikidata.org/): DOI metadata can be imported (from Crossref) into wikidata using [Scholia](https://scholia.toolforge.org/id-to-quickstatements).
+* [Wikipedia](https://en.wikipedia.org/): Requires journal meet notability requirements; not recommended for new journals.
+
 ## Further Reading
 
 Library Publishing Coalition (LPC) Webinar Series: [ORCID in Publishing Workflows](https://www.youtube.com/watch?v=9A3sk13C7QM)
