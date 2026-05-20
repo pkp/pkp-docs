@@ -289,7 +289,7 @@ Ihre Rolle im Lektoratsprozess ist nun abgeschlossen und Sie können auf die Auf
 
 <hr />
 
-## Auf eine Anfrage zum Korrekturlesen antworten {#responding-to-a-proofreading-request}
+## Auf eine Anfrage zum Korrekturlesen antworten {#responding-to-a-copyediting-request}
 
 Der nächste Schritt im Workflow ist die Prüfung Ihrer Beitragsdateien, die in Fahnen konvertiert wurden (z. B. PDF, HTML, usw.).
 
