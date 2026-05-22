@@ -9,6 +9,7 @@ permissions:
 
 jobs:
   synchronize-with-crowdin:
+    if: false # TODO: Remove post content freeze
     runs-on: ubuntu-latest
 
     steps:
