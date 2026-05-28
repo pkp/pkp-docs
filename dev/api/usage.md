@@ -96,7 +96,7 @@ https://example.com/api/v1/submissions?orderBy=title&orderDirection=ASC
 
 ### Pagination
 
-The following will return the second "page" of results, if each page contained 30 results.
+The following will return the second "page" of results if each page contained 30 results.
 
 ```
 https://example.com/api/v1/submissions?count=30offset=30
@@ -167,7 +167,7 @@ To save the logo to the context, send a `PUT` request to `/contexts/1`:
 
 The file will be moved from the temporary directory to its public location, overwriting any existing logo.
 
-Temporary files can only be managed by the **the user who uploaded the file**. If a user passes a `temporaryFileId` for a file they did not upload themselves, they will receive an authorization error.
+Temporary files can only be managed by **the user who uploaded the file**. If a user passes a `temporaryFileId` for a file they did not upload themselves, they will receive an authorization error.
 
 ## Unstable Endpoints
 
@@ -193,6 +193,8 @@ These definitions are drawn from the [entity schemas](https://docs.pkp.sfu.ca/de
 
 Technical references are available for the following software packages.
 
+- [OJS 3.5](ojs/3.5)
+- [OJS 3.4](ojs/3.4)
 - [OJS 3.3](ojs/3.3)
 - [OJS 3.2](ojs/3.2)
 - [OJS 3.1](ojs/3.1)
