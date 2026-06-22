@@ -112,9 +112,20 @@ Once you have saved your newly created journal, the Settings Wizard window will 
 
 **Settings Wizard** will take you to the settings for that journal. This option is described in depth below, under [Configure Journal-Specific Settings](#per-journal-settings).
 
-**Users** will allow you to add and manage users associated with the journal. Once you have created a journal and completed your configurations, you will likely want to create a user account for the Journal Manager or Editor - see the [Users and Roles chapter](../../journal-managers/en/users) for details.
+**Users** will allow you to add and manage users associated with the journal. Once you have created a journal and completed your configurations, you will likely want to create a user account for the Journal Manager and Editor - see the [Users and Roles chapter](../../journal-managers/en/users) for detail on permissions levels. {#manage-users}
 
 ![The Users window with a list of current users.](./assets/admin-users-3.5.png)
+
+**Note**: In accordance with GDPR, the ability to edit user accounts has been restricted to the Site Administrator role as of OJS 3.5. If the user has lost access to their email, cannot update their own information, or was erroneously removed from a role, the edit options available to you as Site Administrator can be used to troubleshoot. 
+
+Access the Users tab from the Settings wizard of a selected journal, and click the blue arrow next to the user that needs to be edited. Select Edit User to edit the following information:
+* The user's first and surnames
+* The user's email
+* The user's country
+* The user's password, including forcing the user to reset their password (useful if the user does not receive the registration confirmation - they can be given a temporary password that they can then reset)
+* The user's assigned roles and whether their roles should appear in the editorial masthead - these changes will be made *without sending an invite to the user*
+
+
 
 ### Configure Journal-Specific Settings {#per-journal-settings}
 Clicking **Settings Wizard** will take you to the settings for that journal. This can be used to adjust configurations at the individual journal level.
@@ -138,6 +149,8 @@ The Restrict Bulk Emails tab in the Settings Wizard allows you to disallow sendi
 Use this to limit potential abuse of the email notification feature. For example, it may be preferable to disable bulk emails to readers, authors, or other large user groups that have not consented to receive such emails.
 
 ![Settings wizard screen with the restrict bulk emails tab selected.](./assets/siteadmin-restrict-bulk-emails-3.5.png)
+
+
 
 ## Perform Site Maintenance Tasks {#maintenance-tasks}
 
