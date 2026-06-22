@@ -132,7 +132,7 @@ Once you’ve located the user, click three dots to review the managing user opt
 This opens a menu with options to Edit User, Email, Login As, Remove User, Disable User and Merge User.
 **Edit User** allows you to remove roles to an existing user or invite them to accept a new one.
 
-> In accordance with GDPR, Journal Editors are no longer able to edit user information, including passwords, names, and emails as of OJS version 3.5. They also cannot assign roles without sending an invitation that the user must accept. These user account changes can still be done by Site Administrators - see [Learning OJS 3.5 for Site Administrators: Managing Users](../../site-admin/en/#manage-users). Please inquire with your Site Administrator if these changes are needed.
+> In accordance with GDPR, Journal Editors are no longer able to edit user information, including passwords, names, and emails as of OJS version 3.5. They also cannot assign roles without sending an invitation that the user must accept. These changes can still be done by Site Administrators - see [Learning OJS 3.5 for Site Administrators: Managing Users](../../site-admin/en/#manage-users). Requests for troubleshooting in the event of users losing access to emails or having difficulties confirming their registration should be directed to Site Administrators.
 {:.notice}
 
 **Disable** keeps the account in place, but blocks the user from accessing it. You can reenable the account later by selecting “Enable User”.
