@@ -119,21 +119,21 @@ If you select the user to appear in the Journal Masthead, their name and affilia
 The role end date will be automatically registered when the role is removed from the user.
 
 
-## Find and Edit an Existing User {#edit-user}
+## Find and Manage an Existing User {#edit-user}
 
 You can browse the list of users to locate a user, or use the Search option to search by their complete or partial family name, given name, username, or email. 
 
 ![Searching by name in Users & Roles screen](./assets/user-search-3.5.png)
 
-Once you’ve located the user, click the blue arrow beside their information.
+Once you’ve located the user, click three dots to review the managing user options.
 
-![Blue arrow selected by a user's name with options to edit their account](./assets/user-edit-3.5.png)
+![OJS 3.5 user options menu.](/assets/learning-ojs3.5-user-options.png)
 
-This opens a menu with options to Email, Edit User, Disable, Remove, Login As, and Merge User.
+This opens a menu with options to Edit User, Email, Login As, Remove User, Disable User and Merge User.
+**Edit User** allows you to remove roles to an existing user or invite them to accept a new one.
 
-**Edit User** allows you to make changes to that user's account information.
-
-![Edit information about a user](./assets/edit-user-window-3.5.png)
+> In accordance with GDPR, Journal Editors are no longer able to edit user information, including passwords, names, and emails as of OJS version 3.5. They also cannot assign roles without sending an invitation that the user must accept. These changes can still be done by Site Administrators - see [Learning OJS 3.5 for Site Administrators: Managing Users](../../site-admin/en/#manage-users). Requests for troubleshooting in the event of users losing access to emails or having difficulties confirming their registration should be directed to Site Administrators.
+{:.notice}
 
 **Disable** keeps the account in place, but blocks the user from accessing it. You can reenable the account later by selecting “Enable User”.
 
