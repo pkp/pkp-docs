@@ -7,6 +7,10 @@ group :jekyll_plugins do
 	gem 'jekyll-titles-from-headings'
 	gem 'jekyll-readme-index'
 	gem 'jekyll-sitemap'
+	gem 'logger'
+	gem 'csv'
+	gem 'base64'
+	gem 'bigdecimal'
 end
 
 gem "webrick", "~> 1.8"
