@@ -81,6 +81,44 @@ Site Administrators can allow Journal Managers to send bulk emails to several us
 
 It is possible to disable sending bulk emails to certain roles for individual journals by accessing the [Settings Wizard for that journal as described below](#per-journal-settings).
 
+### Enable Announcements {#announcements}
+
+As of OJS 3.5, site administrators can create announcements that appear on the site level index page.
+
+To enable announcements:
+
+1. Log in as a **Site Administrator**.
+2. Go to **Site Settings** and click in the **Announcements** tab.
+3. Check the box **"Enable announcements"** and click **Save**.
+
+Once enabled, additional configuration options will appear:
+- **Introduction:** Enter any general information you would like to appear on your announcements page.
+- **Display on Homepage**: Enter the number of announcements to be displayed on the index homepage. If this is left blank, no announcements will be displayed.
+
+![OJS Administration Site Settings displaying the Announcements menu.](./assets/siteadmin-announcements-3.5.png)
+
+To write an announcement, click in the ‘Announcements’ menu item and click in ‘Add Announcement’.
+Here you can include the title of the announcement, a short description and / or full text of the announcement, and an (optional) expiry date.
+
+You can fill out the following fields:
+
+**Title:** The title of your announcement.
+**Short Description:** A short description of the announcement. This will appear on the list of announcements.
+**Announcement:** The full text of the announcement. Users can click the title of the announcement to access a separate page with the full announcement.
+**Image:** Attach a relevant image to your announcement. Drag your image into the outlined area or use the “Upload Image” button to select an image.
+**Expiry Date:** The announcement will stop displaying after the specified date. Leave blank to make an announcement permanent.
+
+The announcement will appear in the list, with options to View, Edit, and Delete. 
+
+> **Tip:** The short description is what users see in list views. The full text is shown only after clicking the title.
+> {:.tip} 
+
+> **Note:** The “Announcement Types” tab is not currently used by OJS and can be safely ignored.
+> {:.notice} 
+
+> **Important:** Notifications of site-wide announcements are **not** sent to users. You do not need to check the ‘Send Email’ box.
+> {:.warning}
+
 ## Create and Manage Hosted Journals {#hosted-journals}
 
 Click “Hosted Journals” under “Site Management” to see the list of all journals in this OJS installation.
