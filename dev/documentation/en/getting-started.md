@@ -18,6 +18,32 @@ This section will describe how to install the application in a local development
 
 The Admin Guide describes the [system requirements](../../../admin-guide/en/getting-started#system-requirements). When running locally, many of the recommended dependencies are not required.
 
+## Create an SQL Database
+
+Before launching OJS on your local machine, you need to create a SQL database, launch the driver (e.g., MySQL), and create a privileged user with a password. These example instructions show how to do this using MySQL, but you should check the official [MySQL Documentation](https://dev.mysql.com/doc/) for troubleshooting this step.
+
+If MySQL is not already installed on your system:
+
+```
+brew install mysql
+mysql_secure_installation
+```
+
+Start MySQL:
+
+```
+brew services start mysql
+mysql -u root
+```
+
+MySQL is now running, and you should be inside of a MySQL prompt. Next create a database, create a user, and grant all permissions to that user. Replace `databasename` with your desired name, such as 'ojs'. Replace `username@host` with your desired username and host name. For running locally, use 'localhost' as the host name. Replace `password` with your desired password. A password must be set for OJS to install.
+
+```
+CREATE DATABASE databasename;
+CREATE USER 'username@host' IDENTIFIED BY 'password';
+GRANT ALL PRIVILEGES ON .* TO databasename@host
+```
+
 ## Install
 
 Fork and clone the [OJS](https://github.com/pkp/ojs), [OMP](https://github.com/pkp/omp), or [OPS](https://github.com/pkp/ops) repository on GitHub. (Read more about [forking and cloning a repository](https://help.github.com/en/articles/fork-a-repo) on GitHub).
@@ -76,13 +102,13 @@ npm install
 npm run build
 ```
 
-Run the following command to launch the application using PHP's built-in server.
+Launch your database driver if it is not already running, then run the following command to launch the application using PHP's built-in server.
 
 ```
 php -S localhost:8000
 ```
 
-Load your browser and navigate to `http://localhost:8000` to install the application.
+Load your browser and navigate to `http://localhost:8000`, which will open a form to install the application. Use the database name, database host name, and the username of the credentialed user into the form.
 
 ## Branches
 
