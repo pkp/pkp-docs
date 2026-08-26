@@ -84,7 +84,7 @@ Launch your database server if it is not already running, then run the following
 php -S localhost:8000
 ```
 
-Load your browser and navigate to `http://localhost:8000`, which will open a form to install the application. Use the database name, database host name, and the username of the credentialed user into the form.
+Load your browser and navigate to `http://localhost:8000`, which will open a form to install the application. Enter the name, host, username, and password for the database you created.
 
 ## Branches
 
