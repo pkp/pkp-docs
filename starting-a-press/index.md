@@ -10,7 +10,7 @@ Here are the main steps in setting up your press with OMP. The steps are split b
 
 1. Start by reviewing standards in professional publishing. Guides such as the [Principles of Transparency and Best Practice in Scholarly Publishing (Open Access Scholarly Publishing Association)](https://oaspa.org/principles-of-transparency-and-best-practice-in-scholarly-publishing/) can help ensure your planned publication(s) meet professional standards.
 2. Consider the staff, time, and funds you will need to start and maintain your press. Ongoing staff resources needed could include editorial board, reviewers, copyeditors, and layout editors. The [Toolkit for Small and Scholar-led Publishers](https://toolkit.copim.pub/) has a pool of resources available, and can serve as a good starting point to consider a variety of questions relating to book publishing, incl.
-   * Steps to take](https://toolkit.copim.pub/books/03-starting-a-new-publisher) if you're looking to start a new publisher;
+   * [Steps to take](https://toolkit.copim.pub/books/03-starting-a-new-publisher) if you're looking to start a new publisher;
    * [Brand building](https://toolkit.copim.pub/books/04-brand-building-and-reputation) and reputation;
    * [Organisation type](https://toolkit.copim.pub/books/05-organisation-type), [Governance](https://toolkit.copim.pub/books/06-governance-and-accountability) and accountability;
    * different methods for [generating revenue](https://toolkit.copim.pub/books/07-revenue-models) as an open access publisher;
@@ -18,14 +18,12 @@ Here are the main steps in setting up your press with OMP. The steps are split b
    * [managing the production](https://toolkit.copim.pub/books/09-editorial) process [from submission to publication](https://toolkit.copim.pub/books/10-production);
         * Determine your editorial guidelines and policies, such as peer review policy, copyright, guidelines for authors, and guidelines for reviewers. Read [Best Practices for Peer Review](https://peerreview.up.hcommons.org/)
    * questions of [managing core metadata information](https://toolkit.copim.pub/books/11-metadata-management) about your books and authors, implementing [good metadata practice](https://doi.org/10.5281/zenodo.18173982) in your day-to-day workflows, as well as issues of [dissemination and discoverability](https://toolkit.copim.pub/books/12-dissemination-and-discoverability) and [longer-term archiving](https://toolkit.copim.pub/books/13-archiving-and-preservation), to ensure digital and print versions of books can be found and reach as wide an audience as possible
-6. [Install Open Monograph Press (OMP)](/learning-omp/en/install-upgrade) 
-7. [Configure OMP](/learning-omp/en/press-setup)
+3. [Install Open Monograph Press (OMP)](/learning-omp/en/install-upgrade) 
+4. [Configure OMP](/learning-omp/en/press-setup)
 
     *Please note, it will require some technical expertise to install and configure your Press.*
-8. [Register an ISBN](https://www.isbn-international.org/content/isbn-users-manual/29) prefix for your monograph(s).
-9. [Register for a DOI](/doi-plugin/en/doi-registration) prefix. For small publishers of open access books, there is help available through dedicated [Crossref Sponsorship](https://www.crossref.org/membership/about-sponsors/).
-10. 
-
+5. [Register an ISBN](https://www.isbn-international.org/content/isbn-users-manual/29) prefix for your book(s).
+6. [Register for a DOI](/doi-plugin/en/doi-registration) prefix. For small publishers of open access books, there is help available through dedicated [Crossref Sponsorship](https://www.crossref.org/membership/about-sponsors/). 
 
 ## After Publishing Content
 
@@ -40,10 +38,10 @@ Here are the main steps in setting up your press with OMP. The steps are split b
 
 ## Additional Resources
 
-* [Copim Compass: Open Access Book Publishing - A Comprehensive Overview of Resources]([https://compass.copim.pub/books/02-open-access-book-publishing-a-comprehensive-overview-of-resources/page/introduction-what-will-i-find-here](https://compass.copim.pub/books/02-open-access-book-publishing-a-comprehensive-overview-of-resources))
-* Open Book Collective [Logo Toolkit for Small & Scholar-Led OA Publishers](https://toolkit.copim.pub/)
+* [Copim Compass: Open Access Book Publishing - A Comprehensive Overview of Resources](https://compass.copim.pub/books/02-open-access-book-publishing-a-comprehensive-overview-of-resources))
+* Open Book Collective [Toolkit for Small & Scholar-Led OA Publishers](https://toolkit.copim.pub/)
 * [OA Books Toolkit: Publishing open access books](https://oabooks-toolkit.org/publishing-open-acces-books)
 * [Towards an Open Monograph Ecosystem (TOME)](https://www.openmonographs.org/resource/)
 * [Queen's University Useful Links](https://guides.library.queensu.ca/monograph-hosting-service/links)
 
-(Credit: [Queen's University Library](https://guides.library.queensu.ca/monograph-hosting-service/editors))
+(Credit: [Queen's University Library](https://guides.library.queensu.ca/monograph-hosting-service/editors) & [Copim Community](https://copim.pub) )
