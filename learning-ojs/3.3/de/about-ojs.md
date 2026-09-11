@@ -139,7 +139,7 @@ Es gibt mit dem Rich-Text-Editor, der in vielen Formularfeldern in OJS erscheint
 
 Einträge im Navigationsmenü mit Remote-URLs können nun unterschiedliche Remote-URLs für jede Sprache haben.
 
-## Beiträge aus der Community{#community-contributions}
+## Beiträge aus der Community {#community-contributions}
 
 Das OJS-Team fördert Beiträge aus der Community der Entwickler/innen. Wenn Sie daran interessiert sind, OJS weiter zu verbessern, freuen wir uns über Ihre Beteiligung.
 
