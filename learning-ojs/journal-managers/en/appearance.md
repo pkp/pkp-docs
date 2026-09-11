@@ -123,8 +123,7 @@ Hit Save to record your changes, and your new item will appear in the list of Na
 > Note: The Highlights feature may not currently work with all themes.
 {:.warning}
 
-In the Highlights section of Website > Setup, you can feature images and information on your journal home page. Use this to draw attention to a Call for Papers or to highlight a particular manuscript. If you add multiple highlights, they will be added to a carousel display that rotates between highlights.
-
+In the Highlights section of Website > Setup, you can feature images and information on your journal home page. Use this to draw attention to a Call for Papers or to highlight a particular manuscript. If you add multiple highlights, they will be added to a carousel display that rotates between highlights. Please note that rotation between highlights is manual, not automatic.
 
 ![Homepage displaying a call for papers highlight.](./assets/website-highlights-3.5.png)
 
