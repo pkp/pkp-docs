@@ -85,7 +85,8 @@ Suggested Reviewers will be shown when assigning Reviewers in the Editorial Work
 See the [Configure Your Submission, Review, and Licensing Policies Chapter](../../journal-managers/en/policies.md#basic-review-settings) of Learning OJS for Journal Managers for configuration details, and [Learning OJS 3.5 for Authors](../../author/en) for more details on how to suggest reviewers as an author.
 
 ### Use Highlights to Draw Attention to Big News {#highlights}
-Highlights allow you to feature images and information on your journal home page. Use this to draw attention to a Call for Papers or to highlight a particular manuscript. If you add multiple highlights, they will be added to a carousel display that rotates between highlights. **This feature may not work for all themes.**
+ **This feature may not work for all themes.**
+Highlights allow you to feature images and information on your journal home page. Use this to draw attention to a Call for Papers or to highlight a particular manuscript. If you add multiple highlights, they will be added to a carousel display that rotates between highlights. Please note that rotation between highlights is manual, not automatic.
 
 ![Homepage displaying a call for papers highlight.](../../journal-managers/en/assets/website-highlights-3.5.png)
 
