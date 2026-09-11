@@ -63,7 +63,7 @@ Establish what content will be accepted, e.g. research articles, reviews, opinio
 
 ### Publication medium and formats
 
-Will the journal publish in print, online, or both? Will the journal publish text files (PDF), HTML, XML, multimedia like images, audio, and video? Consider the implications for each content type, including the work involved (who will be responsible for creating the galley files in each format?) and accessibility of the published content.
+Will the journal publish in print, online, or both? Will the journal publish text files (PDF), HTML, XML, multimedia like images, audio, and video?If publishing multimedia content, consult the [Multimodal guide]([If publishing](https://docs.pkp.sfu.ca/multimodal/en/)) Consider the implications for each content type, including the work involved (who will be responsible for creating the galley files in each format?) and accessibility of the published content. 
 
 ### Organizing journal sections & categories
 
