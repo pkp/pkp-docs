@@ -19,6 +19,9 @@ As of 3.5, plugin settings are built using two key pieces:
 - **PluginSettingsController** — a base controller class that your plugin extends to define form fields and handle the API endpoints for reading and saving settings.
 - **FormModal** — a Vue.js component from the ui-library that renders the settings form in a modal dialog, handling validation and saving automatically.
 
+> See [API Endpoints](./api-endpoints) for the underlying controller and routing mechanism that `PluginSettingsController` is built on, and for how to add other API endpoints from a plugin.
+{:.tip}
+
 View the [Plugin Template](https://github.com/pkp/pluginTemplate) for a complete working example.
 
 ---

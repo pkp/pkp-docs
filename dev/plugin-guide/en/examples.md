@@ -9,6 +9,7 @@ version: 3.5
 Plugins can be put to a wide variety of uses. The examples below show you how to do things that many plugins may need to do.
 
 - [Plugin Template](https://github.com/pkp/pluginTemplate){:target="_blank"} - A working starter plugin that you can use as a base for your own plugins.
+- [API Example](https://github.com/touhidurabir/apiExample){:target="_blank"} - A plugin demonstrating how to register REST API endpoints. See [API Endpoints](./api-endpoints).
 - [Extending Backend UI with Vue.js](./examples-backend-ui) - How to extend the editorial backend with custom Vue.js components using the new recommended approach in 3.5+.
 - [Add Styles and Scripts](./examples-styles-scripts) - How to add a CSS stylesheet or JavaScript file to the backend.
 - [Context and Site](./examples-context-site) - How to distinguish between one journal and the admin area in your plugin.
