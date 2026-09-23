@@ -12,9 +12,11 @@
 * [Translation](./translation)
 * [Templates](./templates)
 * [Plugin Settings](./settings)
+* [API Endpoints](./api-endpoints)
 * [Release a Plugin](./release)
 * [Examples](./examples)
   * [Plugin Template](https://github.com/pkp/pluginTemplate){:target="_blank"}
+  * [API Example](https://github.com/touhidurabir/apiExample){:target="_blank"}
   * [Extending Backend UI with Vue.js](./examples-backend-ui)
   * [Add Styles and Scripts](./examples-styles-scripts)
   * [Context and Site](./examples-context-site)
