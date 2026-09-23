@@ -15,12 +15,10 @@ Plugins can register their own [REST API](/dev/api) endpoints. This lets a plugi
 There are three ways a plugin can add API endpoints:
 
 1. [Add a route to an existing entity](#add-a-route-to-an-existing-entity) — attach a new route to a core entity such as `submissions` or `users`.
-2. [Create plugin own API routes/endpoints](#create-plugin-own-api-endpoints) — expose endpoints under a path that belongs entirely to your plugin.
+2. [Create your plugin's own API endpoints](#create-plugin-api-endpoints) — expose endpoints under a path that belongs entirely to your plugin.
 3. [Add plugin settings endpoints](#plugin-settings-endpoints) — use the ready-made `PluginSettingsController` to read and write your plugin's settings.
 
 All three are wired up with the [Hook](/dev/documentation/en/utilities-hooks) system from your plugin's `register()` method. See the routing system in [Routes](/dev/documentation/en/architecture-routes) for background, and the [apiExample plugin](https://github.com/touhidurabir/apiExample) for a complete, runnable demonstration of the first two approaches.
-
----
 
 ## Add a route to an existing entity
 
@@ -30,7 +28,7 @@ Every core API entity fires a hook when its routes are being assembled. The hook
 APIHandler::endpoints::{ENTITY}
 ```
 
-The entity is the segment after the API version in the URL — for `/{contextPath}/api/v1/submissions` the entity is `submissions`, for `/{contextPath}/api/v1/users` it is `users`. Listen for the hook and call `$apiHandler->addRoute()` to append a new route to that entity's existing routes.
+The entity is the segment after the API version in the URL — for `/{contextPath}/api/v1/submissions` the entity is `submissions`, and for `/{contextPath}/api/v1/users` it is `users`. Listen for the hook and call `$apiHandler->addRoute()` to append a new route to that entity's existing routes.
 
 ```php
 use Illuminate\Http\JsonResponse;
@@ -49,7 +47,7 @@ Hook::add('APIHandler::endpoints::users', function (string $hookName, PKPBaseCon
         'testing/routes/add/onfly',
         function (IlluminateRequest $request): JsonResponse {
             return response()->json([
-                'message' => 'A new route added successfully on fly',
+                'message' => 'A new route added successfully on the fly',
             ], Response::HTTP_OK);
         },
         'test.onfly',
@@ -78,20 +76,27 @@ Hook::add('APIHandler::endpoints::users', function (string $hookName, PKPBaseCon
 > Routes added this way share the host entity's route group middleware (for example `has.context`). Your `$roles` are applied on top, so you do not need to add role middleware yourself.
 {:.tip}
 
-> For a real, in-production use of this mechanism, see [A production example](#a-production-example) at the end of this chapter.
+> For a production use of this mechanism, see [A production example](#a-production-example) at the end of this chapter.
 {:.tip}
 
-## Authorization policies
+### Authorization policies
 
 The optional final argument of `addRoute()` lets you attach PKP authorization policies to the route. Pass an object implementing `PKP\plugins\interfaces\HasAuthorizationPolicy`, which has a single method:
 
 ```php
+use PKP\core\PKPRequest;
+
 public function getPolicies(PKPRequest $request, array &$args, array $roleAssignments): array;
 ```
 
 Return an array of policy objects. For example, the [plagiarism plugin](#a-production-example) returns two:
 
 ```php
+use PKP\core\PKPRequest;
+use PKP\plugins\interfaces\HasAuthorizationPolicy;
+use PKP\security\authorization\internal\SubmissionCompletePolicy;
+use PKP\security\authorization\SubmissionAccessPolicy;
+
 new class implements HasAuthorizationPolicy {
     public function getPolicies(PKPRequest $request, array &$args, array $roleAssignments): array
     {
@@ -108,9 +113,7 @@ These policies enforce access control *and* populate the authorized context obje
 > Every item returned from `getPolicies()` must be an instance of `PKP\security\authorization\AuthorizationPolicy` or `PKP\security\authorization\PolicySet`. Returning anything else throws an exception.
 {:.warning}
 
----
-
-## Create plugin own API routes/endpoints {#create-plugin-own-api-endpoints}
+## Create your plugin's own API endpoints {#create-plugin-api-endpoints}
 
 When your endpoints don't belong to an existing entity, give your plugin its own controller and path. Listen for the `APIHandler::endpoints::plugin` hook and register one or more controllers with `registerPluginApiControllers()`:
 
@@ -129,6 +132,9 @@ Hook::add('APIHandler::endpoints::plugin', function (string $hookName, APIRouter
 ```
 
 > `registerPluginApiControllers()` checks the handler path of every controller against those already registered and throws if two plugins claim the same path. This prevents one plugin's request from leaking into another. Prefer this hook over the older `Dispatcher::dispatch` approach, which has no collision protection and runs before the context schema is loaded.
+{:.warning}
+
+> The check covers other plugins only, not the core API. Plugin controllers are matched before the core routes, so a handler path that reuses a core entity name — `submissions`, `users`, `contexts`, `announcements` and so on — silently takes over that core endpoint. Pick a path that is unmistakably your plugin's.
 {:.warning}
 
 Each controller extends `PKP\core\PKPBaseController` and implements three methods:
@@ -188,6 +194,11 @@ class CustomApiController extends PKPBaseController
 By default routes are context-scoped (`{contextPath}/api/v1/...`). Override `isSiteWide()` to return `true` for an admin-level controller served from the site context (`index/api/v1/...`):
 
 ```php
+namespace APP\plugins\generic\apiExample;
+
+use Illuminate\Support\Facades\Route;
+use PKP\core\PKPBaseController;
+
 class CustomAdminApiController extends PKPBaseController
 {
     public function getHandlerPath(): string
@@ -197,7 +208,7 @@ class CustomAdminApiController extends PKPBaseController
 
     public function isSiteWide(): bool
     {
-        return true; // index/api/v1/custom-admin-plugin-path
+        return true; // served from index/api/v1/custom-admin-plugin-path
     }
 
     public function getRouteGroupMiddleware(): array
@@ -215,16 +226,14 @@ class CustomAdminApiController extends PKPBaseController
 }
 ```
 
----
-
 ## Plugin settings endpoints
 
-The most common reason to add endpoints is to read and save a plugin's settings. For this, PKP provides a ready-made controller, `PKP\plugins\PluginSettingsController`, so you don't have to wire up routes, middleware and authorization yourself.
+The most common reason to add endpoints is to read and save a plugin's settings. PKP provides a ready-made controller, `PKP\plugins\PluginSettingsController`, so you don't have to wire up routes, middleware and authorization yourself.
 
 It is itself a `PKPBaseController` subclass and automatically:
 
 - serves a `GET` and a `PUT` route at `plugins/{pluginName}/settings`;
-- requires an authenticated user, and for context plugins also a context;
+- requires an authenticated user, and for context plugins a context;
 - authorizes site admins for site plugins, and site admins or managers for context plugins.
 
 Extend it and implement two methods — `get()` to return the current settings, and `edit()` to validate and save them:
@@ -306,20 +315,14 @@ Finally, build the endpoint URL for the settings form with the dispatcher and th
 $apiUrl = $request->getDispatcher()->url(
     $request,
     Application::ROUTE_API,
-    $context->getPath(),
+    $context?->getPath() ?? Application::SITE_CONTEXT_PATH,
     $this->controller->getHandlerPath() // plugins/{pluginName}/settings
 );
 ```
 
-For the form modal and Vue.js side of plugin settings — which consumes this endpoint — see [Plugin Settings](./settings). The [Plugin Template](https://github.com/pkp/pluginTemplate) is a complete working example of the settings flow end to end.
+For the form modal and Vue.js side of plugin settings — which consumes this endpoint — see [Plugin Settings](./settings). The [Plugin Template](https://github.com/pkp/pluginTemplate) is a complete working example of the settings flow end-to-end.
 
----
-
-## A production example
-
-The [plagiarism plugin](https://github.com/pkp/plagiarism) uses the entity-route mechanism in production. Its [`PlagiarismPlugin::addApiRoutes()`](https://github.com/pkp/plagiarism/blob/main/PlagiarismPlugin.php) attaches plagiarism-status endpoints to the `submissions` entity, complete with role restrictions, authorization policies and request validation. It is a good real-world reference for how the pieces in this chapter fit together.
-
-### Recommended best practices
+## Recommended best practices
 
 When you add API endpoints from a plugin, a few practices are worth copying:
 
@@ -329,6 +332,10 @@ When you add API endpoints from a plugin, a few practices are worth copying:
 - **Read the authorized object, don't re-fetch it.** When a policy such as `SubmissionAccessPolicy` runs, it loads and authorizes the entity. Retrieve it inside the action with `$apiController->getAuthorizedContextObject(Application::ASSOC_TYPE_SUBMISSION)` rather than querying it again.
 - **Validate with a `FormRequest`.** Type-hinting a Laravel `FormRequest` subclass on the action closure runs its validation rules before your code executes.
 - **Keep actions thin.** Delegate the real work to a dedicated class — the plagiarism plugin uses a [`PlagiarismApiActionManager`](https://github.com/pkp/plagiarism/blob/main/classes/api/PlagiarismApiActionManager.php) — instead of writing logic inline.
+
+## A production example
+
+The [plagiarism plugin](https://github.com/pkp/plagiarism) uses the entity-route mechanism in production. Its [`PlagiarismPlugin::addApiRoutes()`](https://github.com/pkp/plagiarism/blob/main/PlagiarismPlugin.php) attaches `plagiarism/status` endpoints to the `submissions` entity, complete with role restrictions, authorization policies and request validation. It is a good real-world reference for how the pieces in this chapter fit together.
 
 ---
 
