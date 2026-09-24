@@ -81,7 +81,7 @@ Plugins found from sources outside of the Plugin Gallery will require manual ins
 
 If you have developed a plugin and wish to make it available to all OJS/OMP/OPS users, we recommend contributing it to the Plugin Gallery. Please view the [Plugin Gallery readme page](https://github.com/pkp/plugin-gallery) on our GitHub repository for details.
 
-If your plugin is not available for the Plugin Gallery but you would like to have it included in the inventory below, [edit this page on GitHub](https://github.com/pkp/pkp-docs/tree/plugin-inventory/plugin-inventory) or send this information via [Documentation Feedback](https://pkp.sfu.ca/documentation-feedback/). Make sure the plugin is compatible with OJS/OMP/OPS 3.2+. Plugins not in the Gallery will be marked as “unvetted” on the list.
+If your plugin is not available for the Plugin Gallery but you would like to have it included in the inventory below, [edit this page on GitHub](https://github.com/pkp/pkp-docs/tree/plugin-inventory/en) or send this information via [Documentation Feedback](https://pkp.sfu.ca/documentation-feedback/). Make sure the plugin is compatible with OJS/OMP/OPS 3.2+. Plugins not in the Gallery will be marked as “unvetted” on the list.
 
 ## Plugin Inventory {#inventory}
 
@@ -309,11 +309,11 @@ Allows journals to manually or automatically deliver articles to the Directory o
 
 * [DOAJ Export plugin guide](/admin-guide/en/data-import-and-export#doaj-export-plugin)
 
-### DOI
+### DOI plugin
 
 Enables the assignment of the Digital Object Identifiers to issues, articles and galleys in OJS. Can work in pair with Crossref, Datacite or Medra plugins for automatic content registration.
 
-* [DOI plugin guide](/doi-plugin/en/)
+* [DOI plugin guide](/doi-plugin/en/) (3.0-3.3) 
 
 ### DOI to mEDRA XML Export and Registration
 
@@ -606,12 +606,6 @@ This plugin integrates [the Publication Facts Label](https://pkp.sfu.ca/pfl-info
 
 * [Publication Facts Label plugin in GitHub](https://github.com/pkp/pflPlugin)
 
-### Publons Reviewer Recognition
-
-Enables integration with Publons Reviewer Recognition Service. This plugin will require the [Reviewer Recognition Service](https://publons.com/benefits/publishers) to account to be set up.
-
-* [Publons Reviewer Recognition plugin in GitHub](https://github.com/publons/ojs_3_plugin/)
-
 ### PubMed XML Export
 
 Export article metadata in PubMed XML format for journals indexed in MEDLINE.
@@ -812,3 +806,17 @@ Generates a CSV spreadsheet describing readership for each article, including ar
 ### Web Feed Plugin
 
 Produces RSS/Atom web syndication feeds for the current issue.
+
+### Web of Science Reviewer Locator 
+
+Plugin that adds Web of Science Reviewer Locator functionality to OJS hosted journals with active Reviewer Locator subscription. 
+
+* [Web of Science Reviewer Locator plugin in GitHub](https://github.com/clarivate/wos_reviewer_locator_plugin_ojs) (3.1-3.5)
+
+### Web of Science Reviewer Recognition
+
+This plugin provides the ability to send and publish reviews to Web of Science Researcher Profiles (formerly known as Publons, https://webofscience.com) from OJS hosted journals. For the plugin to work, the journal should be an official partner of Web of Science Reviewer Recognition Service. 
+
+* [Web of Science Reviewer Recognition plugin in GitHub](https://github.com/clarivate/wos_reviewer_recognition_plugin_ojs_2) (2.x)
+* [Web of Science Reviewer Recognition plugin in GitHub](https://github.com/clarivate/wos_reviewer_recognition_plugin_ojs_old) (3.1-3.3)
+* [Web of Science Reviewer Recognition plugin in GitHub](https://github.com/clarivate/wos_reviewer_recognition_plugin_ojs_3) (3.4-3.5) 
