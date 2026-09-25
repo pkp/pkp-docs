@@ -31,6 +31,7 @@
   * [Jobs](./utilities-jobs)
   * [Migrations](./utilities-migrations)
   * Notifications
+  * [Scheduled Tasks](./utilities-scheduled-tasks)
   * [Translation](./utilities-translation)
   * [Validation](./utilities-validation)
 * Other
