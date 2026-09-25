@@ -13,6 +13,7 @@
 * [Templates](./templates)
 * [Plugin Settings](./settings)
 * [API Endpoints](./api-endpoints)
+* [Scheduled Tasks](./scheduled-tasks)
 * [Release a Plugin](./release)
 * [Examples](./examples)
   * [Plugin Template](https://github.com/pkp/pluginTemplate){:target="_blank"}
