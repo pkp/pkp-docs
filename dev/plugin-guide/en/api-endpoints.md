@@ -339,4 +339,4 @@ The [plagiarism plugin](https://github.com/pkp/plagiarism) uses the entity-route
 
 ---
 
-View more [examples](./examples), or continue to [release your plugin](./release).
+When you're ready, learn how to [add scheduled tasks to your plugin](./scheduled-tasks).
