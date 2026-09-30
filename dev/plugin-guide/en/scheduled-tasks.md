@@ -76,6 +76,7 @@ class ExamplePlugin extends GenericPlugin implements HasTaskScheduler
         $scheduler
             ->addSchedule(new ExampleTask($this))
             ->daily()
+            ->name(ExampleTask::class)
             ->withoutOverlapping();
     }
 }
@@ -83,7 +84,7 @@ class ExamplePlugin extends GenericPlugin implements HasTaskScheduler
 
 A plugin never edits the application's own scheduler classes. `addSchedule()` takes your task and returns Laravel's `Event`, so everything after it is Laravel's scheduling API, including [how often the task runs](/dev/documentation/en/utilities-scheduled-tasks#frequency). Register as many tasks as you need; a task that has already been registered is not added twice.
 
-> `addSchedule()` names the event after your task's class. That name is the key for the lock that `withoutOverlapping()` uses to keep two copies of a task from running at the same time, and it is the name the command-line tool lists and matches. Call `name()` before `withoutOverlapping()` if you want a name of your own.
+> Name the task with `name()` before calling `withoutOverlapping()`. `addSchedule()` falls back to your task's class name when you don't, but naming it yourself is the convention to follow, and it keeps the name visible where the task is registered. The name is the key for the lock that `withoutOverlapping()` uses to keep two copies of a task from running at the same time, and it is the name the command-line tool lists and matches.
 {:.tip}
 
 ## Test the task
@@ -94,9 +95,9 @@ Once the task is registered, confirm the application can see it with the [comman
 php lib/pkp/tools/scheduler.php list
 ```
 
-Your task appears under its class name and the frequency it was scheduled at. If it is missing, the plugin failed to load or the plugin class does not implement `HasTaskScheduler`.
+Your task appears with the name you gave it and the frequency it was scheduled at. If it is missing, the plugin failed to load or the plugin class does not implement `HasTaskScheduler`.
 
-Run it immediately, without waiting for it to be due, by passing that name.
+Run it immediately, without waiting for it to be due, by passing the name you registered it with.
 
 ```bash
 php lib/pkp/tools/scheduler.php test --name="APP\plugins\generic\example\classes\tasks\ExampleTask"
