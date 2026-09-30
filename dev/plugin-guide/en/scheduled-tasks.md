@@ -10,7 +10,7 @@ version: 3.5
 > Learn more about [scheduled tasks](/dev/documentation/en/utilities-scheduled-tasks) in our developer documentation. Site administrators decide how tasks are run on a given installation. See [Scheduled Tasks](/admin-guide/en/deploy-scheduled-tasks) in the Administrator's Guide.
 {:.tip}
 
-A plugin can add its own scheduled tasks, to run work on a recurring basis outside of any user request: depositing metadata with a third-party service, sending reminder emails or removing data the plugin no longer needs.
+A plugin can add its own scheduled tasks to run work on a recurring basis outside of any user request: depositing metadata with a third-party service, sending reminder emails or removing data the plugin no longer needs.
 
 This takes two steps: write the task, then register it with the scheduler.
 
@@ -54,9 +54,6 @@ class ExampleTask extends ScheduledTask
 }
 ```
 
-> Plugin locale data is not loaded automatically when a plugin is registered. If `getName()` or your log messages use your plugin's locale keys, call `$this->addLocaleData()` when your plugin registers, or the keys will be shown instead of the translations.
-{:.tip}
-
 ## Register the task
 
 Implement `HasTaskScheduler` in your plugin class. The application calls `registerSchedules()` and passes the scheduler, which you use to add your tasks.
@@ -79,7 +76,6 @@ class ExamplePlugin extends GenericPlugin implements HasTaskScheduler
         $scheduler
             ->addSchedule(new ExampleTask($this))
             ->daily()
-            ->name(ExampleTask::class)
             ->withoutOverlapping();
     }
 }
@@ -87,20 +83,20 @@ class ExamplePlugin extends GenericPlugin implements HasTaskScheduler
 
 A plugin never edits the application's own scheduler classes. `addSchedule()` takes your task and returns Laravel's `Event`, so everything after it is Laravel's scheduling API, including [how often the task runs](/dev/documentation/en/utilities-scheduled-tasks#frequency). Register as many tasks as you need; a task that has already been registered is not added twice.
 
-> Name the task before calling `withoutOverlapping()`. The name is the key for the lock that keeps two copies of a task from running at the same time, and Laravel raises `A scheduled event name is required to prevent overlapping.` when the lock has no name to use. It also gives you a stable name to pass to the command line tool.
-{:.warning}
+> `addSchedule()` names the event after your task's class. That name is the key for the lock that `withoutOverlapping()` uses to keep two copies of a task from running at the same time, and it is the name the command-line tool lists and matches. Call `name()` before `withoutOverlapping()` if you want a name of your own.
+{:.tip}
 
 ## Test the task
 
-Once the task is registered, confirm the application can see it with the [command line tool](/dev/documentation/en/utilities-scheduled-tasks#cli-tool).
+Once the task is registered, confirm the application can see it with the [command-line tool](/dev/documentation/en/utilities-scheduled-tasks#cli-tool).
 
 ```bash
 php lib/pkp/tools/scheduler.php list
 ```
 
-Your task appears with the name you gave it and the frequency it was scheduled at. If it is missing, the plugin failed to load or the plugin class does not implement `HasTaskScheduler`.
+Your task appears under its class name and the frequency it was scheduled at. If it is missing, the plugin failed to load or the plugin class does not implement `HasTaskScheduler`.
 
-Run it immediately, without waiting for it to be due, by passing the name you registered it with.
+Run it immediately, without waiting for it to be due, by passing that name.
 
 ```bash
 php lib/pkp/tools/scheduler.php test --name="APP\plugins\generic\example\classes\tasks\ExampleTask"

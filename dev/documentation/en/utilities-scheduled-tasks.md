@@ -10,7 +10,7 @@ title: Scheduled Tasks - Technical Documentation - OJS|OMP|OPS
 
 As of 3.5, the Acron plugin and the XML file that tasks were registered in have been removed. Tasks are now PHP classes registered with the scheduler.
 
-The Admin Guide describes how an installation [runs scheduled tasks](/admin-guide/en/deploy-scheduled-tasks) in production.
+The Administrator's Guide describes how an installation [runs scheduled tasks](/admin-guide/en/deploy-scheduled-tasks) in production.
 
 ## Create a Task
 
@@ -65,7 +65,7 @@ Return `true` when the work succeeded and `false` when it did not. The return va
 
 Do not override `execute()`. That is the wrapper the scheduler calls: it records the start and stop times, calls `executeActions()`, and sends the notification email.
 
-> A task can run with no request context at all, which is always the case on the command line. Do not assume there is a current context or a logged in user. Get the contexts the task needs with `Application::getContextDAO()->getAll(true)`, and note that generated URLs fall back to the `base_url` setting in `config.inc.php` when there is no host name to detect.
+> A task can run with no request context at all, which is always the case on the command line. Do not assume there is a current context or a logged-in user. Get the contexts the task needs with `Application::getContextDAO()->getAll(true)`, and note that generated URLs fall back to the `base_url` setting in `config.inc.php` when there is no host name to detect.
 {:.warning}
 
 ## Register a Task
@@ -109,7 +109,7 @@ Plugins register their own tasks instead of modifying these classes. See [Schedu
 
 ### Frequency
 
-How often a task runs is set with Laravel's frequency methods. A few of the common ones:
+How often a task runs is set with Laravel's frequency methods. A few of the common ones include:
 
 | Method | Frequency |
 | --- | --- |
@@ -117,10 +117,12 @@ How often a task runs is set with Laravel's frequency methods. A few of the comm
 | `->hourly()` | Every hour, on the hour. |
 | `->daily()` | Every day at midnight. |
 | `->dailyAt('13:00')` | Every day at 1 PM. |
-| `->weekly()` | Every week. |
-| `->monthlyOn(10)` | On the 10th of each month. |
+| `->weekly()` | Every Sunday at midnight. |
+| `->monthlyOn(10)` | On the 10th of each month at midnight. |
 
 See Laravel's [frequency options](https://laravel.com/docs/12.x/scheduling#schedule-frequency-options) for the full list, and its [truth test constraints](https://laravel.com/docs/12.x/scheduling#truth-test-constraints), `when()` and `skip()`, to decide at run time whether a task should run at all.
+
+Every frequency is evaluated in the site's time zone, the `time_zone` setting in the `[general]` section of `config.inc.php`, so `dailyAt('13:00')` runs at 1 PM for the site rather than in UTC. A single task can be given a different zone with Laravel's [`timezone()`](https://laravel.com/docs/12.x/scheduling#timezones) method.
 
 Choose the longest interval that does the job. Every installation pays for the frequency that is chosen, and most tasks that feel hourly are fine daily.
 
@@ -132,7 +134,7 @@ Laravel's [`onOneServer()`](https://laravel.com/docs/12.x/scheduling#running-tas
 
 ## Execution Log
 
-Each run writes its own log file to `<files_dir>/scheduledTaskLogs/`, named after the task class, the process id and the date. Use `addExecutionLogEntry()` to record what the task did, optionally with one of the message types below.
+Each run writes its own log file to `<files_dir>/scheduledTaskLogs/`, named after the task class, the process ID and the date. Use `addExecutionLogEntry()` to record what the task did, optionally with one of the message types below.
 
 ```php
 $this->addExecutionLogEntry(
@@ -152,18 +154,18 @@ Log generously. The log file is the only record of what happened, and it is what
 
 ## Notifications
 
-When a task finishes, the site's primary contact receives an email with a link to download the execution log. The subject line is the task name from `getName()`, the process id, and whether the task completed or failed.
+When a task finishes, the site's primary contact receives an email with a link to download the execution log. The subject line is the task name from `getName()`, the process ID, and whether the task completed or failed.
 
 By default only failures are reported, so do not rely on a successful run producing an email. Administrators control this with [`scheduled_tasks_report_error_only`](/admin-guide/en/deploy-scheduled-tasks#notifications) in `config.inc.php`.
 
 ## Run Tasks
 
-The Admin Guide describes how to [run scheduled tasks in production](/admin-guide/en/deploy-scheduled-tasks). For local development, one of the following methods may be preferred.
+The Administrator's Guide describes how to [run scheduled tasks in production](/admin-guide/en/deploy-scheduled-tasks). For local development, use one of the following methods:
 
-1. Set `task_runner` to `On` in the `[schedule]` section of the config file. Tasks that are due will be run at the end of a web request, at most once every `task_runner_interval` seconds.
-2. Run the schedule [worker](#cli-tool), `php lib/pkp/tools/scheduler.php work`, from the command line. It runs due tasks every minute for as long as it is left running, so no cron job is needed.
+- **Web-based task runner.** This is on by default (`task_runner = On` in the `[schedule]` section of the config file). Tasks that are due are run at the end of a web request, at most once every `task_runner_interval` seconds.
+- **Schedule worker.** Set `task_runner = Off`, then run the [worker](#cli-tool), `php lib/pkp/tools/scheduler.php work`, from the command line. It runs due tasks every minute for as long as it is left running, so no cron job is needed.
 
-The `run` and `work` commands, and the web based task runner, do nothing while the site is in maintenance mode or while `sandbox` is enabled in the config file.
+The `run` and `work` commands, and the web-based task runner, do nothing while the site is in maintenance mode or while `sandbox` is enabled in the config file.
 
 ## CLI Tool
 
