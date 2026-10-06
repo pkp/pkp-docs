@@ -81,7 +81,13 @@ class TutorialExamplePlugin extends GenericPlugin
 
 ## version.xml
 
-The `version.xml` provides information required to load the plugin. The `<application>` must match the directory name. The `<type>` must be the plugin's [category](./categories).
+The `version.xml` file provides information required to load the plugin. The `<application>` must match the plugin's directory name. The `<type>` must be the plugin's [category](./categories).
+
+Starting with 3.5.0, the `<compatibility>` tags *should* state the application version requirements. For each application, you must specify the applications and versions with which the plugin is compatible using the `<release>` tags.
+
+Starting with 3.6.0, `<compatibility>` statements will be required.
+
+(Prior to 3.5.0, `<compatibility>` statements are not supported and will be ignored if specified.)
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -91,6 +97,9 @@ The `version.xml` provides information required to load the plugin. The `<applic
     <type>plugins.generic</type>
     <release>1.0.0.0</release>
     <date>2023-05-15</date>
+    <compatibility application="ojs2">
+        <release>~3.5.0.0</release>
+    </compatibility>
 </version>
 ```
 
