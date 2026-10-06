@@ -334,7 +334,7 @@ The fourth box (highlighted in red) is the branch that’s automatically created
 
 Click ‘Create pull request.’
 
-This page is where you would enter a more detailed description of what you changed. You might want to do this if you need to justify your changes or need to let everyone else know that a change is significant.
+This page is where you would enter a more detailed description of what you changed. You might want to do this if you need to justify your changes or need to let everyone else know that a change is significant. If you used AI tools to help create your changes, please follow [PKP's policy on AI contributions](https://pkp.sfu.ca/pkp-policy-ai/).
 
 ![Open a pull request screen.](./assets/create-open-PR.png)
 

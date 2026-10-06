@@ -50,6 +50,9 @@ pkp-plugin release pluginName --newversion 1.0.0.0
 
 When you have prepared your release package and made it publicly available, open a pull request on our [plugin gallery repository](https://github.com/pkp/plugin-gallery/) that adds your plugin to the XML file.
 
+> If you used AI tools to develop your plugin, please follow [PKP's policy on AI contributions](https://pkp.sfu.ca/pkp-policy-ai/) and disclose AI use in your pull request.
+{:.notice}
+
 Your plugin's XML must provide a title, description, contact details, and information on each release package.
 
 ```xml

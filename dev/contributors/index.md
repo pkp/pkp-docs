@@ -13,14 +13,14 @@ This document will help you learn how to contribute to Open Journal Systems, Ope
 
 ## Report a Problem
 
-Input from our community helps us improve the software. We welcome bug reports and suggestions from anyone, even if they have never worked on software before. However, we ask that everyone follow some guidelines to help us manage the work.
+Input from our community helps us improve the software. We welcome bug reports and suggestions from anyone, even if they have never worked on software before. However, we ask that everyone follow some guidelines to help us manage the work. If you use AI tools to help write a bug report, forum post or suggestion, please follow [PKP's policy on AI contributions](https://pkp.sfu.ca/pkp-policy-ai/).
 
-You can **report a bug** whenever you encounter an error in the software. For example, if the software says an article is published but it is not appearing with other published articles, that is probably a bug. Before reporting a bug, search our [support forum](https://forum.pkp.sfu.ca/c/questions/5) to see if anyone has already reported it. If not, open a new topic or draft. You may need to create an account or log into your account on the forum first.
+You can **report a bug** whenever you encounter an error in the software. For example, if the software says an article is published, but it is not appearing with other published articles, that is probably a bug. Before reporting a bug, search our [support forum](https://forum.pkp.sfu.ca/c/questions/5) to see if anyone has already reported it. If not, open a new topic or draft. You may need to create an account or log into your account on the forum first.
 
 > You can open a bug report in our [GitHub repository](https://github.com/pkp/pkp-lib/issues/). However, we recommend starting with the support forum because you are more likely to receive help there. When you open an issue in our GitHub repository you will be expected to respond knowledgeably to technical questions. GitHub is not a good place to ask for user support.
 {:.notice}
 
-You can **suggest an enhancement** whenever you encounter something in the software that doesn't work the way that you expect it to. For example, if you think a user should be notified by email about something but they are not. Before suggesting an enhancement, search our [feature request forum](https://forum.pkp.sfu.ca/c/questions/feature-requests/8) to see if anyone has already requested it. If not, open a new thread.
+You can **suggest an enhancement** whenever you encounter something in the software that doesn't work the way that you expect it to. For example, if you think a user should be notified by email about something, but they are not. Before suggesting an enhancement, search our [feature request forum](https://forum.pkp.sfu.ca/c/questions/feature-requests/8) to see if anyone has already requested it. If not, open a new thread.
 
 Software developers and system administrators can **propose technical changes**, such as the adoption of a new library, tool or development technique, in our [GitHub Discussions](https://github.com/pkp/pkp-lib/discussions). Discussions are only appropriate for highly technical and detailed conversations about the code's architecture and deployment tools.
 
@@ -40,7 +40,7 @@ Large projects will be broken down into issues that can be distributed to differ
 
 The issues in our [GitHub repository](https://github.com/pkp/pkp-lib/issues/) help our development team to track, discuss, prioritize and assign work. All issues are assigned to the appropriate labels, projects and milestone.
 
-- [Labels](https://github.com/pkp/pkp-lib/labels) help us track track the priority and complexity of an issue.
+- [Labels](https://github.com/pkp/pkp-lib/labels) help us track the priority and complexity of an issue.
 - [Projects](https://github.com/orgs/pkp/projects?type=beta) help us organize issues into topics like [Peer Review](https://github.com/orgs/pkp/projects/3) and [Statistics](https://github.com/orgs/pkp/projects/5).
 - [Milestones](https://github.com/pkp/pkp-lib/milestones) help us plan when work will be completed and released.
 
@@ -49,7 +49,7 @@ The issues in our [GitHub repository](https://github.com/pkp/pkp-lib/issues/) he
 
 Every issue will follow a similar lifecycle:
 
-- [Triage](#triage) - Assign the issue to a [development team](#development-teams-and-contributors).
+- [Triage](#triage) - Assign the issue to a [development team](#teams).
 - [Investigation](#investigation) - Confirm or close the issue.
 - [Todo](#todo) - Work is planned but not yet started.
 - [Under Research](#under-research) - We are working to understand what needs to be done.
@@ -60,7 +60,7 @@ Each of these stages is described in more detail below. Community members are in
 
 ### Triage
 
-When a new issue is filed, a PKP developer will review the issue and assign it to one of our three [development teams](#development-teams-and-contributors).
+When a new issue is filed, a PKP developer will review the issue and assign it to one of our three [development teams](#teams).
 
 No labels, projects or milestones are assigned at this stage.
 
@@ -105,6 +105,8 @@ We almost never merge code from a contributor when it hasn't been discussed with
 
 > If you want to draw our attention to your proposal on the forum, let us know that you plan to contribute the code. We are overwhelmed with requests but always have time for contributors.
 {:.tip}
+
+If you use AI tools to help with your contribution, please follow [PKP's policy on AI contributions](https://pkp.sfu.ca/pkp-policy-ai/). Disclose AI use in your pull request, and review and test all AI-generated code yourself before you submit it.
 
 ### Source Code
 
