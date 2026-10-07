@@ -58,17 +58,6 @@ Quando um autor faz uma nova submissão ao seu periódico, o autor e todos os co
 * Se um ou mais editores de seção forem atribuídos à [seção](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#sections) a qual a submissão foi feita, eles serão automaticamente atribuídos a esta submissão e notificados.
 * Se um ou mais editores de seção são atribuídos a uma [categoria](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#categories) que a submissão foi feita, eles serão automaticamente atribuídos a esta submissão e notificados.
 
-Você também pode configurar o OJS para que uma cópia do e-mail de notificação seja enviada ao contato principal do periódico, definido nas Configurações do periódico, ou para outro endereço.
-
-Para habilitar cópias do e-mail de confirmação de submissão a ser enviado para o contato primário ou outro endereço:
-
-1. No painel de controle, vá a Configurações> Fluxo de trabalho> submissões;
-2. Role para baixo até Notificação de submissão do autor;
-3. Marque a caixa ao lado de “Enviar uma cópia para o contato principal, identificado nas Configurações da revista”, se desejar que uma cópia seja enviada para o e-mail de contato principal e/ou;
-4. Digite o e-mail para o qual deseja que uma cópia seja enviada no campo de texto.
-
-![As configurações de Notificação de submissão do autor no OJS.](./assets/learning-ojs3.1-configure-submission-notification.png)
-
 Se você quiser desativar os e-mails de confirmação de submissão completamente, você pode fazer isso desabilitando o template de e-mail *Submissão* a partir da lista de modelos de e-mail preparados. Para saber mais sobre como desabilitar e habilitar modelos de email, consulte *Desabilitar modelos de email*, no [capítulo Configurações de fluxo de trabalho](https://github.com/pkp/pkp-docs/blob/main/learning-ojs/en/settings-workflow).
 
 Os usuários também podem alterar suas configurações de notificação individuais em seu próprio perfil, acessando Perfil> Notificações.

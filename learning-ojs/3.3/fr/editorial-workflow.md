@@ -37,16 +37,7 @@ Utilisez la case à cocher pour marquer les tâches à supprimer (le lien est di
 
 ## Notifications de Soumission
 
-Lorsqu'un auteur soumet une nouvelle soumission à votre revue, le/la Rédacteur/trice reçoit automatiquement une notification par email et l'auteur recevra un email confirmant sa soumission. Vous pouvez aussi configurer OJS pour qu'une copie de l'email de notification soit envoyée au contact principal de la revue défini dans Paramètres de Revue, ou à une autre adresse.
-
-Pour permettre l'envoi de copies de l'email confirmant la soumission au contact principal ou à une autre adresse:
-
-1. Dans le tableau de bord du Directeur/trice de la Revue, accédez à Paramètres > Flux des travaux > Soumissions
-2. Faites défiler jusqu'à Notification des Soumissions d'Auteur
-3. Cochez la case "Envoyer une copie au contact principal, identifié dans les paramètres de revue." si vous souhaitez qu'une copie soit envoyée à l'adresse email du contact principal, et/ou
-4. Entrez l'email auquel vous souhaitez recevoir une copie dans le champ de texte.
-
-![](./assets/learning-ojs3.1-configure-submission-notification.png)
+Lorsqu'un auteur soumet une nouvelle soumission à votre revue, le/la Rédacteur/trice reçoit automatiquement une notification par email et l'auteur recevra un email confirmant sa soumission.
 
 Si vous souhaitez désactiver l'envoi d'emails confirmant la soumission, vous pouvez faire cela en désactivant le modèle d'email *Acusé de Soumission* de la liste des modèles d'email préparés. Pour plus d'informations sur l'activation et la désactivation de modèles d'emails, voir *Désactiver des modèles d'emails* dans le [Chapitre Paramètres de Flux des Travaux](./settings-workflow).
 
