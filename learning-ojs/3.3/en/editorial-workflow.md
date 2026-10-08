@@ -58,17 +58,6 @@ When an author makes a new submission to your journal, the author and all contri
 * If one or more Section Editors are assigned to the [section](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#sections) the submission was made in, they will be automatically assigned to the submission and notified.
 * If one or more Section Editors are assigned to a [category](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#categories) the submission was made in, they will be automatically assigned to the submission and notified.
 
-You can also configure OJS so that a copy of the notification email is sent to the journal’s primary contact set in Journal Settings, or to another address.
-
-To enable copies of submission acknowledgment email to be sent to the primary contact or another address:
-
-1. In the Journal Manager’s dashboard, go to Settings > Workflow > Submissions
-2. Scroll down to Notification of Author Submissions
-3. Check off the box next to “Send a copy to the primary contact, identified in the Journal Settings.” if you wish for a copy to be sent to the primary contact email, and/or
-4. Enter the email you would like to have a copy sent to in the text field.
-
-![The Notification of Author Submission settings in OJS.](./assets/learning-ojs3.1-configure-submission-notification.png)
-
 If you want to disable submission acknowledgement emails entirely, you can do so by disabling the *Submission Ack* email template from the list of prepared email templates. To learn more about disabling and enabling email templates, refer to *Disable email templates* in the [Workflow Settings chapter](./settings-workflow).
 
 Users can also change their individual notification settings from their own profile under View Profile > Notifications.

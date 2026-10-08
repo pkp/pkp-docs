@@ -58,17 +58,6 @@ Wenn ein/e Autor/in eine neue Einreichung für Ihre Zeitschrift macht, erhalten 
 - Wenn ein oder mehrere Rubrikredakteur/innen der [Rubrik](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#sections) zugeordnet sind, in der die Einreichung erfolgt ist, wird ihnen automatisch die Einreichung zugewiesen und sie werden benachrichtigt.
 - Wenn ein oder mehrere Rubrikredakteur/innen der [Kategorie](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#categories) zugeordnet sind, in der die Einreichung erfolgt ist, wird ihnen automatisch die Einreichung zugewiesen und sie werden benachrichtigt.
 
-Sie können OJS auch so konfigurieren, dass eine Kopie der E-Mail-Benachrichtigung an den Hauptkontakt der Zeitschrift, der in den Zeitschrifteneinstellungen festgelegt wurde, gesendet wird, oder an eine andere Adresse.
-
-Um Kopien der E-Mail zur Einreichungsbestätigung an den Hauptkontakt oder eine andere Adresse zu senden:
-
-1. Gehen Sie im Dashboard der/des Zeitschriftenverwalter/in zu Einstellungen > Workflow > Einreichungen
-2. Scrollen Sie nach unten zur Benachrichtigung über Autor/inneneinreichungen
-3. Aktivieren Sie das Kontrollkästchen neben „Kopie an den Hauptkontakt senden“, wie in den Zeitschrifteneinstellungen definiert, wenn Sie eine Kopie an den Hauptkontakt senden möchten, und/oder
-4. Geben Sie die E-Mail-Adresse ein, an die Sie eine Kopie senden möchten.
-
-![Die Benachrichtigung für Einstellungen der Autor/innen-Einreichung in OJS.](./assets/learning-ojs3.1-configure-submission-notification.png)
-
 Die _Einreichungsbestätigung_ kann in der Liste der vorbereiteten E-Mail-Vorlagen vollständig deaktiviert werden. Weitere Informationen über das Deaktivieren und Aktivieren von E-Mail-Vorlagen finden Sie unter _E-Mail-Vorlagen deaktivieren_ im Kapitel [Workflow-Einstellungen](./settings-workflow).
 
 Benutzer/innen können ihre individuellen Benachrichtigungseinstellungen in ihrem eigenen Profil unter Profil bearbeiten > Benachrichtigungen ändern.
