@@ -25,6 +25,6 @@ Learn more about our [software](https://pkp.sfu.ca/software).
 
 This guide will help you learn how to contribute code to the project. It is written as a high-level introduction to the application structure and the most common utilities you will need to begin working with the code.
 
-If you are looking for a more detailed specification, please consult the [reference documentation (Doxygen)](https://pkp.sfu.ca/ojs/doxygen/master/html/index.html), the [REST API Usage Guide](/dev/api), the [Database Schema](../../database/) or the [UI Library](/dev/ui-library/dev).
+If you are looking for a more detailed specification, please consult the [reference documentation (Doxygen)](https://pkp.sfu.ca/ojs/doxygen/master/html/index.html), the [REST API Usage Guide](/dev/api/ojs/3.5), the [Database Schema](../../database/) or the [UI Library](/dev/ui-library/dev).
 
 When you're ready, learn how to [get started](./getting-started) by installing the software and setting up your development environment.

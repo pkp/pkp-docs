@@ -17,53 +17,41 @@ The File Service is a helper class to read and write files in this directory. Wh
 Add a file.
 
 ```php
-use APP\core\Services;
-
-$fileId = Services::get('file')->add('/absolute/path/to/source.txt', 'destination.txt');
+$fileId = app()->get('file')->add('/absolute/path/to/source.txt', 'destination.txt');
 ```
 
 Delete a file.
 
 ```php
-use APP\core\Services;
-
-Services::get('file')->delete($fileId);
+app()->get('file')->delete($fileId);
 ```
 
 Get the relative path to a file in the file directory.
 
 ```php
-use APP\core\Services;
-
-$file = Services::get('file')->get($fileId);
+$file = app()->get('file')->get($fileId);
 $path = $file->path;
 ```
 
 Download a file in the file directory.
 
 ```php
-use APP\core\Services;
-
 $downloadFileAs = 'my-special-file.txt';
-Services::get('file')->download($file->path, $downloadFileAs);
+app()->get('file')->download($fileId, $downloadFileAs);
 ```
 
 Generate a safe filename from any string.
 
 ```php
-use APP\core\Services;
-
 $title = $publication->getLocalizedFullTitle();
-$file = Services::get('file')->get($fileId);
-$filename = Services::get('file')->formatFilename($file->path, $title);
+$file = app()->get('file')->get($fileId);
+$filename = app()->get('file')->formatFilename($file->path, $title);
 ```
 
 Get the mimetype of a file.
 
 ```php
-use APP\core\Services;
-
-$file = Services::get('file')->get($fileId);
+$file = app()->get('file')->get($fileId);
 $mimetype = $file->mimetype;
 ```
 
@@ -76,10 +64,8 @@ The File Service is a small wrapper around [Flysystem](https://flysystem.thephpl
 Check if a file exists.
 
 ```php
-use APP\core\Services;
-
-$file = Services::get('file')->get($fileId);
-if (Services::get('file')->fs->has($file->path)) {
+$file = app()->get('file')->get($fileId);
+if (app()->get('file')->fs->has($file->path)) {
     ...
 }
 ```
@@ -87,10 +73,8 @@ if (Services::get('file')->fs->has($file->path)) {
 Get the size of a file.
 
 ```php
-use APP\core\Services;
-
-$file = Services::get('file')->get($fileId);
-$size = Services::get('file')->fs->getSize($file->path);
+$file = app()->get('file')->get($fileId);
+$size = app()->get('file')->fs->fileSize($file->path);
 ```
 
 By default, the File Service instantiates the [local file system adaptor](https://flysystem.thephpleague.com/docs/adapter/local/) and configures it to use the `files_dir` directory. Adaptors are available for other file systems such as AWS and Azure. Use the Flysystem API, not PHP's file functions, in order to ensure operations are compatible with all of the filesystem adaptors.
@@ -101,12 +85,11 @@ Files for a journal, press or preprint server are stored in distinct subdirector
 
 ```php
 use APP\core\Application;
-use APP\core\Services;
 
 $context = Application::get()->getRequest()->getContext();
 $appFileDirectories = Application::get()->getFileDirectories();
 $path = $appFileDirectories['context'] . $context->getId();
-$fileId = Services::get('file')->add('source.txt', $path . '/destination.txt');
+$fileId = app()->get('file')->add('source.txt', $path . '/destination.txt');
 ```
 
 ## Submission Files
@@ -114,11 +97,10 @@ $fileId = Services::get('file')->add('source.txt', $path . '/destination.txt');
 Files for a submission are stored in distinct subdirectories. Use the submission file repository to get a path to a submission's directory.
 
 ```php
-use APP\core\Services;
 use APP\facades\Repo;
 
 $path = Repo::submissionFile()->getSubmissionDir($contextId, $submissionId);
-$fileId = Services::get('file')->add('source.txt', $path . '/destination.txt');
+$fileId = app()->get('file')->add('source.txt', $path . '/destination.txt');
 ```
 
 Read more about working with [Submission Files](./submission-files).
@@ -136,4 +118,4 @@ Use the `PublicFileManager` to read and write public files.
 
 Temporary files are used to stage changes before they are applied. For example, temporary files are used to upload a new journal logo, but the logo will not be changed until the form is saved.
 
-Learn how to use temporary files in the [REST API Guide](/dev/api/#temporary-files).
+Learn how to use temporary files in the [REST API Guide](/dev/api/ojs/3.5#tag/Using-Temporary-Files).
