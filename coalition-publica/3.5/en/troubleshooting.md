@@ -8,6 +8,7 @@ If test harvests are unsuccessful or full text harvesting fails following succes
 ## Uninstall and reinstall plugins and rebuild search index
 
 ### Site Administrator Steps
+Note that the plugin to deliver JATS metadata via OAI is labelled differently in the plugin gallery where it appears as “OAI JATS Plugin” and in the list of installed plugins where it appears as “JATS Metadata Format”. At installation it is renamed by the system to align with the *OAI Metadata Format Plugins* section naming convention.
 
 #### Step 1. Delete the JATS Template and JATS Metadata Format plugins
 
@@ -31,9 +32,43 @@ Look in the *OAI Metadata Format Plugins* section for the “JATS Metadata Forma
 
 Click the Delete button, and confirm your choice to delete the plugin from the system.
 
-#### Step 2. Reinstall and enable the two plugins.
+#### Step 2. Reinstall the “JATS Template Plugin” 
 
-Follow Steps 1 through 3 in the Initial setup{initial-setup#site-admin} instructions to reinstall and enable the JATS OAI and JATS Metadata plugins.
+Click on “Plugin Gallery”.
+
+This will show a list of available plugins for installation. Find “JATS Template Plugin”:
+
+![JATS Template Plugin in the list of plugins.](./assets/jatsTemplatePlugin.png)
+
+Click on “JATS Template Plugin” to see more information about the plugin:
+
+![JATS Template Plugin showing install button.](./assets/jatsTemplatePluginInstall.png)
+
+Click the “Install” button to install the plugin. (If you do not see the “Install” button, make sure you are logged in as a Site Administrator.) Confirm that you wish to install the plugin.
+
+You should see a confirmation of installation:
+
+![Notification: Successfully upgraded to version 1.0.6.1.](./assets/JATStemplatePluginIntallConfirmation.png)
+
+### Step 3. Install the latest version of the OAI JATS Plugin
+
+Find the “OAI JATS Plugin” in the Plugin Gallery: 
+
+![OAI JATS Plugin in the list of plugins.](./assets/oaiJatsPlugin.png)
+
+Click on “OAI JATS Plugin” to see more information about the plugin:
+
+![OAI JATS Plugin showing install button.](./assets/OAIjatsPluginInstall.png)
+
+Click the “Install” button to install the plugin. (If you do not see the “Install” button, make sure you are logged in as a Site Administrator.) Confirm that you wish to install the plugin.
+
+You should see a confirmation of installation:
+
+![Notification: Successfully upgraded to version 1.0.1.0.](./assets/oaiJatsPluginNotification.png)
+
+#### Step 4. Enable the two plugins
+
+Follow Step 1 in the Initial setup{initial-setup#site-admin} instructions to enable the JATS OAI and JATS Metadata plugins.
 
 ### System Administrator Instructions
 
