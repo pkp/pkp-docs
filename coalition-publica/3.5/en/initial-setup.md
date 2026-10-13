@@ -3,9 +3,9 @@ noindex: true
 ---
 # Initial Setup
 
-Érudit collects metadata from your OJS installation in ​[JATS XML](https://jats.nlm.nih.gov/)​. JATS is commonly used to publish or index journal articles.You will need to configure OJS to automatically generate simple JATS documents for inclusion in Érudit. 
+Érudit collects metadata from your OJS installation in ​[JATS XML](https://jats.nlm.nih.gov/)​. JATS is commonly used to publish or index journal articles.You will need to configure OJS to automatically generate simple JATS documents for *each journal* that will be included in  Érudit. 
 
-In order to do this you will need Site Administrator permissions to install and enable plugins and to ensure language and distribution settings are properly set. 
+In order to do this you will need Site Administrator permissions to enable plugins and to ensure language and distribution settings are properly set. 
 
 You will need System Administration permissions to configure the text extraction and OAI repository elements. 
 
@@ -13,83 +13,15 @@ The steps required to install and configure OJS by each permission level are des
 
 ## Site Administrator Steps {#site-admin}
 
-### Step 1. Install the latest version of the JATS Template Plugin
+### Step 1. Enable the “JATS Template” and “JATS Metadata Format” Plugins
 
-Log into your OJS installation using your Site Administrator account.
+You will need to enable two plugins  *for each journal* that is to be included in Érudit.
 
-Navigate to Settings > Website > Plugins.
+Navigate to Settings > Website > Plugins > Installed Plugins
 
-Click on “Plugin Gallery”.
+Here you will be presented with a list of all installed plugins.
 
-This will show a list of available plugins for installation. Find “JATS Template Plugin”:
-
-![JATS Template Plugin in the list of plugins.](./assets/jatsTemplatePlugin.png)
-
-Click on “JATS Template Plugin” to see more information about the plugin:
-
-![JATS Template Plugin showing install button.](./assets/jatsTemplatePluginInstall.png)
-
-Click the “Install” button to install the plugin. (If you do not see the “Install” button, make sure you are logged in as a Site Administrator.) Confirm that you wish to install the plugin.
-
-You should see a confirmation of installation:
-
-![Notification: Successfully upgraded to version 1.0.6.1.](./assets/JATStemplatePluginIntallConfirmation.png)
-
-Next, you’ll need to ensure that there is no newer version of the plugin available. 
-
-In the “Plugin Gallery”, once again find the “JATS Template Plugin” and click on it to open the information  window. 
-
-Click the upgrade button if available and confirm that you wish to update the plugin. If the upgrade button is unavailable, your plugin is up to date.
-
-![JATS Template Plugin with plugin information and an Upgrade button.](./assets/jatsTemplatePluginUpgrade.png)
-
-You will see a confirmation after the upgrade completes successfully.
-
-![Notification: Successfully upgraded to 1.0.6.3](./assets/jatsTemplatePluginUpgradeSuccessNotification.png)
-
-
-### Step 2. Install the latest version of the OAI JATS Plugin
-Find the “OAI JATS Plugin” in the Plugin Gallery.: 
-
-![OAI JATS Plugin in the list of plugins.](./assets/oaiJatsPlugin.png)
-
-Click on “OAI JATS Plugin” to see more information about the plugin:
-
-![OAI JATS Plugin showing install button.](./assets/OAIjatsPluginInstall.png)
-
-Click the “Install” button to install the plugin. (If you do not see the “Install” button, make sure you are logged in as a Site Administrator.) Confirm that you wish to install the plugin.
-
-You should see a confirmation of installation:
-
-![Notification: Successfully upgraded to version 1.0.1.0.](./assets/oaiJatsPluginNotification.png)
-
-Next, you’ll need to ensure that there is no newer version of the plugin available. 
-
-In the “Plugin Gallery”, once again find the “OAI JATS Plugin” and click on it to open the information  window. Click the upgrade button if available and confirm that you wish to update the plugin. If the upgrade button is unavailable, your plugin is up to date.
-
-![OAI JATS Plugin with plugin information and an Upgrade button.](./assets/oaiJatsPluginInfo.png)
-
-You will see a confirmation after the upgrade completes successfully.
-
-![Notification: Successfully upgraded to 1.0.6.1](./assets/JATStemplatePluginIntallConfirmation.png)
-
-### A note about updating and maintaining plugins
-
-The plugins used for harvesting a journal’s metadata are occasionally updated to fix bugs or improve functionality. You may be instructed to update the plugins by Coalition Publica, or you may choose to update the plugins as part of regular maintenance.
-
-Following any upgrade to your OJS, ensure that your plugins are updated to the latest version suitable for your version of OJS by following the same steps as above to update via the Plugin Gallery.
-
-Although it is possible to update plugins in OJS by downloading the latest version from Github, it is possible that newer versions may not be compatible with your particular version OJS, so **please always update plugins from the Plugin Gallery unless otherwise instructed**
-
-### Step 3. Enabling the Plugins
-
-Now that you have installed the latest versions of both the JATS Template Plugin and OAI JATS Plugin, you will need to enable them *for each journal* that is to be included in Érudit.
-
-For each journal to be included in Érudit, Navigate to Settings > Website > Plugins.
-
-Click on “Installed Plugins” for a list of all installed plugins.
-
-Look in the *Generic Plugins* section for “JATS Template Plugin”:
+Navigate to the *Generic Plugins* section to locate the “JATS Template Plugin”:
 
 ![JATS Template Plugin in the list of plugins with an unchecked checkbox next to it.](./assets/jatsTemplatePluginListing.png)
 
@@ -97,13 +29,12 @@ Click the checkbox on the right to enable the plugin. You should receive a confi
 
 ![Notification: The plugin "JATS Template Plugin" has been enabled.](./assets/jatsTemplatePluginListingNotification.png)
 
-Next, look in the *OAI Metadata Format Plugins* section for the “JATS Metadata Format” plugin (this is the OAI JATS Plugin, renamed by the system to align with this plugin section’s naming convention):
-
+Next, navigate to the *OAI Metadata Format Plugins* section to locate the “JATS Metadata Format” plugin.  
 ![JATS Metadata Format in the list of plugins with an unchecked checkbox next to it.](./assets/jatsMetadataFormatPluginListing.png)
 
 Click the checkbox beside that to enable it as well. You should receive a confirmation:
 
-![Notification: The plugin "OAI JATS Plugin" has been enabled.](./assets/jatsMetadataFormatPluginListingNotification.png)
+![Notification: The plugin "JATS Metadata Format" has been enabled.](./assets/tobeupdated.png) 
 
 **If the journal publishes XML galleys**, you will need to change the JATS Metadata Format settings. This is **not** necessary for journals who do not publish XML galleys unless they have been directed otherwise by their Coalition Publica contact following a test harvest. 
 
@@ -115,10 +46,24 @@ Click the checkbox next to “Ignore uploaded JATS XML documents” and press OK
 
 ![The JATS Template Plugin settings page with the Ignore uploaded JATS XML documents checkbox checked.](./assets/ignore_xml.png)
 
-**Don’t forget to repeat Step 3 for any other journals that are to be included in Érudit.**
+### A note about updating and maintaining plugins
+
+The plugins used for harvesting a journal’s metadata are occasionally updated to fix bugs or improve functionality. You may be instructed to update the plugins by Coalition Publica, or you may choose to update the plugins as part of regular maintenance. Following any upgrade to your OJS, ensure that your plugins are updated to the latest version suitable for your version of OJS. 
+
+To update plugins, locate the plugin the “Plugin Gallery”. In the status column, the notice “Can be upgraded” appears when an update is available suitable for your version of OJS.  
+
+Click on the hyperlinked plugin name to open the information  window. Click the upgrade button if available and confirm that you wish to update the plugin. 
+
+![OAI JATS Plugin with plugin information and an Upgrade button.](./assets/oaiJatsPluginInfo.png)
+
+A confirmation will appear after the upgrade completes successfully.
+
+![Notification: Successfully upgraded to 1.0.6.1](./assets/JATStemplatePluginIntallConfirmation.png)
+
+Although it is possible to update plugins in OJS by downloading the latest version from Github, it is possible that newer versions may not be compatible with your particular version OJS, so **please always update plugins from the Plugin Gallery unless otherwise instructed**
 
 
-### Step 4. Review Required Language Locales 
+### Step 2. Review Required Language Locales 
 
 A Language “Locale” is required for each language the journal publishes in, even if it does so infrequently. 
 
@@ -145,9 +90,9 @@ The language should now appear in the list of available languages.
 Note that if the journal publishes in French, the Français (Canada) locale is recommended for journals on Érudit.
 
 
-### Step 5. Check your Distribution Settings
+### Step 3. Check your Distribution Settings
 
-Under Settings > Distribution > Access, you will see a series of settings:
+Under Settings > Distribution > Access, there is a series of settings:
 
 ![Distribution settings with enable OAI access to content radio button selected](./assets/journalAccessSettings.png)
 
