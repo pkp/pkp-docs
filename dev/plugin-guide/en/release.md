@@ -32,7 +32,7 @@ Learn how to [write tests for your plugin](/dev/testing/en/plugins-themes).
 > Any non-essential files provided by your dependency manager (eg - composer, npm) should not be included with the package. These often include demos and examples that can be security risks when uploaded to the plugins directory.
 {:.warning}
 
-Your release package should be a `.tar.gz` file that contains a single directory with all of the files necessary to run the plugin. The directory name should match the `product` name in the release XML.
+Your release package should be a `.tar.gz` file that contains a single directory with all the files necessary to run the plugin. The directory name should match the `product` name in the release XML.
 
 We provide a [CLI tool](https://github.com/pkp/pkp-plugin-cli/) that can help you build and package your plugin. Install it with the following command.
 
@@ -58,13 +58,18 @@ Your plugin's XML must provide a title, description, contact details, and inform
 ```xml
 <!-- The product should match the directory name of the plugin. -->
 <plugin category="generic" product="tutorialExample">
+  <!-- Provide each localized element with both the "en" locale (for 3.4 and later)
+    and the "en_US" locale (for 3.3). -->
+  <name locale="en">Tutorial Example</name>
   <name locale="en_US">Tutorial Example</name>
   <homepage>https://github.com/pkp/tutorialExample</homepage>
 
   <!-- Summarize what the plugin does in a short sentence. -->
+  <summary locale="en">This plugin is an example created for a tutorial on how to create a plugin.</summary>
   <summary locale="en_US">This plugin is an example created for a tutorial on how to create a plugin.</summary>
 
   <!-- Describe what the plugin does and how someone can expect to use it when they install it. -->
+  <description locale="en"><![CDATA[<p>This plugin is an example created for a tutorial on how to create a plugin. It is intended for learning purposes and should not be used on a live journal website.</p><p>You can learn more about how to create a plugin at the <a href="https://docs.pkp.sfu.ca/dev/plugin-guide/en">plugin guide</a>.</p>]]></description>
   <description locale="en_US"><![CDATA[<p>This plugin is an example created for a tutorial on how to create a plugin. It is intended for learning purposes and should not be used on a live journal website.</p><p>You can learn more about how to create a plugin at the <a href="https://docs.pkp.sfu.ca/dev/plugin-guide/en">plugin guide</a>.</p>]]></description>
 
   <!-- Identify the person and institution maintaining the plugin. -->
@@ -77,29 +82,34 @@ Your plugin's XML must provide a title, description, contact details, and inform
   <!-- For each release version, link to the release package
     and the md5sum of the release package. The version must
     always consist of four numbers separated by a ".". -->
-  <release date="2019-05-18" version="1.1.0.0" md5="aebc731dedcc959db042f969a54fdc3a">
+  <release date="2025-03-17" version="1.1.0.0" md5="aebc731dedcc959db042f969a54fdc3a">
     <package>https://github.com/pkp/tutorialExample/releases/download/1.1.0.0/tutorialexample-1.1.0.0.tar.gz</package>
 
-    <!-- Identify which versions of OJS or OMP are supported by this release -->
+    <!-- Identify which versions of OJS, OMP or OPS are supported by this release.
+      A version starting with "~" matches every release in that series,
+      e.g. ~3.5.0.0 matches all versions of 3.5. -->
     <compatibility application="ojs2">
-        <version>3.1.2.0</version>
+        <version>~3.5.0.0</version>
+    </compatibility>
+    <compatibility application="ops">
+        <version>~3.5.0.0</version>
     </compatibility>
 
     <!-- PKP will assign the certification type -->
     <certification type="official"/>
 
     <!-- Describe what changes can be expected in this release -->
-    <description>Update to be compatible with OJS 3.1.2.</description>
+    <description>Update to be compatible with OJS and OPS 3.5.</description>
   </release>
 
   <!-- Each plugin can have more than one release. -->
-  <release date="2019-03-07" version="1.0.0.0" md5="13bc221dedcc959db042f969a543eab0">
+  <release date="2024-02-07" version="1.0.0.0" md5="13bc221dedcc959db042f969a543eab0">
     <package>https://github.com/pkp/tutorialExample/releases/download/1.0.0.0/tutorialexample-1.0.0.0.tar.gz</package>
     <compatibility application="ojs2">
-        <version>3.1.1.4</version>
+        <version>~3.4.0.0</version>
     </compatibility>
-    <compatibility application="ojs2">
-        <version>3.1.1.3</version>
+    <compatibility application="ops">
+        <version>~3.4.0.0</version>
     </compatibility>
     <certification type="official"/>
     <description>Initial release.</description>
@@ -107,7 +117,16 @@ Your plugin's XML must provide a title, description, contact details, and inform
 </plugin>
 ```
 
-When you have opened the pull request, tests will run against your XML snippet and we will be able to merge your plugin into the list. In addition, each plugin must pass a code review. We may not include your plugin in the gallery if it does not pass review.
+Each `<version>` in a `<compatibility>` statement can be an exact version, such as `3.4.0.8`, or a version prefixed with `~` to indicate that the release is compatible with every version in that series:
+
+- `<version>~3.5.0.0</version>` — all versions of 3.5
+- `<version>~3.4.0.0</version>` — all versions of 3.4
+- `<version>~3.3.0.0</version>` — 3.3.0-11 and later
+
+> The `~` syntax is used for OJS, OMP and OPS 3.3.0-11 and later. If your release also supports earlier versions of 3.3, list each of those versions explicitly alongside `~3.3.0.0`, e.g. `<version>3.3.0.10</version>`.
+{:.notice}
+
+When you have opened the pull request, tests will run against your XML snippet, and we will be able to merge your plugin into the list. In addition, each plugin must pass a code review. We may not include your plugin in the gallery if it does not pass review.
 
 Your plugin will be given a certification after review. The `reviewed` certification is given for plugins which have passed code review, and the `partner` certification is given for plugins from partner organizations. The `official` certification is used for plugins maintained and supported by PKP.
 
@@ -118,7 +137,7 @@ Your plugin will be given a certification after review. The `reviewed` certifica
 
 Your plugin will only appear in the plugin gallery for software versions with the appropriate `<compatibility>` statements. When a new version of PKP software is released, please test your plugin.
 
-If it is compatible, open a pull request with the additional `<version>` tags in the `<compatibility>` statement. If changes are required to make it compatible, release a new version of your plugin and follow the instructions above to build a new release and add it to the plugin gallery.
+If your release uses the `~` syntax described above, it will automatically be compatible with new patch releases in the same series (for example, `~3.5.0.0` covers every 3.5 release). If you have listed exact versions, or a new major or minor version (for example, 3.6) is released and your plugin is compatible, open a pull request with the additional `<version>` tags in the `<compatibility>` statement. If changes are required to make it compatible, release a new version of your plugin and follow the instructions above to build a new release and add it to the plugin gallery.
 
 ---
 
