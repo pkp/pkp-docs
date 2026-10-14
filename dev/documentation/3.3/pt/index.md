@@ -23,6 +23,6 @@ Essas plataformas são usadas para executar tudo, desde pequenas editoras ou per
 
 Este guia ajudará você a aprender como contribuir com código para o projeto. Ele foi escrito como uma introdução de alto nível à estrutura da aplicação e aos utilitários mais comuns necessários para começar a trabalhar com o código.
 
-Se você estiver procurando por uma especificação mais detalhada, consulte a [documentação de referência (Doxygen)](https://pkp.sfu.ca/ojs/doxygen/master/html/index.html), o [Guia de uso da API REST](/dev/api) ou a [Biblioteca de interface do usuário](/dev/ui-library/dev).
+Se você estiver procurando por uma especificação mais detalhada, consulte a [documentação de referência (Doxygen)](https://pkp.sfu.ca/ojs/doxygen/master/html/index.html), o [Guia de uso da API REST](/dev/api/usage) ou a [Biblioteca de interface do usuário](/dev/ui-library/dev).
 
 Quando estiver pronto, saiba como [começando](./getting-started) instalando o software e configurando seu ambiente de desenvolvimento.

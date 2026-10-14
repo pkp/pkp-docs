@@ -23,6 +23,6 @@ These platforms are used to run everything from small, independent presses or jo
 
 This guide will help you learn how to contribute code to the project. It is written as a high-level introduction to the application structure and the most common utilities you will need to begin working with the code.
 
-If you are looking for a more detailed specification, please consult the [reference documentation (Doxygen)](https://pkp.sfu.ca/ojs/doxygen/master/html/index.html), the [REST API Usage Guide](/dev/api) or the [UI Library](/dev/ui-library/dev).
+If you are looking for a more detailed specification, please consult the [reference documentation (Doxygen)](https://pkp.sfu.ca/ojs/doxygen/master/html/index.html), the [REST API Usage Guide](/dev/api/usage) or the [UI Library](/dev/ui-library/dev).
 
 When you're ready, learn how to [get started](./getting-started) by installing the software and setting up your development environment.

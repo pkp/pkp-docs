@@ -183,9 +183,9 @@ Use the `Form::config::before` hook when a [plugin](/dev/plugin-guide/en/) needs
 ```php
 use PKP\components\forms\FieldSelect;
 use PKP\components\forms\FormComponent;
-use PKP\plugins\HookRegistry;
+use PKP\plugins\Hook;
 
-HookRegistry::register('Form::config::before', function(string $hookName, FormComponent $form) {
+Hook::add('Form::config::before', function(string $hookName, FormComponent $form) {
 
     // Only modify the metadata form
     if (!defined('FORM_METADATA') || $form->id !== FORM_METADATA) {

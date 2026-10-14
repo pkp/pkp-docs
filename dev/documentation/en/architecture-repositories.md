@@ -142,7 +142,7 @@ class Repository
         $publicationId = $this->dao->insert($publication);
 
         // Allow plugins to hook into the action
-        HookRegistry::call('Publication::add', [$publication]);
+        Hook::call('Publication::add', [&$publication]);
 
         // Log the event
         SubmissionLog::logEvent(...);

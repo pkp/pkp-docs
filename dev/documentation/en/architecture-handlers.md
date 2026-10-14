@@ -8,7 +8,7 @@ title: Handlers - Technical Documentation - OJS|OMP|OPS
 
 Every request is routed to a `Handler`, which is responsible for authorizing the request, fetching data and formatting the response.
 
-Code inside of a `Handler` can not be reused, so `Handler`s should not perform these actions themselves. Instead, they should coordinate other classes to fulfil the request.
+Code inside a `Handler` can not be reused, so `Handler`s should not perform these actions themselves. Instead, they should coordinate other classes to fulfil the request.
 
 `Handler`s **do not authorize the request** and should not be used without appropriate [authorization policies](./architecture-authorization).
 
@@ -60,9 +60,7 @@ The router must declare the `index` op:
 ```php
 switch ($op) {
     case 'index':
-        define('HANDLER_CLASS', 'IssueHandler');
-        import('pages.issue.IssueHandler');
-        break;
+        return new APP\pages\issue\IssueHandler();
 }
 ```
 

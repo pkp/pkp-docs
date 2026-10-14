@@ -79,10 +79,9 @@ Use the [File Service](./utilities-files) to create a file. Then assign the `fil
 
 ```php
 use APP\core\Application;
-use APP\core\Services;
 use APP\facades\Repo;
 
-$fileId = Services::get('file')->add($source, $destination);
+$fileId = app()->get('file')->add($source, $destination);
 Repo::submissionFile()->edit(
 	$submissionFile,
 	[
@@ -164,24 +163,26 @@ $reviewFilesDao = DAORegistry::getDAO('ReviewFilesDAO'); /* @var $reviewFilesDao
 $reviewerCanAccess = $reviewFilesDao->check($reviewAssignment->getId(), $submissionFile->getId());
 ```
 
-Use the `QueryDAO` to check if a user can access a discussion file.
+Use the `Note` and `QueryParticipant` models to check if a user can access a discussion file.
 
 ```php
 use APP\core\Application;
-use PKP\db\DAORegistry;
+use PKP\note\Note;
+use PKP\query\QueryParticipant;
 use PKP\submissionFile\SubmissionFile;
 
 if (
 	$submissionFile->getData('fileStage') === SubmissionFile::SUBMISSION_FILE_QUERY &&
-	$submissionFile->getData('assocType') === ASSOC_TYPE_NOTE
+	$submissionFile->getData('assocType') === Application::ASSOC_TYPE_NOTE
 ) {
-	$queryDao = DAORegistry::getDAO('QueryDAO'); /* @var $queryDao QueryDAO */
-	$noteDao = DAORegistry::getDAO('NoteDAO'); /* @var $noteDao NoteDAO */
-
 	$user = Application::get()->getRequest()->getUser();
-	$note = $noteDao->getById($submissionFile->getData('assocId'));
+	$note = Note::find($submissionFile->getData('assocId'));
 
-	if ($queryDao->getParticipantIds($note->getAssocId(), $user->getId())) {
+	$participantIds = QueryParticipant::withQueryId($note->assocId)
+		->pluck('user_id')
+		->all();
+
+	if (in_array($user->getId(), $participantIds)) {
 		// User can access this submission file
 	}
 }
@@ -189,21 +190,21 @@ if (
 
 The following table describes when users are granted access to submission files.
 
-| File Stage                                                             | Manager | Subeditor<sup>1</sup> | Assistant<sup>1</sup> | Author          | Reviewer        |
-| ---------------------------------------------------------------------- | ------- | --------------------- | --------------------- | --------------- | --------------- |
-| `SubmissionFile::SUBMISSION_FILE_SUBMISSION`                           | ✔       | ✔                     | ✔                     | ✔<sup>2</sup>   |                 |
-| `SubmissionFile::SUBMISSION_FILE_REVIEW_FILE`                          | ✔       | ✔                     | ✔                     | ✔<sup>4,8</sup> | ✔<sup>7,8</sup> |
-| `SubmissionFile::SUBMISSION_FILE_REVIEW_ATTACHMENT`                    | ✔       | ✔                     | ✔                     | ✔<sup>4</sup>   | ✔               |
-| `SubmissionFile::SUBMISSION_FILE_ATTACHMENT`                           | ✔       | ✔                     | ✔                     | ✔               |                 |
-| `SubmissionFile::SUBMISSION_FILE_REVIEW_REVISION`                      | ✔       | ✔                     | ✔                     | ✔<sup>3</sup>   |                 |
-| `SubmissionFile::SUBMISSION_FILE_INTERNAL_REVIEW_FILE`<sup>6</sup>     | ✔       | ✔                     | ✔                     | ✔<sup>4,8</sup> | ✔<sup>7,8</sup> |
-| `SubmissionFile::SUBMISSION_FILE_INTERNAL_REVIEW_REVISION`<sup>6</sup> | ✔       | ✔                     | ✔                     | ✔<sup>3</sup>   |                 |
-| `SubmissionFile::SUBMISSION_FILE_FINAL`                                | ✔       | ✔                     | ✔                     |                 |                 |
-| `SubmissionFile::SUBMISSION_FILE_COPYEDIT`                             | ✔       | ✔                     | ✔                     | ✔<sup>8</sup>   |                 |
-| `SubmissionFile::SUBMISSION_FILE_PRODUCTION_READY`                     | ✔       | ✔                     | ✔                     |                 |                 |
-| `SubmissionFile::SUBMISSION_FILE_PROOF`                                | ✔       | ✔                     | ✔                     | ✔<sup>8</sup>   |                 |
-| `SubmissionFile::SUBMISSION_FILE_DEPENDENT`<sup>9</sup>                | ?       | ?                     | ?                     | ?               | ?               |
-| `SubmissionFile::SUBMISSION_FILE_QUERY`<sup>5</sup>                    | ?       | ?                     | ?                     | ?               | ?               |
+| File Stage                                                             | Manager | Subeditor<sup>1</sup> | Assistant<sup>1</sup> | Author           | Reviewer         |
+|------------------------------------------------------------------------|---------|-----------------------|-----------------------|------------------|------------------|
+| `SubmissionFile::SUBMISSION_FILE_SUBMISSION`                           | ✔      | ✔                    | ✔                    | ✔<sup>2</sup>   |                  |
+| `SubmissionFile::SUBMISSION_FILE_REVIEW_FILE`                          | ✔      | ✔                    | ✔                    | ✔<sup>4,8</sup> | ✔<sup>7,8</sup> |
+| `SubmissionFile::SUBMISSION_FILE_REVIEW_ATTACHMENT`                    | ✔      | ✔                    | ✔                    | ✔<sup>4</sup>   | ✔               |
+| `SubmissionFile::SUBMISSION_FILE_ATTACHMENT`                           | ✔      | ✔                    | ✔                    | ✔               |                  |
+| `SubmissionFile::SUBMISSION_FILE_REVIEW_REVISION`                      | ✔      | ✔                    | ✔                    | ✔<sup>3</sup>   |                  |
+| `SubmissionFile::SUBMISSION_FILE_INTERNAL_REVIEW_FILE`<sup>6</sup>     | ✔      | ✔                    | ✔                    | ✔<sup>4,8</sup> | ✔<sup>7,8</sup> |
+| `SubmissionFile::SUBMISSION_FILE_INTERNAL_REVIEW_REVISION`<sup>6</sup> | ✔      | ✔                    | ✔                    | ✔<sup>3</sup>   |                  |
+| `SubmissionFile::SUBMISSION_FILE_FINAL`                                | ✔      | ✔                    | ✔                    |                  |                  |
+| `SubmissionFile::SUBMISSION_FILE_COPYEDIT`                             | ✔      | ✔                    | ✔                    | ✔<sup>8</sup>   |                  |
+| `SubmissionFile::SUBMISSION_FILE_PRODUCTION_READY`                     | ✔      | ✔                    | ✔                    |                  |                  |
+| `SubmissionFile::SUBMISSION_FILE_PROOF`                                | ✔      | ✔                    | ✔                    | ✔<sup>8</sup>   |                  |
+| `SubmissionFile::SUBMISSION_FILE_DEPENDENT`<sup>9</sup>                | ?       | ?                     | ?                     | ?                | ?                |
+| `SubmissionFile::SUBMISSION_FILE_QUERY`<sup>5</sup>                    | ?       | ?                     | ?                     | ?                | ?                |
 
 1. Access is granted when the user group is assigned to the related workflow stage.
 2. Access is granted before submission is complete.
@@ -214,5 +215,3 @@ The following table describes when users are granted access to submission files.
 7. Access is granted when file has been shared with the review assignment. An entry is added to the `review_files` table.
 8. Read access only.
 9. Access to dependent files is granted if the user has access to the parent file.
-
-

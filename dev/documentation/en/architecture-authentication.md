@@ -29,7 +29,7 @@ CSRF tokens must be sent with all `POST`, `PUT` or `DELETE` requests to prevent 
 $csrfToken = $request->getSession()->getCSRFToken();
 ```
 
-CSRF tokens are not required for requests to the API when the [API Token](/dev/api/ojs/3.4#tag/Authentication/API-Token) is used.
+CSRF tokens are not required for requests to the API when the [API Token](/dev/api/ojs/3.5#tag/Authentication/API-Token) is used.
 
 ### Page Routes
 

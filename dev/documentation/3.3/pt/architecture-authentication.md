@@ -25,7 +25,7 @@ $currentUser = Application::get()->getRequest()->getUser();
 
 Os tokens CSRF devem ser enviados com todas as solicitações `POST`, `PUT` ou `DELETE` para evitar ataques usando [falsificação de solicitação entre sites](https://en.wikipedia.org/wiki/Cross-site_request_forgery).
 
-Os tokens CSRF não são necessários com solicitações à API quando o [Token da API](/dev/api/#api-token) é usado.
+Os tokens CSRF não são necessários com solicitações à API quando o [Token da API](/dev/api/usage#api-token) é usado.
 
 Um token CSRF pode ser solicitado na sessão atual.
 

@@ -134,8 +134,8 @@ Finally, the grid must define a `loadData` method that gets the items to be disp
 
 ```php
 use APP\core\Request;
+use APP\facades\Repo;
 use PKP\controllers\grid\GridHandler;
-use PKP\db\DAORegistry;
 
 class PKPReviewerGridHandler extends GridHandler
 {
@@ -150,8 +150,10 @@ class PKPReviewerGridHandler extends GridHandler
     {
         // Get the existing review assignments for this submission
         $reviewRound = $this->getReviewRound();
-        $reviewAssignmentDao = DAORegistry::getDAO('ReviewAssignmentDAO'); /* @var $reviewAssignmentDao ReviewAssignmentDAO */
-        return $reviewAssignmentDao->getByReviewRoundId($reviewRound->getId());
+        return Repo::reviewAssignment()->getCollector()
+            ->filterByReviewRoundIds([$reviewRound->getId()])
+            ->getMany()
+            ->toArray();
     }
 }
 ```

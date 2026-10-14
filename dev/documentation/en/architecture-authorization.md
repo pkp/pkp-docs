@@ -173,20 +173,21 @@ class DashboardHandler extends Handler
 }
 ```
 
-Check the route name when using an `APIHandler`.
+Check the name of the requested action when using an API controller.
 
 ```php
-use APP\core\Request;
-use APP\handler\Handler;
+use PKP\core\PKPBaseController;
+use PKP\core\PKPRequest;
 
-class SubmissionHandler extends APIHandler {
-    public function authorize(Request $request, array &$args, array $roleAssignments): bool
+class PKPSubmissionController extends PKPBaseController
+{
+    public function authorize(PKPRequest $request, array &$args, array $roleAssignments): bool
     {
-
         $this->addPolicy(...);
 
-        $routeName = $this->getSlimRequest()->getAttribute('route');
-        if ($routeName === 'get') {
+        $illuminateRequest = $args[0];
+        $actionName = static::getRouteActionName($illuminateRequest);
+        if ($actionName === 'get') {
             $this->addPolicy(...);
         }
 
@@ -325,7 +326,7 @@ This should be applied whenever you authorize access to any object of the submis
 
 Policies work by checking that the requested objects exist and that the current user has permission to access them. These objects can be stored when authorization is completed and retrieved later when responding to the request.
 
-Store an authorized object when a `AuthorizationPolicy` has retrieved it from the database and it has passed that `AuthorizationPolicy`'s rules.
+Store an authorized object when an `AuthorizationPolicy` has retrieved it from the database, and it has passed that `AuthorizationPolicy`'s rules.
 
 ```php
 namespace PKP\security\authorization;
