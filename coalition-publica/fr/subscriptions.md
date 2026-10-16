@@ -38,7 +38,7 @@ Déconnectez-vous de votre instance OJS et connectez-vous de nouveau en utilisan
 
 Allez à votre Profil utilisateur (typiquement disponible dans le coin en haut à droite). Ouvrez l’onglet Clé API :
 
-![Menu profil avec l'onglet Clé API sélectionné qui a des options pour activer l'accès API ou générer une nouvelle clé API.](./assets/apiKey.png)
+![Menu profil avec l'onglet Clé API sélectionné qui a des options pour activer l'accès API ou générer une nouvelle clé API.](./assets/ProfilCléAPI.png)
 
 Il pourrait y avoir déjà du contenu dans la boîte Clé API​ . Si c’est le cas, ignorez-le. Suivez les étapes suivantes: 
 
