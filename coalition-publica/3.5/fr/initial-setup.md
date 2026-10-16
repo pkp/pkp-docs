@@ -3,7 +3,7 @@ noindex: true
 ---
 # Configuration initiale
 
-Érudit utilise le format XML standardisé [JATS](https://jats.nlm.nih.gov/) pour récupérer les articles de votre instance OJS. Vous devrez configurer OJS afin qu’il génère automatiquement des fichiers JATS simples pour *chaque revue* qui sera diffusé sur Érudit. 
+Érudit utilise le format XML standardisé [JATS](https://jats.nlm.nih.gov/) pour récupérer les articles de votre instance OJS. Vous devrez configurer OJS afin qu’il génère automatiquement des fichiers JATS simples **pour chaque revue** qui sera diffusé sur Érudit. 
 
 Vous devez disposer des droits d'administrateur du site pour activer des plugiciels et pour vous assurer que les paramètres de langue et de distribution sont correctement définis. 
 
