@@ -18,30 +18,36 @@ Les étapes suivantes peuvent être effectuées dans OJS par les utilisateurs ay
 
 Lors de cette étape, vous allez configurer un nouvel utilisateur qui aura un rôle de Responsable des abonnements. Si le rôle de Responsable des abonnements existe déjà sur votre instance, vous pouvez utiliser ce compte et sauter cette étape. Notez que pour des raisons de sécurité, il est toutefois déconseillé d’utiliser un compte lié à un rôle autre que celui de Responsable des abonnements (il vaut mieux que ce compte n’ait qu’un rôle, celui de Responsable des abonnements). Par la suite, vous permettrez à Érudit d’utiliser ce rôle lors de la récupération du contenu de votre instance OJS en lui fournissant le ​*API key secret*​ associé à ce compte utilisateur.
 
-Connectez-vous en tant que Directeur de la revue ou Administrateur du site, déplacez-vous sous “Utilisateurs et Rôles > Utilisateurs”. Utilisez le bouton “Ajouter un utilisateur” pour créer un nouveau compte utilisateur.
+Connectez-vous en tant qu’Administrateur du site.
 
-Remplissez le formulaire et appuyez sur “Sauvegarder”. Bien que nous recommandions d’utiliser des informations réelles lors de la création des utilisateurs pour votre revue, ce n’est pas obligatoire. L’important est de remplir les champs obligatoires et de vous rappeler du nom d’utilisateur et du mot de passe que vous avez utilisés pour passer à la prochaine étape.
+Allez à Utilisateurs et Rôles > Utilisateurs
 
-La deuxième étape de la création d’un utilisateur consiste à lui attribuer un rôle. Dans la liste des “Rôles de l’utilisateur”, assurez-vous de cocher “Gestionnaire d’abonnement”. Sauvegardez.
+Cliquez sur le bouton « Ajouter un utilisateur » pour créer un nouveau compte utilisateur.
+
+Remplissez le formulaire et appuyez sur « Sauvegarder ». Bien que nous recommandions d’utiliser des informations réelles lors de la création des utilisateurs pour votre revue, ce n’est pas obligatoire. L’important est de remplir les champs obligatoires et de noter le nom d’utilisateur et du mot de passe que vous avez utilisés.
+
+Récupérez l’utilisateur que vous venez de créer dans la liste d’utilisateurs et cliquez sur la flèche bleu à côté de leur nom. Cliquez sur « Modifier un-e utilisateur-trice » dans les options qui se présentent.
+
+Cochez  « Responsable des abonnements » dans la liste d’option des Rôles de l'utilisateur-trice assurez-vous de sauvegarder vos modifications.
 
 Ceci complète le processus de création d’un utilisateur. Rappelez-vous du nom d’utilisateur et du mot de passe que vous avez utilisés lors de la création du compte.
 
 ### Étape 2. S’assurer d’avoir saisi un API key secret
 
-Déconnectez-vous de votre instance OJS et connectez-vous de nouveau en utilisant les paramètres d’accès du compte Gestionnaire d’abonnement que vous avez créé à l’étape 2.
+Déconnectez-vous de votre instance OJS et connectez-vous de nouveau en utilisant les paramètres d’accès du compte Responsable des abonnements que vous avez créé à l’étape 2.
 
-Allez à votre Profil utilisateur (typiquement disponible dans le coin en haut à droite). Ouvrez l’onglet “​*API Key*”​ :
+Allez à votre Profil utilisateur (typiquement disponible dans le coin en haut à droite). Ouvrez l’onglet Clé API :
 
 ![Menu profil avec l'onglet Clé API sélectionné qui a des options pour activer l'accès API ou générer une nouvelle clé API.](./assets/apiKey.png)
 
-Il pourrait y avoir déjà du contenu dans la zone “​*API Key*”​ . Si c’est le cas, ignorez-le.
+Il pourrait y avoir déjà du contenu dans la boîte Clé API​ . Si c’est le cas, ignorez-le. Suivez les étapes suivantes: 
 
-Utilisez ce formulaire de la manière suivante:
+1. Cochez la case « Activer les applications externes avec la clé API pour accéder à ce compte ».
+2. Cochez la case « Générer une nouvelle clé API »
+3. Appuyez sur le bouton « Enregistrer »
+4. Décochez la case « Générer une nouvelle clé API »
+5. Appuyez sur le bouton « Enregistrer »
 
-1. Cochez la case “​*Enable external applications with the API key to access this account*”​.
-2. Cochez la case “​*Generate new API key*”​.
-3. Appuyez sur le bouton “​*Save*”​.
-4. Décochez la case “Generate new API key”.
-5. Appuyez sur le bouton “​*Save*”​.
+Ceci fait, la boîte « Clé API » devrait maintenant avoir une longue chaîne de lettres et chiffres.  Cette clé permettra à Érudit d'effectuer des actions en tant que cet utilisateur nouvellement créé et de télécharger du contenu sous embargo ou non publié. Copiez celle-ci et fournissez-la par courriel à votre contact Coalition Publica. **Veillez à décocher la case « Générer une nouvelle clé API » pour éviter que la clé que vous partagez avec Coalition Publica ne soit écrasée par inadvertance.**
 
-Ceci fait, la zone “​*API Key*​” devrait maintenant avoir une longue chaîne de lettres et chiffres.  Cette clé permettra à Érudit d'effectuer des actions en tant que cet utilisateur nouvellement créé et de télécharger du contenu sous embargo ou non publié. Copiez celle-ci et fournissez-la par courriel à votre contact Coalition Publica. **Veillez à décocher la case "Générer une nouvelle clé API" pour éviter que la clé que vous partagez avec Coalition Publica ne soit écrasée par inadvertance.**
+
