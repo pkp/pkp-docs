@@ -90,7 +90,7 @@ Allez dans Paramètres > Site Web > Plugiciels > Plugiciels installés
 
 Dans la rubrique *Plugiciels génériques* cherchez « Plugiciel de modèle JATS »
 
-![Plugiciel de modèle JAT dans la liste des plugins avec une case à cocher non cochée à côté.](./assets/jatsTemplatePluginListing.png)
+![Plugiciel de modèle JATS dans la liste des plugins avec une case à cocher non cochée à côté.](./assets/jatsTemplatePluginListing.png)
 
 Cochez la case à droite pour activer le ​plugin.​ Vous devriez voir ce message de confirmation:
 
