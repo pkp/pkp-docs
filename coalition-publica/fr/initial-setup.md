@@ -20,7 +20,7 @@ Connectez-vous à votre instance OJS avec les paramètres de connexion de votre 
 
 Allez dans Paramètres > Site Web > Plugiciels > Galerie des plugiciels
 
-Une liste des plugiciels​ disponibles pour installation sera affichée. Notez que les noms des plugiciels dans la galerie ne se traduisent pas. Recherchez « JATS Template Plugin » :
+Une liste des plugiciels​ disponibles pour installation sera affichée. *Notez que les noms des plugiciels dans la galerie ne se traduisent pas*. Recherchez « JATS Template Plugin » :
 
 ![JATS Template Plugin dans la liste des plugiciels](./assets/jatsTemplatePlugin.png)
 
