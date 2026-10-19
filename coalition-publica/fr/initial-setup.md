@@ -20,15 +20,15 @@ Connectez-vous à votre instance OJS avec les paramètres de connexion de votre 
 
 Allez dans Paramètres > Site Web > Plugiciels > Galerie des plugiciels
 
-Une liste des plugiciels​ disponibles pour installation sera affichée. Notez que les noms des plugiciels dans la galerie ne se traduisent pas. Recherchez « JATS Template Plugin »:
+Une liste des plugiciels​ disponibles pour installation sera affichée. Notez que les noms des plugiciels dans la galerie ne se traduisent pas. Recherchez « JATS Template Plugin » :
 
 ![JATS Template Plugin dans la liste des plugiciels](./assets/jatsTemplatePlugin.png)
 
-Cliquez sur « JATS Template Plugin » pour afficher plus d’informations sur ce ​plugiciel:
+Cliquez sur « JATS Template Plugin » pour afficher plus d’informations sur ce ​plugiciel :
 
 ![JATS Template Plugin avec des informations sur le plugiciel et un bouton Installer.](./assets/JatsTemplateInstaller.png)
 
-Cliquez sur le bouton « Installer » afin d’installer le ​plugin​. Assurez-vous d’être connecté en tant qu’Administrateur de site si le bouton « Installer » ne figure pas. Confirmez que vous souhaitez bien installer le ​plugiciel.​
+Cliquez sur le bouton « Installer » afin d’installer le ​plugiciel. Assurez-vous d’être connecté en tant qu’Administrateur de site si le bouton « Installer » ne figure pas. Confirmez que vous souhaitez bien installer le ​plugiciel.​
 
 Une notification confirmant l’installation devrait s’afficher :
 
@@ -90,42 +90,42 @@ Allez dans Paramètres > Site Web > Plugiciels > Plugiciels installés
 
 Dans la rubrique *Plugiciels génériques* cherchez « Plugiciel de modèle JATS »
 
-![Plugiciel de modèle JATS dans la liste des plugins avec une case à cocher non cochée à côté.](./assets/jatsTemplatePluginListing.png)
+![Plugiciel de modèle JATS dans la liste des plugins avec une case à cocher non cochée à côté.](./assets/plugicieljatstemplate.png)
 
-Cochez la case à droite pour activer le ​plugin.​ Vous devriez voir ce message de confirmation:
+Cochez la case à droite pour activer le ​plugiceil.​ Une notification que le plugiciel a été activé devrait s’afficher :
 
-![Notification : Le plugin "JATS Template Plugin" a été activé.](./assets/jatsTemplatePluginListingNotification.png)
+![Notification : Le plugiciel modele JATS a été activé.](./assets/plugicieljatsactive.png)
 
-Cherchez ensuite sous la rubrique *Plugiciels du format de métadonnées OAI* dans la liste des plugiciels installés pour le plugiciel “Format de métadonnées JATS” (il s'agit du plugin OAI JATS, renommé par le système pour s'aligner sur la convention de nommage de cette rubrique)
+Cherchez ensuite sous la rubrique *Plugiciels du format de métadonnées OAI* dans la liste des plugiciels installés pour le plugiciel « Format de métadonnées JATS » (il s'agit du « OAI JATS plugin », renommé par le système au moment de son installation pour s'aligner sur la convention de nommage de cette rubrique)
 
-![OAI JATS Plugin dans la liste des plugins avec une case à cocher non cochée à côté.](./assets/jatsMetadataFormatPluginListing.png)
+![Format de métadonnées JATS dans la liste des plugiciels avec une case à cocher non cochée à côté.](./assets/plugiceljatsfomat.png)
 
-Cochez aussi la case à droite pour l’activer. Vous devriez voir ce message de confirmation :
+Cochez aussi la case à droite pour l’activer. Une notification que le plugiciel a été activé devrait s’afficher :
 
-![Notification : Le plugin "OAI JATS Plugin" a été activé.](./assets/jatsMetadataFormatPluginListingNotification.png)
+![Notification : Le plugin "OAI JATS Plugin" a été activé.](./assets/plugicielformatjats.png)
 
-**Si vous publiez les épreuves XML de vos articles**, vous devrez modifier les paramètres du plugin format des métadonnées JATS. Les revues qui ne publient **pas** d’épreuves XML peuvent ignorer cette étape, à moins qu'elles n'aient reçu des instructions contraires de la part de leur contact Coalition Publica à la suite d'un test de moissonnage.
+**Si vous publiez les épreuves XML de vos articles**, vous devrez modifier les paramètres du plugiciel « Format de métadonnées JATS ». Les revues qui ne publient **pas** d’épreuves XML peuvent ignorer cette étape, à moins qu'elles n'aient reçu des instructions contraires de la part de leur contact Coalition Publica à la suite d'un test de moissonnage.
 
-Cliquez sur la flèche bleue à côté de “Format de métadonnées JATS” afin d’accéder aux paramètres du plugin:
+Cliquez sur la flèche bleue à côté de « Format de métadonnées JATS » afin d’accéder aux paramètres du plugin:
 
-![The Settings option located under the JATS Metadata Format plugin options.](./assets/jats-settings.png)
+![Options de paramètres](./assets/formatjatsparametres.png)
 
-Cochez ensuite la case à côté de "Ignorer les documents XML JATS téléchargés", puis cliquez sur OK. 
+Cochez ensuite la case à côté de « Ignorer les documents XML JATS téléchargés », puis cliquez sur OK. 
 
-![The JATS Template Plugin settings page with the Ignore uploaded JATS XML documents checkbox checked.](./assets/ignore_xml.png)
+![Paramètres du format métadonnées JATS coche](./assets/parametresfomatcoche.png)
 
-Si cette option n'apparaît pas pour vous, veuillez mettre à jour le plugin en suivant les instructions ci-dessous, puis réessayez.
+Si cette option n'apparaît pas pour vous, veuillez mettre à jour le plugiciel en suivant les instructions ci-dessous, puis réessayez.
 
 **N’oubliez pas de répéter l’étape 3 pour chaque revue que vous souhaitez inclure à Érudit.**
 
 
 ### Étape 4. Réviser les paramètres régionales de revue
 
-Un « paramètre régional » est requise et doit être installé pour pour chaque langue dans laquelle le journal publie, même s'il ne le fait que rarement.
+Un « paramètre régional » est requise et doit être installé pour pour chaque langue dans laquelle la revue publie, même s'il ne le fait que rarement.
 
 Connecté en tant qu'administrateur du site, allez à Paramètres > Site web > Configuration > Langue pour vérifier que toutes les langues dans lesquelles la revue publie sont répertoriées.
 
-![L'option des langues dans les paramètres du site web](./assets/SetupLanguagesMissingFR.png)
+![L'option des langues dans les paramètres du site web](./assets/parametresLanguenonFR.png)
 
 Si une langue n'est pas répertoriée, vous devez installer cette langue. 
 
@@ -133,15 +133,15 @@ Allez à Administration > Paramètres du site > Réglage du site > Langues.
 
 Cliquez sur Installer le paramètre régional:
 
-![Locales installées dans les paramètres du site avec option d'installationl](./assets/SetupLanguagesintallLocale.png)
+![Locales installées dans les paramètres du site avec option d'installationl](./assets/installationparaRegionale.png)
 
 Cochez les paramètres régionaux que vous souhaitez installer et cliquez sur Enregistrer.
 
-![Option des langues locales dans la liste ](./assets/SetupLanguagesintallLocaleList.png)
+![Option des langues locales dans la liste ](./assets/listedelangues.png)
 
 La langue devrait maintenant apparaître dans la liste des langues disponibles.
 
-![Langues locales installées dans les paramètres du site avec FR installé ](./assets/SetupLanguagesFRlocaleinstalled.png)
+![Langues locales installées dans les paramètres du site avec FR installé ](./assets/parametresLangue.png)
 
 Notez que si la revue publie en français, la paramètre régional Français (Canada) est recommandée pour les revues sur Érudit.
 
