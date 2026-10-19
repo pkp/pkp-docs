@@ -69,7 +69,7 @@ Une notification confirmant l’installation devrait s’afficher :
 ### Étape 5.  Activer encore une fois les plugiciels
 Suivez les étapes 1 à 3 du guide de configuration initiale{initial-setup#site-admin} pour activer les plugiciels « Plugiciel de modèle JATS » et  «Format de métadonnées JATS ». Notez que les deux plugiciels sont traduits ce dernier s'agit du « OAI JATS Plugin », renommé par le système pour s'aligner sur la convention de nommage la section *Plugiciels de format de métadonnées OAI*.
 
-## Instructions d'administration système
+## Étapes de l'administrateur système {#sys-admin}
 
 ### Dépannage de l'outil d'analyse de texte intégral PDF
 
