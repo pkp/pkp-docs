@@ -100,11 +100,11 @@ Dans la rubrique *Plugiciels génériques* cherchez « Plugiciel de modèle JATS
 
 ![Plugiciel de modèle JATS dans la liste des plugins avec une case à cocher non cochée à côté.](./assets/plugicieljatstemplate.png)
 
-Cochez la case à droite pour activer le ​plugiceil.​ Une notification que le plugiciel a été activé devrait s’afficher :
+Cochez la case à droite pour activer le ​plugiciel.​ Une notification que le plugiciel a été activé devrait s’afficher :
 
 ![Notification : Le plugiciel modele JATS a été activé.](./assets/plugicieljatsactive.png)
 
-Cherchez ensuite sous la rubrique *Plugiciels du format de métadonnées OAI* dans la liste des plugiciels installés pour le plugiciel « Format de métadonnées JATS » (il s'agit du « OAI JATS plugin », traduit et renommé par le système au moment de son installation pour s'aligner sur la convention de nommage de cette rubrique)
+Cherchez ensuite sous la rubrique *Plugiciels du format de métadonnées OAI* pour le plugiciel « Format de métadonnées JATS » (il s'agit du « OAI JATS plugin », traduit et renommé par le système au moment de son installation pour s'aligner sur la convention de nommage de cette rubrique)
 
 ![Format de métadonnées JATS dans la liste des plugiciels avec une case à cocher non cochée à côté.](./assets/plugiceljatsfomat.png)
 
