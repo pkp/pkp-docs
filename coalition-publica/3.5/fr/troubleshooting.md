@@ -1,8 +1,6 @@
 # Aide au dépannage
 
-Si les tests initiaux de moissonnage se soldent par un échec ou que le moissonnage plein texte échoue alors qu'il a déjà fonctionné auparavant, veuillez suivre les instructions de l'équipe de Coalition Publica ci-dessous. Vous aurez besoin des droits d'administration du site et d'adminisatration système.
-
-## Désinstaller et réinstaller les plugiciels puis recréer l'index de recherche.
+Si les tests initiaux de moissonnage se soldent par un échec ou que le moissonnage plein texte échoue alors qu'il a déjà fonctionné auparavant, veuillez suivre les instructions de l'équipe de Coalition Publica ci-dessous. Vous aurez besoin des droits d'administration du site et d'adminisatration système afin de désinstaller et réinstaller les plugiciels puis recréer l'index de recherche.
 
 ## Étapes de l’administrateur du site
 
