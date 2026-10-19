@@ -76,7 +76,7 @@ Un « paramètre régional » est requis et doit être installé pour chaque lan
 
 Connecté en tant qu'administrateur du site, allez à Paramètres > Site web > Configuration > Langue pour vérifier que toutes les langues dans lesquelles la revue publie sont répertoriées.
 
-![L'option des langues dans les paramètres du site web](./assets/parametresLanguenonFR.png)
+![L'option des langues dans les paramètres du site web](./assets/35parametresdelangueNoFR.png)
 
 Si une langue n'est pas répertoriée, vous devez installer cette langue. 
 
@@ -92,7 +92,7 @@ Cochez les paramètres régionaux que vous souhaitez installer et cliquez sur En
 
 La langue devrait maintenant apparaître dans la liste des langues disponibles.
 
-![Langues locales installées dans les paramètres du site avec FR installé ](./assets/parametresLangue.png)
+![Langues locales installées dans les paramètres du site avec FR installé ](./assets/35parametresdelangue.png)
 
 Notez que si la revue publie en français, la paramètre régional Français (Canada) est recommandée pour les revues sur Érudit.
 
