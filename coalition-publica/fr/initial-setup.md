@@ -14,23 +14,21 @@ Les étapes nécessaires à l'installation et à la configuration d'OJS pour cha
 
 ## Étapes de l’administrateur du site {#site-admin}
 
-### Étape 1. Installer la dernière version du JATS Template Plugin
+### Étape 1. Installer la dernière version du « JATS Template Plugin »
 
-Connectez-vous à votre instance OJS avec les paramètres de connexion de votre compte Administrateur de site.
+Connectez-vous à votre instance OJS avec les paramètres de connexion de votre compte Administrateur de site. 
 
-Allez dans Paramètres > Site Web > Modules externes
+Allez dans Paramètres > Site Web > Plugiciels
 
-Cliquez sur “Galerie de plugiciels”.
+Une liste des plugiciels​ disponibles pour installation sera affichée. Notez que les noms des plugiciels dans la galerie ne se traduisent pas. Recherchez « JATS Template Plugin »:
 
-Une liste des plugins​ disponibles pour installation sera affichée. Recherchez “JATS Template Plugin”:
+![JATS Template Plugin dans la liste des plugiciels](./assets/jatsTemplatePlugin.png)
 
-![JATS Template Plugin dans la liste des plugins](./assets/jatsTemplatePlugin.png)
+Cliquez sur « JATS Template Plugin » pour afficher plus d’informations sur ce ​plugiciel:
 
-Cliquez sur “JATS Template Plugin” pour afficher plus d’informations sur ce ​plugin​:
+![JATS Template Plugin avec des informations sur le plugiciel et un bouton Installer.](./assets/JatsTemplateInstaller.png)
 
-![JATS Template Plugin avec des informations sur le plugin et un bouton Installer.](./assets/jatsTemplatePluginInstall.png)
-
-Cliquez sur le bouton “Installer” afin d’installer le ​plugin​. (Si vous ne voyez pas le bouton “Installer”, assurez-vous d’être connecté en tant qu’Administrateur de site.) Confirmez que vous souhaitez bien installer le ​plugin.​
+Cliquez sur le bouton « Installer » afin d’installer le ​plugin​. (Si vous ne voyez pas le bouton “Installer”, assurez-vous d’être connecté en tant qu’Administrateur de site.) Confirmez que vous souhaitez bien installer le ​plugin.​
 
 Vous devriez voir une notification confirmant l’installation :
 
