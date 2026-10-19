@@ -4,7 +4,7 @@ Si les tests initiaux de moissonnage se soldent par un échec ou que le moissonn
 
 ## Désinstaller et réinstaller les plugiciels puis recréer l'index de recherche.
 
-## Étapes d'administration du site
+## Étapes de l’administrateur du site
 
 ### Étape 1. Supprimer les plugiciels *Plugiciel de modèle JATS* et *Format de métadonnées JATS*.
 
