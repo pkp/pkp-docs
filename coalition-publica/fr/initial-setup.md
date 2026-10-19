@@ -38,7 +38,11 @@ Ensuite, vous devez vous assurer qu'il n'existe pas de version plus récente du 
 
 Dans la Galerie de plugiciels, trouvez à nouveau le « JATS Template Plugin » et cliquez dessus pour afficher plus d'informations. 
 
-Cliquez sur le bouton de mise à niveau s'il est disponible et confirmez que vous souhaitez mettre à jour le plugiciel. Si le bouton de mise à niveau n'est pas disponible, votre plugiciel est à jour.
+Si votre plugiciel est à jour, un message à cet effet devrait s'afficher.
+
+![JATS Template Plugin installé et à jour](./assets/JATSTemplateAjour.png)
+
+Si non, cliquez sur le bouton de mise à niveau s'il est disponible et confirmez que vous souhaitez mettre à jour le plugiciel. 
 
 ![JATS Template Plugin avec information et un bouton de mise à niveau.](./assets/JatsTemplateMAN.png)
 
@@ -66,7 +70,11 @@ Ensuite, vous devez vous assurer qu'il n'existe pas de version plus récente du 
 
 Dans la Galerie de plugiciels, recherchez à nouveau le « OAI JATS Plugin » et cliquez dessus pour afficher plus d’informations.
 
-Cliquez sur le bouton de mise à niveau s'il est disponible et confirmez que vous souhaitez mettre à jour le plugiciel. Si le bouton de mise à niveau n'est pas disponible, votre plugiciel est à jour.
+Si votre plugiciel est à jour, un message à cet effet devrait s'afficher.
+
+![OAI JATS Plugin installé et à jour](./assets/OAIJATSajour.png)
+
+Si non, cliquez sur le bouton de mise à niveau s'il est disponible et confirmez que vous souhaitez mettre à jour le plugiciel. 
 
 ![OAI JATS Plugin avec information et un bouton de mise à niveau.](./assets/OAIMAN.png)
 
