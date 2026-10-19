@@ -3,7 +3,7 @@ noindex: true
 ---
 # Configuration initiale
 
-Érudit utilise le format XML standardisé [JATS](https://jats.nlm.nih.gov/) pour récupérer les articles de votre instance OJS. Vous devrez configurer OJS afin qu’il génère automatiquement des fichiers JATS simples pour *chaque revue* qui sera diffusé sur Érudit. 
+Érudit utilise le format XML standardisé [JATS](https://jats.nlm.nih.gov/) pour récupérer les articles de votre instance OJS. Vous devrez configurer OJS afin qu’il génère automatiquement des fichiers JATS simples **pour chaque revue** qui sera diffusé sur Érudit. 
 
 Vous devez disposer des droits d'administrateur du site pour activer des plugiciels et pour vous assurer que les paramètres de langue et de distribution sont correctement définis. 
 
@@ -25,17 +25,16 @@ Dans la rubrique *Plugiciels génériques* cherchez « Plugiciel de modèle JATS
 
 ![JATS Template Plugin dans la liste des plugins avec une case à cocher non cochée à côté.](./assets/plugicieljatstemplate.png)  
 
-Cochez la case à droite pour activer le plugin. Vous devriez voir ce message de confirmation:
-
+Cochez la case à droite pour activer le plugiciel. Une notification que le plugiciel a été activé devrait s’afficher :
 ![Notification : Le plugiciel de modèle JATS a été activé.](./assets/plugicieljatsactive.png)  
 
 
 Cherchez ensuite sous la rubrique *Plugiciels du format de métadonnées OAI* dans la liste des plugiciels installés pour le plugiciel  « Format de métadonnées JATS » 
 ![Format de métadonnées JATS dans la liste des plugiciels avec une case non cochée à côté.](./assets/plugiceljatsfomat.png)  
 
-Cochez aussi la case à droite pour l’activer. Vous devriez voir ce message de confirmation :
+Cochez aussi la case à droite pour l’activer. Une notification que le plugiciel a été activé devrait s’afficher :
 
-![Notification : Le plugiciel  « Format de métadonnées JATS » a été activé.](./assets/plugicielformatjats.png)
+![Notification : Le plugiciel Format de métadonnées JATS a été activé.](./assets/plugicielformatjats.png)
   
 
 **Si la revue publie des épreuves XML de ses articles**, vous devrez modifier les paramètres du plugiciel format de métadonnées JATS. Les revues qui ne publient **pas** d’épreuves XML peuvent ignorer cette étape, à moins qu'elles n'aient reçu des instructions contraires de la part de Coalition Publica à la suite d'un test de moissonnage.
@@ -53,9 +52,13 @@ Cochez ensuite la case à côté de « Ignorer les documents XML JATS téléchar
 
 Les plugiciels utilisés pour moissonner les métadonnées d’une revue sont parfois mis à jour pour corriger des bogues ou améliorer leurs fonctionnalités. Il se peut que Coalition Publica vous demande de mettre à jour les plugiciels, ou vous pouvez choisir de le faire dans le cadre de votre maintenance régulière.
 
-Après toute mise à jour de votre OJS, assurez-vous que tous vos plugiciels sont mis à jour avec la dernière version adaptée à votre version d’OJS.  
+Après toute mise à jour de votre OJS, assurez-vous que tous vos plugiciels sont mis à jour avec la dernière version adaptée à votre version d’OJS. Pour mettre à jour un plugiciel: 
 
-Pour mettre à jour un plugiciel, trouvez le plugiciel dans la « Galerie de plugiciels ». Dans la colonne « Statut », la notification « Mise à jour disponible » s'affiche lorsqu'une mise à jour compatible avec votre version d'OJS sera disponible. Notez que les noms des plugiciels dans la galerie ne se traduisent pas. Les plugiciels requises par Coalition Publica sont nommées « OAI JATS Plugin » et « JATS Template Plugin » 
+Allez dans Paramètres > Site Web > Plugiciels >  Galerie de plugiciels 
+
+Notez que les noms des plugiciels dans la galerie ne se traduisent pas. Les plugiciels requises par Coalition Publica sont nommées « OAI JATS Plugin » et « JATS Template Plugin ». Recherchez celles-ci dans la liste de plugiciels.
+
+Dans la colonne « Statut », la notification « Mise à jour disponible » s'affiche lorsqu'une mise à jour compatible avec votre version d'OJS sera disponible. 
 
 Cliquez sur le nom du plugiciel (lien hypertexte) pour ouvrir la fenêtre de renseignements. Cliquez sur le bouton « Mise à niveau », puis confirmez que vous souhaitez mettre à jour le plugiciel.
 
@@ -64,7 +67,6 @@ Cliquez sur le nom du plugiciel (lien hypertexte) pour ouvrir la fenêtre de ren
 Vous devriez voir une notification confirmant la dernière version disponible du plugin à été mis à jour .
 ![notification que la version a été mise à jour avec succès.](./assets/miseajourconfirme.png) 
  
-
 Bien qu’il soit possible de mettre à jour les plugiciels dans OJS en téléchargeant la dernière version à partir de Github, il est possible que les versions plus récentes ne soient pas compatibles avec votre version particulière d’OJS, donc **s’il vous plaît, mettez toujours à jour les plugiciels à partir de la Galerie de plugiciels, sauf indication contraire.**
 
 
@@ -74,23 +76,23 @@ Un « paramètre régional » est requis et doit être installé pour chaque lan
 
 Connecté en tant qu'administrateur du site, allez à Paramètres > Site web > Configuration > Langue pour vérifier que toutes les langues dans lesquelles la revue publie sont répertoriées.
 
-![L'option des langues dans les paramètres du site web](./assets/SetupLanguagesMissingFR.png)
+![L'option des langues dans les paramètres du site web](./assets/35parametresdelangueNoFR.png)
 
 Si une langue n'est pas répertoriée, vous devez installer cette langue. 
 
 Allez à Administration > Paramètres du site > Réglage du site > Langues. 
 
-Cliquez sur Installer le paramètre régional:
+Cliquez sur « Installer le paramètre régional » :
 
-![Locales installées dans les paramètres du site avec option d'installationl](./assets/SetupLanguagesintallLocale.png)
+![Locales installées dans les paramètres du site avec option d'installationl](./assets/installationparaRegionalehighlight.png)
 
 Cochez les paramètres régionaux que vous souhaitez installer et cliquez sur Enregistrer.
 
-![Option des langues locales dans la liste ](./assets/SetupLanguagesintallLocaleList.png)
+![Option des langues locales dans la liste ](./assets/listedelangues.png)
 
 La langue devrait maintenant apparaître dans la liste des langues disponibles.
 
-![Langues locales installées dans les paramètres du site avec FR installé ](./assets/SetupLanguagesFRlocaleinstalled.png)
+![Langues locales installées dans les paramètres du site avec FR installé ](./assets/35parametresdelangue.png)
 
 Notez que si la revue publie en français, la paramètre régional Français (Canada) est recommandée pour les revues sur Érudit.
 
@@ -106,9 +108,9 @@ Assurez-vous d’avoir coché « Activer » dans la section « Permettre l'accè
 ### Note concernant les clés API
 
 Un paramétrage supplémentaire est nécessaire pour permettre à Coalition Publica de moissonner le contenu des articles et numéros diffusés sur OJS dans les cas suivants : 
-*la revue utilise OJS pour publier du contenu requérant un abonnement ;
-*la revue utilise OJS pour la gestion éditoriale sans publier ;
-*la revue a choisi la production XML du texte intégral et Érudit a besoin d'accéder aux fichiers prêts pour la production pour moissonnage.
+* la revue utilise OJS pour publier du contenu requérant un abonnement ;
+* la revue utilise OJS pour la gestion éditoriale sans publier ;
+* la revue a choisi la production XML du texte intégral et Érudit a besoin d'accéder aux fichiers prêts pour la production pour moissonnage.
 
 Si Coalition Publica vous demande une clé API, l'administrateur du site ou quelqu’un ayant le rôle Directeur de la revue devra suivre les étapes décrites dans la section *Fournir une clé API* du présent document pour terminer la configuration de la revue. 
 
@@ -154,8 +156,8 @@ Cet identifiant peut être configuré dans le fichier config.inc.php dans votre 
 
 **Cette étape n’est que requise si Coalition Publica vous demande une clé API.**
 
-Dans votre fichier de configuration OJS (`config.inc.php` dans le répertoire d’installation de votre OJS) vous trouverez une directive appelée « `api_key_secret` ». Par défaut, ce paramètre est vide. Si c’est le cas, modifiez-le pour qu’il contienne une séquence de 32 caractères ou plus (n’importe quelle lettres et symboles). Votre instance OJS en sera plus sécurisée lors de l’utilisation des *API keys*.
+Dans votre fichier de configuration OJS (`config.inc.php` dans le répertoire d’installation de votre OJS) vous trouverez une directive appelée « `api_key_secret` ». Par défaut, ce paramètre est vide. Si c’est le cas, modifiez-le pour qu’il contienne une séquence de 32 caractères ou plus (n’importe quelle lettres et symboles). Votre instance OJS en sera plus sécurisée lors de l’utilisation des *Clés API*.
 
-Vous n’aurez pas à mémoriser la valeur de ce paramètre, mais si vous le perdez, tous ceux utilisant les *API keys* devront en obtenir une nouvelle.
+Vous n’aurez pas à mémoriser la valeur de ce paramètre, mais si vous le perdez, tous ceux utilisant les *Clés API* devront en obtenir une nouvelle.
 
 Un coup le paramètre renseigné, sauvegardez le fichier.
