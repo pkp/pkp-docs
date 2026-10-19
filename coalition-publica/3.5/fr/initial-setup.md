@@ -52,9 +52,13 @@ Cochez ensuite la case à côté de « Ignorer les documents XML JATS téléchar
 
 Les plugiciels utilisés pour moissonner les métadonnées d’une revue sont parfois mis à jour pour corriger des bogues ou améliorer leurs fonctionnalités. Il se peut que Coalition Publica vous demande de mettre à jour les plugiciels, ou vous pouvez choisir de le faire dans le cadre de votre maintenance régulière.
 
-Après toute mise à jour de votre OJS, assurez-vous que tous vos plugiciels sont mis à jour avec la dernière version adaptée à votre version d’OJS.  
+Après toute mise à jour de votre OJS, assurez-vous que tous vos plugiciels sont mis à jour avec la dernière version adaptée à votre version d’OJS. Pour mettre à jour un plugiciel: 
 
-Pour mettre à jour un plugiciel, trouvez le plugiciel dans la « Galerie de plugiciels ». Dans la colonne « Statut », la notification « Mise à jour disponible » s'affiche lorsqu'une mise à jour compatible avec votre version d'OJS sera disponible. Notez que les noms des plugiciels dans la galerie ne se traduisent pas. Les plugiciels requises par Coalition Publica sont nommées « OAI JATS Plugin » et « JATS Template Plugin » 
+Allez dans Paramètres > Site Web > Plugiciels >  Galerie de plugiciels 
+
+Notez que les noms des plugiciels dans la galerie ne se traduisent pas. Les plugiciels requises par Coalition Publica sont nommées « OAI JATS Plugin » et « JATS Template Plugin ». Recherchez celles-ci dans la liste de plugiciels.
+
+Dans la colonne « Statut », la notification « Mise à jour disponible » s'affiche lorsqu'une mise à jour compatible avec votre version d'OJS sera disponible. 
 
 Cliquez sur le nom du plugiciel (lien hypertexte) pour ouvrir la fenêtre de renseignements. Cliquez sur le bouton « Mise à niveau », puis confirmez que vous souhaitez mettre à jour le plugiciel.
 
@@ -63,7 +67,6 @@ Cliquez sur le nom du plugiciel (lien hypertexte) pour ouvrir la fenêtre de ren
 Vous devriez voir une notification confirmant la dernière version disponible du plugin à été mis à jour .
 ![notification que la version a été mise à jour avec succès.](./assets/miseajourconfirme.png) 
  
-
 Bien qu’il soit possible de mettre à jour les plugiciels dans OJS en téléchargeant la dernière version à partir de Github, il est possible que les versions plus récentes ne soient pas compatibles avec votre version particulière d’OJS, donc **s’il vous plaît, mettez toujours à jour les plugiciels à partir de la Galerie de plugiciels, sauf indication contraire.**
 
 
