@@ -82,9 +82,9 @@ Si une langue n'est pas répertoriée, vous devez installer cette langue.
 
 Allez à Administration > Paramètres du site > Réglage du site > Langues. 
 
-Cliquez sur « Installer le paramètre régional »:
+Cliquez sur « Installer le paramètre régional » :
 
-![Locales installées dans les paramètres du site avec option d'installationl](./assets/installationparaRegionale.png)
+![Locales installées dans les paramètres du site avec option d'installationl](./assets/installationparaRegionalehighlight.png)
 
 Cochez les paramètres régionaux que vous souhaitez installer et cliquez sur Enregistrer.
 
