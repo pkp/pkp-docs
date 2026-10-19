@@ -29,28 +29,28 @@ Dans la section *Plugiciels du format de métadonnées OAI*, repérez le plugici
 Cliquez sur le bouton *Supprimer* puis confirmez que vous souhaitez supprimer ce plugiciel du système.
 
 ### Étape 2. Réinstaller et activer les plugiciels
-Notez que les noms des plugiciels dans la galerie ne se traduisent pas. Les plugiciels requises par Coalition Publica sont nommées « OAI JATS Plugin » et « JATS Template Plugin » 
+Notez que les noms des plugiciels dans la galerie ne se traduisent pas. Les plugiciels requises par Coalition Publica sont nommées « JATS Template Plugin » et « OAI JATS Plugin » 
 
-### Étape 1. Installer la dernière version du JATS Template Plugin
+### Étape 1. Installer la dernière version du « JATS Template Plugin »
 
 Allez dans Paramètres > Site Web >  Galerie de plugiciels
 
 Une liste des plugiciels disponibles pour installation sera affichée. Recherchez « JATS Template Plugin »:
 
-![JATS Template Plugin dans la liste des plugins](./assets/jatsTemplatePlugin.png)
+![JATS Template Plugin dans la liste des plugiciels](./assets/jatsTemplatePlugin.png)
 
 Cliquez sur le nom du plugiciel en hyperlien pour afficher de plus amples renseignements :
 
-![JATS Template Plugin avec des informations sur le plugiciel et un bouton Installer.](./assets/jatsTemplatePluginInstall.png)
+![JATS Template Plugin avec des informations sur le plugiciel et un bouton Installer.](./assets/JatsTemplateInstaller.png)
 
 Cliquez sur le bouton « Installer » et confirmez que vous souhaitez bien installer le plugiciel.
 
-Vous devriez voir une notification confirmant l’installation :
+Une notification confirmant l’installation devrait s’afficher :
 
-![Notification:  Mise à jour réussie vers la version 1.0.1.0](./assets/oaiJatsPluginNotification.png)
+![Notification:  Mise à jour réussie vers la version 1.0.6.3](./assets/Jatsinallconfirme.png)
 
 
-### Étape 3. Installer la dernière version du OAI JATS Plugin
+### Étape 3. Installer la dernière version du « OAI JATS Plugin »
 
 Recherchez « OAI JATS Plugin » dans la Galerie de plugiciels:
 
@@ -58,16 +58,16 @@ Recherchez « OAI JATS Plugin » dans la Galerie de plugiciels:
 
 Cliquez sur le nom du plugiciel en hyperlien pour afficher de plus amples renseignements :
 
-![OAI JATS Plugin avec des informations sur le plugiciel et un bouton Installer.](./assets/OAIjatsPluginInstall.png)
+![OAI JATS Plugin avec des informations sur le plugiciel et un bouton Installer.](./assets/OAIInstaller.png)
 
 Cliquez sur le bouton « Installer » afin d’installer le plugiciel et puis confirmez que vous souhaitez l’installer.
 
-Vous devriez voir un message confirmant l’installation :
+Une notification confirmant l’installation devrait s’afficher :
 
-![Notification: Mise à jour réussie vers la version 1.0.1.0.](./assets/oaiJatsPluginNotification.png)
+![Notification: Mise à jour réussie vers la version 1.0.4.7.](./assets/miseajourconfirme.png)
 
 ### Étape 4.  Activer encore une fois les plugiciels
-Suivez les étapes 1 à 3 du guide de configuration initiale{initial-setup#site-admin} pour activer les plugiciels  « Plugiciel de modèle JATS » et  «Format de métadonnées JATS ». Notez que ce dernier s'agit du plugiciel OAI JATS, renommé par le système pour s'aligner sur la convention de nommage la section *Plugiciels de format de métadonnées OAI*.
+Suivez les étapes 1 à 3 du guide de configuration initiale{initial-setup#site-admin} pour activer les plugiciels « Plugiciel de modèle JATS » et  «Format de métadonnées JATS ». Notez que les deux plugiciels sont traduits ce dernier s'agit du « OAI JATS Plugin », renommé par le système pour s'aligner sur la convention de nommage la section *Plugiciels de format de métadonnées OAI*.
 
 ## Instructions d'administration système
 
