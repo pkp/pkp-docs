@@ -169,7 +169,7 @@ Un paramétrage supplémentaire est nécessaire pour permettre à Coalition Publ
 * la revue utilise OJS pour la gestion éditoriale sans publier ;
 * la revue a choisi la production XML du texte intégral et Érudit a besoin d'accéder aux fichiers prêts pour la production pour moissonnage.
 
-Si Coalition Publica vous demande une clé API, l'administrateur du site ou quelqu’un ayant le rôle Directeur de la revue devra suivre les étapes décrites dans la section *Fournir une cleé API* du présent document pour terminer la configuration de la revue. 
+Si Coalition Publica vous demande une clé API, l'administrateur du site ou quelqu’un ayant le rôle Directeur de la revue devra suivre les étapes décrites dans la section *Fournir une clé API* du présent document pour terminer la configuration de la revue. 
 
 Toutefois, les étapes décrites dans la section *Fournir une clé API* doivent être réalisées **après** qu'un administrateur système a effectué les étapes 1, 2 et 3 de la section Étapes de l'administrateur système ci-dessous.
 
