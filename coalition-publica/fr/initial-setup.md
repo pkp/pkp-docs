@@ -148,11 +148,11 @@ Notez que si la revue publie en français, la paramètre régional Français (Ca
 
 ### Étape 5. Vérifier les paramètres de distribution
 
-Sous Paramètres > Distribution > Accès, vous verrez un ensemble de paramètres :
+Sous Paramètres > Distribution > Accès, il existe un ensemble de paramètres :
 
-![Paramètres d'accès au contenu de la revue avec des options pour fournir un accès libre (sélectionné), exiger un abonnement, ne pas utiliser OJS pour la publication et permettre l'accès OAI au contenu (sélectionné).](./assets/journalSettings.png)
+![Paramètres d'accès au contenu de la revue](./assets/parametresdistribution.png)
 
-Assurez-vous d’avoir coché “​*Enable OAI access to content*​”. Enregistrez les paramètres.
+Assurez-vous d’avoir coché « Activer » dans la section « Permettre l'accès OAI au contenu » . Enregistrez les paramètres.
 
 ### Note concernant les clés API
 
@@ -194,20 +194,20 @@ En plus de configurer votre OJS pour Coalition Publica, cela permettra à OJS d�
 Le dépôt OAI de chaque instance OJS doit être configuré afin d’avoir un identifiant d’espace de nom (un *namespace-identifier* selon la syntaxe OAI-PMH) unique. L'identifiant est configuré lors de l'installation, et se trouve par la suite dans le fichier de configuration config.inc.php.
 
 ### Choisir un identifiant unique pour le dépôt OAI
-L’identifiant d’espace de nom de votre dépôt OAI doit être unique au sein de l’instance OJS sur laquelle votre revue est hébergée. Un choix logique consiste à utiliser la partie de premier niveau de l’URL de l’instance OJS. Par exemple, si l’URL est “https://revues.bibliotheque.exemple.com”, vous pouvez utiliser “revues.bibliotheque.exemple.com” comme identifiant de nommage. 
+L’identifiant d’espace de nom de votre dépôt OAI doit être unique au sein de l’instance OJS sur laquelle votre revue est hébergée. Un choix logique consiste à utiliser la partie de premier niveau de l’URL de l’instance OJS. Par exemple, si l’URL est « https://revues.bibliotheque.exemple.com », vous pouvez utiliser « revues.bibliotheque.exemple.com » comme identifiant de nommage. 
 L’identifiant d’espace de nom que vous utilisez doit respecter la syntaxe [URI (Uniform Resource Identifiers)](https://www.ietf.org/rfc/rfc2396.txt?number=2396). En particulier, tous les caractères réservés de la section 2.2 ne peuvent pas être utilisés : `;`, `/`, `?`, `:`, `@`, `&`, `=`, `+`, `$`, ou `,`.
 
 ### Modifier l'identifiant d’espace de nom de votre dépôt OAI
 
 Cet identifiant peut être configuré dans le fichier config.inc.php dans votre répertoire d'installation OJS et peut être modifié directement. Il se trouve dans la section [oai] du fichier de configuration et doit être ajouté après repository_id = . Évitez de modifier inutilement l'identifiant de votre dépôt, mais si vous devez le modifier, veuillez envoyer un courriel à info@coalition-publi.ca avant de le faire surout s'il y a déjà une revue sur votre instance qui participe à Coalition Publica.
 
-### Étape 3. S’assurer d’avoir saisi un API key secret
+### Étape 3. S’assurer d’avoir saisi un « API key secret »
 
 **Cette étape n’est que requise si Coalition Publica vous demande une clé API.**
 
-Dans votre fichier de configuration OJS (​`config.inc.php`​ dans le répertoire d’installation de votre OJS) vous trouverez une directive appelée “`api_key_secret`​”. Par défaut, ce paramètre est vide. Si c’est le cas, modifiez-le pour qu’il contienne une séquence de 32 caractères ou plus (n’importe quelle lettres et symboles). Votre instance OJS en sera plus sécurisée lors de l’utilisation des ​*API keys​*.
+Dans votre fichier de configuration OJS (​`config.inc.php`​ dans le répertoire d’installation de votre OJS) vous trouverez une directive appelée “`api_key_secret`​”. Par défaut, ce paramètre est vide. Si c’est le cas, modifiez-le pour qu’il contienne une séquence de 32 caractères ou plus (n’importe quelle lettres et symboles). Votre instance OJS en sera plus sécurisée lors de l’utilisation des ​*Clés API​*.
 
-Vous n’aurez pas à mémoriser la valeur de ce paramètre, mais si vous le perdez, tous ceux utilisant les ​*API keys​* devront en obtenir une nouvelle.
+Vous n’aurez pas à mémoriser la valeur de ce paramètre, mais si vous le perdez, tous ceux utilisant les ​*Clés API​* devront en obtenir une nouvelle.
 
 Un coup le paramètre renseigné, sauvegardez le fichier.
 
