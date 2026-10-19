@@ -25,17 +25,16 @@ Dans la rubrique *Plugiciels génériques* cherchez « Plugiciel de modèle JATS
 
 ![JATS Template Plugin dans la liste des plugins avec une case à cocher non cochée à côté.](./assets/plugicieljatstemplate.png)  
 
-Cochez la case à droite pour activer le plugin. Vous devriez voir ce message de confirmation:
-
+Cochez la case à droite pour activer le plugiciel. Une notification que le plugiciel a été activé devrait s’afficher :
 ![Notification : Le plugiciel de modèle JATS a été activé.](./assets/plugicieljatsactive.png)  
 
 
 Cherchez ensuite sous la rubrique *Plugiciels du format de métadonnées OAI* dans la liste des plugiciels installés pour le plugiciel  « Format de métadonnées JATS » 
 ![Format de métadonnées JATS dans la liste des plugiciels avec une case non cochée à côté.](./assets/plugiceljatsfomat.png)  
 
-Cochez aussi la case à droite pour l’activer. Vous devriez voir ce message de confirmation :
+Cochez aussi la case à droite pour l’activer. Une notification que le plugiciel a été activé devrait s’afficher :
 
-![Notification : Le plugiciel  « Format de métadonnées JATS » a été activé.](./assets/plugicielformatjats.png)
+![Notification : Le plugiciel Format de métadonnées JATS a été activé.](./assets/plugicielformatjats.png)
   
 
 **Si la revue publie des épreuves XML de ses articles**, vous devrez modifier les paramètres du plugiciel format de métadonnées JATS. Les revues qui ne publient **pas** d’épreuves XML peuvent ignorer cette étape, à moins qu'elles n'aient reçu des instructions contraires de la part de Coalition Publica à la suite d'un test de moissonnage.
