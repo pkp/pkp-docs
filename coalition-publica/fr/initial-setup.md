@@ -5,7 +5,7 @@ noindex: true
 
 Érudit utilise le format XML standardisé ​[JATS](https://jats.nlm.nih.gov/)​ pour récupérer les articles de votre instance OJS. Vous pouvez configurer OJS afin qu’il génère automatiquement des fichiers JATS simples permettant la diffusion sur Érudit. 
 
-Vous devez disposer des droits d'administrateur du site pour installer et activer des *plugins* et pour vous assurer que les paramètres de langue et de distribution sont correctement définis. 
+Vous devez disposer des droits d'administrateur du site pour installer et activer des plugiciels et pour vous assurer que les paramètres de langue et de distribution sont correctement définis. 
 
 Vous devez disposer des droits d'administration du système pour configurer l'extraction de texte et les éléments du référentiel OAI. 
 
