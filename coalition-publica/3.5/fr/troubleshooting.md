@@ -26,10 +26,9 @@ Dans la section *Plugiciels du format de métadonnées OAI*, repérez le plugici
 
 Cliquez sur le bouton *Supprimer* puis confirmez que vous souhaitez supprimer ce plugiciel du système.
 
-### Étape 2. Réinstaller et activer les plugiciels
-Notez que les noms des plugiciels dans la galerie ne se traduisent pas. Les plugiciels requises par Coalition Publica sont nommées « JATS Template Plugin » et « OAI JATS Plugin » 
+Ensuite, vous devez réinstaller et activer les plugiciels. Notez que les noms des plugiciels dans la galerie ne se traduisent pas. Les plugiciels requises par Coalition Publica sont nommées « JATS Template Plugin » et « OAI JATS Plugin » 
 
-### Étape 3. Installer la dernière version du « JATS Template Plugin »
+### Étape 2. Installer la dernière version du « JATS Template Plugin »
 
 Allez dans Paramètres > Site Web >  Galerie de plugiciels
 
@@ -48,7 +47,7 @@ Une notification confirmant l’installation devrait s’afficher :
 ![Notification:  Mise à jour réussie vers la version 1.0.6.3](./assets/Jatsinallconfirme.png)
 
 
-### Étape 4. Installer la dernière version du « OAI JATS Plugin »
+### Étape 3. Installer la dernière version du « OAI JATS Plugin »
 
 Recherchez « OAI JATS Plugin » dans la Galerie de plugiciels:
 
@@ -64,7 +63,7 @@ Une notification confirmant l’installation devrait s’afficher :
 
 ![Notification: Mise à jour réussie vers la version 1.0.4.7.](./assets/miseajourconfirme.png)
 
-### Étape 5.  Activer encore une fois les plugiciels
+### Étape 4.  Activer encore une fois les plugiciels
 Suivez les étapes 1 à 3 du guide de configuration initiale{initial-setup#site-admin} pour activer les plugiciels « Plugiciel de modèle JATS » et  «Format de métadonnées JATS ». Notez que les deux plugiciels sont traduits ce dernier s'agit du « OAI JATS Plugin », renommé par le système pour s'aligner sur la convention de nommage la section *Plugiciels de format de métadonnées OAI*.
 
 ## Étapes de l'administrateur système {#sys-admin}
