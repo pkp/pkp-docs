@@ -18,7 +18,7 @@ Les étapes nécessaires à l'installation et à la configuration d'OJS pour cha
 
 Connectez-vous à votre instance OJS avec les paramètres de connexion de votre compte Administrateur de site. 
 
-Allez dans Paramètres > Site Web > Plugiciels
+Allez dans Paramètres > Site Web > Plugiciels > Galerie des plugiciels
 
 Une liste des plugiciels​ disponibles pour installation sera affichée. Notez que les noms des plugiciels dans la galerie ne se traduisent pas. Recherchez « JATS Template Plugin »:
 
@@ -28,73 +28,69 @@ Cliquez sur « JATS Template Plugin » pour afficher plus d’informations sur c
 
 ![JATS Template Plugin avec des informations sur le plugiciel et un bouton Installer.](./assets/JatsTemplateInstaller.png)
 
-Cliquez sur le bouton « Installer » afin d’installer le ​plugin​. (Si vous ne voyez pas le bouton “Installer”, assurez-vous d’être connecté en tant qu’Administrateur de site.) Confirmez que vous souhaitez bien installer le ​plugin.​
+Cliquez sur le bouton « Installer » afin d’installer le ​plugin​. Assurez-vous d’être connecté en tant qu’Administrateur de site si le bouton « Installer » ne figure pas. Confirmez que vous souhaitez bien installer le ​plugiciel.​
 
-Vous devriez voir une notification confirmant l’installation :
+Une notification confirmant l’installation devrait s’afficher :
 
-![Notification:  Mise à jour réussie vers la version 1.0.1.0](./assets/oaiJatsPluginNotification.png)
+![Notification:  Mise à jour réussie vers la version 1.0.6.3](./assets/Jatsinallconfirme.png)
 
-Ensuite, vous devez vous assurer qu'il n'existe pas de version plus récente du plugin. 
+Ensuite, vous devez vous assurer qu'il n'existe pas de version plus récente du plugiciel. 
 
-Dans la “Galerie de plugiciels”, trouvez à nouveau le "JATS Template Plugin" et cliquez dessus pour afficher plus d'informations. 
+Dans la Galerie de plugiciels, trouvez à nouveau le « JATS Template Plugin » et cliquez dessus pour afficher plus d'informations. 
 
-Cliquez sur le bouton de mise à jour s'il est disponible et confirmez que vous souhaitez mettre à jour le plugin. Si le bouton de mise à jour n'est pas disponible, votre plugin est à jour.
+Cliquez sur le bouton de mise à niveau s'il est disponible et confirmez que vous souhaitez mettre à jour le plugiciel. Si le bouton de mise à niveau n'est pas disponible, votre plugiciel est à jour.
 
-![JATS Template Plugin avec information et un bouton de mise à jour.](./assets/jatsTemplatePluginInfo.png)
+![JATS Template Plugin avec information et un bouton de mise à niveau.](./assets/JatsTemplateMAN.png)
 
-Vous devriez voir une notification confirmant la dernière version disponible du ​plugin​ à été installée.
+Une notification confirmant la mise à jour à la dernière version disponible du ​plugiciel devrait s'afficher.
 
-![Notification : Mise à jour réussie vers la version 1.0.6.1.](./assets/JATStemplatePluginIntallConfirmation.png) 
+![Notification : Mise à jour réussie vers la version 1.0.6.3.](./assets/Jatsinallconfirme.png) 
 
+### Étape 2. Installer la dernière version du « OAI JATS Plugin »
 
-### Étape 2. Installer la dernière version du OAI JATS Plugin
-
-Recherchez “OAI JATS Plugin” dans la “Galerie de plugiciels”:
+Recherchez « OAI JATS Plugin » dans la Galerie de plugiciels :
 
 ![OAI JATS Plugin dans la liste des plugins.](./assets/oaiJatsPlugin.png)
 
-Cliquez sur “OAI JATS Plugin” pour afficher plus d’informations sur ce ​plugin​ :
+Cliquez sur « OAI JATS Plugin » pour afficher plus d’informations sur ce ​plugiciel​ :
 
-![OAI JATS Plugin avec des informations sur le plugin et un bouton Installer.](./assets/OAIjatsPluginInstall.png)
+![OAI JATS Plugin avec des informations sur le plugin et un bouton Installer.](./assets/OAIInstaller.png)
 
-Cliquez sur le bouton “Installer” afin d’installer le ​plugin​. (Si vous ne voyez pas le bouton “Installer”, assurez-vous d’être connecté en tant qu’Administrateur.) Confirmez que vous souhaitez bien installer le ​plugin​.
+Cliquez sur le bouton « Installer » afin d’installer le ​plugiciel​. Assurez-vous d’être connecté en tant qu’Administrateur de site si le bouton « Installer » ne figure pas. Confirmez que vous souhaitez bien installer le ​plugiciel​.
 
-Vous devriez voir ce message confirmant l’installation :
+Une notification confirmant l’installation devrait s’afficher :
 
-![Notification: Mise à jour réussie vers la version 1.0.1.0.](./assets/oaiJatsPluginNotification.png)
+![Notification: Mise à jour réussie vers la version 1.0.4.7.](./assets/miseajourconfirme.png)
 
-Ensuite, vous devez vous assurer qu'il n'existe pas de version plus récente du plugin. 
+Ensuite, vous devez vous assurer qu'il n'existe pas de version plus récente du plugiciel. 
 
-Dans la “Galerie de plugiciels”, recherchez à nouveau le “OAI JATS Plugin” et cliquez dessus pour afficher plus d’informations.
+Dans la Galerie de plugiciels, recherchez à nouveau le « OAI JATS Plugin » et cliquez dessus pour afficher plus d’informations.
 
-Cliquez sur le bouton de mise à jour s'il est disponible et confirmez que vous souhaitez mettre à jour le plugin. Si le bouton de mise à jour n'est pas disponible, votre plugin est à jour.
+Cliquez sur le bouton de mise à niveau s'il est disponible et confirmez que vous souhaitez mettre à jour le plugiciel. Si le bouton de mise à niveau n'est pas disponible, votre plugiciel est à jour.
 
-![OAI JATS Plugin avec information et un bouton de mise à jour.](./assets/oaiJatsPluginInfo.png)
+![OAI JATS Plugin avec information et un bouton de mise à niveau.](./assets/OAIMAN.png)
 
-Vous devriez voir une notification confirmant la dernière version disponible du ​plugin​ à été installée.
+Une notification confirmant la mise à jour à la dernière version disponible du ​plugiciel devrait s'afficher.
 
-![Notification : Mise à jour réussie vers la version 1.0.6.1.](./assets/JATStemplatePluginIntallConfirmation.png)
+![Notification : Mise à jour réussie vers la version 1.0.4.7.](./assets/miseajourconfirme.png)
 
-### Une note sur la mise à jour des plugins
+### Une note sur la mise à jour des plugiciels
 
-Les plugins utilisés pour récolter les métadonnées de votre revue sont occasionnellement mis à jour pour corriger des bogues ou améliorer les fonctionnalités. Coalition Publica peut vous demander de mettre à jour les plugins, ou vous pouvez choisir de le faire dans le cadre d’une maintenance régulière.
+Les plugiciels utilisés pour moissonner les métadonnées et le plein texte d’une revue sont parfois mis à jour pour corriger des bogues ou améliorer leurs fonctionnalités. Il se peut que Coalition Publica vous demande de mettre à jour les plugiciels, ou vous pouvez choisir de le faire dans le cadre de votre maintenance régulière.
 
 Après toute mise à jour de votre OJS, assurez-vous que tous vos plugins sont mis à jour avec la dernière version adaptée à votre version d’OJS  en suivant les mêmes étapes que ci-dessus  pour effectuer une mise à jour via la Galerie de plugiciels.
 
-Bien qu’il soit possible de mettre à jour les plugins dans OJS en téléchargeant la dernière version à partir de Github, il est possible que les nouvelles versions ne soient pas compatibles avec votre version particulière d’OJS, donc **s’il vous plaît, mettez toujours à jour les plugins à partir de la Galerie de plugiciels, sauf indication contraire.**
+Bien qu’il soit possible de mettre à jour les plugiciels dans OJS en téléchargeant la dernière version à partir de Github, il est possible que les nouvelles versions ne soient pas compatibles avec votre version particulière d’OJS, donc **s’il vous plaît, mettez toujours à jour les plugiciels à partir de la Galerie de plugiciels, sauf indication contraire.**
 
+### Étape 3. Activer des plugiciels
 
-### Étape 3. Activer des plugins
+Un coup les dernières versions des ​plugiciels « JATS Template Plugin » et « OAI JATS Plugin » installés, vous devez les activer pour **chaque revue** à inclure à Érudit
 
-Un coup les dernières versions des ​plugins​ JATS Template Plugin et OAI JATS Plugin installés, vous devez les activer​ **une fois ​pour chaque revue** que vous souhaitez inclure à Érudit.
+Allez dans Paramètres > Site Web > Plugiciels > Plugiciels installés
 
-Pour chaque revue à inclure à Érudit, allez dans Paramètres > Site Web > Modules externes.
+Dans la rubrique *Plugiciels génériques* cherchez « Plugiciel de modèle JATS »
 
-Cliquez sur “Plugiciels installés” pour une liste des ​plugins installés.
-
-Dans la rubrique *Plugiciels génériques* cherchez “JATS Template Plugin” 
-
-![JATS Template Plugin dans la liste des plugins avec une case à cocher non cochée à côté.](./assets/jatsTemplatePluginListing.png)
+![Plugiciel de modèle JAT dans la liste des plugins avec une case à cocher non cochée à côté.](./assets/jatsTemplatePluginListing.png)
 
 Cochez la case à droite pour activer le ​plugin.​ Vous devriez voir ce message de confirmation:
 
