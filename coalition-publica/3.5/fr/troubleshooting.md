@@ -14,17 +14,17 @@ Allez dans Paramètres > Site Web > Plugiciels
 
 Cliquez sur « Plugiciels installés » pour voir la liste de tous les plugiciels déjà installés.
 
-Dans la section *Plugiciels génériques*, repérez le *Plugiciel de modèle JATS* puis cliquez sur la flèche bleu à gauche.
+Dans la section *Plugiciels génériques*, repérez le « Plugiciel de modèle JATS » puis cliquez sur la flèche bleu à gauche.
 
-Cliquez sur le bouton *Supprimer*.
+Cliquez sur le bouton « Supprimer ».
 
-![JATS Template Plugin with plugin information and a delete button.](./assets/DeleteJatsTemplate.png)
+![Plugiciel avec information et option a supprimer](./assets/supprimermodelejats.png)
 
 Confirmez que vous souhaitez supprimer ce plugiciel du système.
 
-![Pop up to confirm the choice to delete.](./assets/ConfirmDeleteJatsTemplate.png)
+![Confirmation que vous voulez supprimer le plugiciel.](./assets/confirmationplugicielsuprime.png)
 
-Dans la section *Plugiciels du format de métadonnées OAI*, repérez le plugiciel *Format de métadonnées JATS* puis cliquez sur la flèche bleu à gauche.
+Dans la section *Plugiciels du format de métadonnées OAI*, repérez le plugiciel « Format de métadonnées JATS » puis cliquez sur la flèche bleu à gauche.
 
 Cliquez sur le bouton *Supprimer* puis confirmez que vous souhaitez supprimer ce plugiciel du système.
 
