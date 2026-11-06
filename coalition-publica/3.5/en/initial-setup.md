@@ -30,11 +30,12 @@ Click the checkbox on the right to enable the plugin. You should receive a confi
 ![Notification: The plugin "JATS Template Plugin" has been enabled.](./assets/jatsTemplatePluginListingNotification.png)
 
 Next, navigate to the *OAI Metadata Format Plugins* section to locate the “JATS Metadata Format” plugin.  
+
 ![JATS Metadata Format in the list of plugins with an unchecked checkbox next to it.](./assets/jatsMetadataFormatPluginListing.png)
 
 Click the checkbox beside that to enable it as well. You should receive a confirmation:
 
-![Notification: The plugin "JATS Metadata Format" has been enabled.](./assets/tobeupdated.png) 
+![Notification: The plugin "JATS Metadata Format" has been enabled.](./assets/jatsMetadataFormatPluginListingNotification.png) 
 
 **If the journal publishes XML galleys**, you will need to change the JATS Metadata Format settings. This is **not** necessary for journals who do not publish XML galleys unless they have been directed otherwise by their Coalition Publica contact following a test harvest. 
 
