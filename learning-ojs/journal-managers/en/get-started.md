@@ -116,3 +116,25 @@ Use this section to add relevant contacts for users who have questions about you
 Hit the **Save** button to save your changes.
 
 Excellent work! Now you’ll move on to configuring settings and entering details related to receiving submissions, peer review, and copyright and licensing.
+
+## Choose Editorial Masthead {#masthead}
+OJS 3.5 offers two different ways of tracking and displaying Editorial Board members.
+
+**Option 1**: Manually enter and format Editorial Board members in a free text field. (Recommended for journals with significant editorial history prior to using OJS 3.5.)
+**Option 2**: Use the Roles system to automatically track user roles and generate an Editorial Masthead page. 
+
+If you are an **existing journal upgrading from a previous version of OJS, Option 1 will be selected by default**. 
+If your journal has been **newly created in OJS 3.5, Option 2 will be selected by default**. You can change this at any time.
+
+To view your current selection or change your selection, go to Website > Settings > Appearance.
+
+![The “Enrollment-based Masthead” toggle in Website > Settings > Appearance. “Present a masthead based on user enrollments” is checked off, enabling the automatic Editorial Board page.](./assets/masthead-toggle-3.5.png)
+
+If “Present a masthead based on user enrollments” is **not checked**, you will need to manually enter your Editorial Board information. You can do this from Settings > Journal > Masthead.
+
+![The editorial masthead field found in Settings > Journal > Masthead.](./assets/editorial-manual-3.5.png)
+
+If “Present a masthead based on user enrollments” is checked, the Editorial Masthead will be automatically generated as in Option 2. Details on how to edit roles, determine which roles are displayed in the masthead, and more will be covered in the [Manage Users and Roles](./users) chapter of this guide. 
+
+To learn more about how to use the automatically generated Masthead, you can watch the PKP School Editorial Masthead video tutorial.
+{% include video.html id="QcAIpZ-GVMQ" provider="youtube" title="PKP School Video of Editorial Masthead"%}
