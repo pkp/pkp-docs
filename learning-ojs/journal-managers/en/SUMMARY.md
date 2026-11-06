@@ -5,6 +5,7 @@
   * [What You’ll Need to Start](./get-started.md#start-checklist)
   * [Get to Know the Journal Manager User Interface](./get-started.md#ui-walkthrough)
   * [Enter Basic Journal Information](./get-started.md#basic-info)
+  * [Choose Editorial Masthead Display](./get-started.md#masthead)
 * [Configure Your Submission, Review, and Licensing Policies](./policies.md)
   * [Configure Submission Settings and Author Guidelines](./policies.md#submission-settings)
   * [Configure Basic Review Settings](./policies.md#basic-review-settings)
