@@ -24,7 +24,7 @@ OJS includes several predefined roles you can use or edit. Here’s a breakdown 
 
 * The **Site Administrator** is a single user responsible for administration of the entire OJS installation. This permissions level will not appear in user lists or in role settings. Site administrators, by default, have access to all journals within a given instance and can take any actions that can be undertaken by Journal Managers.
 * **Journal Managers** have access to the entire Editorial Workflow, as well as all other journal settings.
-Available predefined roles with Journal Manager permissions: Journal Manager, Journal Editor, and Production Manager. (Access to journal settings can be removed/restored to Journal Editor and Production Manager roles.)
+Available predefined roles with Journal Manager permissions: Journal Manager, Journal Editor, and Production Editor. (Access to journal settings can be removed/restored to Journal Editor and Production Editor roles.)
 * **Section Editors** have access to the entire Editorial Workflow, but cannot make any changes to journal settings.
 Available predefined Section Editor roles: Section Editor, *Guest Editor*
 * **Assistants** can access only the parts of the Editorial Workflow assigned to their role.
