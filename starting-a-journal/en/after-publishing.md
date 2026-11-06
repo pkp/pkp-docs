@@ -11,7 +11,7 @@ ISSN is an international organization that assigns unique codes for serial publi
 
 ## Register for a DOI
 
-DOIs (Digital Object Identifiers) are unique & persistent identifiers, usually assigned to each piece of content (i.e. an article). You can assign a DOI using an OJS plugin. Then, DOIs must be registered through a DOI registration agency, such as CrossRef, and there is a cost associated with creating DOIs. See [DOI Plugin Guide](​​https://docs.pkp.sfu.ca/doi-plugin/en/).
+DOIs (Digital Object Identifiers) are unique & persistent identifiers, usually assigned to each piece of content (i.e. an article). You can assign a DOI using an OJS plugin. Then, DOIs must be registered through a DOI registration agency, such as CrossRef, and there is a cost associated with creating DOIs. See your [DOI configuration settings](https://docs.pkp.sfu.ca/learning-ojs/journal-managers/en/other-tools#dois) in the Learning OJS guide for setting up DOIs.
 
 ## Join the Preservation Network
 
@@ -19,4 +19,4 @@ The PKP Preservation Network (PKP PN) is a LOCKSS program that offers decentrali
 
 ## Get your content indexed
 
-Consider how your journal content will be discovered by your target audiences and others - for example, through journal indexes, Search Engine Optimization, and marketing. Be sure to follow the guidance in the [Metadata Better Practices Guide](https://docs.pkp.sfu.ca/metadata-practices/en/) to ensure that your journal metadata is optimized for search engines and indexes to successfully retrieve it. See our [Google Scholar Guide](https://docs.pkp.sfu.ca/google-scholar/) for tips on ensuring that your journal is successfully indexed in Google Scholar. See our [Indexing Application Guide](https://docs.pkp.sfu.ca/indexing-guide/en/) and [Getting Found, Staying Found](https://docs.pkp.sfu.ca/getting-found-staying-found/) for further details about making your journal content discoverable. 
+Consider how your journal content will be discovered by your target audiences and others - for example, through journal indexes, Search Engine Optimization, and marketing. Be sure to follow the guidance in the [Metadata Better Practices Guide](https://docs.pkp.sfu.ca/metadata-practices/en/) to ensure that your journal metadata is optimized for search engines and indexes to successfully retrieve it. See our [Google Scholar Guide](https://docs.pkp.sfu.ca/google-scholar/) for tips on ensuring that your journal is successfully indexed in Google Scholar. The [Directory of Open Access Journals (DOAJ)](https://docs.pkp.sfu.ca/doaj/) is a popular option for many OJS journals seeking to be indexed. Also, se our [Indexing Application Guide](https://docs.pkp.sfu.ca/indexing-guide/en/) and [Getting Found, Staying Found](https://docs.pkp.sfu.ca/getting-found-staying-found/) for further details about making your journal content discoverable and sustainable. 
