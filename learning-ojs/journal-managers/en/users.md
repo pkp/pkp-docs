@@ -63,10 +63,11 @@ You can create new roles by clicking the “Create New Role” button, or edit a
 
 **Role Options**: Configure specific options related to the role.
 * **Show role title in contributor lists**: Users with this role will have their title included in the contributor list when making submissions.
-* **Allow user self-registration**: Allow users to register freely for this role. Useful for allowing users register as Authors or Reviewers. Be very careful not to enable this option for roles that have access to sensitive information, such as Editors or Journal Managers.
+* **Allow user self-registration**: Allow users to register freely for this role. Useful for allowing users to register as Authors or Reviewers. Be very careful not to enable this option for roles that have access to sensitive information, such as Editors or Journal Managers.
 * **This role is only allowed to recommend a review decision and will require an authorised editor to record a final decision**: Enable this to limit a role’s ability to make editorial decisions.
-* **Consider role in masthead list**: Select this to automatically include anyone with this role on the list of Editorial Board members.
+* **Consider role in masthead list**: Select this to automatically include anyone with this role on the list of Editorial Board members. Used for journals that have selected the “Enrollment-based masthead”. (See Get Started: [Plan & Enter Basic Journal Details - Choose Editorial Masthead Display](./get-started#masthead) for more.)
 * **Permit changes to Settings**: Select this to allow the role access to all journal settings and configurations.
+
 
 ## Invite a New User {#invite-user}
 
@@ -82,9 +83,7 @@ From Settings > Users & Roles, click Invite to a Role.
 
 First, you’ll be asked to search for the user. You can enter their email, username, or ORCID to ensure that they’re not already registered. If they aren’t, you’ll be prompted to invite them.
 
-
-Enter their email, first and/or last name, and select the role(s) you wish to assign them. You can use the “Add Another Role” button to assign multiple roles. The user can also self-register for additional roles later from their user settings. Enter a start date for the role and choose whether it should appear on the masthead (the automatically generated page listing editorial board members).
-
+Enter their email, first and/or last name, and select the role(s) you wish to assign them. You can use the “Add Another Role” button to assign multiple roles. The user can also self-register for additional roles later from their user settings. Enter a start date for the role and choose whether it should appear on the masthead (applicable to journals that have enabled “Enrollment-based masthead” - See Get Started: [Plan & Enter Basic Journal Details - Choose Editorial Masthead Display](./get-started#masthead)).
 ![A sample user registration form.](./assets/user-invite-3.5.png)
 
 Click Save and Continue. On the final screen, you can preview and edit the email message that will be sent to the invitee.
@@ -94,9 +93,10 @@ When you are ready, click “Invite user to the role”.
 You can see the status of the invitation from the Invitations list. You can edit your invitation (to add or adjust roles), or cancel your invite.
 
 ![A sample user registration form.](./assets/cancel-edit-invite-3.5.png)
+
 ### Add and Remove Roles from a User {#add-roles}
 
-Once a user has self-registered or accepted an invite, you can edit their profile to adjust their roles. Just like sending an invite, you can select a start date and choose whether the user will appear in the Journal Masthead.
+Once a user has self-registered or accepted an invite, you can edit their profile to adjust their roles. Just like sending an invite, you can select a start date and choose whether the user will appear in the Journal Masthead if “Enrollment-based masthead” is enabled. (See Get Started: [Plan & Enter Basic Journal Details - Choose Editorial Masthead Display](./get-started#masthead)
 
 To edit a user:
 1. Navigate to Settings > Users & Roles
@@ -104,19 +104,19 @@ To edit a user:
 3. Click **Add Another Role** 
 4. Select a new role
 5. Choose a Start Date
-6. Indicate whether this user should appear on the journal’s Masthead
+6. For journals using the Enrollment-based masthead feature: Indicate whether this user should appear on the journal’s Masthead
 7. Click **Save and Continue** 
 
 
 ![Edit User screen for adding a role to a user](./assets/jm-role-date-masthead-3.5.png)
 
 When you remove a role from a user, the End Date will automatically be set to the current date.
-If you select the user to appear in the Journal Masthead, their name and affiliation will be displayed in the Editorial Masthead section of the journal.
-
+If you select the user to appear in the Journal Masthead, their name and affiliation will be displayed in the Editorial Masthead section of the journal when “Enrollment-based masthead” is enabled. (See Get Started: [Plan & Enter Basic Journal Details - Choose Editorial Masthead Display](./get-started#masthead)
 
 ![Editorial Masthead screen](./assets/jm-masthead-3.5.png)
 
 The role end date will be automatically registered when the role is removed from the user.
+
 
 
 ## Find and Manage an Existing User {#edit-user}
