@@ -3,9 +3,8 @@ noindex: true
 ---
 # Providing an API key
 
-Please follow these instructions to provide an API key when requested by the Coalition Publica team.
+Please follow these instructions to provide an API key when requested by the Coalition Publica team. This additional configuration is required to allow Érudit to access content in the following cases: 
 
-This additional configuration is required to allow Érudit to access content in the following cases: 
 * the journal is using OJS to publish content that requires a subscription, 
 * the journal is using OJS for editorial workflow but not for online publishing,
 * the journal has opted for full text XML production and Érudit requires access to production ready files for harvesting
@@ -20,13 +19,17 @@ The following steps can be performed within OJS by users with the Site Administr
 
 In this step, you will create a new user with a Subscription Manager role. If you already have a Subscription Manager, you may skip this step and use that account instead. However, for security reasons, it is not recommended to use an account with any roles aside from Subscription Manager (it’s better to have a single role for this account, the Subscription Manager role). Later you will grant Érudit permission to act as this user when collecting content from your installation by providing the API key secret associated with this user account.
 
-As a Journal Manager or Site Administrator, go to Users & Roles > Users. Use the “Add User” link to create a new user account.
+As a Journal Manager or Site Administrator, go to Users & Roles > Users. 
 
-Fill in the form and press “Save”. While we recommend using legitimate contact credentials for your journal, it does not matter what user details you use, as long as the required form fields are complete and you are able to remember the username and password for the next step.
+Click the “Add a User” button to create a new user account.
 
-Next, you will be presented with a list of User Roles. Make sure you check “Subscription Manager”. Press “Save” to complete  the user creation process.
+Fill out the form and click “Save.” Although we recommend using real information when creating users for your journal, this is not required. The important thing is to fill out the required fields and make a note of the username and password you used.
 
-This will complete the user creation process. Make sure to remember the username and password you entered when creating the account.
+Find the user you just created in the user list and click the blue arrow next to their name. Click “Edit User” from the options that appear.
+
+Check “Subscription Manager” in the User Roles dropdown menu, and be sure to save your changes.
+
+This completes the process of creating a user. Remember the username and password you used when creating the account.
 
 ### Step 2. Generate an API Key
 
