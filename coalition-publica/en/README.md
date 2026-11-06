@@ -1,5 +1,6 @@
 ---
 noindex: true
+version: 3.3
 ---
 # Coalition Publica OJS Integration Guide
 
