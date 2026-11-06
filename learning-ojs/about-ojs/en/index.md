@@ -38,21 +38,22 @@ OJS is easy to install and configure. However, running a web service requires a 
 
 3.5 adds a number of new features to improve the user experience. Explore the key additions to the software below.
 
-
 ### Manage Submissions in the Redesigned Editorial Dashboard {#dashboard}
 The Editorial Dashboard has been significantly revamped to make tracking submissions easier than ever. Use the filtered dashboard views to access submissions in specific stages. Review status icons and action buttons allow you to easily identify and complete editorial tasks.
 
 ![The Assigned to Me Editor Dashboard view, showing 19 submissions in various stages](../../editorial-workflow/en/assets/dashboard-assigned-3.5.png)
 
-See [Learning OJS 3.5: Editorial Workflow - The Editorial Dashboard](../../editorial-workflow/en/dashboard.md) for an in-depth look at these changes..
-
+See [Learning OJS 3.5: Editorial Workflow - The Editorial Dashboard](../../editorial-workflow/en/dashboard.md) for an in-depth look at these changes.
 
 ### Manage and Track Editorial Board History {#editorial-board}
+> Based on community feedback, this previously mandatory feature has been made optional. Ensure that your installation is on version 3.5.0-6 or later to have full control over your Editorial Board tracking options.
+{:.notice}
+
 OJS can now automatically compile a list of editorial board members, replacing the need to manually document the members of your team. Simply select which roles should be captured in the masthead and configure start and end dates for board members.
 
 ![A sample automatically generated Editorial Board Masthead.](./assets/sample-masthead-3.5.png)
 
-See [Learning OJS 3.5 for Journal Managers - Manage Users and Roles](../../journal-managers/en/users.md) for more details on how to configure and manage this new feature.
+See [Learning OJS 3.5 for Journal Managers - Choose Editorial Masthead Display](./get-started#masthead) and [Learning OJS 3.5 for Journal Managers - Manage Users and Roles](https://docs.pkp.sfu.ca/learning-ojs/journal-managers/en/users.html) for more details on how to configure and manage this new feature.
 
 
 ### Invite Users {#invite-users}
