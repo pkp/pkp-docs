@@ -16,10 +16,11 @@ Les étapes nécessaires à l'installation et à la configuration d'OJS pour cha
 
 Pour chaque revue à inclure sur Érudit, vous devez activer deux plugiciels. Connectez-vous à votre instance OJS avec les paramètres de connexion de votre compte Administrateur de site.
 
+### Étape 1. Activer  le « Plugiciel de modèle JATS » et le plugiciel «&nbsp;Format de métadonnées JATS&nbsp;»
 
-### Étape 1. Activer  le « Plugiciel de modèle JATS » et le plugiciel « Format de métadonnées JATS »
+Allez à Paramètres > Site Web > Plugiciels >  Plugiciels installés 
 
- Allez à Paramètres > Site Web > Plugiciels >  Plugiciels installés 
+Vous y trouverez une liste de tous les plugiciels installés.
 
 Dans la rubrique *Plugiciels génériques* cherchez « Plugiciel de modèle JATS »
 
