@@ -8,7 +8,6 @@ If test harvests are unsuccessful or full text harvesting fails following succes
 ## Uninstall and reinstall plugins and rebuild search index
 
 ### Site Administrator Steps
-Note that the plugin to deliver JATS metadata via OAI is labelled differently in the plugin gallery where it appears as “OAI JATS Plugin” and in the list of installed plugins where it appears as “JATS Metadata Format”. At installation it is renamed by the system to align with the *OAI Metadata Format Plugins* section naming convention.
 
 #### Step 1. Delete the JATS Template and JATS Metadata Format plugins
 
@@ -52,7 +51,7 @@ You should see a confirmation of installation:
 
 ### Step 3. Install the latest version of the OAI JATS Plugin
 
-Find the “OAI JATS Plugin” in the Plugin Gallery: 
+Note that the plugin to deliver JATS metadata via OAI is labelled differently in the plugin gallery where it appears as “OAI JATS Plugin” and in the list of installed plugins where it appears as “JATS Metadata Format”. At installation it is renamed by the system to align with the *OAI Metadata Format Plugins* section naming convention. Find the “OAI JATS Plugin” in the Plugin Gallery: 
 
 ![OAI JATS Plugin in the list of plugins.](./assets/oaiJatsPlugin.png)
 
@@ -68,7 +67,7 @@ You should see a confirmation of installation:
 
 #### Step 4. Enable the two plugins
 
-Follow Step 1 in the Initial setup{initial-setup#site-admin} instructions to enable the JATS OAI and JATS Metadata plugins.
+Follow Step 1 in the Initial setup section of this guide to enable the JATS Template and JATS Metadata Format plugins. 
 
 ### System Administrator Instructions
 

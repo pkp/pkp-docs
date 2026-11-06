@@ -16,20 +16,22 @@ Les étapes nécessaires à l'installation et à la configuration d'OJS pour cha
 
 Pour chaque revue à inclure sur Érudit, vous devez activer deux plugiciels. Connectez-vous à votre instance OJS avec les paramètres de connexion de votre compte Administrateur de site.
 
+### Étape 1. Activer  le « Plugiciel de modèle JATS » et le plugiciel «&nbsp;Format de métadonnées JATS&nbsp;»
 
-### Étape 1. Activer  le « Plugiciel de modèle JATS » et le plugiciel « Format de métadonnées JATS »
+Allez à Paramètres > Site Web > Plugiciels >  Plugiciels installés 
 
- Allez à Paramètres > Site Web > Plugiciels >  Plugiciels installés 
+Vous y trouverez une liste de tous les plugiciels installés.
 
-Dans la rubrique *Plugiciels génériques* cherchez « Plugiciel de modèle JATS »
+Dans la rubrique *Plugiciels génériques* cherchez «&nbsp;Plugiciel de modèle JATS&nbsp;»
 
 ![JATS Template Plugin dans la liste des plugins avec une case à cocher non cochée à côté.](./assets/plugicieljatstemplate.png)  
 
 Cochez la case à droite pour activer le plugiciel. Une notification que le plugiciel a été activé devrait s’afficher :
+
 ![Notification : Le plugiciel de modèle JATS a été activé.](./assets/plugicieljatsactive.png)  
 
+Cherchez ensuite sous la rubrique *Plugiciels du format de métadonnées OAI* dans la liste des plugiciels installés pour le plugiciel «&nbsp;Format de métadonnées JATS&nbsp;» 
 
-Cherchez ensuite sous la rubrique *Plugiciels du format de métadonnées OAI* dans la liste des plugiciels installés pour le plugiciel  « Format de métadonnées JATS » 
 ![Format de métadonnées JATS dans la liste des plugiciels avec une case non cochée à côté.](./assets/plugiceljatsfomat.png)  
 
 Cochez aussi la case à droite pour l’activer. Une notification que le plugiciel a été activé devrait s’afficher :
@@ -65,6 +67,7 @@ Cliquez sur le nom du plugiciel (lien hypertexte) pour ouvrir la fenêtre de ren
 ![OAI JATS Plugin avec information et un bouton de mise à niveau.](./assets/plugicielaniveau.png)  
 
 Vous devriez voir une notification confirmant la dernière version disponible du plugin à été mis à jour .
+
 ![notification que la version a été mise à jour avec succès.](./assets/miseajourconfirme.png) 
  
 Bien qu’il soit possible de mettre à jour les plugiciels dans OJS en téléchargeant la dernière version à partir de Github, il est possible que les versions plus récentes ne soient pas compatibles avec votre version particulière d’OJS, donc **s’il vous plaît, mettez toujours à jour les plugiciels à partir de la Galerie de plugiciels, sauf indication contraire.**

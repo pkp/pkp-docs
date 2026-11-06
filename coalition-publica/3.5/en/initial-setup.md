@@ -3,7 +3,7 @@ noindex: true
 ---
 # Initial Setup
 
-Érudit collects metadata from your OJS installation in ​[JATS XML](https://jats.nlm.nih.gov/)​. JATS is commonly used to publish or index journal articles.You will need to configure OJS to automatically generate simple JATS documents for *each journal* that will be included in  Érudit. 
+Érudit collects metadata from your OJS installation in ​[JATS XML](https://jats.nlm.nih.gov/)​. You will need to configure OJS to automatically generate simple JATS documents **for each journal** that will be included in  Érudit. 
 
 In order to do this you will need Site Administrator permissions to enable plugins and to ensure language and distribution settings are properly set. 
 
@@ -13,9 +13,9 @@ The steps required to install and configure OJS by each permission level are des
 
 ## Site Administrator Steps {#site-admin}
 
-### Step 1. Enable the “JATS Template” and “JATS Metadata Format” Plugins
+You will need to enable two plugins *for each journal* that is to be included in Érudit. Log in to your OJS instance using the login credentials for your Site Administrator account.
 
-You will need to enable two plugins  *for each journal* that is to be included in Érudit.
+### Step 1. Enable the “JATS Template” and “JATS Metadata Format” Plugins
 
 Navigate to Settings > Website > Plugins > Installed Plugins
 
@@ -30,11 +30,12 @@ Click the checkbox on the right to enable the plugin. You should receive a confi
 ![Notification: The plugin "JATS Template Plugin" has been enabled.](./assets/jatsTemplatePluginListingNotification.png)
 
 Next, navigate to the *OAI Metadata Format Plugins* section to locate the “JATS Metadata Format” plugin.  
+
 ![JATS Metadata Format in the list of plugins with an unchecked checkbox next to it.](./assets/jatsMetadataFormatPluginListing.png)
 
 Click the checkbox beside that to enable it as well. You should receive a confirmation:
 
-![Notification: The plugin "JATS Metadata Format" has been enabled.](./assets/tobeupdated.png) 
+![Notification: The plugin "JATS Metadata Format" has been enabled.](./assets/jatsMetadataFormatPluginListingNotification.png) 
 
 **If the journal publishes XML galleys**, you will need to change the JATS Metadata Format settings. This is **not** necessary for journals who do not publish XML galleys unless they have been directed otherwise by their Coalition Publica contact following a test harvest. 
 
