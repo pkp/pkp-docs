@@ -53,7 +53,7 @@ OJS can now automatically compile a list of editorial board members, replacing t
 
 ![A sample automatically generated Editorial Board Masthead.](./assets/sample-masthead-3.5.png)
 
-See [Learning OJS 3.5 for Journal Managers - Choose Editorial Masthead Display](./get-started#masthead) and [Learning OJS 3.5 for Journal Managers - Manage Users and Roles](https://docs.pkp.sfu.ca/learning-ojs/journal-managers/en/users.html) for more details on how to configure and manage this new feature.
+See [Learning OJS 3.5 for Journal Managers - Choose Editorial Masthead Display](../../journal-managers/en/get-started#masthead) and [Learning OJS 3.5 for Journal Managers - Manage Users and Roles](../../journal-managers/en/users.md) for more details on how to configure and manage this new feature.
 
 
 ### Invite Users {#invite-users}
