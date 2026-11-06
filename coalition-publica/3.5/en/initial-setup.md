@@ -3,7 +3,7 @@ noindex: true
 ---
 # Initial Setup
 
-Érudit collects metadata from your OJS installation in ​[JATS XML](https://jats.nlm.nih.gov/)​. JATS is commonly used to publish or index journal articles.You will need to configure OJS to automatically generate simple JATS documents for *each journal* that will be included in  Érudit. 
+Érudit collects metadata from your OJS installation in ​[JATS XML](https://jats.nlm.nih.gov/)​. You will need to configure OJS to automatically generate simple JATS documents **for each journal** that will be included in  Érudit. 
 
 In order to do this you will need Site Administrator permissions to enable plugins and to ensure language and distribution settings are properly set. 
 
@@ -13,9 +13,9 @@ The steps required to install and configure OJS by each permission level are des
 
 ## Site Administrator Steps {#site-admin}
 
-### Step 1. Enable the “JATS Template” and “JATS Metadata Format” Plugins
+You will need to enable two plugins *for each journal* that is to be included in Érudit. Log in to your OJS instance using the login credentials for your Site Administrator account.
 
-You will need to enable two plugins  *for each journal* that is to be included in Érudit.
+### Step 1. Enable the “JATS Template” and “JATS Metadata Format” Plugins
 
 Navigate to Settings > Website > Plugins > Installed Plugins
 
