@@ -62,7 +62,7 @@ Use the tabs to navigate to the different sections of Journal Settings: Masthead
 
 ![OJS dashboard view of Journal Settings with navigation tabs for the Settings submenus across top portion of page content.](./assets/jm-settings-submenus-3.5.png)
 
-### Configure the Masthead {#masthead}
+### Configure the Masthead {#masthead1}
 The first tab you’ll see after clicking “Journal” under the Setting menu is "Masthead". The Masthead tab is where you’ll enter the journal’s title, publisher details, ISSN, and other key information.
 
 The first section, **Journal Identity**, is where you'll enter your preferred formats for your journal's name.
